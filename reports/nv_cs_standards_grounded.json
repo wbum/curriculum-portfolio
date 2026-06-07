@@ -1,0 +1,494 @@
+{
+ "1.0": {
+  "title": "INTEGRATE CAREER AND TECHNICAL STUDENT ORGANIZATIONS (CTSOs)",
+  "performance_standards": {
+   "1.1": {
+    "title": "Explore the History and Organization of CTSOs",
+    "indicators": {
+     "1.1.1": {
+      "description": "Discuss the requirements of CTSO participation/involvement as described in Carl D. Perkins Law",
+      "level": "L1, L2, C"
+     },
+     "1.1.2": {
+      "description": "Research nationally recognized CTSOs",
+      "level": "L1, L2, C"
+     },
+     "1.1.3": {
+      "description": "Investigate the impact of federal and state government regarding the progression and operation of CTSOs (e.g., Federal Statutes and Regulations, Nevada Administrative Code [NAC], Nevada Revised Statutes [NRS])",
+      "level": "L1, L2, C"
+     }
+    }
+   },
+   "1.2": {
+    "title": "Develop Leadership Skills",
+    "indicators": {
+     "1.2.1": {
+      "description": "Discuss the purpose of parliamentary procedure",
+      "level": "L1, L2, C"
+     },
+     "1.2.2": {
+      "description": "Demonstrate the proper use of parliamentary procedure",
+      "level": "L1, L2, C"
+     },
+     "1.2.3": {
+      "description": "Differentiate between an office and a committee",
+      "level": "L1, L2, C"
+     },
+     "1.2.4": {
+      "description": "Discuss the importance of participation in local, regional, state, and national conferences, events, and competitions",
+      "level": "L1, L2, C"
+     },
+     "1.2.5": {
+      "description": "Participate in local, regional, state, or national conferences, events, or competitions",
+      "level": "L1, L2, C"
+     },
+     "1.2.6": {
+      "description": "Describe the importance of a constitution and bylaws to the operation of a CTSO chapter",
+      "level": "L1, L2, C"
+     }
+    }
+   },
+   "1.3": {
+    "title": "Participate in Community Service",
+    "indicators": {
+     "1.3.1": {
+      "description": "Explore opportunities in community service-related work-based learning (WBL)",
+      "level": "L1, L2, C"
+     },
+     "1.3.2": {
+      "description": "Participate in a service learning (program related) and/or community service project or activity",
+      "level": "L1, L2, C"
+     },
+     "1.3.3": {
+      "description": "Engage with business and industry partners for community service",
+      "level": "L1, L2, C"
+     }
+    }
+   },
+   "1.4": {
+    "title": "Develop Professional and Career Skills",
+    "indicators": {
+     "1.4.1": {
+      "description": "Demonstrate college and career readiness (e.g., applications, resumes, interview skills, presentation skills)",
+      "level": "L1, L2, C"
+     },
+     "1.4.2": {
+      "description": "Describe the appropriate professional/workplace attire and its importance",
+      "level": "L1, L2, C"
+     },
+     "1.4.3": {
+      "description": "Investigate industry-standard credentials/certifications available within this Career Cluster\u2122",
+      "level": "L1, L2, C"
+     },
+     "1.4.4": {
+      "description": "Participate in authentic contextualized instructional activities",
+      "level": "L1, L2, C"
+     },
+     "1.4.5": {
+      "description": "Demonstrate technical skills in various student organization activities/events",
+      "level": "L1, L2, C"
+     }
+    }
+   },
+   "1.5": {
+    "title": "Understand the Relevance of Career and Technical Education (CTE)",
+    "indicators": {
+     "1.5.1": {
+      "description": "Make a connection between program standards to career pathway(s)",
+      "level": "L1, L2, C"
+     },
+     "1.5.2": {
+      "description": "Explain the importance of participation and completion of a program of study",
+      "level": "L1, L2, C"
+     },
+     "1.5.3": {
+      "description": "Promote community awareness of local student organizations associated with CTE programs",
+      "level": "L1, L2, C"
+     }
+    }
+   }
+  }
+ },
+ "2.0": {
+  "title": "UNDERSTAND ALGORITHMS AND PROGRAMMING",
+  "performance_standards": {
+   "2.1": {
+    "title": "Apply Algorithms",
+    "indicators": {
+     "2.1.1": {
+      "description": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests",
+      "level": "L1"
+     },
+     "2.1.2": {
+      "description": "Describe how artificial intelligence drives many software and physical systems",
+      "level": "L1"
+     },
+     "2.1.3": {
+      "description": "Implement an artificial intelligence algorithm (e.g., machine learning) to play a game against a human opponent or solve a problem",
+      "level": "L2"
+     },
+     "2.1.4": {
+      "description": "Use and adapt classic algorithms to solve computational problems",
+      "level": "L1"
+     },
+     "2.1.5": {
+      "description": "Develop classic algorithms in code to solve computational problems",
+      "level": "L2"
+     },
+     "2.1.6": {
+      "description": "Evaluate algorithms in terms of their efficiency, correctness, and clarity",
+      "level": "L2"
+     }
+    }
+   },
+   "2.2": {
+    "title": "Implement Controls",
+    "indicators": {
+     "2.2.1": {
+      "description": "Justify the selection of specific control structures when tradeoffs involve implementation, readability, and program performance, and explain the benefits and drawbacks of choices made",
+      "level": "L1"
+     },
+     "2.2.2": {
+      "description": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions",
+      "level": "L1"
+     },
+     "2.2.3": {
+      "description": "Illustrate the flow of execution of a recursive algorithm",
+      "level": "L2"
+     },
+     "2.2.4": {
+      "description": "Implement conditional controls in code",
+      "level": "L2"
+     },
+     "2.2.5": {
+      "description": "Implement recursive algorithms in code",
+      "level": "L2"
+     }
+    }
+   },
+   "2.3": {
+    "title": "Utilize Variables",
+    "indicators": {
+     "2.3.1": {
+      "description": "Demonstrate the use of both LinkedLists and ArrayLists to simplify solutions, generalizing computational problems instead of repeatedly using simple variables",
+      "level": "L1"
+     },
+     "2.3.2": {
+      "description": "Compare and contrast fundamental data structures and their uses",
+      "level": "L1"
+     },
+     "2.3.3": {
+      "description": "Implement arrays in code",
+      "level": "L1"
+     },
+     "2.3.4": {
+      "description": "Implement ArrayLists and LinkedLists in code",
+      "level": "L1"
+     },
+     "2.3.5": {
+      "description": "Implement type-safe variables",
+      "level": "L1"
+     }
+    }
+   },
+   "2.4": {
+    "title": "Construct Solutions Using Modularity",
+    "indicators": {
+     "2.4.1": {
+      "description": "Decompose problems into smaller components through systematic analysis using constructs such as procedures, modules, and/or objects",
+      "level": "L1"
+     },
+     "2.4.2": {
+      "description": "Create artifacts by using procedures within a program, combinations of data and procedures, or independent but interrelated programs",
+      "level": "L1"
+     },
+     "2.4.3": {
+      "description": "Construct solutions to problems using student-created components such as procedures, modules, and/or objects",
+      "level": "L2"
+     },
+     "2.4.4": {
+      "description": "Analyze a large-scale computational problem and identify generalizable patterns that can be applied to a solution",
+      "level": "L2"
+     },
+     "2.4.5": {
+      "description": "Demonstrate code reuse by creating programming solutions using libraries and APIs",
+      "level": "L2"
+     }
+    }
+   },
+   "2.5": {
+    "title": "Demonstrate Programming and Development",
+    "indicators": {
+     "2.5.1": {
+      "description": "Systematically design and develop programs for broad audiences by incorporating feedback from users",
+      "level": "L1"
+     },
+     "2.5.2": {
+      "description": "Evaluate software licenses that limit or restrict the use of computational artifacts when using resources such as libraries",
+      "level": "L1"
+     },
+     "2.5.3": {
+      "description": "Evaluate and refine computational artifacts to make them more usable by all and accessible to people with disabilities",
+      "level": "L1"
+     },
+     "2.5.4": {
+      "description": "Design and develop computational artifacts while working in team roles and using collaborative tools",
+      "level": "L1"
+     },
+     "2.5.5": {
+      "description": "Document design decisions using text, graphics, presentations, and/or demonstrations in the development of complex programs",
+      "level": "L1"
+     },
+     "2.5.6": {
+      "description": "Plan and develop programs for broad audiences using a software life cycle process (e.g., requirements, design, coding, testing, and deployment)",
+      "level": "L2"
+     },
+     "2.5.7": {
+      "description": "Explain security issues that might lead to compromised computer programs (e.g., public vs. private, encryption, buffer overflows, cybersecurity)",
+      "level": "L2"
+     },
+     "2.5.8": {
+      "description": "Develop programs for multiple computing platforms",
+      "level": "L2"
+     },
+     "2.5.9": {
+      "description": "Use version control systems, integrated development environments (IDEs), and collaborative tools and practices (code documentation) in a group software project",
+      "level": "L2"
+     },
+     "2.5.10": {
+      "description": "Develop and use a series of test cases to verify that a program performs according to its design specifications",
+      "level": "L2"
+     },
+     "2.5.11": {
+      "description": "Modify an existing program to add additional functionality and discuss intended and unintended implications (e.g., breaking other functionality)",
+      "level": "L2"
+     }
+    }
+   }
+  }
+ },
+ "3.0": {
+  "title": "UNDERSTAND COMPUTING SYSTEMS",
+  "performance_standards": {
+   "3.1": {
+    "title": "Describe Devices",
+    "indicators": {
+     "3.1.1": {
+      "description": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects",
+      "level": "L1"
+     }
+    }
+   },
+   "3.2": {
+    "title": "Compare Hardware and Software",
+    "indicators": {
+     "3.2.1": {
+      "description": "Compare levels of abstraction and interactions between application software, system software, and hardware layers",
+      "level": "L1"
+     },
+     "3.2.2": {
+      "description": "Categorize the roles of operating system software",
+      "level": "L1"
+     },
+     "3.2.3": {
+      "description": "Discuss the use of computer virtualization",
+      "level": "L2"
+     }
+    }
+   },
+   "3.3": {
+    "title": "Explain Troubleshooting",
+    "indicators": {
+     "3.3.1": {
+      "description": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors",
+      "level": "L1"
+     },
+     "3.3.2": {
+      "description": "Illustrate ways computing systems implement logic, input, and output through hardware components",
+      "level": "L1"
+     }
+    }
+   }
+  }
+ },
+ "4.0": {
+  "title": "UNDERSTAND DATA AND ANALYSIS",
+  "performance_standards": {
+   "4.1": {
+    "title": "Evaluate Storage Solutions",
+    "indicators": {
+     "4.1.1": {
+      "description": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images (e.g., convert hexadecimal colors to decimal percentages, ASCII/Unicode representation)",
+      "level": "L1"
+     },
+     "4.1.2": {
+      "description": "Demonstrate the ability to store bit representation of real-world phenomena, characters, numbers, and images",
+      "level": "L1"
+     }
+    }
+   },
+   "4.2": {
+    "title": "Create Using Collection, Visualization, and Transformation",
+    "indicators": {
+     "4.2.1": {
+      "description": "Create interactive data visualizations or alternative representations using software tools to help others better understand real-world phenomena",
+      "level": "L1"
+     },
+     "4.2.2": {
+      "description": "Use data analysis tools and techniques to identify patterns in data representing complex systems",
+      "level": "L1"
+     },
+     "4.2.3": {
+      "description": "Select data collection tools and techniques to generate data sets that support a claim or communicate information",
+      "level": "L2"
+     }
+    }
+   }
+  }
+ },
+ "5.0": {
+  "title": "UNDERSTAND IMPACTS OF COMPUTING",
+  "performance_standards": {
+   "5.1": {
+    "title": "Evaluate the Impact of Computing on Culture",
+    "indicators": {
+     "5.1.1": {
+      "description": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices",
+      "level": "L1"
+     },
+     "5.1.2": {
+      "description": "Test and refine computational artifacts to reduce bias and equity deficits",
+      "level": "L1"
+     },
+     "5.1.3": {
+      "description": "Demonstrate ways a given algorithm applies to problems across disciplines",
+      "level": "L1"
+     },
+     "5.1.4": {
+      "description": "Explain the potential impacts of artificial intelligence on society",
+      "level": "L1"
+     },
+     "5.1.5": {
+      "description": "Evaluate computational artifacts to maximize their beneficial effects and minimize harmful effects on society",
+      "level": "L2"
+     },
+     "5.1.6": {
+      "description": "Discuss how computational innovations that have revolutionized aspects of our culture might evolve",
+      "level": "L2"
+     }
+    }
+   },
+   "5.2": {
+    "title": "Increase Social Interactions",
+    "indicators": {
+     "5.2.1": {
+      "description": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields",
+      "level": "L1"
+     },
+     "5.2.2": {
+      "description": "Use tools and methods for collaboration to increase the productivity of a team",
+      "level": "L1"
+     }
+    }
+   },
+   "5.3": {
+    "title": "Explain Safety, Law, and Ethics Related to Computing",
+    "indicators": {
+     "5.3.1": {
+      "description": "Explain the beneficial and harmful effects that intellectual property laws can have on innovation",
+      "level": "L1"
+     },
+     "5.3.2": {
+      "description": "Explain the privacy concerns related to the collection and generation of data through automated processes that may not be evident to users",
+      "level": "L1"
+     },
+     "5.3.3": {
+      "description": "Evaluate the social and economic implications of privacy in the context of safety, law, or ethics",
+      "level": "L1"
+     },
+     "5.3.4": {
+      "description": "Discuss the role of ethics in technologies",
+      "level": "L2"
+     },
+     "5.3.5": {
+      "description": "Discuss laws and regulations that impact the development and use of software",
+      "level": "L2"
+     }
+    }
+   }
+  }
+ },
+ "6.0": {
+  "title": "UNDERSTAND NETWORKS AND THE INTERNET",
+  "performance_standards": {
+   "6.1": {
+    "title": "Evaluate Network, Communication, and Organization",
+    "indicators": {
+     "6.1.1": {
+      "description": "Evaluate the scalability and reliability of networks by describing the relationship between routers, switches, servers, topology, and addressing",
+      "level": "L2"
+     },
+     "6.1.2": {
+      "description": "Describe the issues that impact network functionality (e.g., bandwidth, load, delay, topology)",
+      "level": "L2"
+     },
+     "6.1.3": {
+      "description": "Discuss the difference between deploying software to the cloud versus the standard model (i.e., running software locally on a PC)",
+      "level": "L2"
+     }
+    }
+   },
+   "6.2": {
+    "title": "Describe Cybersecurity",
+    "indicators": {
+     "6.2.1": {
+      "description": "Illustrate how sensitive data can be affected by malware and other attacks",
+      "level": "L1"
+     },
+     "6.2.2": {
+      "description": "Recommend security measures to address various scenarios based on factors such as efficiency, feasibility, and ethical impacts",
+      "level": "L1"
+     },
+     "6.2.3": {
+      "description": "Compare various security measures, considering tradeoffs between the usability and security of a computing system",
+      "level": "L1"
+     },
+     "6.2.4": {
+      "description": "Explain tradeoffs when selecting and implementing cybersecurity recommendations",
+      "level": "L1"
+     },
+     "6.2.5": {
+      "description": "Compare ways software developers protect devices and information from unauthorized access (e.g., password protection, 2 factor authentication)",
+      "level": "L2"
+     },
+     "6.2.6": {
+      "description": "Utilize industry tools and best practices (e.g., code scanning tools, automated security scans during the development process) to create secure code that prevents vulnerabilities",
+      "level": "L2"
+     }
+    }
+   }
+  }
+ },
+ "7.0": {
+  "title": "UNDERSTAND EMERGING TECHNOLOGIES",
+  "performance_standards": {
+   "7.1": {
+    "title": "Explain Workforce and Society Needs Related to New and",
+    "indicators": {
+     "7.1.1": {
+      "description": "Describe job skills needed for potential careers in new and emerging technologies",
+      "level": "L1"
+     },
+     "7.1.2": {
+      "description": "Explore potential uses for and industries that may use emerging technologies",
+      "level": "L1"
+     },
+     "7.1.3": {
+      "description": "Explain the role of ethics as it relates to security and emerging technologies",
+      "level": "L1"
+     }
+    }
+   }
+  }
+ }
+}

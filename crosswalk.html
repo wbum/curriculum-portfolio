@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nevada CTE CS Standards Compliance Auditor</title>
+  <meta name="description" content="Interactive CTE Standards compliance auditor mapping the Advanced CS I course map to the official Nevada CS standards.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .auditor-title-row {
+      margin-bottom: var(--spacing-md);
+      border-bottom: 2px solid var(--border-color-dark);
+      padding-bottom: var(--spacing-sm);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        Will Bumgardner <span class="brand-subtitle">Portfolio</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Overview</a></li>
+          <li><a href="curriculum.html">Curriculum Map</a></li>
+          <li><a href="crosswalk.html" class="active">Standards Auditor</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="auditor-title-row">
+      <div class="card-label">CTE compliance auditor</div>
+      <h1 class="font-serif" style="margin-bottom: 0;">Nevada CTE CS Standards Crosswalk</h1>
+    </div>
+
+    <!-- Stats Panel -->
+    <div class="auditor-header-panel">
+      <div class="progress-stats-row">
+        <div class="stat-item">
+          <span class="stat-lbl">Compliance Coverage</span>
+          <span class="stat-val" id="stat-pct-covered">0%</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-lbl">Active Syllabus</span>
+          <span class="stat-val" id="stat-active-syllabus" style="font-size: 1.5rem; font-family: var(--font-sans);">Advanced CS I</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-lbl">Total Indicators</span>
+          <span class="stat-val" id="stat-total-stds" style="font-size: 1.5rem;">88</span>
+        </div>
+      </div>
+      
+      <div style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: var(--spacing-sm); display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-xs);">
+        <div>Direct Instruction: <strong id="stat-direct-stds" style="color:var(--text-primary);">0</strong></div>
+        <div id="stat-fbla-row">Co-curricular (FBLA): <strong id="stat-fbla-stds" style="color:var(--color-success);">0</strong></div>
+        <div>Compliance Gaps: <strong id="stat-gaps-stds" style="color:var(--color-warning);">0</strong></div>
+      </div>
+      
+      <div class="progress-bar-container" title="Overall Standards Coverage Progress">
+        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+      </div>
+    </div>
+
+    <!-- Filters and Controls -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label for="select-course">Course Pathway:</label>
+        <select id="select-course" style="font-weight: 700; border-color: var(--border-color-dark);">
+          <option value="acs_i">Advanced CS I (ACS I)</option>
+          <option value="wdd_i">Web Dev & Design I (WDD I)</option>
+          <option value="dgd_i">Digital Game Design I (DGD I)</option>
+          <option value="dgd_ii">Digital Game Design II (DGD II)</option>
+          <option value="cet">Computer Education Technology (CET)</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-level">Course Level:</label>
+        <select id="filter-level">
+          <option value="all">All Levels (L1 + L2 + C)</option>
+          <option value="L1">Level 1 (L1)</option>
+          <option value="L2">Level 2 (L2)</option>
+          <option value="C">Complementary (C)</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-coverage">Coverage Status:</label>
+        <select id="filter-coverage">
+          <option value="all">All Indicators</option>
+          <option value="covered">All Covered (Direct + FBLA)</option>
+          <option value="direct">Direct Instruction only</option>
+          <option value="fbla">CTSO/FBLA co-curricular only</option>
+          <option value="gap">Compliance Gaps (Unmapped)</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="search-query">Search:</label>
+        <input type="text" id="search-query" placeholder="Search code or text (e.g. 2.1.2, AI)...">
+      </div>
+
+      <div style="margin-left: auto; display: flex; gap: var(--spacing-sm);">
+        <button class="btn" id="btn-reset-filters">Reset Filters</button>
+        <button class="btn btn-primary" id="btn-export-audit">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Export Report
+        </button>
+      </div>
+    </div>
+
+    <!-- Auditor Main View columns -->
+    <div class="crosswalk-columns">
+      
+      <!-- Left Column: Standards tree -->
+      <div>
+        <div class="column-header">
+          <span>Standards Catalog</span>
+          <span class="column-header-count" id="standards-count">0</span>
+        </div>
+        <div class="standards-tree" id="standards-tree">
+          <div class="p-4 text-center text-secondary">Processing Nevada State Standards...</div>
+        </div>
+      </div>
+      
+      <!-- Right Column: Interactive Details Panel & Lessons Reference -->
+      <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
+        
+        <!-- Selection Details Display -->
+        <div id="details-display-panel">
+          <div class="card text-center text-secondary" style="padding: 40px var(--spacing-lg);">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin: 0 auto 15px; color: var(--text-secondary); display: block;"><path d="M12 11c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 13c-2.76 0-8 1.39-8 4v2h16v-2c0-2.61-5.24-4-8-4z"/></svg>
+            <h4 class="font-serif" style="margin-bottom: 5px;">Interactive Crosswalk Inspector</h4>
+            <p style="font-size: 0.9rem; max-width: 320px; margin: 0 auto;">
+              Click any Nevada CTE indicator on the left to inspect which course day(s) cover it. Click a lesson below to highlight its covered standards.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Quick Lessons Reference List -->
+        <div>
+          <div class="column-header">
+            <span>Syllabus Reference List</span>
+            <span class="column-header-count" id="lessons-count">0</span>
+          </div>
+          <div class="lessons-list" id="lessons-list">
+            <div class="p-4 text-center text-secondary">Processing Course Syllabus...</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>Will Bumgardner &copy; 2026. All Rights Reserved. Built with Swiss-Editorial styling for K-12 CTE Curriculum Audit Compliance.</p>
+      <p style="font-size: 0.75rem;">Verified for Nevada Department of Education Computer Science CTE Standards.</p>
+    </div>
+  </footer>
+
+  <script src="crosswalk.js"></script>
+</body>
+</html>

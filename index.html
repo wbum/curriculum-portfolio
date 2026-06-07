@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Portfolio & Standards Compliance System</title>
+  <meta name="description" content="Portfolio of K-12 CTE Computer Science curricula, academic course sequences, and interactive standards alignment crosswalk compliance tools.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Hero specific layout */
+    .hero {
+      border-bottom: 2px solid var(--border-color-dark);
+      padding: var(--spacing-xl) 0;
+      margin-bottom: var(--spacing-xl);
+    }
+    .hero-title {
+      font-size: 3.5rem;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: var(--spacing-md);
+    }
+    .hero-meta {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-secondary);
+      font-weight: 700;
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing-md);
+      align-items: center;
+      margin-top: var(--spacing-md);
+    }
+    .hero-tag {
+      background-color: var(--color-accent);
+      color: var(--bg-canvas);
+      padding: 2px 8px;
+      font-size: 0.75rem;
+    }
+    
+    /* Academic abstract block */
+    .abstract-block {
+      border: 1px solid var(--border-color);
+      border-left: 5px solid var(--border-color-dark);
+      padding: var(--spacing-lg);
+      background-color: var(--bg-card);
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      line-height: 1.7;
+      margin-bottom: var(--spacing-xl);
+      font-style: italic;
+    }
+    
+    .course-status-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 2px 6px;
+      background-color: var(--border-color);
+      color: var(--text-secondary);
+      margin-bottom: var(--spacing-sm);
+    }
+    .status-active {
+      background-color: hsl(145, 30%, 90%);
+      color: var(--color-success);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        Will Bumgardner <span class="brand-subtitle">Portfolio</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Overview</a></li>
+          <li><a href="curriculum.html">Curriculum Map</a></li>
+          <li><a href="crosswalk.html">Standards Auditor</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="hero-title">Curriculum Design, Instructional Leadership &amp; Technical Alignment</h1>
+      <p class="lead" style="font-size: 1.35rem; line-height: 1.5; max-width: 900px; color: var(--text-secondary);">
+        Bridging the gap between state CTE requirements and classroom instruction through rigorous course mapping, interactive audit automation, and AI-scaffolded pedagogy.
+      </p>
+      <div class="hero-meta">
+        <span>Will Bumgardner, Ph.D. Candidate</span>
+        <span class="hero-tag">Curriculum Portfolio v1.0</span>
+        <span>•</span>
+        <span>Nevada CTE CS Alignment</span>
+      </div>
+    </section>
+
+    <!-- Executive Abstract -->
+    <div class="abstract-block">
+      "State-level Career and Technical Education (CTE) programs require a meticulous marriage of academic standards, work-based learning, and industry relevance. This portfolio demonstrates a structured, data-grounded approach to designing computer science pathways. By automating the crosswalk audit, curriculum directors and educators can verify that every required indicator is covered in a day-to-day lesson plan."
+    </div>
+
+    <!-- Main Grid: Core Products -->
+    <section class="section">
+      <h2 style="margin-bottom: var(--spacing-lg);">Computer Science Curriculum Suite</h2>
+      <div class="grid-3">
+        
+        <!-- Advanced CS I -->
+        <div class="card">
+          <div class="course-status-badge status-active">Active Course &amp; Audit Demo</div>
+          <div class="card-label">CTE L1 / AP CSP Equivalent</div>
+          <h3 style="margin-bottom: var(--spacing-sm);">Advanced Computer Science I</h3>
+          <p style="font-size: 0.95rem; color: var(--text-secondary); flex-grow: 1;">
+            A comprehensive 17-unit introduction to computer science utilizing p5.js, Karel programming, and data science principles. Engineered to align with the Nevada Department of Education state standards.
+          </p>
+          <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-md);">
+            <a href="curriculum.html?course=acs_i" class="btn btn-primary">Scope &amp; Sequence</a>
+            <a href="crosswalk.html?course=acs_i" class="btn">Interactive Auditor</a>
+          </div>
+        </div>
+
+        <!-- Web Dev & Design I -->
+        <div class="card">
+          <div class="course-status-badge status-active">Active Course &amp; Audit Demo</div>
+          <div class="card-label">CTE L1 / Web Dev Pathway</div>
+          <h3 style="margin-bottom: var(--spacing-sm);">Web Development &amp; Design I</h3>
+          <p style="font-size: 0.95rem; color: var(--text-secondary); flex-grow: 1;">
+            Focused on semantic HTML5, CSS layout engines, responsive web systems, client-side scripting, and accessibility standards. Evaluated for state pathways (FBLA integrations).
+          </p>
+          <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-md);">
+            <a href="curriculum.html?course=wdd_i" class="btn btn-primary">Scope &amp; Sequence</a>
+            <a href="crosswalk.html?course=wdd_i" class="btn">Interactive Auditor</a>
+          </div>
+        </div>
+
+        <!-- Digital Game Design I -->
+        <div class="card">
+          <div class="course-status-badge status-active">Active Course &amp; Audit Demo</div>
+          <div class="card-label">CTE Course Pathway</div>
+          <h3 style="margin-bottom: var(--spacing-sm);">Digital Game Design I</h3>
+          <p style="font-size: 0.95rem; color: var(--text-secondary); flex-grow: 1;">
+            Introduction to game design mechanics, rendering loops, and sprite-based interaction. Focuses on 2D physics, vector movements, asset pipeline integration, and object-oriented structure.
+          </p>
+          <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-md);">
+            <a href="curriculum.html?course=dgd_i" class="btn btn-primary">Scope &amp; Sequence</a>
+            <a href="crosswalk.html?course=dgd_i" class="btn">Interactive Auditor</a>
+          </div>
+        </div>
+
+
+        <!-- Digital Game Design II -->
+        <div class="card">
+          <div class="course-status-badge status-active">Active Course &amp; Audit Demo</div>
+          <div class="card-label">CTE Course Pathway</div>
+          <h3 style="margin-bottom: var(--spacing-sm);">Digital Game Design II</h3>
+          <p style="font-size: 0.95rem; color: var(--text-secondary); flex-grow: 1;">
+            Advanced 3D production pipeline (Blender &rarr; Unity 6) and programming. 
+            <em>Note: This syllabus is configured as a one-year bridge course to satisfy missing L2 standards from the prior year-long CodeHS course.</em>
+          </p>
+          <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-md);">
+            <a href="curriculum.html?course=dgd_ii" class="btn btn-primary">Scope &amp; Sequence</a>
+            <a href="crosswalk.html?course=dgd_ii" class="btn">Interactive Auditor</a>
+          </div>
+        </div>
+
+
+        <!-- Computer Education Technology -->
+        <div class="card">
+          <div class="course-status-badge status-active">Active Course &amp; Audit Demo</div>
+          <div class="card-label">CTE Course Pathway</div>
+          <h3 style="margin-bottom: var(--spacing-sm);">Computer Education Technology</h3>
+          <p style="font-size: 0.95rem; color: var(--text-secondary); flex-grow: 1;">
+            Foundational technology integration, digital citizenship, software productivity systems, information literacy, and educational computing scaffolds tailored for instructional leadership.
+          </p>
+          <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-md);">
+            <a href="curriculum.html?course=cet" class="btn btn-primary">Scope &amp; Sequence</a>
+            <a href="crosswalk.html?course=cet" class="btn">Interactive Auditor</a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Dissertation Framework Section -->
+    <section class="section" style="border-top: 1px solid var(--border-color); padding-top: var(--spacing-xl);">
+      <div class="grid-sidebar">
+        <div>
+          <h3 class="font-serif" style="font-size: 1.5rem; margin-bottom: var(--spacing-md);">Pedagogical Framework</h3>
+          <p style="font-size: 0.95rem; color: var(--text-secondary);">
+            My curriculum design methodology is grounded in Self-Study of Teacher Education Practices (S-STEP) guidelines.
+          </p>
+          <ul style="padding-left: var(--spacing-lg); font-size: 0.9rem; color: var(--text-secondary); display:flex; flex-direction:column; gap:var(--spacing-xs);">
+            <li>Direct standards grounding</li>
+            <li>Bidirectional audit visibility</li>
+            <li>Critical AI literacy integration</li>
+            <li>Actionable teacher scaffolds</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Dissertation &amp; Research Grounding</h2>
+          <p>
+            Curriculum implementation is often a black box. State audits evaluate static paperwork, while teachers face the daily complexity of classroom translation. This portfolio serves as a live demonstration of a <strong>Self-Study of Teacher Education Practices (S-STEP)</strong> inquiry.
+          </p>
+          <p>
+            By designing lesson-level scaffolding that directly maps to Nevada Career &amp; Technical Education (CTE) indicators, the course map serves as a practical, peer-reviewed model. Special attention is given to <strong>AI Literacy and Ethical Scaffolding</strong> (Nevada Standard 2.1.2/5.1.4), ensuring students don't just consume technology but interrogate its social and technical mechanics.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>Will Bumgardner &copy; 2026. All Rights Reserved. Built with Swiss-Editorial styling for K-12 CTE Curriculum Audit Compliance.</p>
+      <p style="font-size: 0.75rem;">Verified for Nevada Department of Education Computer Science CTE Standards.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

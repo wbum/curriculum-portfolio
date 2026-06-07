@@ -1,0 +1,1118 @@
+{
+ "units": [
+  {
+   "number": 1,
+   "title": "The Web World",
+   "days": [
+    {
+     "day": 1,
+     "title": "Course Overview + Internet vs. WWW",
+     "standards": [
+      "1.1.1",
+      "1.1.2",
+      "2.1.3",
+      "2.3.1",
+      "2.3.2",
+      "2.3.3"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "History of the WWW + W3C",
+     "standards": [
+      "2.1.1",
+      "2.1.2"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Terminology Vocabulary Check",
+     "standards": [
+      "1.1.3"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Web Careers + File Management",
+     "standards": [
+      "2.3.2",
+      "2.3.3",
+      "4.2.1",
+      "4.2.2"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "HTML: Purpose, Versions, Document Structure",
+     "standards": [
+      "5.1.1",
+      "5.1.2",
+      "5.1.3",
+      "5.1.4"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "View Source Activity",
+     "standards": []
+    },
+    {
+     "day": 7,
+     "title": "HTML: Headings, Paragraphs, Semantic Elements",
+     "standards": [
+      "5.1.3",
+      "5.1.4"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "HTML: Text Formatting and Lists",
+     "standards": [
+      "5.1.3",
+      "5.1.4"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "HTML Challenge + Error Review",
+     "standards": []
+    },
+    {
+     "day": 10,
+     "title": "About Me Page Work Period",
+     "standards": [
+      "5.1.3",
+      "5.1.4"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "About Me Workshop + Unit Wrap-Up",
+     "standards": [
+      "5.1.3",
+      "5.1.4"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Assessment Submission + Peer Share",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "2.1.1",
+    "2.1.2",
+    "2.1.3",
+    "2.3.1",
+    "2.3.2",
+    "2.3.3",
+    "4.2.1",
+    "4.2.2",
+    "5.1.1",
+    "5.1.2",
+    "5.1.3",
+    "5.1.4"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Design Theory + First Styled Pages",
+   "days": [
+    {
+     "day": 1,
+     "title": "Color Theory",
+     "standards": [
+      "2.2.1"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Principles of Design",
+     "standards": [
+      "2.2.2"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Design Analysis Activity",
+     "standards": [
+      "1.2.5",
+      "2.2.1",
+      "2.2.2"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Elements of Design",
+     "standards": [
+      "2.2.3"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Typography + White Space",
+     "standards": [
+      "2.2.4",
+      "2.2.5"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Design Theory Recap Quiz",
+     "standards": [
+      "2.2.1",
+      "2.2.2",
+      "2.2.3",
+      "2.2.4",
+      "2.2.5"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "HTML: Lists + Deepening Semantic Structure",
+     "standards": [
+      "5.1.3"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "CSS: Introduction + Rule Structure",
+     "standards": [
+      "5.2.1",
+      "5.2.2"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "CSS Rule Writing Practice",
+     "standards": [
+      "5.2.1",
+      "5.2.2"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "CSS Selector Types",
+     "standards": [
+      "5.2.3"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Applying CSS: Color + Typography",
+     "standards": [
+      "5.2.1",
+      "5.2.2",
+      "5.2.3"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Progress Share + Vocabulary Check",
+     "standards": []
+    },
+    {
+     "day": 13,
+     "title": "Styled About Me Work Period",
+     "standards": [
+      "5.2.1",
+      "5.2.2",
+      "5.2.3"
+     ]
+    },
+    {
+     "day": 14,
+     "title": "HTML Validation + Unit Review",
+     "standards": [
+      "2.2.1",
+      "2.2.2",
+      "2.2.3",
+      "2.2.4",
+      "2.2.5",
+      "5.1.5"
+     ]
+    },
+    {
+     "day": 15,
+     "title": "Assessment Submission + Peer Share",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "1.2.5",
+    "2.2.1",
+    "2.2.2",
+    "2.2.3",
+    "2.2.4",
+    "2.2.5",
+    "5.1.3",
+    "5.1.5",
+    "5.2.1",
+    "5.2.2",
+    "5.2.3"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Ethics, Copyright + Multi-Page Sites",
+   "days": [
+    {
+     "day": 1,
+     "title": "Copyright + Intellectual Property",
+     "standards": [
+      "3.1.1",
+      "3.1.2",
+      "3.1.4"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Creative Commons + Attribution Practice",
+     "standards": [
+      "3.1.2",
+      "3.1.3"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Copyright Scenario Activity",
+     "standards": []
+    },
+    {
+     "day": 4,
+     "title": "Ethics: NDAs + Legal Use of Information",
+     "standards": [
+      "3.3.1",
+      "3.3.2"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Bias Analysis + Digital Ethics",
+     "standards": [
+      "3.3.3",
+      "3.2.1"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Ethics Quiz",
+     "standards": [
+      "1.3.1"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Privacy + Digital Footprint + Security Practices",
+     "standards": [
+      "3.2.1",
+      "3.2.2",
+      "3.2.3"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "File Paths + Multi-Page Site Structure",
+     "standards": [
+      "4.2.3",
+      "4.2.4"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "File Path Challenge",
+     "standards": [
+      "4.2.3"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "HTML: Images + Hyperlinks",
+     "standards": [
+      "5.1.3"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "CSS: External Stylesheets + Web Fonts",
+     "standards": [
+      "5.2.4",
+      "5.2.5"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Site Structure Check",
+     "standards": [
+      "4.2.3",
+      "5.2.4"
+     ]
+    },
+    {
+     "day": 13,
+     "title": "Multi-Page Site Build Work Period",
+     "standards": []
+    },
+    {
+     "day": 14,
+     "title": "Site Finalization + Unit Review",
+     "standards": []
+    },
+    {
+     "day": 15,
+     "title": "Assessment Submission + Peer Review",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "1.3.1",
+    "3.1.1",
+    "3.1.2",
+    "3.1.3",
+    "3.1.4",
+    "3.2.1",
+    "3.2.2",
+    "3.2.3",
+    "3.3.1",
+    "3.3.2",
+    "3.3.3",
+    "4.2.3",
+    "4.2.4",
+    "5.1.3",
+    "5.2.4",
+    "5.2.5"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Social Media, E-Commerce + CSS Layout",
+   "days": [
+    {
+     "day": 1,
+     "title": "Social Media + Web Development",
+     "standards": [
+      "2.4.1",
+      "2.4.2",
+      "2.4.3"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Social Media Strategy",
+     "standards": [
+      "2.4.4",
+      "2.4.5"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Social Media Site Analysis",
+     "standards": [
+      "2.4.1",
+      "2.4.2",
+      "2.4.3",
+      "1.2.1",
+      "1.2.2"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "E-Commerce: Fundamentals + Shopping Carts",
+     "standards": [
+      "2.5.1",
+      "2.5.2"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "E-Commerce: Payment Processing + Security",
+     "standards": [
+      "2.5.3",
+      "2.5.4"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "E-Commerce Quiz",
+     "standards": []
+    },
+    {
+     "day": 7,
+     "title": "HTTPS + Security Certificates",
+     "standards": [
+      "3.2.4",
+      "3.2.8"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "GDPR + Nevada Consumer Privacy Act + Global Privacy",
+     "standards": [
+      "3.2.5",
+      "3.2.6",
+      "3.2.7"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Privacy Law Recap",
+     "standards": [
+      "3.2.4",
+      "3.2.5",
+      "3.2.6",
+      "3.2.7",
+      "3.2.8"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "HTML Forms",
+     "standards": [
+      "5.1.3"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "CSS Flexbox",
+     "standards": [
+      "5.2.6"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Flexbox Practice Challenge",
+     "standards": [
+      "5.2.6"
+     ]
+    },
+    {
+     "day": 13,
+     "title": "CSS Grid",
+     "standards": [
+      "5.2.6"
+     ]
+    },
+    {
+     "day": 14,
+     "title": "CSS Positioning",
+     "standards": [
+      "5.2.6"
+     ]
+    },
+    {
+     "day": 15,
+     "title": "Layout Quiz",
+     "standards": [
+      "5.2.6"
+     ]
+    },
+    {
+     "day": 16,
+     "title": "Project Work: E-Commerce Landing Page + Strategy",
+     "standards": [
+      "2.4.5",
+      "5.2.6"
+     ]
+    },
+    {
+     "day": 17,
+     "title": "Project Finalization + Unit Review",
+     "standards": []
+    },
+    {
+     "day": 18,
+     "title": "Assessment Submission",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "1.2.1",
+    "1.2.2",
+    "2.4.1",
+    "2.4.2",
+    "2.4.3",
+    "2.4.4",
+    "2.4.5",
+    "2.5.1",
+    "2.5.2",
+    "2.5.3",
+    "2.5.4",
+    "3.2.4",
+    "3.2.5",
+    "3.2.6",
+    "3.2.7",
+    "3.2.8",
+    "5.1.3",
+    "5.2.6"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Plan, Design, Build",
+   "days": [
+    {
+     "day": 1,
+     "title": "Web Design & Development Cycle",
+     "standards": [
+      "4.1.1",
+      "4.1.2"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Layout Techniques + Site Maps",
+     "standards": [
+      "4.3.1",
+      "4.3.2"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Dev Cycle Quiz",
+     "standards": []
+    },
+    {
+     "day": 4,
+     "title": "Wireframing",
+     "standards": [
+      "4.3.3"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Responsive Design",
+     "standards": [
+      "4.3.4",
+      "4.3.5"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Wireframe Workshop: Peer Feedback",
+     "standards": [
+      "4.3.3"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Content Strategy: Voice, Tone, Purpose, Audience",
+     "standards": [
+      "4.4.1",
+      "4.4.2",
+      "4.4.3"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "SEO + Meta Tags + Branding",
+     "standards": [
+      "4.4.4",
+      "4.4.7",
+      "4.4.8"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "SEO Analysis of a Real Site",
+     "standards": [
+      "4.4.4",
+      "4.4.8"
+     ]
+    },
+    {
+     "day": 10,
+     "title": "Content Evaluation + Grammar/Spelling",
+     "standards": [
+      "4.4.5",
+      "4.4.6"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Accessibility: Legal Standards + Disability Types",
+     "standards": [
+      "4.6.1",
+      "4.6.2",
+      "4.6.5"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Accessibility Audit",
+     "standards": [
+      "4.6.1",
+      "4.6.2"
+     ]
+    },
+    {
+     "day": 13,
+     "title": "Accessibility: Implementing + Usability",
+     "standards": [
+      "4.6.3",
+      "4.6.4"
+     ]
+    },
+    {
+     "day": 14,
+     "title": "Media: Formats + Software",
+     "standards": [
+      "4.5.1",
+      "4.5.2"
+     ]
+    },
+    {
+     "day": 15,
+     "title": "Media Format Quiz",
+     "standards": [
+      "4.5.1",
+      "4.5.2"
+     ]
+    },
+    {
+     "day": 16,
+     "title": "Media: Creating, Editing, Compression + Image Sizing",
+     "standards": [
+      "4.5.3",
+      "4.5.4",
+      "4.5.6"
+     ]
+    },
+    {
+     "day": 17,
+     "title": "Media: Embedding + CSS Validation",
+     "standards": [
+      "4.5.5",
+      "5.2.7"
+     ]
+    },
+    {
+     "day": 18,
+     "title": "Content Strategy Peer Review",
+     "standards": []
+    },
+    {
+     "day": 19,
+     "title": "Capstone Planning: Brief + Site Map",
+     "standards": []
+    },
+    {
+     "day": 20,
+     "title": "Capstone Planning: Wireframes",
+     "standards": [
+      "4.3.3"
+     ]
+    },
+    {
+     "day": 21,
+     "title": "Wireframe Check-In + Peer Feedback",
+     "standards": [
+      "4.3.3"
+     ]
+    },
+    {
+     "day": 22,
+     "title": "Capstone Planning: Content Plan",
+     "standards": []
+    },
+    {
+     "day": 23,
+     "title": "Initial Capstone HTML/CSS Skeleton",
+     "standards": []
+    },
+    {
+     "day": 24,
+     "title": "Planning Package Check-In + Unit 6 Preview",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "4.1.1",
+    "4.1.2",
+    "4.3.1",
+    "4.3.2",
+    "4.3.3",
+    "4.3.4",
+    "4.3.5",
+    "4.4.1",
+    "4.4.2",
+    "4.4.3",
+    "4.4.4",
+    "4.4.5",
+    "4.4.6",
+    "4.4.7",
+    "4.4.8",
+    "4.5.1",
+    "4.5.2",
+    "4.5.3",
+    "4.5.4",
+    "4.5.5",
+    "4.5.6",
+    "4.6.1",
+    "4.6.2",
+    "4.6.3",
+    "4.6.4",
+    "4.6.5",
+    "5.2.7"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Capstone Build + Presentation",
+   "days": [
+    {
+     "day": 1,
+     "title": "Build: HTML Structure \u2014 All Pages",
+     "standards": [
+      "5.1.3",
+      "5.1.4"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Build: Navigation + Semantic Completeness",
+     "standards": [
+      "5.1.3",
+      "4.2.3",
+      "4.2.4"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Build Check-In",
+     "standards": []
+    },
+    {
+     "day": 4,
+     "title": "Build: CSS \u2014 Typography + Color System",
+     "standards": [
+      "5.2.1",
+      "5.2.2",
+      "5.2.3",
+      "5.2.4",
+      "5.2.5",
+      "2.2.1",
+      "2.2.2",
+      "2.2.3",
+      "2.2.4",
+      "2.2.5"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Build: CSS \u2014 Layout (Grid + Flexbox)",
+     "standards": [
+      "5.2.6"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Accessibility Mini-Quiz",
+     "standards": []
+    },
+    {
+     "day": 7,
+     "title": "Build: CSS \u2014 Layout Continued + Troubleshooting",
+     "standards": [
+      "5.2.6"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Build: Media Integration \u2014 Images",
+     "standards": [
+      "4.5.5",
+      "5.1.3"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Peer Critique Prep",
+     "standards": []
+    },
+    {
+     "day": 10,
+     "title": "Build: Media Integration \u2014 Embedding Video/Audio",
+     "standards": [
+      "4.5.5"
+     ]
+    },
+    {
+     "day": 11,
+     "title": "Backup Plan + Responsive Design Pass",
+     "standards": [
+      "4.2.5",
+      "4.3.4"
+     ]
+    },
+    {
+     "day": 12,
+     "title": "Revision Day",
+     "standards": []
+    },
+    {
+     "day": 13,
+     "title": "Responsive Design Continued + Breakpoint Fixes",
+     "standards": [
+      "4.3.4"
+     ]
+    },
+    {
+     "day": 14,
+     "title": "Accessibility Audit + Fixes",
+     "standards": [
+      "4.6.3",
+      "4.6.4"
+     ]
+    },
+    {
+     "day": 15,
+     "title": "Peer Review Session 1",
+     "standards": []
+    },
+    {
+     "day": 16,
+     "title": "HTML + CSS Validation Pass",
+     "standards": [
+      "5.1.5",
+      "5.2.7"
+     ]
+    },
+    {
+     "day": 17,
+     "title": "Peer Review Session 2 + Revision",
+     "standards": []
+    },
+    {
+     "day": 18,
+     "title": "Presentation Practice",
+     "standards": []
+    },
+    {
+     "day": 19,
+     "title": "Final Revision + Polish",
+     "standards": []
+    },
+    {
+     "day": 20,
+     "title": "Final Submission Prep + Teacher Check-In",
+     "standards": []
+    },
+    {
+     "day": 21,
+     "title": "Presentation Day (Short)",
+     "standards": [
+      "1.4.1",
+      "1.4.4",
+      "1.4.5",
+      "1.5.1",
+      "1.5.2",
+      "1.5.3"
+     ]
+    },
+    {
+     "day": 22,
+     "title": "Presentations \u2014 Day 1",
+     "standards": [
+      "1.4.1",
+      "1.4.4",
+      "1.4.5",
+      "1.5.1",
+      "1.5.2"
+     ]
+    },
+    {
+     "day": 23,
+     "title": "Presentations \u2014 Day 2 + Course Reflection",
+     "standards": [
+      "1.4.1",
+      "1.4.4",
+      "1.4.5",
+      "1.5.1",
+      "1.5.2"
+     ]
+    },
+    {
+     "day": 24,
+     "title": "Final Submission Confirmation",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "1.4.1",
+    "1.4.4",
+    "1.4.5",
+    "1.5.1",
+    "1.5.2",
+    "1.5.3",
+    "2.2.1",
+    "2.2.2",
+    "2.2.3",
+    "2.2.4",
+    "2.2.5",
+    "4.2.3",
+    "4.2.4",
+    "4.2.5",
+    "4.3.4",
+    "4.5.5",
+    "4.6.3",
+    "4.6.4",
+    "5.1.3",
+    "5.1.4",
+    "5.1.5",
+    "5.2.1",
+    "5.2.2",
+    "5.2.3",
+    "5.2.4",
+    "5.2.5",
+    "5.2.6",
+    "5.2.7"
+   ]
+  }
+ ],
+ "standards": {
+  "1.1.1": "Discuss the requirements of CTSO participation/involvement as described in Carl D. Perkins Law",
+  "1.1.2": "Research nationally recognized CTSOs",
+  "1.1.3": "Investigate the impact of federal and state government regarding the progression and operation of CTSOs (e.g., Federal Statutes and Regulations, Nevada Administrative Code [NAC], Nevada Revised Statutes [NRS])",
+  "1.2.1": "Discuss the purpose of parliamentary procedure",
+  "1.2.2": "Demonstrate the proper use of parliamentary procedure",
+  "1.2.3": "Differentiate between an office and a committee",
+  "1.2.4": "Discuss the importance of participation in local, regional, state, and national conferences, events, and competitions",
+  "1.2.5": "Participate in local, regional, state, or national conferences, events, or competitions",
+  "1.2.6": "Describe the importance of a constitution and bylaws to the operation of a CTSO chapter",
+  "1.3.1": "Explore opportunities in community service-related work-based learning (WBL)",
+  "1.3.2": "Participate in a service learning (program related) and/or community service project or activity",
+  "1.3.3": "Engage with business and industry partners for community service",
+  "1.4.1": "Demonstrate college and career readiness (e.g., applications, resumes, interview skills, presentation skills)",
+  "1.4.2": "Describe the appropriate professional/workplace attire and its importance",
+  "1.4.3": "Investigate industry-standard credentials/certifications available within this Career Cluster\u2122",
+  "1.4.4": "Participate in authentic contextualized instructional activities",
+  "1.4.5": "Demonstrate technical skills in various student organization activities/events",
+  "1.5.1": "Make a connection between program standards to career pathway(s)",
+  "1.5.2": "Explain the importance of participation and completion of a program of study",
+  "1.5.3": "Promote community awareness of local student organizations associated with CTE programs",
+  "2.1.1": "Describe the role of the World Wide Web Consortium (W3C) in defining web standards",
+  "2.1.2": "Research the history of the World Wide Web",
+  "2.1.3": "Compare and contrast the Internet and the World Wide Web",
+  "2.2.1": "Explain and apply color theory",
+  "2.2.2": "Explain and apply the principles of design",
+  "2.2.3": "Explain and apply the elements of design",
+  "2.2.4": "Explain and apply effective typography",
+  "2.2.5": "Evaluate the use of white space",
+  "2.3.1": "Define common terminology and their acronyms",
+  "2.3.2": "Differentiate between front-end and back-end development",
+  "2.3.3": "Explain the various roles and careers related to web design",
+  "2.4.1": "Describe the role of social media in web development",
+  "2.4.2": "Explain the correlation between social media platforms and web links",
+  "2.4.3": "Describe the relationship of advertising, marketing, social media, and websites",
+  "2.4.4": "Discuss current trends in social media",
+  "2.4.5": "Create and implement a strategy that uses social networks to drive traffic to a website",
+  "2.5.1": "Define e-commerce as it relates to web development",
+  "2.5.2": "Demonstrate how to integrate a shopping cart into a web page",
+  "2.5.3": "Evaluate payment-processing options",
+  "2.5.4": "Discuss security concerns as they relate to e-commerce",
+  "3.1.1": "Research laws that govern intellectual property in diverse forms",
+  "3.1.2": "Evaluate Creative Commons licensing and other free-content license types",
+  "3.1.3": "Cite the boundaries of third-party work",
+  "3.1.4": "Explain terms related to copyright, trademarks, patents, and other intellectual property",
+  "3.2.1": "Explain invasion of privacy in the use of technology",
+  "3.2.2": "Model acceptable security practices",
+  "3.2.3": "Analyze the implications of a personal digital footprint",
+  "3.2.4": "Differentiate between secure and unsecure web protocols",
+  "3.2.5": "Explain the implications of General Data Protection Regulations (GDPR)",
+  "3.2.6": "Explain the implications of Nevada Consumer Privacy Act",
+  "3.2.7": "Compare and contrast global privacy policies and cultural impacts",
+  "3.2.8": "Describe how a security certificate protects a website",
+  "3.3.1": "Model legal and ethical use of information",
+  "3.3.2": "Describe the purpose of a non-disclosure agreement (NDA)",
+  "3.3.3": "Analyze content for bias",
+  "4.1.1": "Describe the web design and development cycle",
+  "4.1.2": "Demonstrate the web design and development cycle (e.g., analyze, design, develop, implement, evaluate)",
+  "4.2.1": "Create a maintainable directory structure for a website",
+  "4.2.2": "Apply appropriate file naming protocols",
+  "4.2.3": "Describe the usage of correct file paths for relative and absolute links",
+  "4.2.4": "Recognize the relationship between local and remote site structures",
+  "4.2.5": "Develop a data backup procedures plan",
+  "4.3.1": "Identify commonly used layout techniques for web design",
+  "4.3.2": "Develop an appropriate navigation system (site map)",
+  "4.3.3": "Develop wireframes for initial responsive design concepts",
+  "4.3.4": "Develop responsive design for various devices",
+  "4.3.5": "Identify the uses of Cascading Style Sheets (CSS)",
+  "4.4.1": "Discuss and differentiate voice, tone, and style as it applies to web writing",
+  "4.4.2": "Determine the primary and secondary purposes of web content",
+  "4.4.3": "Identify target audiences and reading levels for specific websites",
+  "4.4.4": "Identify and create a list of keywords and descriptions (meta tags) to include in web content for search engine optimization (SEO)",
+  "4.4.5": "Apply grammar and spelling conventions to content",
+  "4.4.6": "Evaluate existing content for web use (e.g., images, print documents, text, video)",
+  "4.4.7": "Create a branding message that will present a professional image",
+  "4.4.8": "List and describe best practices in content creation that foster indexing and ranking of websites",
+  "4.5.1": "Describe common media file formats",
+  "4.5.2": "Identify appropriate software for media creation",
+  "4.5.3": "Create and edit media files (e.g., sound, video, graphics, interactive media, multimedia)",
+  "4.5.4": "Optimize media files for uploading using compression tools",
+  "4.5.5": "Embed media files in a web design",
+  "4.5.6": "Calculate and convert images to desired sizes and resolution",
+  "4.6.1": "Describe regional, national, and international legal requirements and standards for accessibility on the web",
+  "4.6.2": "Identify types of disabilities that should be considered when designing websites",
+  "4.6.3": "Optimize websites to accommodate users with special needs",
+  "4.6.4": "Explain website usability procedures",
+  "4.6.5": "Research Americans with Disabilities Act (ADA) compliance regulations and policies",
+  "5.1.1": "Explain the purpose of Hypertext Markup Language (HTML) in website development",
+  "5.1.2": "Differentiate among the different versions of HTML",
+  "5.1.3": "Identify HTML tags for authoring a web page document",
+  "5.1.4": "Code a basic web page utilizing proper HTML document structure in a text editor",
+  "5.1.5": "Utilize verification tools to verify code",
+  "5.2.1": "Describe the role of CSS in relation to web design",
+  "5.2.2": "Identify the structure of CSS style rules",
+  "5.2.3": "Describe CSS selector types",
+  "5.2.4": "Differentiate between internal, external, and inline style sheets",
+  "5.2.5": "Use CSS to style webpage content (e.g., typography, web fonts)",
+  "5.2.6": "Use CSS to lay out webpage content (e.g., flexbox, grid, positioning: static, relative, absolute, fixed)",
+  "5.2.7": "Utilize online validation tools for CSS",
+  "5.2.8": "Describe the function of a CSS preprocessor",
+  "5.3.1": "Explain the use of current web scripting technologies",
+  "5.3.2": "Implement scripting (e.g., rollovers, form scripts)",
+  "5.3.3": "Compare and contrast client (browser) scripting and server scripting (e.g., PHP, JavaScript)",
+  "5.3.4": "Enhance interactivity of websites using current scripting trends",
+  "5.3.5": "Compare and contrast static versus dynamic websites",
+  "5.3.6": "Utilize online validation tools for web scripting",
+  "5.4.1": "Identify and describe relational databases",
+  "5.4.2": "Analyze various databases used in web development",
+  "5.4.3": "Describe the purpose of a database as it relates to web development",
+  "5.4.4": "Incorporate a database into a website where possible (e.g., local storage, external database)",
+  "5.5.1": "Identify content management systems (CMS) (e.g., WordPress, Joomla)",
+  "5.5.2": "Evaluate current trends in CMS (e.g., blogging, online magazine, corporate websites) and learning management system (LMS [e.g., Canvas])",
+  "5.5.3": "Explore WYSIWYG software (e.g., Dreamweaver) for web development",
+  "5.6.1": "Define cloud computing",
+  "5.6.2": "Compare various cloud computing platforms (e.g., Microsoft Azure, Amazon AWS, Google Cloud)",
+  "5.6.3": "Explain the role of version control when developing with a team",
+  "6.1.1": "Identify the various server operating systems used to host web pages",
+  "6.1.2": "Describe how servers work in a hosting environment",
+  "6.1.3": "Explain the relationship between client and server",
+  "6.1.4": "Explain common web server maintenance routines",
+  "6.1.5": "Describe the technical requirements involved in choosing a web host",
+  "6.2.1": "Identify the purpose of Secure File Transfer Protocol (SFTP)",
+  "6.2.2": "Demonstrate the use of SFTP",
+  "6.2.3": "Preview and test web pages for compatibility using various browsers and output devices",
+  "6.2.4": "Describe the process of locating and registering a domain name",
+  "6.2.5": "Explain domain name servers (DNS)",
+  "6.3.1": "Evaluate content with client for relevancy",
+  "6.3.2": "Evaluate content for viability",
+  "6.3.3": "Monitor validity of hyperlinks",
+  "6.3.4": "Maintain and update all website documentation (e.g., prototype, site map, navigation)",
+  "6.3.5": "Analyze web analytics for purposes of improving traffic, user experience, and meeting targeted goals",
+  "7.1.1": "Analyze current programming languages and/or platforms used in web app development",
+  "7.1.2": "Explain the purpose of Application Programming Interface (API) in app development",
+  "7.1.3": "Develop an app using a modern programming language and/or platform",
+  "7.2.1": "Define Artificial Intelligence",
+  "7.2.2": "Explain the role of AI in web development",
+  "7.2.3": "Describe how AI changes the user experience",
+  "7.2.4": "Explain the significance of data in the development of AI",
+  "7.3.1": "Research Internet of Things (IoT) as it relates to web development",
+  "7.3.2": "Explain the impact of digital assistants on web development",
+  "7.4.1": "Explore use of VR and AR in web design",
+  "7.4.2": "Research emerging applications of VR and AR in non-entertainment venues"
+ }
+}

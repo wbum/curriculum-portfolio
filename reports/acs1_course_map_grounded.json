@@ -1,0 +1,950 @@
+{
+ "units": [
+  {
+   "number": 1,
+   "title": "What is Computing?",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 1, Day 1: Welcome to Advanced Computer Science",
+     "standards": []
+    },
+    {
+     "day": 2,
+     "title": "Unit 1, Day 2: AI in My Life Audit",
+     "standards": [
+      "ADVCS.2.1.2"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 1, Day 3: What is Computing? + Introduction to Abstraction",
+     "standards": [
+      "ADVCS.3.1.1",
+      "ADVCS.3.2.1",
+      "ADVCS.3.2.2",
+      "ADVCS.7.1.1"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 1, Day 4: Abstraction Layer Analysis Workshop",
+     "standards": [
+      "ADVCS.3.1.1",
+      "ADVCS.3.2.1"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 1, Day 5: Abstraction Check-In (Friday)",
+     "standards": [
+      "ADVCS.3.1.1",
+      "ADVCS.3.2.1"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Unit 1, Day 6: Emerging Tech Careers + How AI Systems Work",
+     "standards": [
+      "ADVCS.7.1.2",
+      "ADVCS.2.1.2",
+      "ADVCS.5.1.4"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Unit 1, Day 7: System Troubleshooting Practice + Writing Assignment Work Time",
+     "standards": [
+      "ADVCS.3.3.1",
+      "ADVCS.7.1.2",
+      "ADVCS.2.1.2",
+      "ADVCS.5.1.4"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Unit 1, Day 8: Unit 1 Wrap-Up + Reflections (Friday)",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "ADVCS.2.1.2",
+    "ADVCS.3.2.1",
+    "ADVCS.3.3.1",
+    "ADVCS.5.1.4",
+    "ADVCS.7.1.1",
+    "ADVCS.7.1.2"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Introduction to JavaScript Programming",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 2, Day 1: First Programs in p5.js",
+     "standards": [
+      "ADVCS.2.1.1"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 2, Day 2: Functions \u2014 Define and Call",
+     "standards": [
+      "ADVCS.2.1.4"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 2, Day 3: Check-In \u2014 Debugging & Peer Help",
+     "standards": []
+    },
+    {
+     "day": 4,
+     "title": "Unit 2, Day 4: Top-Down Design & Decomposition",
+     "standards": [
+      "ADVCS.2.1.4"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 2, Day 5: For Loops + Conditionals",
+     "standards": [
+      "ADVCS.2.2.1"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Unit 2, Day 6: AI Metacognitive Reflection",
+     "standards": []
+    },
+    {
+     "day": 7,
+     "title": "Unit 2, Day 7: While Loops",
+     "standards": [
+      "ADVCS.2.2.1"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Unit 2, Day 8: Project Work Day",
+     "standards": [
+      "ADVCS.2.1.1"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Unit 2, Day 9: Unit Wrap-Up & Transition to Unit 3",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "ADVCS.2.1.1",
+    "ADVCS.2.1.2",
+    "ADVCS.2.1.4",
+    "ADVCS.2.2.1",
+    "ADVCS.2.2.2",
+    "ADVCS.2.3.3"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Practice PT \u2013 Pair-Programming Paint",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 3, Day 1: Planning and Design",
+     "standards": [
+      "ADVCS.2.1.2",
+      "ADVCS.5.2.2"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 3, Day 2: Implementation and Collaboration",
+     "standards": [
+      "ADVCS.2.1.1"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 3, Day 3: Finalization and Reflection",
+     "standards": [
+      "ADVCS.2.5.1",
+      "ADVCS.5.2.2"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.2.1.2",
+    "ADVCS.2.1.1",
+    "ADVCS.2.5.1"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "JavaScript Basics + Graphics",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 4, Day 1: Variables & Data Types + Type Safety Introduction",
+     "standards": [
+      "ADVCS.2.3.5",
+      "ADVCS.2.4.1"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 4, Day 2: User Input & Validation",
+     "standards": [
+      "ADVCS.2.3.5",
+      "ADVCS.2.4.1",
+      "ADVCS.2.5.1"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 4, Day 3: Graphics Canvas & Drawing Shapes",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.5.1"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 4, Day 4: Mouse & Keyboard Events",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.5.1"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 4, Day 5: Meme Creator Project Work Session",
+     "standards": [
+      "ADVCS.2.3.5",
+      "ADVCS.2.4.1",
+      "ADVCS.2.5.1",
+      "ADVCS.2.5.2"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.2.3.5",
+    "ADVCS.2.4.1",
+    "ADVCS.2.5.1",
+    "ADVCS.2.5.2"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Digital Citizenship",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 5, Day 1",
+     "standards": [
+      "ADVCS.2.5.2",
+      "ADVCS.5.3.1",
+      "ADVCS.5.3.4",
+      "ADVCS.5.3.5"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 5, Day 2",
+     "standards": [
+      "ADVCS.5.3.2",
+      "ADVCS.5.3.3",
+      "ADVCS.5.3.4"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 5, Day 3",
+     "standards": [
+      "ADVCS.6.2.1",
+      "ADVCS.7.1.3"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 5, Day 4",
+     "standards": [
+      "ADVCS.5.3.1",
+      "ADVCS.7.1.3",
+      "ADVCS.5.3.4"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 5, Day 5",
+     "standards": [
+      "ADVCS.2.5.1",
+      "ADVCS.5.3.1",
+      "ADVCS.7.1.3"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.2.5.2",
+    "ADVCS.5.3.2",
+    "ADVCS.6.2.1",
+    "ADVCS.5.3.1",
+    "ADVCS.2.5.1"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Control Structures + Functions",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 6, Day 1",
+     "standards": [
+      "ADVCS.2.2.1",
+      "ADVCS.2.2.4"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 6, Day 2",
+     "standards": [
+      "ADVCS.2.2.1",
+      "ADVCS.2.2.4"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 6, Day 3",
+     "standards": [
+      "ADVCS.2.3.5",
+      "ADVCS.2.4.1"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 6, Day 4",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.4.2"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 6, Day 5",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.4.2",
+      "ADVCS.2.4.3"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Unit 6, Day 6",
+     "standards": [
+      "ADVCS.2.2.1",
+      "ADVCS.2.2.4",
+      "ADVCS.2.4.1",
+      "ADVCS.2.4.2",
+      "ADVCS.2.4.3",
+      "ADVCS.2.3.5"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.2.2.1",
+    "ADVCS.2.4.1",
+    "ADVCS.2.4.2",
+    "ADVCS.2.3.5"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Practice PT \u2014 Tell a Story",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 7, Day 1",
+     "standards": [
+      "ADVCS.2.5.1",
+      "ADVCS.2.5.5"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 7, Day 2",
+     "standards": [
+      "ADVCS.2.5.4",
+      "ADVCS.2.5.5"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 7, Day 3",
+     "standards": [
+      "ADVCS.2.5.5"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.2.5.1",
+    "ADVCS.2.5.3",
+    "ADVCS.2.5.5",
+    "ADVCS.2.5.4"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "AP CSP Create Performance Task",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 8, Day 1",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.5.1",
+      "ADVCS.2.5.6"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 8, Day 2",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.5.5",
+      "ADVCS.2.5.6"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 8, Day 3",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.4.2"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 8, Day 4",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.4.2"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 8, Day 5",
+     "standards": [
+      "ADVCS.2.4.2",
+      "ADVCS.2.5.3"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Unit 8, Day 6",
+     "standards": [
+      "ADVCS.2.4.2"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Unit 8, Day 7",
+     "standards": [
+      "ADVCS.2.4.2",
+      "ADVCS.2.5.3",
+      "ADVCS.2.5.10"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Unit 8, Day 8",
+     "standards": [
+      "ADVCS.2.5.5"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Unit 8, Day 9",
+     "standards": [
+      "ADVCS.2.4.1",
+      "ADVCS.2.4.2",
+      "ADVCS.2.5.5"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.2.4.1",
+    "ADVCS.2.4.2",
+    "ADVCS.2.5.1",
+    "ADVCS.2.5.3",
+    "ADVCS.2.5.5"
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Arrays + Data Structures",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 9, Day 1",
+     "standards": [
+      "ADVCS.2.3.3",
+      "ADVCS.2.3.1",
+      "ADVCS.2.3.4"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 9, Day 2",
+     "standards": [
+      "ADVCS.2.3.3"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 9, Day 3",
+     "standards": [
+      "ADVCS.2.3.3"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 9, Day 4",
+     "standards": [
+      "ADVCS.2.3.1",
+      "ADVCS.2.3.2",
+      "ADVCS.2.3.4"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 9, Day 5",
+     "standards": [
+      "ADVCS.2.3.4",
+      "ADVCS.2.3.1",
+      "ADVCS.2.3.2"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.2.3.1",
+    "ADVCS.2.3.2",
+    "ADVCS.2.3.3",
+    "ADVCS.2.3.4"
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Digital Information",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 10, Day 1",
+     "standards": [
+      "ADVCS.4.1.1"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 10, Day 2",
+     "standards": [
+      "ADVCS.4.1.1",
+      "ADVCS.4.1.2"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 10, Day 3",
+     "standards": [
+      "ADVCS.4.1.2"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 10, Day 4",
+     "standards": [
+      "ADVCS.4.1.2"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 10, Day 5",
+     "standards": [
+      "ADVCS.4.1.2"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.4.1.1",
+    "ADVCS.4.1.2"
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Practice PT \u2014 Steganography",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 11, Day 1",
+     "standards": [
+      "ADVCS.2.2.1",
+      "ADVCS.2.2.2"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 11, Day 2",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "ADVCS.2.2.1",
+    "ADVCS.2.2.2"
+   ]
+  },
+  {
+   "number": 12,
+   "title": "The Internet",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 12, Day 1",
+     "standards": [
+      "ADVCS.6.2.1",
+      "ADVCS.6.1.1"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 12, Day 2",
+     "standards": [
+      "ADVCS.6.2.1",
+      "ADVCS.6.1.1"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 12, Day 3",
+     "standards": [
+      "ADVCS.6.2.1",
+      "ADVCS.6.1.1"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 12, Day 4",
+     "standards": [
+      "ADVCS.6.2.1",
+      "ADVCS.6.2.2"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 12, Day 5",
+     "standards": [
+      "ADVCS.6.2.1"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Unit 12, Day 6",
+     "standards": [
+      "ADVCS.6.2.2",
+      "ADVCS.6.2.5"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Unit 12, Day 7",
+     "standards": [
+      "ADVCS.6.2.3",
+      "ADVCS.6.2.4"
+     ]
+    },
+    {
+     "day": 8,
+     "title": "Unit 12, Day 8",
+     "standards": [
+      "ADVCS.6.2.1"
+     ]
+    },
+    {
+     "day": 9,
+     "title": "Unit 12, Day 9",
+     "standards": [
+      "ADVCS.6.2.1",
+      "ADVCS.6.2.2",
+      "ADVCS.6.2.3",
+      "ADVCS.6.2.4"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.6.2.1",
+    "ADVCS.6.2.2",
+    "ADVCS.6.2.3",
+    "ADVCS.6.2.4"
+   ]
+  },
+  {
+   "number": 13,
+   "title": "Practice PT \u2014 Internet Impact",
+   "days": [
+    {
+     "day": 1,
+     "title": "",
+     "standards": [
+      "ADVCS.5.1.1"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "ADVCS.5.1.1"
+   ]
+  },
+  {
+   "number": 14,
+   "title": "Data",
+   "days": [
+    {
+     "day": 1,
+     "title": "",
+     "standards": [
+      "ADVCS.4.2.2"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "",
+     "standards": [
+      "ADVCS.4.2.2"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "",
+     "standards": [
+      "ADVCS.4.2.1"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "",
+     "standards": [
+      "ADVCS.4.2.2",
+      "ADVCS.5.1.3"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "",
+     "standards": [
+      "ADVCS.5.1.2"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.4.2.2",
+    "ADVCS.4.2.1",
+    "ADVCS.5.1.3",
+    "ADVCS.5.1.2"
+   ]
+  },
+  {
+   "number": 15,
+   "title": "Practice PT \u2014 Data Insight",
+   "days": [
+    {
+     "day": 1,
+     "title": "",
+     "standards": [
+      "ADVCS.4.2.1"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "",
+     "standards": []
+    }
+   ],
+   "standards": [
+    "ADVCS.4.2.1"
+   ]
+  },
+  {
+   "number": 16,
+   "title": "Impacts of Computing + AP CSP Exam Prep",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 16, Day 1",
+     "standards": [
+      "ADVCS.5.1.1",
+      "ADVCS.5.1.5",
+      "ADVCS.5.1.6"
+     ]
+    },
+    {
+     "day": 2,
+     "title": "Unit 16, Day 2",
+     "standards": [
+      "ADVCS.5.3.2",
+      "ADVCS.5.3.3"
+     ]
+    },
+    {
+     "day": 3,
+     "title": "Unit 16, Day 3",
+     "standards": [
+      "ADVCS.5.3.1"
+     ]
+    },
+    {
+     "day": 4,
+     "title": "Unit 16, Day 4",
+     "standards": [
+      "ADVCS.7.1.3",
+      "ADVCS.5.1.1"
+     ]
+    },
+    {
+     "day": 5,
+     "title": "Unit 16, Day 5",
+     "standards": [
+      "ADVCS.5.1.2",
+      "ADVCS.5.1.4",
+      "ADVCS.7.1.3"
+     ]
+    },
+    {
+     "day": 6,
+     "title": "Unit 16, Day 6",
+     "standards": [
+      "ADVCS.5.1.1"
+     ]
+    },
+    {
+     "day": 7,
+     "title": "Unit 16, Day 7",
+     "standards": []
+    },
+    {
+     "day": 8,
+     "title": "Unit 16, Day 8",
+     "standards": []
+    },
+    {
+     "day": 9,
+     "title": "Unit 16, Day 9",
+     "standards": [
+      "ADVCS.5.1.4"
+     ]
+    }
+   ],
+   "standards": [
+    "ADVCS.5.1.1",
+    "ADVCS.5.1.2",
+    "ADVCS.5.1.4",
+    "ADVCS.5.3.1",
+    "ADVCS.5.3.2",
+    "ADVCS.5.3.3",
+    "ADVCS.7.1.3"
+   ]
+  },
+  {
+   "number": 17,
+   "title": "Capstone Project",
+   "days": [
+    {
+     "day": 1,
+     "title": "Unit 17, Day 1",
+     "standards": []
+    },
+    {
+     "day": 2,
+     "title": "Unit 17, Day 2",
+     "standards": []
+    },
+    {
+     "day": 3,
+     "title": "Unit 17, Day 3",
+     "standards": []
+    },
+    {
+     "day": 4,
+     "title": "Unit 17, Day 4",
+     "standards": []
+    },
+    {
+     "day": 5,
+     "title": "Unit 17, Day 5",
+     "standards": []
+    },
+    {
+     "day": 6,
+     "title": "Unit 17, Day 6",
+     "standards": []
+    },
+    {
+     "day": 7,
+     "title": "Unit 17, Day 7",
+     "standards": []
+    },
+    {
+     "day": 8,
+     "title": "Unit 17, Day 8",
+     "standards": []
+    },
+    {
+     "day": 9,
+     "title": "Unit 17, Day 9",
+     "standards": []
+    }
+   ],
+   "standards": []
+  }
+ ],
+ "standards": {
+  "ADVCS.2.1.2": ", 2.1.4, 2.5.1, 2.5.3",
+  "ADVCS.3.2.1": "Compare at least two levels of abstraction used in computing",
+  "ADVCS.3.3.1": "Systematically troubleshoot computing systems",
+  "ADVCS.5.1.4": "Explain AI impacts on society \u2014 Day 5",
+  "ADVCS.7.1.1": "Identify computer science career pathways",
+  "ADVCS.7.1.2": "Research emerging technology careers",
+  "ADVCS.2.1.1": ", 2.1.4, 2.2.1, 2.5.3, 2.5.5",
+  "ADVCS.2.1.4": ", 2.2.1",
+  "ADVCS.2.2.1": "Use appropriate algorithms and data structures",
+  "ADVCS.2.2.2": "Evaluate efficiency of algorithms",
+  "ADVCS.2.3.3": "Implement arrays (lists) in code",
+  "ADVCS.2.5.1": "Design programs for broad audiences",
+  "ADVCS.2.3.5": "reinforcement)",
+  "ADVCS.2.4.1": ", ADVCS.2.4.2, ADVCS.2.5.5",
+  "ADVCS.2.5.2": ", 5.3.1",
+  "ADVCS.5.3.2": "Privacy concerns in data collection \u2014 Day 2",
+  "ADVCS.6.2.1": ", 6.2.2, 6.2.3, 6.2.4",
+  "ADVCS.5.3.1": "Effects of intellectual property laws \u2014 Day 3",
+  "ADVCS.2.4.2": "Create artifacts using procedures and data combinations",
+  "ADVCS.2.5.3": "Refine artifacts for accessibility",
+  "ADVCS.2.5.5": "Document design decisions",
+  "ADVCS.2.5.4": ", ADVCS.2.5.5)",
+  "ADVCS.2.3.1": ", 2.3.2, and 2.3.4?",
+  "ADVCS.2.3.2": "Compare fundamental data structures and their uses",
+  "ADVCS.2.3.4": "(Implement LinkedLists in code) and generates dissertation research data from the AI literacy reflection.",
+  "ADVCS.4.1.1": ", 4.1.2",
+  "ADVCS.4.1.2": "Store bit representations of phenomena (images, sound, video encoding)",
+  "ADVCS.6.2.2": "\u2014 Recommend security measures appropriate to different scenarios",
+  "ADVCS.6.2.3": "\u2014 Compare multiple security measures and their usability tradeoffs",
+  "ADVCS.6.2.4": "prompt: A company requires all employees to use a company-issued VPN on their personal phones, even outside work hours. Explain two tradeoffs of this policy.",
+  "ADVCS.4.2.1": ", 4.2.2, 5.1.2",
+  "ADVCS.5.1.1": "(evaluate impacts on culture \u2014 applied through written argument), all Impacts standards synthesized",
+  "ADVCS.5.1.2": "Test and refine artifacts to reduce bias \u2014 Day 5",
+  "ADVCS.5.3.3": "Social and economic implications of privacy \u2014 Day 2",
+  "ADVCS.7.1.3": "Ethics in security and emerging technologies \u2014 Days 4, 5"
+ }
+}

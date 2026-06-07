@@ -1,0 +1,276 @@
+{
+  "CS": {
+    "title": "Computer Science and Computational Thinking Concepts",
+    "performance_standards": {
+      "AP": {
+        "title": "Algorithms and Programming",
+        "indicators": {
+          "AP.A.1": {
+            "description": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests. Variables None Control",
+            "level": "L1"
+          },
+          "AP.C.1": {
+            "description": "Justify the selection of specific control structures when tradeoffs involve implementation, readability, and program performance, and explain the benefits and drawbacks of choices made.",
+            "level": "L1"
+          },
+          "AP.C.2": {
+            "description": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions. Modularity",
+            "level": "L1"
+          },
+          "AP.M.1": {
+            "description": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects. Program Development",
+            "level": "L1"
+          },
+          "AP.PD.2": {
+            "description": "Evaluate licenses that limit or restrict use of computational artifacts when using resources such as libraries.",
+            "level": "L1"
+          },
+          "AP.PD.4": {
+            "description": "Design and develop computational artifacts working in team roles using collaborative tools. Computing Systems Devices",
+            "level": "L1"
+          }
+        }
+      },
+      "CS": {
+        "title": "Computing Systems",
+        "indicators": {
+          "CS.D.1": {
+            "description": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects. Hardware/Software",
+            "level": "L1"
+          },
+          "CS.HS.1": {
+            "description": "Compare levels of abstraction and interactions between application software, system software, and hardware layers. Troubleshooting",
+            "level": "L1"
+          },
+          "CS.T.1": {
+            "description": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors. Data and Analysis Storage",
+            "level": "L1"
+          }
+        }
+      },
+      "DA": {
+        "title": "Data and Analysis",
+        "indicators": {
+          "DA.S.1": {
+            "description": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images (e.g., convert hexadecimal colors to decimal percentages, ASCII/Unicode representation).",
+            "level": "L1"
+          },
+          "DA.S.2": {
+            "description": "Evaluate the tradeoffs in how data elements are organized and where data is stored. Collection/Visualization/Transformation",
+            "level": "L1"
+          },
+          "DA.CVT.1": {
+            "description": "Create interactive data visualizations or alternative representations using software tools to help others better understand real-world phenomena. Inference/Models None Impacts of Computing Culture",
+            "level": "L1"
+          }
+        }
+      },
+      "IC": {
+        "title": "Impacts of Computing",
+        "indicators": {
+          "IC.C.1": {
+            "description": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+            "level": "L1"
+          },
+          "IC.C.2": {
+            "description": "Test and refine computational artifacts to reduce bias and equity deficits. Social Interactions",
+            "level": "L1"
+          },
+          "IC.SI.1": {
+            "description": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields. Safety, Law, and Ethics",
+            "level": "L1"
+          },
+          "IC.SLE.2": {
+            "description": "Explain the privacy concerns related to the collection and generation of data through automated processes that may not be evident to users.",
+            "level": "L1"
+          },
+          "IC.SLE.3": {
+            "description": "Evaluate the social and economic implications of privacy in the context of safety, law, or ethics. Networks and the Internet Network/Communication/Organization",
+            "level": "L1"
+          }
+        }
+      },
+      "NI": {
+        "title": "Networks and the Internet",
+        "indicators": {
+          "NI.NCO.1": {
+            "description": "Evaluate the scalability and reliability of networks, by describing the relationship between routers, switches, servers, topology, and addressing. Cybersecurity",
+            "level": "L1"
+          },
+          "NI.C.1": {
+            "description": "Give examples to illustrate how sensitive data can be affected by malware and other attacks. Computer Science & Computational Thinking topics covered: TOPIC flowcharts TOPIC creating prototypes TOPIC giving attribution TOPIC using libraries TOPIC collaborating and project management creating variables designing programs with loops and conditionals recommending improvements to a device based on user analysis evaluate ways people use computing justifying the selection of control structures how to identify and fix errors, designing artifacts to address a societal issue where data is stored using procedures with parameters collect and visualize data discuss bias and accessibility identify risks with identity theft/hacking evaluate privacy concerns explain security measures needed to protect data describe relationship between routers and switches abstraction within system software/ hardware layers test artifacts to reduce bias TOPIC working in teams to develop an artifact exchanging data",
+            "level": "L1"
+          }
+        }
+      }
+    }
+  },
+  "IT": {
+    "title": "Integrated Technology Concepts",
+    "performance_standards": {
+      "EL": {
+        "title": "Empowered Learner",
+        "indicators": {
+          "EL.A.1": {
+            "description": "Actively assimilate and revise personal and career goals, select and manage current and emerging technologies to achieve them, and reflect on their successes and areas of improvement in working toward their goals.",
+            "level": "L1"
+          },
+          "EL.B.1": {
+            "description": "Consistently engage in online social networks as a means to access and promote lifelong learning in collaboration with global peers.",
+            "level": "L1"
+          },
+          "EL.C.1": {
+            "description": "Regularly revise their work habits and attitudes based on feedback from others and from functionalities embedded in digital tools to improve their learning process, and they select or creatively use technologies to share their learning in ways that are useful to others.",
+            "level": "L1"
+          },
+          "EL.D.1": {
+            "description": "Successfully use a variety of existing technologies to develop criteria and identify new digital tools and resources from emerging technologies to accomplish a defined task with fluency and ease Digital Citizen",
+            "level": "L1"
+          }
+        }
+      },
+      "DC": {
+        "title": "Digital Citizen",
+        "indicators": {
+          "DC.A.1": {
+            "description": "Analyze their digital identities and reputations within school policy to consider social media's impact on society, including demonstrating an understanding of how digital actions may have positive or negative implications for their future.",
+            "level": "L1"
+          },
+          "DC.B.1": {
+            "description": "Demonstrate and advocate for positive, safe, legal, and ethical habits when using technology and when interacting with others online.",
+            "level": "L1"
+          },
+          "DC.B.2": {
+            "description": "Distinguish potential dangers while online (e.g., malicious actors, phishing, impersonation) to prevent, detect, and combat cybersecurity threats while practicing safe and secure techniques, tactics, and practices recognizing cybersecurity is everyone's responsibility.",
+            "level": "L1"
+          },
+          "DC.C.1": {
+            "description": "Advocate and demonstrate a respect for intellectual property with both print and digital media\u2014including copyright, permission, and fair use\u2014by creating a variety of media products that include appropriate citation and attribution elements.",
+            "level": "L1"
+          },
+          "DC.D.1": {
+            "description": "Demonstrate an understanding of what personal data is and how to keep it private and secure, including the awareness of terms such as encryption, HTTPS, password strength, cookies, phishing, and computer viruses; understand the limitations of data management and how datacollection technologies work. Knowledge Constructor",
+            "level": "L1"
+          }
+        }
+      },
+      "KC": {
+        "title": "Knowledge Constructor",
+        "indicators": {
+          "KC.A.1": {
+            "description": "Plan and employ effective research strategies to locate information and other resources for their intellectual or creative pursuits.",
+            "level": "L1"
+          },
+          "KC.B.1": {
+            "description": "Evaluate the accuracy, perspective, credibility, and relevance of information, media, data, or other resources in the school and career setting.",
+            "level": "L1"
+          },
+          "KC.C.1": {
+            "description": "Curate information from digital resources, including online databases and catalogs, for research using a variety of tools and methods to create collections of artifacts that support their learning and career goals.",
+            "level": "L1"
+          },
+          "KC.D.1": {
+            "description": "Explore real-world issues and problems through inquiry and analysis, develop ideas, actively create solutions for them, and evaluate and revise through the use of digital tools. Innovative Designer",
+            "level": "L1"
+          }
+        }
+      },
+      "ID": {
+        "title": "Innovative Designer",
+        "indicators": {
+          "ID.A.1": {
+            "description": "Engage in a design process and employ it to inquire and analyze, generate ideas, create innovative products or solve authentic problems, and evaluate the process to revise if needed.",
+            "level": "L1"
+          },
+          "ID.B.1": {
+            "description": "Creatively use digital tools to support a design process and expand their understanding to identify constraints, trade-offs, and to weigh risks.",
+            "level": "L1"
+          },
+          "ID.C.1": {
+            "description": "Engage in a cyclical design process to inquire and analyze, develop ideas, test, and revise prototypes, presenting finished products and best practices learned during the development.",
+            "level": "L1"
+          },
+          "ID.D.1": {
+            "description": "Demonstrate an ability to persevere and handle greater ambiguity as they work to solve open-ended problems. Computational Thinker",
+            "level": "L1"
+          }
+        }
+      },
+      "CT": {
+        "title": "Computational Thinker",
+        "indicators": {
+          "CT.A.1": {
+            "description": "Define complex issues, create a plan, and select appropriate technology-assisted methods such as data analysis, abstract models, and algorithmic thinking in exploring and finding solutions.",
+            "level": "L1"
+          },
+          "CT.B.1": {
+            "description": "Evaluate created or given data sets, use digital tools to analyze them, and represent data in various ways to facilitate problem-solving and decision-making.",
+            "level": "L1"
+          },
+          "CT.B.2": {
+            "description": "Evaluate and justify the formats for reporting results to a variety of audiences.",
+            "level": "L1"
+          },
+          "CT.C.1": {
+            "description": "Collaborate to break problems into component parts, identify key pieces, and use that information to problem-solve.",
+            "level": "L1"
+          },
+          "CT.C.2": {
+            "description": "Use 3D design tools to create prototypes, models, and simulations to demonstrate solutions and ideas.",
+            "level": "L1"
+          },
+          "CT.D.1": {
+            "description": "Collaborate to develop an automated process by using algorithmic thinking to develop a sequence of steps to create and test automated solutions. Creative Communicator",
+            "level": "L1"
+          }
+        }
+      },
+      "CC": {
+        "title": "Creative Communicator",
+        "indicators": {
+          "CC.A.1": {
+            "description": "Use digital learning tools and resources to identify communication needs considering goals, audience, content, access to tools or devices, and timing of communication, to involve teams in diverse locales for effective communication.",
+            "level": "L1"
+          },
+          "CC.B.1": {
+            "description": "Create an original work using multiple digital tools, including planning, research, editing, and production.",
+            "level": "L1"
+          },
+          "CC.C.1": {
+            "description": "Create digital graphic visualizations, data driven models, and simulations to succinctly communicate complex ideas and problems; justify methods and tools used.",
+            "level": "L1"
+          },
+          "CC.D.1": {
+            "description": "Publish or present content designed for specific audiences using online meeting tools to asynchronous and synchronous audiences. Global Collaborator",
+            "level": "L1"
+          }
+        }
+      },
+      "GC": {
+        "title": "Global Collaborator",
+        "indicators": {
+          "GC.A.1": {
+            "description": "Use digital tools to interact with others to develop a richer understanding of different perspectives and cultures; publish electronic artifacts that communicate to a culturally diverse and global community.",
+            "level": "L1"
+          },
+          "GC.B.1": {
+            "description": "Use collaborative technologies (live and recorded) to connect with global stakeholders including peers, not excluding other languages, experts, and community members, to learn about issues and problems or to gain a broader perspective; develop multiple viewpoints that may be electronically published and accessible to all audiences.",
+            "level": "L1"
+          },
+          "GC.C.1": {
+            "description": "Learn project management roles on a team to meet goals, based on their knowledge of technology and content, as well as personal preference; goals in project, timelines and milestones, will be monitored with tools and shared globally.",
+            "level": "L1"
+          },
+          "GC.D.1": {
+            "description": "Select and justify the effective collaborative technologies (live video conference, online forums, social media, and other emerging communication methods) to investigate, develop, and publish solutions related to local and global issues.",
+            "level": "L1"
+          },
+          "GC.D.2": {
+            "description": "Understand that digital tools such as blogs and social media can be used to crowd source, crowd fund, and mobilize a community toward a goal Integrated Technology topics covered: TOPIC TOPIC TOPIC TOPIC TOPIC TOPIC emerging technologies to track goal progress safe and ethical habits when using technology evaluate resources create and revise prototypes through an iterative design process collaboration digital graphic visualizations and simulations online social networks to access and promote collaboration potential dangers in internet use curate information from digital resources perseverance in open-ended problems 3D prototype design presenting using online meeting tools revise technologies based on feedback respect for intellectual property real-world issues, problems, and solutions data analysis, abstract models, and algorithmic thinking automated processes interacting with others of different perspectives and cultures Select and use appropriate technologies protecting personal data and encryption design process data representation communication using collaborative technologies to connect globally Analyze digital identities research strategies trade-offs and risks formatting for different audiences creating original works using digital tools for crowdsourcing References K-12 Computer Science Framework. (2016). Retrieved from K-12 Computer Science Framework Tucker, A., Deek, F., Jones, J., McCowan, D., Stephenson, C., & Verno, A. (2003). A model curriculum for K-12 computer science. Final Report of the ACM K-12 Task Force Curriculum Committee, CSTA. Wing, J. M. (2006). Computational thinking. Communications of the ACM, 49(3), 33-35.",
+            "level": "L1"
+          }
+        }
+      }
+    }
+  }
+}

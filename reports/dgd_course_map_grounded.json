@@ -1,0 +1,1259 @@
+{
+  "units": [
+    {
+      "number": 1,
+      "title": "The Industry & You",
+      "days": [
+        {
+          "day": 1,
+          "title": "Course Overview + CTSO Intro + CTE Pathway",
+          "standards": [
+            "1.1.1",
+            "1.1.2",
+            "1.4.3",
+            "1.5.1",
+            "1.5.2"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "History of Computing in Games + Non-Digital Games",
+          "standards": [
+            "2.1.1",
+            "2.1.2"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Non-Digital Game Reflection",
+          "standards": [
+            "2.1.2"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Video Game Evolution + Game Genres",
+          "standards": [
+            "2.1.3",
+            "2.1.4"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Key Game Designers + Career Research (Begins)",
+          "standards": [
+            "2.1.5",
+            "2.2.1",
+            "2.2.5"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Genre Analysis Activity",
+          "standards": [
+            "2.1.4"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Game Industry Roles: Job Description Deep Dive",
+          "standards": [
+            "2.2.3",
+            "2.2.4"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Non-Traditional Careers + ESRB + Labor Market Data",
+          "standards": [
+            "2.2.2",
+            "2.2.6",
+            "7.1.6"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Assessment Submission + Industry Q&A",
+          "standards": []
+        }
+      ],
+      "standards": [
+        "1.1.1",
+        "1.1.2",
+        "1.4.3",
+        "1.5.1",
+        "1.5.2",
+        "2.1.1",
+        "2.1.2",
+        "2.1.3",
+        "2.1.4",
+        "2.1.5",
+        "2.2.1",
+        "2.2.5",
+        "2.2.3",
+        "2.2.4",
+        "2.2.2",
+        "2.2.6",
+        "7.1.6"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "How Games Are Designed",
+      "days": [
+        {
+          "day": 1,
+          "title": "Team Roles + Game Development Process",
+          "standards": [
+            "3.1.1",
+            "3.1.2"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Collaboration Tools + GitHub Setup",
+          "standards": [
+            "3.1.3",
+            "3.1.4"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "GitHub Check-In",
+          "standards": [
+            "3.1.3",
+            "3.1.4"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Game Structure + Storytelling",
+          "standards": [
+            "3.2.1",
+            "3.2.2",
+            "3.2.3"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Nonlinear Narrative + Conflict + Objectives + Win/Loss Design",
+          "standards": [
+            "3.2.3",
+            "3.2.4",
+            "3.2.5",
+            "3.2.6"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Game Deconstruction Activity",
+          "standards": [
+            "3.2.1"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Usability, UX, In-Game Economies, and Motivators",
+          "standards": [
+            "3.2.7",
+            "3.2.8"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Documentation: TDD, GDD, and Asset Lists",
+          "standards": [
+            "3.3.1",
+            "3.3.2",
+            "3.3.3",
+            "3.3.4"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "GDD Draft Peer Feedback",
+          "standards": [
+            "3.3.3"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Game Mechanics: Categories, Victory Conditions, MDA Framework",
+          "standards": [
+            "3.4.1",
+            "3.4.2",
+            "3.4.3",
+            "3.4.4"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "GDD Workshop: Finalize Part 1",
+          "standards": [
+            "3.3.3",
+            "3.3.4",
+            "3.2.6"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Assessment Submission + Concept Share-Out",
+          "standards": []
+        }
+      ],
+      "standards": [
+        "3.1.1",
+        "3.1.2",
+        "3.1.3",
+        "3.1.4",
+        "3.2.1",
+        "3.2.2",
+        "3.2.3",
+        "3.2.4",
+        "3.2.5",
+        "3.2.6",
+        "3.2.7",
+        "3.2.8",
+        "3.3.1",
+        "3.3.2",
+        "3.3.3",
+        "3.3.4",
+        "3.4.1",
+        "3.4.2",
+        "3.4.3",
+        "3.4.4"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Visual Design & Asset Creation",
+      "days": [
+        {
+          "day": 1,
+          "title": "Design Fundamentals: Layout, Composition, Color Theory",
+          "standards": [
+            "4.1.1",
+            "4.1.2"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "12 Principles of Animation + Perspective Types",
+          "standards": [
+            "4.1.3",
+            "4.1.4"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Color Theory Applied: Game Palette Analysis",
+          "standards": [
+            "4.1.2"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Design for Context: Environments, Assets, Characters, UI; 2D/2.5D/3D; Artistic Style",
+          "standards": [
+            "4.1.5",
+            "4.1.6",
+            "4.1.7"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Character Archetypes: The 12 Types; Archetypes vs. Stereotypes",
+          "standards": [
+            "4.3.1",
+            "4.3.2"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Archetype Identification Activity",
+          "standards": [
+            "4.3.1",
+            "4.3.2"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Character Design: Backstory, Arc, Progression, and Game Feel",
+          "standards": [
+            "4.3.3",
+            "4.3.4",
+            "4.3.5",
+            "4.3.6"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "NPCs; Static vs. Dynamic Objects; Organic vs. Hard Surfaces",
+          "standards": [
+            "4.3.7",
+            "4.3.8",
+            "4.3.9"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Design Sheet Peer Critique",
+          "standards": [
+            "4.3.6"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Polygon Construction: Low-Poly vs. High-Poly; Real-Time Performance",
+          "standards": [
+            "6.6.1"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "Character Design Sheet Workshop + GDD Update",
+          "standards": [
+            "4.3.6",
+            "4.1.7",
+            "4.3.3"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Assessment Submission + Share-Out",
+          "standards": []
+        }
+      ],
+      "standards": [
+        "4.1.1",
+        "4.1.2",
+        "4.1.3",
+        "4.1.4",
+        "4.1.5",
+        "4.1.6",
+        "4.1.7",
+        "4.3.1",
+        "4.3.2",
+        "4.3.3",
+        "4.3.4",
+        "4.3.5",
+        "4.3.6",
+        "4.3.7",
+        "4.3.8",
+        "4.3.9",
+        "6.6.1"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Level Design",
+      "days": [
+        {
+          "day": 1,
+          "title": "Level Components + Interior vs. Exterior Design",
+          "standards": [
+            "4.2.1",
+            "4.2.2"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Linear vs. Open World; Story Type and Level Layout",
+          "standards": [
+            "4.2.3",
+            "4.2.6"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Level Analysis Activity",
+          "standards": [
+            "4.2.1",
+            "4.2.6"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Flow, Pacing, Distance, Timing, and Choke Points",
+          "standards": [
+            "4.2.7",
+            "4.2.8"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Victory Conditions; Reward Systems; Mechanics Mapped to World Space",
+          "standards": [
+            "4.4.1",
+            "4.4.2",
+            "4.4.3",
+            "4.4.4"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Victory Condition Comparison Activity",
+          "standards": [
+            "4.4.1"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Level Storyboard Workshop (Day 1)",
+          "standards": [
+            "4.2.8",
+            "4.4.1"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Level Storyboard Workshop (Day 2) + GDD Update",
+          "standards": [
+            "4.2.8",
+            "4.4.1"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Assessment Submission + Level Map Share-Out",
+          "standards": []
+        }
+      ],
+      "standards": [
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.6",
+        "4.2.7",
+        "4.2.8",
+        "4.4.1",
+        "4.4.2",
+        "4.4.3",
+        "4.4.4"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Game Engines & Programming Logic",
+      "days": [
+        {
+          "day": 1,
+          "title": "Game Engines: Components, Comparison, Pipeline",
+          "standards": [
+            "6.1.1",
+            "6.1.2",
+            "6.1.3",
+            "6.1.4"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Unity Setup + Editor Navigation",
+          "standards": [
+            "6.1.1",
+            "6.1.2"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Engine Comparison Activity",
+          "standards": [
+            "6.1.2",
+            "6.1.3"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Programming Logic: if/then, Boolean Operators, Order of Operations, Flow Diagrams",
+          "standards": [
+            "5.1.1",
+            "5.1.4",
+            "5.1.5",
+            "5.1.6"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Functions: Parameters, Return Values, Nested Functions, Unity Game Loop",
+          "standards": [
+            "5.1.2",
+            "5.1.3"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Logic Puzzle Challenge",
+          "standards": [
+            "5.1.6"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Loops: for, while, do-while",
+          "standards": [
+            "5.1.7"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Language Concepts: Compiled vs. Interpreted, Syntax vs. Semantics, Error Types",
+          "standards": [
+            "5.1.8",
+            "5.2.1",
+            "5.2.2"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Data Types Quick Check",
+          "standards": [
+            "5.2.3"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Data Types: C# Primitives, Constants vs. Variables, Arrays",
+          "standards": [
+            "5.2.3",
+            "5.2.4",
+            "5.2.8"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "Access Modifiers, Unity Visual Scripting Demo, Pseudocode for GDD Mechanic",
+          "standards": [
+            "5.2.6",
+            "5.2.7",
+            "5.2.9",
+            "5.2.5"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Pseudocode Peer Review + Assessment Submission",
+          "standards": [
+            "5.1.6",
+            "5.2.6"
+          ]
+        }
+      ],
+      "standards": [
+        "6.1.1",
+        "6.1.2",
+        "6.1.3",
+        "6.1.4",
+        "5.1.1",
+        "5.1.4",
+        "5.1.5",
+        "5.1.6",
+        "5.1.2",
+        "5.1.3",
+        "5.1.7",
+        "5.1.8",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3",
+        "5.2.4",
+        "5.2.8",
+        "5.2.6",
+        "5.2.7",
+        "5.2.9",
+        "5.2.5"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Scripting for Games",
+      "days": [
+        {
+          "day": 1,
+          "title": "OOP: Classes, Objects, Encapsulation, Abstraction",
+          "standards": [
+            "5.2.11"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "OOP: Inheritance and Polymorphism",
+          "standards": [
+            "5.2.11"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "OOP Analogy Check",
+          "standards": [
+            "5.2.11"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Hardware Input: Unity Input Manager; Character Controller Script",
+          "standards": [
+            "5.3.4",
+            "5.2.5"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Player Movement: Rigidbody Physics, Jump, Ground Detection, Sprint",
+          "standards": [
+            "5.3.2",
+            "5.2.5"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Collision Demo Challenge",
+          "standards": [
+            "5.3.1"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Collision Detection: OnCollisionEnter vs. OnTriggerEnter; Object Activation",
+          "standards": [
+            "5.3.1",
+            "6.2.4"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "GUI and HUD: Canvas, TextMeshPro, Binding Variables to UI",
+          "standards": [
+            "5.3.3",
+            "5.3.6"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Score System Peer Test",
+          "standards": [
+            "5.3.6",
+            "5.3.7",
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Point System: Score Increment, Scene Reset, HUD Integration",
+          "standards": [
+            "5.3.7",
+            "5.3.6"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "NPC AI: State Machines, Patrol Waypoints, Chase Logic",
+          "standards": [
+            "5.1.9"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "NPC State Analysis + Prototype Submission",
+          "standards": [
+            "5.1.9"
+          ]
+        }
+      ],
+      "standards": [
+        "5.2.11",
+        "5.3.4",
+        "5.2.5",
+        "5.3.2",
+        "5.3.1",
+        "6.2.4",
+        "5.3.3",
+        "5.3.6",
+        "5.3.7",
+        "5.3.8",
+        "5.1.9"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Building Your Game",
+      "days": [
+        {
+          "day": 1,
+          "title": "Greyboxing: Environment Type, Size, and Boundary Geometry",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Level Geometry: Obstacles, Platforms, and Collision Layers",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Level Check-In",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Placing and Configuring NPCs in the Level",
+          "standards": [
+            "6.2.2"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Spawn Point, Objective Trigger, and Mechanic Verification",
+          "standards": [
+            "6.2.1",
+            "6.2.3",
+            "6.2.4"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Peer Playtesting Session 1",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "NPC Placement Share-Out",
+          "standards": [
+            "6.2.2"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "GUI Research and Flowchart Design",
+          "standards": [
+            "6.3.1",
+            "6.3.3"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Full GUI Implementation: Start Menu, HUD, Pause, Win/Lose",
+          "standards": [
+            "6.3.2",
+            "6.3.4",
+            "5.3.3"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "GUI Flowchart Peer Review",
+          "standards": [
+            "6.3.3"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "Animation Storyboard, Animator Component, Timing vs. Frame Rate",
+          "standards": [
+            "6.4.1",
+            "6.4.2",
+            "6.4.3"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Parent/Child Hierarchy, Rigging Concepts, and Animation Triggers",
+          "standards": [
+            "6.4.7",
+            "6.4.8",
+            "6.4.10",
+            "6.4.11"
+          ]
+        },
+        {
+          "day": 13,
+          "title": "Asset Sourcing Check",
+          "standards": [
+            "7.1.1",
+            "7.1.2",
+            "7.1.3"
+          ]
+        },
+        {
+          "day": 14,
+          "title": "Audio Integration: Music, SFX, and Audio Triggers",
+          "standards": [
+            "6.5.1",
+            "6.5.2",
+            "6.5.3",
+            "6.5.4"
+          ]
+        },
+        {
+          "day": 15,
+          "title": "Animation Trigger Check",
+          "standards": [
+            "6.4.10"
+          ]
+        },
+        {
+          "day": 16,
+          "title": "Asset Creation and Import: Working from the GDD",
+          "standards": [
+            "6.6.2",
+            "7.1.1",
+            "7.1.2",
+            "7.1.3"
+          ]
+        },
+        {
+          "day": 17,
+          "title": "Texturing: Materials, UVW Mapping, and Shading",
+          "standards": [
+            "6.6.3",
+            "6.6.4",
+            "6.6.7"
+          ]
+        },
+        {
+          "day": 18,
+          "title": "Lighting: Ambient, Directional, and High-Resolution Output",
+          "standards": [
+            "6.6.9",
+            "6.6.5",
+            "6.6.6"
+          ]
+        },
+        {
+          "day": 19,
+          "title": "Game Art Polish and Representation Review",
+          "standards": [
+            "6.6.2",
+            "7.3.1",
+            "7.3.2"
+          ]
+        },
+        {
+          "day": 20,
+          "title": "Audio Check-In",
+          "standards": [
+            "6.5.1",
+            "6.5.2"
+          ]
+        },
+        {
+          "day": 21,
+          "title": "Integration Pass: All Systems Live",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 22,
+          "title": "Bug Triage and High-Priority Fixes",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 23,
+          "title": "Progress Review",
+          "standards": []
+        },
+        {
+          "day": 24,
+          "title": "Peer Playtesting Session 2",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 25,
+          "title": "Diversity Reflection",
+          "standards": [
+            "7.3.1",
+            "7.3.2"
+          ]
+        },
+        {
+          "day": 26,
+          "title": "Final Polish, GitHub Cleanup, and File Verification",
+          "standards": []
+        },
+        {
+          "day": 27,
+          "title": "Bug Triage",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 28,
+          "title": "Open Work Period",
+          "standards": []
+        },
+        {
+          "day": 29,
+          "title": "Final Build Submission and Gameplay Capture",
+          "standards": []
+        },
+        {
+          "day": 30,
+          "title": "Final Build Confirmation",
+          "standards": []
+        }
+      ],
+      "standards": [
+        "6.2.1",
+        "6.2.3",
+        "6.2.2",
+        "6.2.4",
+        "6.3.1",
+        "6.3.3",
+        "6.3.2",
+        "6.3.4",
+        "5.3.3",
+        "6.4.1",
+        "6.4.2",
+        "6.4.3",
+        "6.4.7",
+        "6.4.8",
+        "6.4.10",
+        "6.4.11",
+        "7.1.1",
+        "7.1.2",
+        "7.1.3",
+        "6.5.1",
+        "6.5.2",
+        "6.5.3",
+        "6.5.4",
+        "6.6.2",
+        "6.6.3",
+        "6.6.4",
+        "6.6.7",
+        "6.6.9",
+        "6.6.5",
+        "6.6.6",
+        "7.3.1",
+        "7.3.2",
+        "5.3.8"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Finish, Present & Reflect",
+      "days": [
+        {
+          "day": 1,
+          "title": "IP Law: Copyright, Trademark, Patent, Trade Secret; Creative Commons; Open-Source",
+          "standards": [
+            "7.1.1",
+            "7.1.2",
+            "7.1.3"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Copyright in Practice: Attribution, Derivative Works, and IP Case Studies",
+          "standards": [
+            "7.1.1",
+            "7.1.2",
+            "7.1.3"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "IP Scenario Cards",
+          "standards": [
+            "7.1.1",
+            "7.1.2",
+            "7.1.3"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Diversity and Inclusion in the Game Industry",
+          "standards": [
+            "7.3.1"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Social Responsibility: Addiction Mechanics, Monetization Ethics, and ESRB Revisited",
+          "standards": [
+            "7.3.2"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Resume Peer Review",
+          "standards": [
+            "1.4.1"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Career Readiness: Professional Attire, Resume Structure, and Portfolio Basics",
+          "standards": [
+            "1.4.1",
+            "1.4.2",
+            "1.4.3",
+            "1.5.1"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Career Readiness Workshop: Write Resume or Cover Letter; FBLA; Year 2 Pathway",
+          "standards": [
+            "1.4.1",
+            "1.4.2",
+            "1.4.3",
+            "1.4.4",
+            "1.4.5",
+            "1.5.1",
+            "1.5.2",
+            "1.5.3"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Presentation Practice: 90-Second Pitch",
+          "standards": [
+            "1.4.1",
+            "1.4.4"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Presentation Prep: Full 5-Minute Pitch Structure and Practice",
+          "standards": [
+            "1.4.1",
+            "1.4.4",
+            "1.4.5"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "Presentations, Day 1",
+          "standards": [
+            "1.4.1",
+            "1.4.4",
+            "1.4.5",
+            "7.1.1",
+            "7.3.1"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Presentations Day 2; Course Reflection; Year 2 Preview",
+          "standards": [
+            "1.4.1",
+            "1.4.4",
+            "1.5.1",
+            "1.5.2",
+            "1.5.3"
+          ]
+        }
+      ],
+      "standards": [
+        "7.1.1",
+        "7.1.2",
+        "7.1.3",
+        "7.3.1",
+        "7.3.2",
+        "1.4.1",
+        "1.4.2",
+        "1.4.3",
+        "1.5.1",
+        "1.4.4",
+        "1.4.5",
+        "1.5.2",
+        "1.5.3"
+      ]
+    }
+  ],
+  "standards": {
+    "1.1.1": "Discuss the requirements of CTSO participation/involvement as described in Carl D. Perkins Law (Level 1 (L1), Level 2 (L2), Complementary )",
+    "1.1.2": "Research nationally recognized CTSOs",
+    "1.1.3": "Investigate the impact of federal and state government regarding the progression and operation of CTSOs (e.g., Federal Statutes and Regulations, Nevada Administrative Code [NAC], Nevada Revised Statutes [NRS])",
+    "1.2.1": "Discuss the purpose of parliamentary procedure",
+    "1.2.2": "Demonstrate the proper use of parliamentary procedure",
+    "1.2.3": "Differentiate between an office and a committee",
+    "1.2.4": "Discuss the importance of participation in local, regional, state, and national conferences, events, and competitions",
+    "1.2.5": "Participate in local, regional, state, or national conferences, events, or competitions",
+    "1.2.6": "Describe the importance of a constitution and bylaws to the operation of a CTSO chapter",
+    "1.3.1": "Explore opportunities in community service-related work-based learning (WBL)",
+    "1.3.2": "Participate in a service learning (program related) and/or community service project or activity",
+    "1.3.3": "Engage with business and industry partners for community service",
+    "1.4.1": "Demonstrate college and career readiness (e.g., applications, resumes, interview skills, presentation skills)",
+    "1.4.2": "Describe the appropriate professional/workplace attire and its importance",
+    "1.4.3": "Investigate industry-standard credentials/certifications available within this Career Cluster\u2122",
+    "1.4.4": "Participate in authentic contextualized instructional activities",
+    "1.4.5": "Demonstrate technical skills in various student organization activities/events",
+    "1.5.1": "Make a connection between program standards to career pathway(s)",
+    "1.5.2": "Explain the importance of participation and completion of a program of study",
+    "1.5.3": "Promote community awareness of local student organizations associated with CTE programs",
+    "2.1.1": "Explain the history of computing technologies that impact the game development industry",
+    "2.1.2": "Explore non-digital games",
+    "2.1.3": "Research the evolution of video games",
+    "2.1.4": "Describe the different game genres",
+    "2.1.5": "Evaluate contributions of individual game designers and developers",
+    "2.2.1": "Explore careers in designing and developing interactive experiences",
+    "2.2.2": "Research careers in non-interactive media using real-time game engines, including Architectural, Engineering and Construction (AEC), virtual production, architectural visualization, simulation, product/industrial design, and advertising",
+    "2.2.3": "Describe career pathways in software engineering, quality assurance, and testing",
+    "2.2.4": "Review roles of the producer, designer, art director, tech artist, and programmer",
+    "2.2.5": "Explain the career path of an independent developer",
+    "2.2.6": "Research labor market information in related industries",
+    "3.1.1": "Explain the interdependence of team members between artistic, technical, and production disciplines",
+    "3.1.2": "Outline the process of developing a game from concept to delivery and support",
+    "3.1.3": "Compare various types of collaboration tools, e.g., version control, shared storage, cloud services",
+    "3.1.4": "Explain the value of version control",
+    "3.1.5": "Explain the purpose of vertical slice",
+    "3.1.6": "Discuss various optimization techniques",
+    "3.1.7": "Describe good quality assurance practices",
+    "3.2.1": "Explore the components of game structure",
+    "3.2.2": "Analyze the essentials of storytelling, including visual and environmental story telling",
+    "3.2.3": "Explain the characteristics of a nonlinear story",
+    "3.2.4": "Create rules for a game, e.g., levels and/or interactive flow",
+    "3.2.5": "Compare conflict and outcomes",
+    "3.2.6": "Develop objectives and outcomes for a game",
+    "3.2.7": "Explain the importance of usability and how it impacts user experience",
+    "3.2.8": "Explain in-game economies, motivators, and point systems",
+    "3.3.1": "Research various styles of game documentation",
+    "3.3.2": "Develop a technical design document (TDD)",
+    "3.3.3": "Develop components of a game design document (GDD)",
+    "3.3.4": "Develop a list of required game assets",
+    "3.3.5": "Produce a game design document",
+    "3.3.6": "Produce a game pitch document",
+    "3.3.7": "Present game documentation",
+    "3.4.1": "Compare categories of game mechanics",
+    "3.4.2": "Research victory condition mechanics of a game",
+    "3.4.3": "Discuss relationships between game mechanics, game play, and interactivity",
+    "3.4.4": "Investigate what makes a game engaging, \u201cfun,\u201d and playable to the user",
+    "4.1.1": "Evaluate the use of layout and composition",
+    "4.1.2": "Explain color theory",
+    "4.1.3": "Describe the principles of animation",
+    "4.1.4": "Describe the role of perspective",
+    "4.1.5": "Compare design considerations for environmental, assets, characters, and User Interface (UI) creation",
+    "4.1.6": "Describe the characteristics and purposes of 2D, 2.5D, and 3D art",
+    "4.1.7": "Evaluate the importance of artistic style and implement it with continuity",
+    "4.2.1": "Identify components of a level and its environment",
+    "4.2.2": "Compare processes of creating interior versus exterior environments",
+    "4.2.3": "Compare level design of linear games to open world games",
+    "4.2.4": "Research terrains for a specific environment",
+    "4.2.5": "Discuss the concept of leveling up with increasing complexity",
+    "4.2.6": "Describe the impact of story (explicit, implicit, and emergent) on level design",
+    "4.2.7": "Explain the importance of flow, distance, timing, and choke points",
+    "4.2.8": "Storyboard levels including flow and choke points",
+    "4.3.1": "Investigate the twelve major character archetypes",
+    "4.3.2": "Contrast architypes versus stereotypes as they relate to diversity and inclusion",
+    "4.3.3": "Describe basic character backstory, strengths, and weaknesses",
+    "4.3.4": "Explain the visual design of characters in relation to the \u201cgame feel\u201d and artistic style",
+    "4.3.5": "Describe the connection between character arc and character progression",
+    "4.3.6": "Conceptualize and illustrate original game characters and assets",
+    "4.3.7": "Examine the roles, purpose, and design of non-player characters (NPC)",
+    "4.3.8": "Explain the difference in design between static and dynamic game objects, e.g., props, decorations versus characters, morphing objects",
+    "4.3.9": "Detail the difference between organic and hard surfaces",
+    "4.4.1": "Create a victory condition",
+    "4.4.2": "Assemble immersive elements into a game",
+    "4.4.3": "Establish a reward system and in-game economics",
+    "4.4.4": "Apply game mechanics to a game world",
+    "4.4.5": "Balance and test game mechanics",
+    "5.1.1": "Explain basic logic statements (e.g., if/then, cause/effect)",
+    "5.1.2": "Explain the purpose and use of functions",
+    "5.1.3": "Describe nested functions",
+    "5.1.4": "Describe uses of Boolean operators and symbols associated with them",
+    "5.1.5": "Demonstrate proper use of order of operations",
+    "5.1.6": "Use logical thinking to create a diagram of code execution",
+    "5.1.7": "Describe various types of loop structures used in programming",
+    "5.1.8": "Describe the differences between compiled and interpreted code",
+    "5.1.9": "Explain methods for producing artificial intelligence (AI) to control Non-Playable Characters (NPC)",
+    "5.1.10": "Research design patterns in game programming (single, factory, and state)",
+    "5.2.1": "Differentiate between syntax and semantics",
+    "5.2.2": "Identify differences between compile and runtime errors",
+    "5.2.3": "List primitive data types",
+    "5.2.4": "Describe how arrays are used to store objects in a list",
+    "5.2.5": "Demonstrate input from different sources",
+    "5.2.6": "Identify expected input and output of methods/functions",
+    "5.2.7": "Explain the connection between visual programming and coding/scripting",
+    "5.2.8": "Compare the use of constants and variables",
+    "5.2.9": "Describe the implications of access modifiers (private/public, local/global)",
+    "5.2.10": "Explore engine/programming documentation to understand available methods/functions",
+    "5.2.11": "Describe object-oriented programming (OOP)",
+    "5.3.1": "Utilize code to modify objects based on collision detection and player activation",
+    "5.3.2": "Develop code or visual script that changes aspects of player movement (e.g., sprint, jump)",
+    "5.3.3": "Develop code or visual script that responds to a graphic user interface (GUI) input (e.g., user interface design (UI) button press",
+    "5.3.4": "Develop code or visual script that responds to hardware input (e.g., keyboard key or mouse press)",
+    "5.3.5": "Generate test cases and expected results",
+    "5.3.6": "Format and display the value of a variable to a GUI",
+    "5.3.7": "Implement a basic point system for a game using visual scripting or code",
+    "5.3.8": "Verify game functionality through testing and debugging",
+    "6.1.1": "Explain the characteristics and major components of game engines (render, compiler, editor)",
+    "6.1.2": "Research various game engines for a software platform, target hardware, game style, or genre",
+    "6.1.3": "Research supplemental tools necessary to create a specific development pipeline",
+    "6.1.4": "Describe a complete game pipeline including the use of primary and supplemental tools and how they are used",
+    "6.1.5": "Compare world scales between software tools",
+    "6.1.6": "Describe considerations for importing and exporting assets",
+    "6.1.7": "Define a standard directory structure and file naming conventions",
+    "6.2.1": "Define the type, structure, and size of player environment",
+    "6.2.2": "Place and define non-player characters (NPC) into the environment",
+    "6.2.3": "Build boundaries, borders, and obstacles of levels within the game",
+    "6.2.4": "Place triggers and develop scripted events",
+    "6.2.5": "Create multiple levels for a game including start and closing screens and playable level(s)",
+    "6.3.1": "Research examples of GUI in digital and real-world environments (e.g., Heads Up Display [HUD] and road signs)",
+    "6.3.2": "Define and implement required elements for various GUIs",
+    "6.3.3": "Create flowcharts that map the GUIs\u2019 functionality",
+    "6.3.4": "Design GUIs that use standard text, 2-D, and 3-D elements (buttons, progress bars, icons, etc.)",
+    "6.4.1": "Create storyboards for planning animations",
+    "6.4.2": "Change an object\u2019s state or position over time",
+    "6.4.3": "Establish an object\u2019s relative speed (timing versus frame rate)",
+    "6.4.4": "Describe the difference between global time and local time",
+    "6.4.5": "Describe the difference between forward and inverse kinematics",
+    "6.4.6": "Examine the process of particle creation and its application to game design",
+    "6.4.7": "Explain how joints, sockets, bones, and skins are used",
+    "6.4.8": "Create a parent/child hierarchy",
+    "6.4.9": "Simulate rigid body dynamics (e.g., shattering wall, breaking glass)",
+    "6.4.10": "Animate game objects using triggers",
+    "6.4.11": "Describe the process of motion capture for animation",
+    "6.4.12": "Practice the use of cinematics and camera movements in game engines",
+    "6.5.1": "Integrate different types of audio (e.g., sound effects, ambient background, dialogue, user experience design (UX), and score)",
+    "6.5.2": "Practice creating triggers for sound, mixes, and/or loops",
+    "6.5.3": "Determine acceptable media formats and files for game development (e.g., sound, graphics, video)",
+    "6.5.4": "Identify and import appropriate media into a game engine",
+    "6.6.1": "Explain the application of low polygon and high polygon construction for real-time environments",
+    "6.6.2": "Create game assets from references and game design documents (GDD)",
+    "6.6.3": "Create hard surface and organic models using design principles (props or characters)",
+    "6.6.4": "Apply texturing/surfacing/shading/grudging to models and normal mapping",
+    "6.6.5": "Render or produce a high-resolution screenshot from within a game engine",
+    "6.6.6": "Real-time render a video, animated sequence or cutscene in a game engine",
+    "6.6.7": "Differentiate UVW mapping and world coordinate systems",
+    "6.6.8": "Explain the importance of pre-baking lights and shadows for real-time interactive environments",
+    "6.6.9": "Implement basic lighting for ambient and artificial light",
+    "6.6.10": "Create an environment including terrain, foliage and/or static objects",
+    "6.6.11": "Create custom materials/shaders",
+    "6.6.12": "Describe the use of Level of Detail (LOD) substitution, MIP mapping textures, and culling objects",
+    "7.1.1": "Research laws that govern intellectual property in diverse forms",
+    "7.1.2": "Evaluate Creative Commons and open-source licensure",
+    "7.1.3": "Explain copyright, trademark, and other intellectual property protection",
+    "7.1.4": "Identify key elements of non-disclosure agreements (NDA) and contracts",
+    "7.1.5": "Adhere to intellectual property laws and regulations and cite proprietary content and derivative works",
+    "7.1.6": "Explain Entertainment Software Rating Board (ESRB) and other rating systems for digital games",
+    "7.2.1": "Explain invasion of privacy in the use of technology",
+    "7.2.2": "Explore the issues of piracy and digital rights management (DRM)",
+    "7.2.3": "Model acceptable security practices",
+    "7.3.1": "Discuss diversity and inclusivity in games and the gaming industry",
+    "7.3.2": "Discuss social responsibility and issues concerning video gaming",
+    "8.1.1": "Describe integration of social components in a game",
+    "8.1.2": "Explain the role of social media in the gaming community",
+    "8.1.3": "Describe professional events in digital gaming",
+    "8.2.1": "Summarize characteristics of cloud gaming",
+    "8.2.2": "Evaluate the advances of multi-player gaming",
+    "8.3.1": "Discuss trends in input devices",
+    "8.3.2": "Examine current trends in output devices and displays",
+    "8.3.3": "Explore advances in peripheral devices"
+  }
+}

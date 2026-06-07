@@ -1,0 +1,789 @@
+                    Web Design and Development
+                       Program of Study with
+                   Complementary Course Standards
+
+
+
+
+                                      This document was prepared by:
+
+                 Office of Career Readiness, Adult Learning, and Education Options
+                                  Nevada Department of Education
+                                    755 N. Roop Street, Suite 201
+                                       Carson City, NV 89701
+
+                                                www.doe.nv.gov
+
+                          Adopted by the Nevada State Board of Education on
+                                            July 26, 2023
+
+
+ The Nevada Department of Education does not discriminate on the basis of race, color, religion, national origin,
+sex, disability, sexual orientation, gender identity or expression, or age in its programs and activities and provides
+                         equal access to the Boy Scouts and other designated youth groups.
+                          For inquiries, contact the Equity Coordinator at (775) 687-9200.
+                      Web Design and Development Standards                                       2023
+
+                              Nevada State Board of Education
+                                           Joseph Arrascada
+                                            Dr. René Cantú
+                                            Maggie Carlton
+                               Dr. Katherine Dockweiler, Vice President
+                                                Tate Else
+                                            Tamara Hudson
+                                              Tim Hughes
+                                             Michael Keyes
+                                        Felicia Ortiz, President
+                                        Dr. Summer Stephens
+                                             Mike Walker
+
+                             Nevada Department of Education
+                                           Jhone M. Ebert
+                                 Superintendent of Public Instruction
+
+                                          Christy McGill
+          Interim Deputy Superintendent for Educator Effectiveness and Family Engagement
+
+                                             Craig Statucki
+          Director for the Office of Career Readiness, Adult Learning, and Education Options
+
+                                           Cindi Chang
+       Education Programs Supervisor, Career Readiness, Adult Learning, and Education Options
+
+                                               Vision
+         All Nevada students are equipped and feel empowered to attain their vision of success
+
+                                              Mission
+        To improve student achievement and educator effectiveness by ensuring opportunities,
+                           facilitating learning, and promoting excellence
+
+
+
+
+Revised: 7/26/2023                      Nevada CTE Standards                                      ii
+                                   Web Design and Development Standards                                                                              2023
+
+                                                               Table of Contents
+Nevada State Board of Education / Nevada Department of Education ....................................................... ii
+
+Acknowledgements / Standards Development Members / Business and Industry Validation .....................iv
+
+Introduction................................................................................................................................................... v
+
+Program Information ..................................................................................................................................... 1
+
+Content Standard 1.0                 Integrate Career and Technical Student Organizations (CTSOs) ............................ 2
+
+Content Standard 2.0                 Foundations of Web Design and Development...................................................... 3
+
+Content Standard 3.0                 Ethical and Secure Use of Information ................................................................... 4
+
+Content Standard 4.0                 Plan and Design a Website ..................................................................................... 5
+
+Content Standard 5.0                 Website Development............................................................................................ 7
+
+Content Standard 6.0                 Publishing a Website .............................................................................................. 9
+
+Content Standard 7.0                 Advanced and Emerging Technologies in Web Development .............................. 10
+
+Complementary Courses ............................................................................................................................. 11
+
+2D Animation............................................................................................................................................... 13
+
+UI/UX for Digital Applications...................................................................................................................... 15
+
+
+
+
+Revised: 7/26/2023                                             Nevada CTE Standards                                                                         iii
+                        Web Design and Development Standards                                                   2023
+
+                                             Acknowledgements
+The development of Nevada career and technical education (CTE) standards and assessments is a
+collaborative effort sponsored by the Nevada Department of Education (NDE) Office of Career Readiness,
+Adult Learning, and Education Options. The Nevada Department of Education relies on educators and
+industry representatives who have the technical expertise and teaching experience to develop standards
+and performance indicators that truly measure student skill attainment. More importantly, the NDE would
+like to recognize the time and commitment by the writing team members in developing the career and
+technical standards for Web Design and Development.
+
+                                  Standards Development Members
+ Name                Occupation/Title              Stakeholder Affiliation   School/Organization
+ James Capra         Instructor                    Secondary Educator        Bishop Gorman High School, Las Vegas
+ Monique Gaudin      Coordinator III Educational   Business and Industry     Vegas PBS, Las Vegas
+                     Media Services                Representative
+ Kendall Hartley     Associate Professor of        Postsecondary Educator    University of Nevada, Las Vegas
+                     Learning Technology
+ Darren Hinze        Managing Owner                Business and Industry     Stepping Stone Services, Henderson
+                                                   Representative
+ Sherri Kelley       Instructor                    Secondary Educator        Carson High School, Carson City School
+                                                                             District
+ Toni McDonough      Instructor                    Secondary Educator        Spanish Springs High School, Washoe
+                                                                             County School District
+ Mahima Pandey       Instructor                    Postsecondary Educator    College of Southern Nevada, Las Vegas
+
+
+
+                                  Business and Industry Validation
+All CTE standards developed through the Nevada Department of Education are validated by business and
+industry through one or more of the following processes: (1) the standards are developed by a team
+consisting of business and industry representatives, or (2) a separate review panel is coordinated with
+industry experts to ensure the standards include the proper content, or (3) nationally recognized
+standards currently endorsed by business and industry.
+
+The Web Design and Development standards were validated through active participation of business and
+industry representatives on the development team.
+
+
+
+
+Revised: 7/26/2023                            Nevada CTE Standards                                                iv
+                       Web Design and Development Standards                                         2023
+
+                                             Introduction
+The standards in this document are designed to clearly state what the student should know and be able
+to do upon completion of a high school Web Design and Development program of study. These standards
+are designed for a two-credit course sequence that prepares the student for a technical assessment
+directly aligned to the standards.
+These exit-level standards are designed for the student to complete all standards through their
+completion of a program of study. These standards are intended to guide curriculum objectives for a
+program of study.
+The standards are organized as follows:
+        •   Content Standards are general statements that identify major areas of knowledge,
+            understanding, and the skills students are expected to learn in key subject and career
+            areas by the end of the program.
+
+        •   Performance Standards follow each content standard. Performance standards identify
+            the more specific components of each content standard and define the expected abilities
+            of students within each content standard.
+        •   Performance Indicators are very specific criteria statements for determining whether a
+            student meets the performance standard. Performance indicators may also be used as
+            learning outcomes, which teachers can identify as they plan their program learning
+            objectives. The indicators are followed by designations that reflect the course sequence
+            (e.g., L1 for the first-year course of a two-year program and L2 for the second-year course,
+            C is to designate the indicators to be taught in the complementary courses) as referenced
+            in the Core Course Sequence table.
+The crosswalks and alignments are located in the Program Supplemental Program Resources document.
+These will show where the performance indicators support the Nevada Academic Content Standards. For
+individual course descriptions, please reference the Supplemental Program Resource or the Nevada CTE
+Catalog.
+All students are encouraged to participate in the career and technical student organization (CTSO) that
+relates to the Web Design and Development program. CTSOs are co-curricular national organizations that
+directly reinforce learning in the CTE classroom through curriculum resources, competitive events, and
+leadership development. CTSOs provide students the ability to apply academic and technical knowledge,
+develop communication and teamwork skills, and cultivate leadership skills to ensure college and career
+readiness.
+The Employability Skills for Career Readiness identify the skills needed to be successful in all careers and
+must be taught as an integrated component of all CTE course sequences. These standards are available in
+a separate document.
+The Standards Reference Code is only used to identify or align performance indicators listed in the
+standards to daily lesson plans, curriculum documents, or national standards. The Standards Reference
+Code is an abbreviated name for the program, and the content standard, performance standard and
+performance indicator are referenced in the program standards. This abbreviated code for identifying
+standards uses each of these items. For example, WDD is the Standards Reference Code for Web Design
+and Development. For Content Standard 2, Performance Standard 3 and Performance Indicator 4 the
+Standards Reference Code would be WDD.2.3.4.
+
+
+
+Revised: 7/26/2023                        Nevada CTE Standards                                             v
+                     Web Design and Development Standards                                    2023
+
+                            Web Design and Development
+Program Information
+                 Program of Study: Web Design and Development
+         Standards Reference Code: WEB
+                     Career Cluster: Digital Technology
+                Career Pathway(s): Web and Digital Communications
+                   Program Length: 2-year, completed sequentially
+                              CTSO: SkillsUSA
+Program Structure Required Program of Study Courses
+   The core course sequencing is provided in the following table. Complementary Courses are available
+   and provided later in this document. The following courses provide a completed program of study.
+   The Lab is a complementary course available concurrently with the Web Design and Development II
+   course.
+
+                            Core Course Sequence (R) with Lab Course(s) (C)
+
+                   Required/
+                                             Course Title             Abbreviated Name
+                 Complementary
+
+                       R            Web Design and Development I       WEB DESG DEV I
+
+                       R           Web Design and Development II      WEB DESG DEV II
+
+                       C          Web Design and Development II LAB   WEB DESG DEV II L
+
+
+
+
+Revised: 7/26/2023                     Nevada CTE Standards                                      1
+2023                   Web Design and Development Standards
+
+CONTENT STANDARD 1.0: INTEGRATE CAREER AND TECHNICAL STUDENT ORGANIZATIONS (CTSOs)
+
+Performance Standard 1.1: Explore the History and Organization of CTSOs
+    1.1.1 Discuss the requirements of CTSO participation/involvement as described in Carl D. Perkins
+          Law (L1, L2, C)
+    1.1.2 Research nationally recognized CTSOs (L1, L2, C)
+    1.1.3 Investigate the impact of federal and state government regarding the progression and
+          operation of CTSOs (e.g., Federal Statutes and Regulations, Nevada Administrative Code [NAC],
+          Nevada Revised Statutes [NRS]) (L1, L2, C)
+
+Performance Standard 1.2: Develop Leadership Skills
+    1.2.1 Discuss the purpose of parliamentary procedure (L1, L2, C)
+    1.2.2 Demonstrate the proper use of parliamentary procedure (L1, L2, C)
+    1.2.3 Differentiate between an office and a committee (L1, L2, C)
+    1.2.4 Discuss the importance of participation in local, regional, state, and national conferences,
+          events, and competitions (L1, L2, C)
+    1.2.5 Participate in local, regional, state, or national conferences, events, or competitions (L1, L2, C)
+    1.2.6 Describe the importance of a constitution and bylaws to the operation of a CTSO chapter (L1, L2,
+          C)
+
+Performance Standard 1.3: Participate in Community Service
+    1.3.1 Explore opportunities in community service-related work-based learning (WBL) (L1, L2, C)
+    1.3.2 Participate in a service learning (program related) and/or community service project or activity
+          (L1, L2, C)
+    1.3.3 Engage with business and industry partners for community service (L1, L2, C)
+
+Performance Standard 1.4: Develop Professional and Career Skills
+    1.4.1 Demonstrate college and career readiness (e.g., applications, resumes, interview skills,
+          presentation skills) (L1, L2, C)
+    1.4.2 Describe the appropriate professional/workplace attire and its importance (L1, L2, C)
+    1.4.3 Investigate industry-standard credentials/certifications available within this Career Cluster™
+          (L1, L2, C)
+    1.4.4 Participate in authentic contextualized instructional activities (L1, L2, C)
+    1.4.5 Demonstrate technical skills in various student organization activities/events (L1, L2, C)
+
+Performance Standard 1.5: Understand the Relevance of Career and Technical Education (CTE)
+    1.5.1 Make a connection between program standards to career pathway(s) (L1, L2, C)
+    1.5.2 Explain the importance of participation and completion of a program of study (L1, L2, C)
+    1.5.3 Promote community awareness of local student organizations associated with CTE programs
+          (L1, L2, C)
+
+
+
+
+2                                           Nevada CTE Standards                        Revised: 7/26/2023
+                       Web Design and Development Standards                                        2023
+
+CONTENT STANDARD 2.0: FOUNDATIONS OF WEB DESIGN AND DEVELOPMENT
+
+Performance Standard 2.1: Understand the History of Web Design and Development
+  2.1.1 Describe the role of the World Wide Web Consortium (W3C) in defining web standards (L1)
+  2.1.2 Research the history of the World Wide Web (L1)
+  2.1.3 Compare and contrast the Internet and the World Wide Web (L1)
+
+Performance Standard 2.2: Explain Layout and Design Theory
+  2.2.1   Explain and apply color theory (L1)
+  2.2.2   Explain and apply the principles of design (L1)
+  2.2.3   Explain and apply the elements of design (L1)
+  2.2.4   Explain and apply effective typography (L1)
+  2.2.5   Evaluate the use of white space (L1)
+
+Performance Standard 2.3: Demonstrate Knowledge of Industry Terminology
+  2.3.1 Define common terminology and their acronyms (L1)
+  2.3.2 Differentiate between front-end and back-end development (L1)
+  2.3.3 Explain the various roles and careers related to web design (L1)
+
+Performance Standard 2.4: Describe the Relationship Between Social Media and Web
+                          Development
+  2.4.1   Describe the role of social media in web development (L1)
+  2.4.2   Explain the correlation between social media platforms and web links (L1)
+  2.4.3   Describe the relationship of advertising, marketing, social media, and websites (L1)
+  2.4.4   Discuss current trends in social media (L1)
+  2.4.5   Create and implement a strategy that uses social networks to drive traffic to a website (L1)
+
+Performance Standard 2.5: Describe E-Commerce
+  2.5.1   Define e-commerce as it relates to web development (L1)
+  2.5.2   Demonstrate how to integrate a shopping cart into a web page (L1)
+  2.5.3   Evaluate payment-processing options (L1)
+  2.5.4   Discuss security concerns as they relate to e-commerce (L1)
+
+
+
+
+Revised: 7/26/2023                        Nevada CTE Standards                                           3
+2023                    Web Design and Development Standards
+
+CONTENT STANDARD 3.0: ETHICAL AND SECURE USE OF INFORMATION
+
+Performance Standard 3.1: Describe Copyright Laws in Relation to Web Development
+    3.1.1   Research laws that govern intellectual property in diverse forms (L1)
+    3.1.2   Evaluate Creative Commons licensing and other free-content license types (L1)
+    3.1.3   Cite the boundaries of third-party work (L1)
+    3.1.4   Explain terms related to copyright, trademarks, patents, and other intellectual property (L1)
+
+Performance Standard 3.2: Explain Security Issues in Relation to Web Development
+    3.2.1   Explain invasion of privacy in the use of technology (L1)
+    3.2.2   Model acceptable security practices (L1)
+    3.2.3   Analyze the implications of a personal digital footprint (L1)
+    3.2.4   Differentiate between secure and unsecure web protocols (L1)
+    3.2.5   Explain the implications of General Data Protection Regulations (GDPR) (L1)
+    3.2.6   Explain the implications of Nevada Consumer Privacy Act (L1)
+    3.2.7   Compare and contrast global privacy policies and cultural impacts (L1)
+    3.2.8   Describe how a security certificate protects a website (L1)
+
+Performance Standard 3.3: Apply Personal and Professional Ethics
+    3.3.1 Model legal and ethical use of information (L1)
+    3.3.2 Describe the purpose of a non-disclosure agreement (NDA) (L1)
+    3.3.3 Analyze content for bias (L1)
+
+
+
+
+4                                            Nevada CTE Standards                         Revised: 7/26/2023
+                        Web Design and Development Standards                                         2023
+
+CONTENT STANDARD 4.0: PLAN AND DESIGN A WEBSITE
+
+Performance Standard 4.1: Web Design and Development Cycle
+  4.1.1 Describe the web design and development cycle (L1)
+  4.1.2 Demonstrate the web design and development cycle (e.g., analyze, design, develop,
+        implement, evaluate) (L1, L2)
+
+Performance Standard 4.2: Develop a File Management System
+  4.2.1   Create a maintainable directory structure for a website (L1, L2)
+  4.2.2   Apply appropriate file naming protocols (L1, L2)
+  4.2.3   Describe the usage of correct file paths for relative and absolute links (L1, L2)
+  4.2.4   Recognize the relationship between local and remote site structures (L1, L2)
+  4.2.5   Develop a data backup procedures plan (L1, L2)
+
+Performance Standard 4.3: Demonstrate Proper Layout Techniques
+  4.3.1   Identify commonly used layout techniques for web design (L1)
+  4.3.2   Develop an appropriate navigation system (site map) (L1)
+  4.3.3   Develop wireframes for initial responsive design concepts (L1)
+  4.3.4   Develop responsive design for various devices (L1)
+  4.3.5   Identify the uses of Cascading Style Sheets (CSS) (L1)
+
+Performance Standard 4.4: Create Web Content
+  4.4.1   Discuss and differentiate voice, tone, and style as it applies to web writing (L1)
+  4.4.2   Determine the primary and secondary purposes of web content (L1)
+  4.4.3   Identify target audiences and reading levels for specific websites (L1, L2)
+  4.4.4   Identify and create a list of keywords and descriptions (meta tags) to include in web content
+          for search engine optimization (SEO) (L1, L2)
+  4.4.5   Apply grammar and spelling conventions to content (L1, L2)
+  4.4.6   Evaluate existing content for web use (e.g., images, print documents, text, video) (L1)
+  4.4.7   Create a branding message that will present a professional image (L1)
+  4.4.8   List and describe best practices in content creation that foster indexing and ranking of
+          websites (L1)
+
+Performance Standard 4.5: Create and Edit Media for the Web
+  4.5.1   Describe common media file formats (L1, L2)
+  4.5.2   Identify appropriate software for media creation (L1, L2)
+  4.5.3   Create and edit media files (e.g., sound, video, graphics, interactive media, multimedia) (L1, L2)
+  4.5.4   Optimize media files for uploading using compression tools (L1, L2)
+  4.5.5   Embed media files in a web design (L1, L2)
+  4.5.6   Calculate and convert images to desired sizes and resolution (L1, L2)
+
+
+
+
+Revised: 7/26/2023                         Nevada CTE Standards                                           5
+2023                   Web Design and Development Standards
+
+Performance Standard 4.6: Demonstrate Knowledge of Challenges Associated with
+                          Accessibility and Usability
+    4.6.1 Describe regional, national, and international legal requirements and standards for
+          accessibility on the web (L1)
+    4.6.2 Identify types of disabilities that should be considered when designing websites (L1)
+    4.6.3 Optimize websites to accommodate users with special needs (L1, L2)
+    4.6.4 Explain website usability procedures (L1)
+    4.6.5 Research Americans with Disabilities Act (ADA) compliance regulations and policies (L1)
+
+
+
+
+6                                          Nevada CTE Standards                       Revised: 7/26/2023
+                       Web Design and Development Standards                                          2023
+
+CONTENT STANDARD 5.0: WEBSITE DEVELOPMENT
+
+Performance Standard 5.1: Develop a Website Using Hypertext Markup Language (HTML)
+  5.1.1   Explain the purpose of Hypertext Markup Language (HTML) in website development (L1)
+  5.1.2   Differentiate among the different versions of HTML (L1)
+  5.1.3   Identify HTML tags for authoring a web page document (L1)
+  5.1.4   Code a basic web page utilizing proper HTML document structure in a text editor (L1)
+  5.1.5   Utilize verification tools to verify code (L1)
+
+Performance Standard 5.2: Describe Concepts and Use of Cascading Style Sheets
+  5.2.1 Describe the role of CSS in relation to web design (L1)
+  5.2.2 Identify the structure of CSS style rules (L1)
+  5.2.3 Describe CSS selector types (L1)
+  5.2.4 Differentiate between internal, external, and inline style sheets (L1)
+  5.2.5 Use CSS to style webpage content (e.g., typography, web fonts) (L1)
+  5.2.6 Use CSS to lay out webpage content (e.g., flexbox, grid, positioning: static, relative, absolute,
+        fixed) (L1)
+  5.2.7 Utilize online validation tools for CSS (L1)
+  5.2.8 Describe the function of a CSS preprocessor (L2)
+
+Performance Standard 5.3: Apply Foundations of Web Scripting
+  5.3.1   Explain the use of current web scripting technologies (L2)
+  5.3.2   Implement scripting (e.g., rollovers, form scripts) (L2)
+  5.3.3   Compare and contrast client (browser) scripting and server scripting (e.g., PHP, JavaScript) (L2)
+  5.3.4   Enhance interactivity of websites using current scripting trends (L2)
+  5.3.5   Compare and contrast static versus dynamic websites (L2)
+  5.3.6   Utilize online validation tools for web scripting (L2)
+
+Performance Standard 5.4: Develop Databases
+  5.4.1   Identify and describe relational databases (L2)
+  5.4.2   Analyze various databases used in web development (L2)
+  5.4.3   Describe the purpose of a database as it relates to web development (L2)
+  5.4.4   Incorporate a database into a website where possible (e.g., local storage, external database)
+          (L2)
+
+Performance Standard 5.5: Utilize Content Management Systems in Web Development
+  5.5.1 Identify content management systems (CMS) (e.g., WordPress, Joomla) (L2)
+  5.5.2 Evaluate current trends in CMS (e.g., blogging, online magazine, corporate websites) and
+        learning management system (LMS [e.g., Canvas]) (L2)
+  5.5.3 Explore WYSIWYG software (e.g., Dreamweaver) for web development (L2)
+
+
+
+
+Revised: 7/26/2023                        Nevada CTE Standards                                            7
+2023                  Web Design and Development Standards
+
+Performance Standard 5.6: Utilize Online Collaboration Resources
+    5.6.1 Define cloud computing (L2)
+    5.6.2 Compare various cloud computing platforms (e.g., Microsoft Azure, Amazon AWS, Google
+          Cloud) (L2)
+    5.6.3 Explain the role of version control when developing with a team (L2)
+
+
+
+
+8                                        Nevada CTE Standards                    Revised: 7/26/2023
+                       Web Design and Development Standards                                      2023
+
+CONTENT STANDARD 6.0: PUBLISHING A WEBSITE
+
+Performance Standard 6.1: Understand Fundamentals of Web Hosting
+  6.1.1   Identify the various server operating systems used to host web pages (L2)
+  6.1.2   Describe how servers work in a hosting environment (L2)
+  6.1.3   Explain the relationship between client and server (L2)
+  6.1.4   Explain common web server maintenance routines (L2)
+  6.1.5   Describe the technical requirements involved in choosing a web host (L2)
+
+Performance Standard 6.2: Demonstrate Publishing to the Web
+  6.2.1   Identify the purpose of Secure File Transfer Protocol (SFTP) (L2)
+  6.2.2   Demonstrate the use of SFTP (L2)
+  6.2.3   Preview and test web pages for compatibility using various browsers and output devices (L2)
+  6.2.4   Describe the process of locating and registering a domain name (L2)
+  6.2.5   Explain domain name servers (DNS) (L2)
+
+Performance Standard 6.3: Maintain Web Content
+  6.3.1   Evaluate content with client for relevancy (L2)
+  6.3.2   Evaluate content for viability (L2)
+  6.3.3   Monitor validity of hyperlinks (L2)
+  6.3.4   Maintain and update all website documentation (e.g., prototype, site map, navigation) (L2)
+  6.3.5   Analyze web analytics for purposes of improving traffic, user experience, and meeting targeted
+          goals (L2)
+
+
+
+
+Revised: 7/26/2023                       Nevada CTE Standards                                           9
+2023                     Web Design and Development Standards
+
+CONTENT STANDARD 7.0: ADVANCED AND EMERGING TECHNOLOGIES IN WEB DEVELOPMENT
+
+Performance Standard 7.1: Develop a Web App
+     7.1.1 Analyze current programming languages and/or platforms used in web app development (L2)
+     7.1.2 Explain the purpose of Application Programming Interface (API) in app development (L2)
+     7.1.3 Develop an app using a modern programming language and/or platform (L2)
+
+Performance Standard 7.2: Explain Artificial Intelligence (AI)
+     7.2.1   Define Artificial Intelligence (L2)
+     7.2.2   Explain the role of AI in web development (L2)
+     7.2.3   Describe how AI changes the user experience (L2)
+     7.2.4   Explain the significance of data in the development of AI (L2)
+
+Performance Standard 7.3: Research Non-Standard Web Connected Devices
+     7.3.1 Research Internet of Things (IoT) as it relates to web development (L2)
+     7.3.2 Explain the impact of digital assistants on web development (L2)
+
+Performance Standard 7.4: Explore Virtual (VR) and Augmented (AR) Reality
+     7.4.1 Explore use of VR and AR in web design (L2)
+     7.4.2 Research emerging applications of VR and AR in non-entertainment venues (L2)
+
+
+
+
+10                                            Nevada CTE Standards                   Revised: 7/26/2023
+  2023                   Web Design and Development Standards
+
+   Complementary Courses
+   State Complementary Skill Standards
+        State complementary skill standards are designed to clearly state what the student should know and
+        be able to do upon completion of a one-year complementary course related to their career and
+        technical education (CTE) program of study. Completion of the qualifying Program of Study is
+        required prior to enrollment in a complementary course.
+
+   Employability Skills for Career Readiness Standards
+        Students have completed all program content standards and will pursue advanced study through
+        investigation and in-depth research.
+
+                     Complementary Course Standards Contributing Members
+                                                                  Stakeholder
+Course Contribution(s)   Name                  Occupation/Title                           School/Organization
+                                                                  Affiliation
+                                                                  Postsecondary           College of Southern Nevada, Las
+2D Animation             Scott Bennett         Instructor
+                                                                  Educator                Vegas
+                                                                  Business and Industry
+2D Animation             John Gonzalez         Service Manager                            Findlay Auto Group, Henderson
+                                                                  Representative
+2D Animation             Tristan Hays          CTE Coordinator    Secondary Educator      Clark County School District
+                                                                                          Spring Valley High School, Clark
+2D Animation             Stephen Ludwig        Instructor         Secondary Educator
+                                                                                          County School District
+                                                                                          Coronado High School, Clark
+2D Animation             Dawnne Smith          Instructor         Secondary Educator
+                                                                                          County School District
+                                                                                          Edward C Reed High School,
+2D Animation             Todd Teague           Instructor         Secondary Educator
+                                                                                          Washoe County School District
+                                                                                          Shadow Ridge High School, Clark
+2D Animation             Adam Tucker           Instructor         Secondary Educator
+                                                                                          County School District
+UI/UX For Digital                                                                         Desert Pines High School, Clark
+                         James Black           Instructor         Secondary Educator
+Applications                                                                              County School District
+UI/UX For Digital                                                                         Spanish Springs High School,
+                         Toni McDonough        Instructor         Secondary Educator
+Applications                                                                              Washoe County School District
+UI/UX For Digital                                                                         Centennial High School, Clark
+                         Cassandra Smith       Instructor         Secondary Educator
+Applications                                                                              County School District
+                                                                                          Nevada Virtual Learning
+UI/UX For Digital
+                         Denise Snow           Instructor         Secondary Educator      Academy, Clark County School
+Applications
+                                                                                          District
+UI/UX For Digital                                                                         Reno High School, Washoe
+                         Christina Carlson     Instructor         Secondary Educator
+Applications                                                                              County School District
+
+
+                                        Business and Industry Validation
+   All CTE standards developed through the Nevada Department of Education are validated by business and
+   industry through one or more of the following processes: (1) the standards are developed by a team
+   consisting of business and industry representatives, or (2) a separate review panel is coordinated with
+   industry experts to ensure the standards include the proper content, or (3) nationally recognized
+   standards currently endorsed by business and industry.
+   The 2D Animation complementary standards for Web Design and Development program of study were
+   validated through active participation of business and industry representatives on the development team.
+
+
+
+   11                                           Nevada CTE Standards                          Revised: 7/26/2023
+2023                  Web Design and Development Standards
+
+                       Complementary Course Information for
+                          Web Design and Development
+Program Information
+           Qualifying Program of Study: Web Design and Development
+                         Career Cluster: Digital Technology
+                     Career Pathway(s): Web and Digital Communications
+                                  CTSO: SkillsUSA
+                           Grade Level: 11-12
+Program Structure for Complementary Courses
+      The complementary courses are provided in the following table. The qualifying program of study
+      must be completed prior to enrolling in the complementary courses (except labs that are done
+      concurrently with the second-year course). A program does not have to utilize the complementary
+      courses for students to complete their program of study.
+                                            Complementary Courses
+
+       Required/
+                                                  Course Title                             Abbreviated Name
+     Complementary
+
+           C                     2D Animation for Web Design and Development               2D ANIMATE WDD
+
+           C              UI/UX for Digital Applications for Web Design and Development     UI UX DIGI WDD
+
+           C                     Web Design and Development Advanced Studies               WEB DESG DEV AS
+
+           C             Industry-Recognized Credential – Web Design and Development       IRC WEB DESG DEV
+
+           C                     CTE Work Experience – Information Technology               WORK EXPER IT
+
+
+
+
+12                                           Nevada CTE Standards                         Revised: 7/26/2023
+                       Web Design and Development Standards                                     2023
+
+                           Complementary Course Standards
+                                  2D Animation
+CONTENT STANDARD 1.0: THE FIELD OF ANIMATION
+Performance Standard 1.1: Purposes and Uses of Animation
+  1.1.1 Research careers in animation
+  1.1.2 Describe trends in animation
+  1.1.3 Explain types of animation (i.e., traditional, stop motion, motion graphic, computer-generated
+        imagery [CGI], and interface animation)
+
+Performance Standard 1.2: Communicate Ideas Using Appropriate Industry Terminology
+  1.2.1 Formulate written communications using industry terminology
+  1.2.2 Practice verbal communication using industry terminology
+  1.2.3 Prepare and deliver a visual presentation utilizing appropriate industry terminology
+
+Performance Standard 1.3 Apply the Animation Production Process
+  1.3.1   Summarize the general production process
+  1.3.2   Practice the production process
+  1.3.3   Manage production assets
+  1.3.4   Practice time management to meet production deadlines
+  1.3.5   Model fair use in production of animated works
+
+CONTENT STANDARD 2.0: PRE-PRODUCTION
+Performance Standard 2.1: Implement Concept Development Practices
+  2.1.1   Practice brainstorming and ideation to develop a concept
+  2.1.2   Conduct visual research to provide reference for a project
+  2.1.3   Produce thumbnails, roughs, and comprehensive layouts for presentation
+  2.1.4   Design and develop environments
+  2.1.5   Design and develop 2D animated assets and characters
+
+Performance Standard 2.2: Demonstrate Knowledge of Visual Design
+  2.2.1   Apply the elements and principles of design
+  2.2.2   Apply the twelve principles of animation
+  2.2.3   Explain the role of visual language in an animation project
+  2.2.4   Apply the principles of animation to create animated sequences
+
+Performance Standard 2.3: Create Storyboards
+  2.3.1 Illustrate actions with sequential panels
+  2.3.2 Evaluate and revise storyboards for effectiveness and feasibility
+  2.3.3 Describe appropriate camera placement for shot composition
+
+
+
+
+Revised: 7/26/2023                      Nevada CTE Standards                                      13
+2023                     Web Design and Development Standards
+
+CONTENT STANDARD 3.0: 2D ANIMATION TECHNIQUES
+Performance Standard 3.1: Apply Methodologies of 2D Animation
+     3.1.1 Apply straight ahead and pose to pose techniques
+     3.1.2 Apply keyframing, tweens, and breakdowns
+     3.1.3 Simulate a naturally occurring or mechanical cycle/loop
+
+Performance Standard 3.2: Perform Motion Design
+     3.2.1   Demonstrate an object following a path
+     3.2.2   Apply masking techniques
+     3.2.3   Simulate depth
+     3.2.4   Implement camera settings (depth of field, focal length, etc.)
+     3.2.5   Create lighting
+     3.2.6   Animate kinetic typography
+     3.2.7   Practice particle systems and visual effects
+     3.2.8   Implement motion tracking
+     3.2.9   Coordinate animated objects to sound
+
+Performance Standard 3.3: Create Character Animation
+     3.3.1 Design a character
+     3.3.2 Create rigging for characters (parent/child, joint/bone chain, etc.)
+     3.3.3 Practice lip sync with audio
+
+CONTENT STANDARD 4.0: POST-PRODUCTION
+Performance Standard 4.1: Create Final Output
+     4.1.1 Demonstrate editing and compositing techniques
+     4.1.2 Select and render appropriate format for distribution
+     4.1.3 Conduct peer and self-evaluations using rubrics
+
+
+
+
+14                                            Nevada CTE Standards                Revised: 7/26/2023
+                       Web Design and Development Standards                                          2023
+
+                            Complementary Course Standards
+                              UI/UX For Digital Applications
+CONTENT STANDARD 1.0: USER INTERFACE/USER EXPERIENCE (UI/UX) INDUSTRY PRACTICES
+Performance Standard 1.1: Explore UI/UX in Industry
+  1.1.1   Define UI/ UX
+  1.1.2   Explore careers in UI/ UX
+  1.1.3   Compare UI/UX
+  1.1.4   Describe ways UI/UX complement and connect with each other
+  1.1.5   Explain various platforms that utilize UI/UX
+  1.1.6   Map roles of UI and UX in a project
+  1.1.7   Analyze project management tools and software
+  1.1.8   Compare front-end design vs. back-end builds
+
+Performance Standard 1.2 Practice Design Techniques
+  1.2.1 Create wireframes, prototypes, user journeys ad user personas
+  1.2.2 Implement the design cycle in a project, (i.e., Identify, research, ideation, evaluate, prototype,
+        test, and improve)
+  1.2.3 Explain the application of responsive vs adaptive design
+  1.2.4 Explain Data-Driven Design vs. Predictive Design
+  1.2.5 Apply website standard typography to a project
+  1.2.6 Apply elements and principles of design
+
+CONTENT STANDARD 2.0: USER EXPERIENCE (UX)
+Performance Standard 2.1: Identify User Needs
+  2.1.1   Research audience needs, values, abilities, and limitations
+  2.1.2   Complete a competitor analysis
+  2.1.3   Develop a plan for solving user problems
+  2.1.4   Critique the plan
+  2.1.5   Identify needs for user acquisition & retention
+  2.1.6   Match application with the real-world human behaviors and senses
+
+Performance Standard 2.2: Practice Communication Skills
+  2.2.1   Interact with a team during all stages of a project
+  2.2.2   Collaborate with stakeholders during all stages of a project
+  2.2.3   Create a client brief and contract
+  2.2.4   Present ideas to clients and internal team members
+  2.2.5   Compare sprints vs. crunching working methods
+  2.2.6   Discuss the elements of the critique process (e.g., respect for peer work, ability to give and
+          receive criticism, etc.)
+
+
+
+
+Revised: 7/26/2023                        Nevada CTE Standards                                             15
+2023                     Web Design and Development Standards
+
+Performance Standard 2.3: Explain the Nature of E-commerce
+     2.3.1   Discuss the functionality of commerce sites versus informational sites
+     2.3.2   Explain the purpose of a buy path
+     2.3.3   Describe user support topics (e.g., FAQs, returns, chat boxes, etc.)
+     2.3.4   Explain the importance of Search Engine Optimization (SEO)
+     2.3.5   Use data analysis to improve website
+     2.3.6   Research secure ways to access web sites and apps
+CONTENT STANDARD 3.0: USER INTERFACE (UI)
+Performance Standard 3.1: Implement Industry Practices In UI
+     3.1.1   Apply consistency across project
+     3.1.2   Examine universal usability
+     3.1.3   Critic and revise based on informative feedback
+     3.1.4   Discuss technical limitations of platform and device
+     3.1.5   Debug and resolve issues in a project
+     3.1.6   Test and revise with users (i.e., soft and hard launch)
+     3.1.7   Discuss the purpose of allowing user control
+     3.1.8   Utilize appropriate file type for various applications
+
+Performance Standard 3.2: Examine Ethical and Legal Issues
+     3.2.1   Analyze interface for Americans with Disabilities Act (ADA) compliance
+     3.2.2   Research laws governing brand issues, trademark, and other proprietary rights
+     3.2.3   Discuss consequences of violating copyright, privacy, and data security laws
+     3.2.4   Define and debate fair use, including authorships, rights of use for work and likeness, and
+             credit lines
+
+Performance Standard 3.3: Emerging Technology and Trends
+     3.3.1 Explain why UI/UX needs to adapt to emerging technologies
+     3.3.2 Describe sustainable design, (i.e., lifecycle of product, environmentally friendly, fiscally
+           responsible)
+     3.3.3 Research intuitive and jester-based interfaces in UI/UX
+     3.3.4 Discuss the application of augmented reality (AR), virtual reality (VR), and artificial intelligence
+           (AI)
+     3.3.5 Discuss evolving UI design trends (e.g., minimalist, skeuomorphic, 3D isometric, Flat Design
+           styles, etc.)
+     3.3.6 Research the impacts of UX/UI in voice assistant technology (e.g., Amazon Alexa, Google
+           Home, Apple’s Siri, Microsoft’s Cortana, etc.)
+
+CONTENT STANDARD 4: PORTFOLIO DEVELOPMENT
+Performance Standard 4.1: Create and Maintain a Portfolio
+     4.1.1 Research and compare the various types of personal portfolios
+     4.1.2 Develop UI/UX portfolios
+
+
+16                                             Nevada CTE Standards                        Revised: 7/26/2023
+

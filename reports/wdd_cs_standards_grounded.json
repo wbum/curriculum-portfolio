@@ -1,0 +1,761 @@
+{
+ "1.0": {
+  "title": "INTEGRATE CAREER AND TECHNICAL STUDENT ORGANIZATIONS (CTSOs)",
+  "performance_standards": {
+   "1.1": {
+    "title": "Explore the History and Organization of CTSOs",
+    "indicators": {
+     "1.1.1": {
+      "description": "Discuss the requirements of CTSO participation/involvement as described in Carl D. Perkins Law",
+      "level": "L1, L2, C"
+     },
+     "1.1.2": {
+      "description": "Research nationally recognized CTSOs",
+      "level": "L1, L2, C"
+     },
+     "1.1.3": {
+      "description": "Investigate the impact of federal and state government regarding the progression and operation of CTSOs (e.g., Federal Statutes and Regulations, Nevada Administrative Code [NAC], Nevada Revised Statutes [NRS])",
+      "level": "L1, L2, C"
+     }
+    }
+   },
+   "1.2": {
+    "title": "Develop Leadership Skills",
+    "indicators": {
+     "1.2.1": {
+      "description": "Discuss the purpose of parliamentary procedure",
+      "level": "L1, L2, C"
+     },
+     "1.2.2": {
+      "description": "Demonstrate the proper use of parliamentary procedure",
+      "level": "L1, L2, C"
+     },
+     "1.2.3": {
+      "description": "Differentiate between an office and a committee",
+      "level": "L1, L2, C"
+     },
+     "1.2.4": {
+      "description": "Discuss the importance of participation in local, regional, state, and national conferences, events, and competitions",
+      "level": "L1, L2, C"
+     },
+     "1.2.5": {
+      "description": "Participate in local, regional, state, or national conferences, events, or competitions",
+      "level": "L1, L2, C"
+     },
+     "1.2.6": {
+      "description": "Describe the importance of a constitution and bylaws to the operation of a CTSO chapter",
+      "level": "L1, L2, C"
+     }
+    }
+   },
+   "1.3": {
+    "title": "Participate in Community Service",
+    "indicators": {
+     "1.3.1": {
+      "description": "Explore opportunities in community service-related work-based learning (WBL)",
+      "level": "L1, L2, C"
+     },
+     "1.3.2": {
+      "description": "Participate in a service learning (program related) and/or community service project or activity",
+      "level": "L1, L2, C"
+     },
+     "1.3.3": {
+      "description": "Engage with business and industry partners for community service",
+      "level": "L1, L2, C"
+     }
+    }
+   },
+   "1.4": {
+    "title": "Develop Professional and Career Skills",
+    "indicators": {
+     "1.4.1": {
+      "description": "Demonstrate college and career readiness (e.g., applications, resumes, interview skills, presentation skills)",
+      "level": "L1, L2, C"
+     },
+     "1.4.2": {
+      "description": "Describe the appropriate professional/workplace attire and its importance",
+      "level": "L1, L2, C"
+     },
+     "1.4.3": {
+      "description": "Investigate industry-standard credentials/certifications available within this Career Cluster\u2122",
+      "level": "L1, L2, C"
+     },
+     "1.4.4": {
+      "description": "Participate in authentic contextualized instructional activities",
+      "level": "L1, L2, C"
+     },
+     "1.4.5": {
+      "description": "Demonstrate technical skills in various student organization activities/events",
+      "level": "L1, L2, C"
+     }
+    }
+   },
+   "1.5": {
+    "title": "Understand the Relevance of Career and Technical Education (CTE)",
+    "indicators": {
+     "1.5.1": {
+      "description": "Make a connection between program standards to career pathway(s)",
+      "level": "L1, L2, C"
+     },
+     "1.5.2": {
+      "description": "Explain the importance of participation and completion of a program of study",
+      "level": "L1, L2, C"
+     },
+     "1.5.3": {
+      "description": "Promote community awareness of local student organizations associated with CTE programs",
+      "level": "L1, L2, C"
+     }
+    }
+   }
+  }
+ },
+ "2.0": {
+  "title": "FOUNDATIONS OF WEB DESIGN AND DEVELOPMENT",
+  "performance_standards": {
+   "2.1": {
+    "title": "Understand the History of Web Design and Development",
+    "indicators": {
+     "2.1.1": {
+      "description": "Describe the role of the World Wide Web Consortium (W3C) in defining web standards",
+      "level": "L1"
+     },
+     "2.1.2": {
+      "description": "Research the history of the World Wide Web",
+      "level": "L1"
+     },
+     "2.1.3": {
+      "description": "Compare and contrast the Internet and the World Wide Web",
+      "level": "L1"
+     }
+    }
+   },
+   "2.2": {
+    "title": "Explain Layout and Design Theory",
+    "indicators": {
+     "2.2.1": {
+      "description": "Explain and apply color theory",
+      "level": "L1"
+     },
+     "2.2.2": {
+      "description": "Explain and apply the principles of design",
+      "level": "L1"
+     },
+     "2.2.3": {
+      "description": "Explain and apply the elements of design",
+      "level": "L1"
+     },
+     "2.2.4": {
+      "description": "Explain and apply effective typography",
+      "level": "L1"
+     },
+     "2.2.5": {
+      "description": "Evaluate the use of white space",
+      "level": "L1"
+     }
+    }
+   },
+   "2.3": {
+    "title": "Demonstrate Knowledge of Industry Terminology",
+    "indicators": {
+     "2.3.1": {
+      "description": "Define common terminology and their acronyms",
+      "level": "L1"
+     },
+     "2.3.2": {
+      "description": "Differentiate between front-end and back-end development",
+      "level": "L1"
+     },
+     "2.3.3": {
+      "description": "Explain the various roles and careers related to web design",
+      "level": "L1"
+     }
+    }
+   },
+   "2.4": {
+    "title": "Describe the Relationship Between Social Media and Web",
+    "indicators": {
+     "2.4.1": {
+      "description": "Describe the role of social media in web development",
+      "level": "L1"
+     },
+     "2.4.2": {
+      "description": "Explain the correlation between social media platforms and web links",
+      "level": "L1"
+     },
+     "2.4.3": {
+      "description": "Describe the relationship of advertising, marketing, social media, and websites",
+      "level": "L1"
+     },
+     "2.4.4": {
+      "description": "Discuss current trends in social media",
+      "level": "L1"
+     },
+     "2.4.5": {
+      "description": "Create and implement a strategy that uses social networks to drive traffic to a website",
+      "level": "L1"
+     }
+    }
+   },
+   "2.5": {
+    "title": "Describe E-Commerce",
+    "indicators": {
+     "2.5.1": {
+      "description": "Define e-commerce as it relates to web development",
+      "level": "L1"
+     },
+     "2.5.2": {
+      "description": "Demonstrate how to integrate a shopping cart into a web page",
+      "level": "L1"
+     },
+     "2.5.3": {
+      "description": "Evaluate payment-processing options",
+      "level": "L1"
+     },
+     "2.5.4": {
+      "description": "Discuss security concerns as they relate to e-commerce",
+      "level": "L1"
+     }
+    }
+   }
+  }
+ },
+ "3.0": {
+  "title": "ETHICAL AND SECURE USE OF INFORMATION",
+  "performance_standards": {
+   "3.1": {
+    "title": "Describe Copyright Laws in Relation to Web Development",
+    "indicators": {
+     "3.1.1": {
+      "description": "Research laws that govern intellectual property in diverse forms",
+      "level": "L1"
+     },
+     "3.1.2": {
+      "description": "Evaluate Creative Commons licensing and other free-content license types",
+      "level": "L1"
+     },
+     "3.1.3": {
+      "description": "Cite the boundaries of third-party work",
+      "level": "L1"
+     },
+     "3.1.4": {
+      "description": "Explain terms related to copyright, trademarks, patents, and other intellectual property",
+      "level": "L1"
+     }
+    }
+   },
+   "3.2": {
+    "title": "Explain Security Issues in Relation to Web Development",
+    "indicators": {
+     "3.2.1": {
+      "description": "Explain invasion of privacy in the use of technology",
+      "level": "L1"
+     },
+     "3.2.2": {
+      "description": "Model acceptable security practices",
+      "level": "L1"
+     },
+     "3.2.3": {
+      "description": "Analyze the implications of a personal digital footprint",
+      "level": "L1"
+     },
+     "3.2.4": {
+      "description": "Differentiate between secure and unsecure web protocols",
+      "level": "L1"
+     },
+     "3.2.5": {
+      "description": "Explain the implications of General Data Protection Regulations (GDPR)",
+      "level": "L1"
+     },
+     "3.2.6": {
+      "description": "Explain the implications of Nevada Consumer Privacy Act",
+      "level": "L1"
+     },
+     "3.2.7": {
+      "description": "Compare and contrast global privacy policies and cultural impacts",
+      "level": "L1"
+     },
+     "3.2.8": {
+      "description": "Describe how a security certificate protects a website",
+      "level": "L1"
+     }
+    }
+   },
+   "3.3": {
+    "title": "Apply Personal and Professional Ethics",
+    "indicators": {
+     "3.3.1": {
+      "description": "Model legal and ethical use of information",
+      "level": "L1"
+     },
+     "3.3.2": {
+      "description": "Describe the purpose of a non-disclosure agreement (NDA)",
+      "level": "L1"
+     },
+     "3.3.3": {
+      "description": "Analyze content for bias",
+      "level": "L1"
+     }
+    }
+   }
+  }
+ },
+ "4.0": {
+  "title": "PLAN AND DESIGN A WEBSITE",
+  "performance_standards": {
+   "4.1": {
+    "title": "Web Design and Development Cycle",
+    "indicators": {
+     "4.1.1": {
+      "description": "Describe the web design and development cycle",
+      "level": "L1"
+     },
+     "4.1.2": {
+      "description": "Demonstrate the web design and development cycle (e.g., analyze, design, develop, implement, evaluate)",
+      "level": "L1, L2"
+     }
+    }
+   },
+   "4.2": {
+    "title": "Develop a File Management System",
+    "indicators": {
+     "4.2.1": {
+      "description": "Create a maintainable directory structure for a website",
+      "level": "L1, L2"
+     },
+     "4.2.2": {
+      "description": "Apply appropriate file naming protocols",
+      "level": "L1, L2"
+     },
+     "4.2.3": {
+      "description": "Describe the usage of correct file paths for relative and absolute links",
+      "level": "L1, L2"
+     },
+     "4.2.4": {
+      "description": "Recognize the relationship between local and remote site structures",
+      "level": "L1, L2"
+     },
+     "4.2.5": {
+      "description": "Develop a data backup procedures plan",
+      "level": "L1, L2"
+     }
+    }
+   },
+   "4.3": {
+    "title": "Demonstrate Proper Layout Techniques",
+    "indicators": {
+     "4.3.1": {
+      "description": "Identify commonly used layout techniques for web design",
+      "level": "L1"
+     },
+     "4.3.2": {
+      "description": "Develop an appropriate navigation system (site map)",
+      "level": "L1"
+     },
+     "4.3.3": {
+      "description": "Develop wireframes for initial responsive design concepts",
+      "level": "L1"
+     },
+     "4.3.4": {
+      "description": "Develop responsive design for various devices",
+      "level": "L1"
+     },
+     "4.3.5": {
+      "description": "Identify the uses of Cascading Style Sheets (CSS)",
+      "level": "L1"
+     }
+    }
+   },
+   "4.4": {
+    "title": "Create Web Content",
+    "indicators": {
+     "4.4.1": {
+      "description": "Discuss and differentiate voice, tone, and style as it applies to web writing",
+      "level": "L1"
+     },
+     "4.4.2": {
+      "description": "Determine the primary and secondary purposes of web content",
+      "level": "L1"
+     },
+     "4.4.3": {
+      "description": "Identify target audiences and reading levels for specific websites",
+      "level": "L1, L2"
+     },
+     "4.4.4": {
+      "description": "Identify and create a list of keywords and descriptions (meta tags) to include in web content for search engine optimization (SEO)",
+      "level": "L1, L2"
+     },
+     "4.4.5": {
+      "description": "Apply grammar and spelling conventions to content",
+      "level": "L1, L2"
+     },
+     "4.4.6": {
+      "description": "Evaluate existing content for web use (e.g., images, print documents, text, video)",
+      "level": "L1"
+     },
+     "4.4.7": {
+      "description": "Create a branding message that will present a professional image",
+      "level": "L1"
+     },
+     "4.4.8": {
+      "description": "List and describe best practices in content creation that foster indexing and ranking of websites",
+      "level": "L1"
+     }
+    }
+   },
+   "4.5": {
+    "title": "Create and Edit Media for the Web",
+    "indicators": {
+     "4.5.1": {
+      "description": "Describe common media file formats",
+      "level": "L1, L2"
+     },
+     "4.5.2": {
+      "description": "Identify appropriate software for media creation",
+      "level": "L1, L2"
+     },
+     "4.5.3": {
+      "description": "Create and edit media files (e.g., sound, video, graphics, interactive media, multimedia)",
+      "level": "L1, L2"
+     },
+     "4.5.4": {
+      "description": "Optimize media files for uploading using compression tools",
+      "level": "L1, L2"
+     },
+     "4.5.5": {
+      "description": "Embed media files in a web design",
+      "level": "L1, L2"
+     },
+     "4.5.6": {
+      "description": "Calculate and convert images to desired sizes and resolution",
+      "level": "L1, L2"
+     }
+    }
+   },
+   "4.6": {
+    "title": "Demonstrate Knowledge of Challenges Associated with",
+    "indicators": {
+     "4.6.1": {
+      "description": "Describe regional, national, and international legal requirements and standards for accessibility on the web",
+      "level": "L1"
+     },
+     "4.6.2": {
+      "description": "Identify types of disabilities that should be considered when designing websites",
+      "level": "L1"
+     },
+     "4.6.3": {
+      "description": "Optimize websites to accommodate users with special needs",
+      "level": "L1, L2"
+     },
+     "4.6.4": {
+      "description": "Explain website usability procedures",
+      "level": "L1"
+     },
+     "4.6.5": {
+      "description": "Research Americans with Disabilities Act (ADA) compliance regulations and policies",
+      "level": "L1"
+     }
+    }
+   }
+  }
+ },
+ "5.0": {
+  "title": "WEBSITE DEVELOPMENT",
+  "performance_standards": {
+   "5.1": {
+    "title": "Develop a Website Using Hypertext Markup Language (HTML)",
+    "indicators": {
+     "5.1.1": {
+      "description": "Explain the purpose of Hypertext Markup Language (HTML) in website development",
+      "level": "L1"
+     },
+     "5.1.2": {
+      "description": "Differentiate among the different versions of HTML",
+      "level": "L1"
+     },
+     "5.1.3": {
+      "description": "Identify HTML tags for authoring a web page document",
+      "level": "L1"
+     },
+     "5.1.4": {
+      "description": "Code a basic web page utilizing proper HTML document structure in a text editor",
+      "level": "L1"
+     },
+     "5.1.5": {
+      "description": "Utilize verification tools to verify code",
+      "level": "L1"
+     }
+    }
+   },
+   "5.2": {
+    "title": "Describe Concepts and Use of Cascading Style Sheets",
+    "indicators": {
+     "5.2.1": {
+      "description": "Describe the role of CSS in relation to web design",
+      "level": "L1"
+     },
+     "5.2.2": {
+      "description": "Identify the structure of CSS style rules",
+      "level": "L1"
+     },
+     "5.2.3": {
+      "description": "Describe CSS selector types",
+      "level": "L1"
+     },
+     "5.2.4": {
+      "description": "Differentiate between internal, external, and inline style sheets",
+      "level": "L1"
+     },
+     "5.2.5": {
+      "description": "Use CSS to style webpage content (e.g., typography, web fonts)",
+      "level": "L1"
+     },
+     "5.2.6": {
+      "description": "Use CSS to lay out webpage content (e.g., flexbox, grid, positioning: static, relative, absolute, fixed)",
+      "level": "L1"
+     },
+     "5.2.7": {
+      "description": "Utilize online validation tools for CSS",
+      "level": "L1"
+     },
+     "5.2.8": {
+      "description": "Describe the function of a CSS preprocessor",
+      "level": "L2"
+     }
+    }
+   },
+   "5.3": {
+    "title": "Apply Foundations of Web Scripting",
+    "indicators": {
+     "5.3.1": {
+      "description": "Explain the use of current web scripting technologies",
+      "level": "L2"
+     },
+     "5.3.2": {
+      "description": "Implement scripting (e.g., rollovers, form scripts)",
+      "level": "L2"
+     },
+     "5.3.3": {
+      "description": "Compare and contrast client (browser) scripting and server scripting (e.g., PHP, JavaScript)",
+      "level": "L2"
+     },
+     "5.3.4": {
+      "description": "Enhance interactivity of websites using current scripting trends",
+      "level": "L2"
+     },
+     "5.3.5": {
+      "description": "Compare and contrast static versus dynamic websites",
+      "level": "L2"
+     },
+     "5.3.6": {
+      "description": "Utilize online validation tools for web scripting",
+      "level": "L2"
+     }
+    }
+   },
+   "5.4": {
+    "title": "Develop Databases",
+    "indicators": {
+     "5.4.1": {
+      "description": "Identify and describe relational databases",
+      "level": "L2"
+     },
+     "5.4.2": {
+      "description": "Analyze various databases used in web development",
+      "level": "L2"
+     },
+     "5.4.3": {
+      "description": "Describe the purpose of a database as it relates to web development",
+      "level": "L2"
+     },
+     "5.4.4": {
+      "description": "Incorporate a database into a website where possible (e.g., local storage, external database)",
+      "level": "L2"
+     }
+    }
+   },
+   "5.5": {
+    "title": "Utilize Content Management Systems in Web Development",
+    "indicators": {
+     "5.5.1": {
+      "description": "Identify content management systems (CMS) (e.g., WordPress, Joomla)",
+      "level": "L2"
+     },
+     "5.5.2": {
+      "description": "Evaluate current trends in CMS (e.g., blogging, online magazine, corporate websites) and learning management system (LMS [e.g., Canvas])",
+      "level": "L2"
+     },
+     "5.5.3": {
+      "description": "Explore WYSIWYG software (e.g., Dreamweaver) for web development",
+      "level": "L2"
+     }
+    }
+   },
+   "5.6": {
+    "title": "Utilize Online Collaboration Resources",
+    "indicators": {
+     "5.6.1": {
+      "description": "Define cloud computing",
+      "level": "L2"
+     },
+     "5.6.2": {
+      "description": "Compare various cloud computing platforms (e.g., Microsoft Azure, Amazon AWS, Google Cloud)",
+      "level": "L2"
+     },
+     "5.6.3": {
+      "description": "Explain the role of version control when developing with a team",
+      "level": "L2"
+     }
+    }
+   }
+  }
+ },
+ "6.0": {
+  "title": "PUBLISHING A WEBSITE",
+  "performance_standards": {
+   "6.1": {
+    "title": "Understand Fundamentals of Web Hosting",
+    "indicators": {
+     "6.1.1": {
+      "description": "Identify the various server operating systems used to host web pages",
+      "level": "L2"
+     },
+     "6.1.2": {
+      "description": "Describe how servers work in a hosting environment",
+      "level": "L2"
+     },
+     "6.1.3": {
+      "description": "Explain the relationship between client and server",
+      "level": "L2"
+     },
+     "6.1.4": {
+      "description": "Explain common web server maintenance routines",
+      "level": "L2"
+     },
+     "6.1.5": {
+      "description": "Describe the technical requirements involved in choosing a web host",
+      "level": "L2"
+     }
+    }
+   },
+   "6.2": {
+    "title": "Demonstrate Publishing to the Web",
+    "indicators": {
+     "6.2.1": {
+      "description": "Identify the purpose of Secure File Transfer Protocol (SFTP)",
+      "level": "L2"
+     },
+     "6.2.2": {
+      "description": "Demonstrate the use of SFTP",
+      "level": "L2"
+     },
+     "6.2.3": {
+      "description": "Preview and test web pages for compatibility using various browsers and output devices",
+      "level": "L2"
+     },
+     "6.2.4": {
+      "description": "Describe the process of locating and registering a domain name",
+      "level": "L2"
+     },
+     "6.2.5": {
+      "description": "Explain domain name servers (DNS)",
+      "level": "L2"
+     }
+    }
+   },
+   "6.3": {
+    "title": "Maintain Web Content",
+    "indicators": {
+     "6.3.1": {
+      "description": "Evaluate content with client for relevancy",
+      "level": "L2"
+     },
+     "6.3.2": {
+      "description": "Evaluate content for viability",
+      "level": "L2"
+     },
+     "6.3.3": {
+      "description": "Monitor validity of hyperlinks",
+      "level": "L2"
+     },
+     "6.3.4": {
+      "description": "Maintain and update all website documentation (e.g., prototype, site map, navigation)",
+      "level": "L2"
+     },
+     "6.3.5": {
+      "description": "Analyze web analytics for purposes of improving traffic, user experience, and meeting targeted goals",
+      "level": "L2"
+     }
+    }
+   }
+  }
+ },
+ "7.0": {
+  "title": "ADVANCED AND EMERGING TECHNOLOGIES IN WEB DEVELOPMENT",
+  "performance_standards": {
+   "7.1": {
+    "title": "Develop a Web App",
+    "indicators": {
+     "7.1.1": {
+      "description": "Analyze current programming languages and/or platforms used in web app development",
+      "level": "L2"
+     },
+     "7.1.2": {
+      "description": "Explain the purpose of Application Programming Interface (API) in app development",
+      "level": "L2"
+     },
+     "7.1.3": {
+      "description": "Develop an app using a modern programming language and/or platform",
+      "level": "L2"
+     }
+    }
+   },
+   "7.2": {
+    "title": "Explain Artificial Intelligence (AI)",
+    "indicators": {
+     "7.2.1": {
+      "description": "Define Artificial Intelligence",
+      "level": "L2"
+     },
+     "7.2.2": {
+      "description": "Explain the role of AI in web development",
+      "level": "L2"
+     },
+     "7.2.3": {
+      "description": "Describe how AI changes the user experience",
+      "level": "L2"
+     },
+     "7.2.4": {
+      "description": "Explain the significance of data in the development of AI",
+      "level": "L2"
+     }
+    }
+   },
+   "7.3": {
+    "title": "Research Non-Standard Web Connected Devices",
+    "indicators": {
+     "7.3.1": {
+      "description": "Research Internet of Things (IoT) as it relates to web development",
+      "level": "L2"
+     },
+     "7.3.2": {
+      "description": "Explain the impact of digital assistants on web development",
+      "level": "L2"
+     }
+    }
+   },
+   "7.4": {
+    "title": "Explore Virtual (VR) and Augmented (AR) Reality",
+    "indicators": {
+     "7.4.1": {
+      "description": "Explore use of VR and AR in web design",
+      "level": "L2"
+     },
+     "7.4.2": {
+      "description": "Research emerging applications of VR and AR in non-entertainment venues",
+      "level": "L2"
+     }
+    }
+   }
+  }
+ }
+}

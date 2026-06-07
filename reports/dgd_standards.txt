@@ -1,0 +1,1349 @@
+Digital Game Development
+Program of Study with
+Complementary Course Standards
+
+This document was prepared by:
+Office of Career Readiness, Adult Learning, and Education Options
+Nevada Department of Education
+755 N. Roop Street, Suite 201
+Carson City, NV 89701
+www.doe.nv.gov
+Adopted by the Nevada State Board of Education on
+July 26, 2023
+The Nevada Department of Education does not discriminate on the basis of race, color, religion, national origin,
+sex, disability, sexual orientation, gender identity or expression, or age in its programs and activities and provides
+equal access to the Boy Scouts and other designated youth groups.
+For inquiries, contact the Equity Coordinator at (775) 687-9200.
+
+Digital Game Development Standards
+
+2023
+
+Nevada State Board of Education
+Joseph Arrascada
+Dr. René Cantú
+Maggie Carlton
+Dr. Katherine Dockweiler, Vice President
+Tate Else
+Tamara Hudson
+Tim Hughes
+Michael Keyes
+Felicia Ortiz, President
+Dr. Summer Stephens
+Mike Walker
+
+Nevada Department of Education
+Jhone M. Ebert
+Superintendent of Public Instruction
+Christy McGill
+Deputy Superintendent for Educator Effectiveness and Family Engagement
+Craig Statucki
+Director for the Office of Career Readiness, Adult Learning, and Education Options
+Cindi Chang
+Education Programs Supervisor, Office of Career Readiness, Adult Learning, and Education Options
+
+Vision
+All Nevada students are equipped and feel empowered to attain their vision of success
+
+Mission
+To improve student achievement and educator effectiveness by ensuring opportunities,
+facilitating learning, and promoting excellence
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+ii
+
+Digital Game Development Standards
+
+2023
+
+Table of Contents
+Nevada State Board of Education / Nevada Department of Education ....................................................... ii
+Acknowledgements / Standards Development Members / Business and Industry Validation ................... iv
+Introduction .................................................................................................................................................. v
+Program Information
+
+............................................................................................................................... 1
+
+Content Standard 1.0
+
+Integrate Career and Technical Student Organizations (CTSOs) ........................... 2
+
+Content Standard 2.0
+
+Context of Digital Game Development .................................................................. 3
+
+Content Standard 3.0
+
+Foundations of Game Design and Development ................................................... 4
+
+Content Standard 4.0
+
+Game Design .......................................................................................................... 5
+
+Content Standard 5.0
+
+Programming for Digital Game Development ....................................................... 6
+
+Content Standard 6.0
+
+Build a Game .......................................................................................................... 7
+
+Content Standard 7.0
+
+Legal and Ethical Issues in Game Design and Development.................................. 9
+
+Content Standard 8.0
+
+Advanced Topics in Digital Game Development .................................................. 10
+
+Complementary Courses............................................................................................................................. 11
+3D Animation .............................................................................................................................................. 13
+Software and App Development................................................................................................................. 16
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+iii
+
+Digital Game Development Standards
+
+2023
+
+Acknowledgements
+The development of Nevada career and technical education (CTE) standards and assessments is a
+collaborative effort sponsored by the Nevada Department of Education (NDE) Office of Career Readiness,
+Adult Learning, and Education Options. The Nevada Department of Education relies on educators and
+industry representatives who have the technical expertise and teaching experience to develop standards
+and performance indicators that truly measure student skill attainment. More importantly, the NDE would
+like to recognize the time and commitment by the writing team members in developing the career and
+technical standards for Digital Game Development.
+
+Standards Development Members
+Name
+
+Occupation/Title
+
+Stakeholder Affiliation
+
+School/Organization
+
+James Black
+William Bumgardner
+
+Instructor
+Instructor
+
+Secondary Educator
+Secondary Educator
+
+Desert Pines High School, Las Vegas, NV
+Dayton High School, Dayton, NV
+
+Kristina Erb
+
+Instructor
+
+Secondary Educator
+
+Douglas High School, Minden, NV
+
+Monique Gaudin
+
+Project Facilitator
+
+Daniel Hyden
+
+Instructor
+
+Business and Industry
+Representative
+Secondary Educator
+
+Julian Jackson
+
+Instructor
+
+Secondary Educator
+
+Brian Johnson
+
+Instructor
+
+Secondary Educator
+
+Kevin Mess
+
+Instructor
+
+Postsecondary Educator
+
+College of Southern Nevada, Las Vegas,
+NV
+
+Conner Torres
+
+Executive Producer
+
+Business and Industry
+Representative
+
+Dotware Games, Las Vegas, NV
+
+Michael Edmonds
+
+Education Consultant
+
+Business and Industry
+Representative
+
+Epic Games, Inc.
+
+Clark County School District
+Douglas High School, Minden, NV
+Advanced Technologies Academy, Las
+Vegas, NV
+Doral Academy, Red Rock, NV
+
+Business and Industry Validation
+All CTE standards developed through the Nevada Department of Education are validated by business and
+industry through one or more of the following processes: (1) the standards are developed by a team
+consisting of business and industry representatives, or (2) a separate review panel is coordinated with
+industry experts to ensure the standards include the proper content, or (3) nationally recognized
+standards currently endorsed by business and industry.
+The Digital Game Development standards were validated through active participation of business and
+industry representatives on the development team.
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+iv
+
+Digital Game Development Standards
+
+2023
+
+Introduction
+The standards in this document are designed to clearly state what the student should know and be able
+to do upon completion of a high school Digital Game Development program of study. These standards are
+designed for a two-credit course sequence that prepares the student for a technical assessment directly
+aligned to the standards.
+These exit-level standards are designed for the student to complete all standards through their
+completion of a program of study. These standards are intended to guide curriculum objectives for a
+program of study.
+The standards are organized as follows:
+•
+
+Content Standards are general statements that identify major areas of knowledge,
+understanding, and the skills students are expected to learn in key subject and career
+areas by the end of the program.
+
+•
+
+Performance Standards follow each content standard. Performance standards identify
+the more specific components of each content standard and define the expected abilities
+of students within each content standard.
+
+•
+
+Performance Indicators are very specific criteria statements for determining whether a
+student meets the performance standard. Performance indicators may also be used as
+learning outcomes, which teachers can identify as they plan their program learning
+objectives. The indicators are followed by designations that reflect the course sequence
+(e.g., L1 for the first-year course of a two-year program and L2 for the second-year course,
+C is to designate the indicators to be taught in the complementary courses) as referenced
+in the Core Course Sequence table.
+
+The crosswalks and alignments are located in the Program Supplemental Program Resources document.
+These will show where the performance indicators support the Nevada Academic Content Standards. For
+individual course descriptions, please reference the Supplemental Program Resource or the Nevada CTE
+Catalog.
+All students are encouraged to participate in the career and technical student organization (CTSO) that
+relates to the Digital Game Development program. CTSOs are co-curricular national organizations that
+directly reinforce learning in the CTE classroom through curriculum resources, competitive events, and
+leadership development. CTSOs provide students the ability to apply academic and technical knowledge,
+develop communication and teamwork skills, and cultivate leadership skills to ensure college and career
+readiness.
+The Employability Skills for Career Readiness identify the skills needed to be successful in all careers and
+must be taught as an integrated component of all CTE course sequences. These standards are available in
+a separate document.
+The Standards Reference Code is only used to identify or align performance indicators listed in the
+standards to daily lesson plans, curriculum documents, or national standards. The Standards Reference
+Code is an abbreviated name for the program, and the content standard, performance standard and
+performance indicator are referenced in the program standards. This abbreviated code for identifying
+standards uses each of these items. For example, DGD is the Standards Reference Code for Digital Game
+Development. For Content Standard 2, Performance Standard 3 and Performance Indicator 4 the
+Standards Reference Code would be DGD.2.3.4.
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+v
+
+Digital Game Development Standards
+
+2023
+
+Digital Game Development
+Program Information
+Program of Study:
+Standards Reference Code:
+Career Cluster:
+Career Pathway(s):
+Program Length:
+CTSO:
+
+Digital Game Development
+DGD
+Digital Technology
+Programming and Software Development
+2-year, completed sequentially
+FBLA/SkillsUSA
+
+Program Structure Required Program of Study Courses
+The core course sequencing is provided in the following table. Complementary Courses are available
+and provided later in this document. The following courses provide a completed program of study.
+The Lab is a complementary course available concurrently with the Digital Game Development II
+course.
+Core Course Sequence (R) with Lab Course(s) (C)
+Required/
+Complementary
+
+Course Title
+
+Abbreviated Name
+
+R
+
+Digital Game Development I
+
+DIG GAME DEV I
+
+R
+
+Digital Game Development II
+
+DIG GAME DEV II
+
+C
+
+Digital Game Development II LAB
+
+DIG GAME DEV II L
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+1
+
+2023
+
+Digital Game Development Standards
+
+CONTENT STANDARD 1.0: INTEGRATE CAREER AND TECHNICAL STUDENT ORGANIZATIONS (CTSOs)
+Performance Standard 1.1: Explore the History and Organization of CTSOs
+1.1.1 Discuss the requirements of CTSO participation/involvement as described in Carl D. Perkins
+Law (Level 1 (L1), Level 2 (L2), Complementary (C))
+1.1.2 Research nationally recognized CTSOs (L1, L2, C)
+1.1.3 Investigate the impact of federal and state government regarding the progression and
+operation of CTSOs (e.g., Federal Statutes and Regulations, Nevada Administrative Code [NAC],
+Nevada Revised Statutes [NRS]) (L1, L2, C)
+
+Performance Standard 1.2: Develop Leadership Skills
+1.2.1 Discuss the purpose of parliamentary procedure (L1, L2, C)
+1.2.2 Demonstrate the proper use of parliamentary procedure (L1, L2, C)
+1.2.3 Differentiate between an office and a committee (L1, L2, C)
+1.2.4 Discuss the importance of participation in local, regional, state, and national conferences,
+events, and competitions (L1, L2, C)
+1.2.5 Participate in local, regional, state, or national conferences, events, or competitions (L1, L2, C)
+1.2.6 Describe the importance of a constitution and bylaws to the operation of a CTSO chapter (L1, L2,
+C)
+
+Performance Standard 1.3: Participate in Community Service
+1.3.1 Explore opportunities in community service-related work-based learning (WBL) (L1, L2, C)
+1.3.2 Participate in a service learning (program related) and/or community service project or activity
+(L1, L2, C)
+1.3.3 Engage with business and industry partners for community service (L1, L2, C)
+
+Performance Standard 1.4: Develop Professional and Career Skills
+1.4.1 Demonstrate college and career readiness (e.g., applications, resumes, interview skills,
+presentation skills) (L1, L2, C)
+1.4.2 Describe the appropriate professional/workplace attire and its importance (L1, L2, C)
+1.4.3 Investigate industry-standard credentials/certifications available within this Career Cluster™
+(L1, L2, C)
+1.4.4 Participate in authentic contextualized instructional activities (L1, L2, C)
+1.4.5 Demonstrate technical skills in various student organization activities/events (L1, L2, C)
+
+Performance Standard 1.5: Understand the Relevance of Career and Technical Education (CTE)
+1.5.1 Make a connection between program standards to career pathway(s) (L1, L2, C)
+1.5.2 Explain the importance of participation and completion of a program of study (L1, L2, C)
+1.5.3 Promote community awareness of local student organizations associated with CTE programs
+(L1, L2, C)
+
+2
+
+Nevada CTE Standards
+
+Revised: 7/26/2023
+
+Digital Game Development Standards
+
+2023
+
+CONTENT STANDARD 2.0: CONTEXT OF DIGITAL GAME DEVELOPMENT
+Performance Standard 2.1: Understand How Advances in Technology Impact Game
+Development
+2.1.1
+2.1.2
+2.1.3
+2.1.4
+2.1.5
+
+Explain the history of computing technologies that impact the game development industry (L1)
+Explore non-digital games (L1)
+Research the evolution of video games (L1)
+Describe the different game genres (L1)
+Evaluate contributions of individual game designers and developers (L1)
+
+Performance Standard 2.2: Understand Careers in Game Design and Development
+2.2.1 Explore careers in designing and developing interactive experiences (L1)
+2.2.2 Research careers in non-interactive media using real-time game engines, including
+Architectural, Engineering and Construction (AEC), virtual production, architectural
+visualization, simulation, product/industrial design, and advertising (L1)
+2.2.3 Describe career pathways in software engineering, quality assurance, and testing (L1)
+2.2.4 Review roles of the producer, designer, art director, tech artist, and programmer (L1)
+2.2.5 Explain the career path of an independent developer (L1)
+2.2.6 Research labor market information in related industries (L1)
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+3
+
+2023
+
+Digital Game Development Standards
+
+CONTENT STANDARD 3.0: FOUNDATIONS OF GAME DESIGN AND DEVELOPMENT
+Performance Standard 3.1: Explain Fundamentals of Production
+3.1.1 Explain the interdependence of team members between artistic, technical, and production
+disciplines (L1)
+3.1.2 Outline the process of developing a game from concept to delivery and support (L1, L2)
+3.1.3 Compare various types of collaboration tools, e.g., version control, shared storage, cloud
+services (L1, L2)
+3.1.4 Explain the value of version control (L1, L2)
+3.1.5 Explain the purpose of vertical slice (L2)
+3.1.6 Discuss various optimization techniques (L2)
+3.1.7 Describe good quality assurance practices (L2)
+
+Performance Standard 3.2: Understand Game Structure
+3.2.1
+3.2.2
+3.2.3
+3.2.4
+3.2.5
+3.2.6
+3.2.7
+3.2.8
+
+Explore the components of game structure (L1)
+Analyze the essentials of storytelling, including visual and environmental story telling (L1)
+Explain the characteristics of a nonlinear story (L1)
+Create rules for a game, e.g., levels and/or interactive flow (L1)
+Compare conflict and outcomes (L1)
+Develop objectives and outcomes for a game (L1)
+Explain the importance of usability and how it impacts user experience (L1, L2)
+Explain in-game economies, motivators, and point systems (L1, L2)
+
+Performance Standard 3.3: Game Documentation
+3.3.1
+3.3.2
+3.3.3
+3.3.4
+3.3.5
+3.3.6
+3.3.7
+
+Research various styles of game documentation (L1)
+Develop a technical design document (TDD) (L1)
+Develop components of a game design document (GDD) (L1)
+Develop a list of required game assets (L1)
+Produce a game design document (L2)
+Produce a game pitch document (L2)
+Present game documentation (L2)
+
+Performance Standard 3.4: Industry Standard Game Mechanics
+3.4.1 Compare categories of game mechanics (L1)
+3.4.2 Research victory condition mechanics of a game (L1)
+3.4.3 Discuss relationships between game mechanics, game play, and interactivity (L1)
+3.4.4 Investigate what makes a game engaging, “fun,” and playable to the user (L1)
+
+4
+
+Nevada CTE Standards
+
+Revised: 7/26/2023
+
+Digital Game Development Standards
+
+2023
+
+CONTENT STANDARD 4.0: GAME DESIGN
+Performance Standard 4.1: Understand Fundamentals of Design
+4.1.1
+4.1.2
+4.1.3
+4.1.4
+4.1.5
+
+Evaluate the use of layout and composition (L1)
+Explain color theory (L1)
+Describe the principles of animation (L1)
+Describe the role of perspective (L1)
+Compare design considerations for environmental, assets, characters, and User Interface (UI)
+creation (L1, L2)
+4.1.6 Describe the characteristics and purposes of 2D, 2.5D, and 3D art (L1, L2)
+4.1.7 Evaluate the importance of artistic style and implement it with continuity (L1, L2)
+
+Performance Standard 4.2: Design Levels
+4.2.1
+4.2.2
+4.2.3
+4.2.4
+4.2.5
+4.2.6
+4.2.7
+4.2.8
+
+Identify components of a level and its environment (L1)
+Compare processes of creating interior versus exterior environments (L1, L2)
+Compare level design of linear games to open world games (L1)
+Research terrains for a specific environment (L2)
+Discuss the concept of leveling up with increasing complexity (L2)
+Describe the impact of story (explicit, implicit, and emergent) on level design (L1)
+Explain the importance of flow, distance, timing, and choke points (L1)
+Storyboard levels including flow and choke points (L1, L2)
+
+Performance Standard 4.3: Design Assets and Characters
+4.3.1
+4.3.2
+4.3.3
+4.3.4
+4.3.5
+4.3.6
+4.3.7
+4.3.8
+
+Investigate the twelve major character archetypes (L1, L2)
+Contrast architypes versus stereotypes as they relate to diversity and inclusion (L1, L2)
+Describe basic character backstory, strengths, and weaknesses (L1, L2)
+Explain the visual design of characters in relation to the “game feel” and artistic style (L1, L2)
+Describe the connection between character arc and character progression (L1, L2)
+Conceptualize and illustrate original game characters and assets (L1, L2)
+Examine the roles, purpose, and design of non-player characters (NPC) (L1, L2)
+Explain the difference in design between static and dynamic game objects, e.g., props,
+decorations versus characters, morphing objects (L1, L2)
+4.3.9 Detail the difference between organic and hard surfaces (L1, L2)
+
+Performance Standard 4.4: Design Custom Mechanics
+4.4.1
+4.4.2
+4.4.3
+4.4.4
+4.4.5
+
+Create a victory condition (L1)
+Assemble immersive elements into a game (L1, L2)
+Establish a reward system and in-game economics (L1, L2)
+Apply game mechanics to a game world (L1, L2)
+Balance and test game mechanics (L2)
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+5
+
+2023
+
+Digital Game Development Standards
+
+CONTENT STANDARD 5.0: PROGRAMMING FOR DIGITAL GAME DEVELOPMENT
+Performance Standard 5.1: Understand Logic in Game Development
+5.1.1
+5.1.2
+5.1.3
+5.1.4
+5.1.5
+5.1.6
+5.1.7
+5.1.8
+5.1.9
+
+Explain basic logic statements (e.g., if/then, cause/effect) (L1)
+Explain the purpose and use of functions (L1)
+Describe nested functions (L1)
+Describe uses of Boolean operators and symbols associated with them (L1)
+Demonstrate proper use of order of operations (L1)
+Use logical thinking to create a diagram of code execution (L1)
+Describe various types of loop structures used in programming (L1)
+Describe the differences between compiled and interpreted code (L1, L2)
+Explain methods for producing artificial intelligence (AI) to control Non-Playable Characters
+(NPC) (L1, L2)
+5.1.10 Research design patterns in game programming (single, factory, and state) (L2)
+
+Performance Standard 5.2: Explain Programming Language Concepts
+5.2.1
+5.2.2
+5.2.3
+5.2.4
+5.2.5
+5.2.6
+5.2.7
+5.2.8
+5.2.9
+5.2.10
+5.2.11
+
+Differentiate between syntax and semantics (L1)
+Identify differences between compile and runtime errors (L1)
+List primitive data types (L1)
+Describe how arrays are used to store objects in a list (L1)
+Demonstrate input from different sources (L1, L2)
+Identify expected input and output of methods/functions (L1)
+Explain the connection between visual programming and coding/scripting (L1)
+Compare the use of constants and variables (L1)
+Describe the implications of access modifiers (private/public, local/global) (L1)
+Explore engine/programming documentation to understand available methods/functions (L2)
+Describe object-oriented programming (OOP) (L1, L2)
+
+Performance Standard 5.3: Utilize Programming in Game Development
+5.3.1 Utilize code to modify objects based on collision detection and player activation (L1, L2)
+5.3.2 Develop code or visual script that changes aspects of player movement (e.g., sprint, jump) (L1,
+L2)
+5.3.3 Develop code or visual script that responds to a graphic user interface (GUI) input (e.g., user
+interface design (UI) button press (L1, L2)
+5.3.4 Develop code or visual script that responds to hardware input (e.g., keyboard key or mouse
+press) (L1, L2)
+5.3.5 Generate test cases and expected results (L2)
+5.3.6 Format and display the value of a variable to a GUI (L1, L2)
+5.3.7 Implement a basic point system for a game using visual scripting or code (L1, L2)
+5.3.8 Verify game functionality through testing and debugging (12,22)
+
+6
+
+Nevada CTE Standards
+
+Revised: 7/26/2023
+
+Digital Game Development Standards
+
+2023
+
+CONTENT STANDARD 6.0: BUILD A GAME
+Performance Standard 6.1: Explore Various Development Environment and Best Practices Per
+Pipeline
+6.1.1 Explain the characteristics and major components of game engines (render, compiler, editor)
+(L1)
+6.1.2 Research various game engines for a software platform, target hardware, game style, or genre
+(L1)
+6.1.3 Research supplemental tools necessary to create a specific development pipeline (L1)
+6.1.4 Describe a complete game pipeline including the use of primary and supplemental tools and
+how they are used (L1)
+6.1.5 Compare world scales between software tools (L2)
+6.1.6 Describe considerations for importing and exporting assets (L2)
+6.1.7 Define a standard directory structure and file naming conventions (L2)
+
+Performance Standard 6.2: Develop Game Levels
+6.2.1
+6.2.2
+6.2.3
+6.2.4
+6.2.5
+
+Define the type, structure, and size of player environment (L1, L2)
+Place and define non-player characters (NPC) into the environment (L1, L2)
+Build boundaries, borders, and obstacles of levels within the game (L1, L2)
+Place triggers and develop scripted events (12 22)
+Create multiple levels for a game including start and closing screens and playable level(s) (L2)
+
+Performance Standard 6.3: Utilize Graphical User Interface (GUI)
+6.3.1 Research examples of GUI in digital and real-world environments (e.g., Heads Up Display [HUD]
+and road signs) (L1)
+6.3.2 Define and implement required elements for various GUIs (L1)
+6.3.3 Create flowcharts that map the GUIs’ functionality (L1)
+6.3.4 Design GUIs that use standard text, 2-D, and 3-D elements (buttons, progress bars, icons, etc.)
+(L1, L2)
+
+Performance Standard 6.4: Use Animation in Game Development
+6.4.1
+6.4.2
+6.4.3
+6.4.4
+6.4.5
+6.4.6
+6.4.7
+6.4.8
+6.4.9
+6.4.10
+6.4.11
+6.4.12
+
+Create storyboards for planning animations (L1)
+Change an object’s state or position over time (L1)
+Establish an object’s relative speed (timing versus frame rate) (L1)
+Describe the difference between global time and local time (L2)
+Describe the difference between forward and inverse kinematics (L2)
+Examine the process of particle creation and its application to game design (L2)
+Explain how joints, sockets, bones, and skins are used (L1, L2)
+Create a parent/child hierarchy (L1, L2)
+Simulate rigid body dynamics (e.g., shattering wall, breaking glass) (L2)
+Animate game objects using triggers (L1, L2)
+Describe the process of motion capture for animation (L1, L2)
+Practice the use of cinematics and camera movements in game engines (L2)
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+7
+
+2023
+
+Digital Game Development Standards
+
+Performance Standard 6.5: Integrate Various Media Types
+6.5.1 Integrate different types of audio (e.g., sound effects, ambient background, dialogue, user
+experience design (UX), and score) (L1)
+6.5.2 Practice creating triggers for sound, mixes, and/or loops (L1)
+6.5.3 Determine acceptable media formats and files for game development (e.g., sound, graphics,
+video) (L1, L2)
+6.5.4 Identify and import appropriate media into a game engine (L1, L2)
+
+Performance Standard 6.6: Create Game Art
+Performance Standard 6.6: Create Game Art
+6.6.1 Explain the application of low polygon and high polygon construction for real-time
+environments (L1)
+6.6.2 Create game assets from references and game design documents (GDD) (L1, L2)
+6.6.3 Create hard surface and organic models using design principles (props or characters) (L1, L2)
+6.6.4 Apply texturing/surfacing/shading/grudging to models and normal mapping (L1)
+6.6.5 Render or produce a high-resolution screenshot from within a game engine (L1)
+6.6.6 Real-time render a video, animated sequence or cutscene in a game engine (L1, L2)
+6.6.7 Differentiate UVW mapping and world coordinate systems (L1)
+6.6.8 Explain the importance of pre-baking lights and shadows for real-time interactive
+environments (L2)
+6.6.9 Implement basic lighting for ambient and artificial light (L1, L2)
+6.6.10 Create an environment including terrain, foliage and/or static objects (L2)
+6.6.11 Create custom materials/shaders (L2)
+6.6.12 Describe the use of Level of Detail (LOD) substitution, MIP mapping textures, and culling
+objects (L2)
+
+8
+
+Nevada CTE Standards
+
+Revised: 7/26/2023
+
+Digital Game Development Standards
+
+2023
+
+CONTENT STANDARD 7.0: LEGAL AND ETHICAL ISSUES IN GAME DESIGN AND DEVELOPMENT
+Performance Standard 7.1: Understand Legal Considerations in Game Development
+7.1.1
+7.1.2
+7.1.3
+7.1.4
+7.1.5
+
+Research laws that govern intellectual property in diverse forms (L1)
+Evaluate Creative Commons and open-source licensure (L1)
+Explain copyright, trademark, and other intellectual property protection (L1)
+Identify key elements of non-disclosure agreements (NDA) and contracts (L2)
+Adhere to intellectual property laws and regulations and cite proprietary content and
+derivative works (L2)
+7.1.6 Explain Entertainment Software Rating Board (ESRB) and other rating systems for digital games
+(L1)
+
+Performance Standard 7.2: Explain Security Issues in Relation to Game Development and
+Design
+7.2.1 Explain invasion of privacy in the use of technology (L2)
+7.2.2 Explore the issues of piracy and digital rights management (DRM) (L2)
+7.2.3 Model acceptable security practices (L2)
+
+Performance Standard 7.3: Understand the Importance of Ethics, Diversity, and Inclusion
+7.3.1 Discuss diversity and inclusivity in games and the gaming industry (L1, L2)
+7.3.2 Discuss social responsibility and issues concerning video gaming (L1, L2)
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+9
+
+2023
+
+Digital Game Development Standards
+
+CONTENT STANDARD 8.0: ADVANCED TOPICS IN DIGITAL GAME DEVELOPMENT
+Performance Standard 8.1: Understand Social Aspects of Gaming
+8.1.1 Describe integration of social components in a game (L2)
+8.1.2 Explain the role of social media in the gaming community (L2)
+8.1.3 Describe professional events in digital gaming (L2)
+
+Performance Standard 8.2: Understand the Role of Networking
+8.2.1 Summarize characteristics of cloud gaming (L2)
+8.2.2 Evaluate the advances of multi-player gaming (L2)
+
+Performance Standard 8.3: Explain Advances in Devices
+8.3.1 Discuss trends in input devices (L2)
+8.3.2 Examine current trends in output devices and displays (L2)
+8.3.3 Explore advances in peripheral devices (L2)
+
+10
+
+Nevada CTE Standards
+
+Revised: 7/26/2023
+
+Digital Game Development Standards
+
+2023
+
+Complementary Courses
+State Complementary Skill Standards
+State complementary skill standards are designed to clearly state what the student should know and
+be able to do upon completion of a one-year complementary course related to their career and
+technical education (CTE) program of study. Completion of the qualifying Program of Study is
+required prior to enrollment in a complementary course.
+
+Employability Skills for Career Readiness Standards
+Students have completed all program content standards and will pursue advanced study through
+investigation and in-depth research.
+
+Complementary Course Standards Contributing Members
+Course Contribution(s)
+
+Name
+
+Occupation/Title
+
+Stakeholder Affiliation
+
+School/Organization
+
+3D Animation
+
+James Black
+
+Instructor
+
+Secondary Educator
+
+Desert Pines High School, Clark
+County School District
+
+3D Animation
+
+Monte Carmon
+
+Director and Instructor
+
+Secondary Educator
+
+Southwest Career and Technical
+Academy, Clark County School
+District
+
+3DAnimation
+
+Kevin Kirk
+
+Instructor
+
+Secondary Educator
+
+Clark County High School, Clark
+County School District
+
+3D Animation
+
+Rory Olvina
+
+CTE Strategist
+
+Secondary Educator
+
+Southwest Career and Technical
+Academy, Clark County School
+District
+
+3D Animation
+
+Ashley Stroud
+
+Instructor
+
+Secondary Educator
+
+Las Vegas Academy of the Arts,
+Clark County School District
+
+Software and App
+Development
+
+Josiah Davisson
+
+Instructor
+
+Secondary Educator
+
+Advanced Technologies
+Academy, Clark County School
+District
+
+Software and App
+Development
+
+Roger Mayo
+
+Department Chair and
+Instructor
+
+Secondary Educator
+
+Advanced Technologies
+Academy, Clark County School
+District
+
+Business and Industry Validation
+All CTE standards developed through the Nevada Department of Education are validated by business and
+industry through one or more of the following processes: (1) the standards are developed by a team
+consisting of business and industry representatives, or (2) a separate review panel is coordinated with
+industry experts to ensure the standards include the proper content, or (3) nationally recognized
+standards currently endorsed by business and industry.
+The 3D Animation, and Software and App Development complementary standards for Digital Game
+Development program of study were validated through active participation of business and industry
+representatives through the criticality survey.
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+11
+
+2023
+
+Digital Game Development Standards
+Complementary Course Information for
+Digital Game Development
+
+Program Information
+Qualifying Program of Study:
+Career Cluster:
+Career Pathway(s):
+CTSO:
+Grade Level:
+
+Digital Game Development
+Digital Technology
+Programming and Software Development
+FBLA/SkillsUSA
+11-12
+
+Program Structure for Complementary Courses
+The complementary courses are provided in the following table. The qualifying program of study
+must be completed prior to enrolling in the complementary courses (except labs that are done
+concurrently with the second-year course). A program does not have to utilize the complementary
+courses for students to complete their program of study.
+Complementary Courses
+Required/
+Complementary
+
+Course Title
+
+Abbreviated Name
+
+C
+
+3D Animation for Digital Game Development
+
+3D ANIMATE DGD
+
+C
+
+Software and App Development for Digital Game Development
+
+APP DEV DGD
+
+C
+
+Digital Game Development Advanced Studies
+
+DIG GAME DEV AS
+
+C
+
+Industry-Recognized Credential – Digital Game Development
+
+IRC DIG GAME DEV
+
+C
+
+CTE Work Experience – Information Technology
+
+WORK EXPER IT
+
+12
+
+Nevada CTE Standards
+
+Revised: 7/26/2023
+
+Digital Game Development Standards
+
+2023
+
+Complementary Course Standards
+3D Animation
+CONTENT STANDARD 1.0: THE FIELD OF ANIMATION
+Performance Standard 1.1: Explain the Purposes and Uses of Animation
+1.1.1 Research careers in animation
+1.1.2 Describe trends in animation
+1.1.3 Explain types of animation (i.e., traditional, stop motion, motion graphic, computer-generated
+imagery [CGI], and interface animation)
+
+Performance Standard 1.2: Communicate Ideas Using Appropriate Industry Terminology
+1.2.1 Formulate written communications using industry terminology
+1.2.2 Practice verbal communication using industry terminology
+1.2.3 Prepare and deliver a visual presentation utilizing appropriate industry terminology
+
+Performance Standard 1.3: Apply the Animation Production Process
+1.3.1
+1.3.2
+1.3.3
+1.3.4
+1.3.5
+
+Summarize the general production process
+Practice the production process
+Manage production assets
+Practice time management to meet production deadlines
+Model fair use in production of animated works
+
+CONTENT STANDARD 2.0: PRE-PRODUCTION
+Performance Standard 2.1: Implement Concept Development Practices
+2.1.1
+2.1.2
+2.1.3
+2.1.4
+2.1.5
+
+Practice brainstorming and ideation to develop a concept
+Conduct visual research to provide reference for a project
+Produce thumbnails, roughs, and comprehensive layouts for presentation
+Design and develop environments
+Design and develop 3D animated assets and characters
+
+Performance Standard 2.2: Demonstrate Knowledge of Visual Design
+2.2.1
+2.2.2
+2.2.3
+2.2.4
+
+Apply the elements and principles of design
+Apply the twelve principles of animation
+Explain the role of visual language in an animation project
+Apply the principles of animation to animated sequences
+
+Performance Standard 2.3: Create Storyboards
+2.3.1
+2.3.2
+2.3.3
+2.3.4
+
+Illustrate actions with sequential panels
+Evaluate and revise storyboards for effectiveness and feasibility
+Apply appropriate shot composition through camera placement
+Describe appropriate shot composition for desired results
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+13
+
+2023
+
+Digital Game Development Standards
+
+CONTENT STANDARD 3.0: 3D ANIMATION PRODUCTION
+Performance Standard 3.1: Demonstrate Modeling Techniques
+3.1.1
+3.1.2
+3.1.3
+3.1.4
+3.1.5
+
+Model objects using a variety of tools and techniques
+Conceptualize and utilize virtual 3D space
+Compare modeling methodologies (i.e., polygons, splines)
+Explain the application of low polygon and high polygon construction
+Modify and manipulate polygonal objects
+
+Performance Standard 3.2: Apply Surface and Texture
+3.2.1
+3.2.2
+3.2.3
+3.2.4
+3.2.5
+
+Modify and apply surface attributes
+Animate textures
+Create an original texture
+Identify UVW mapping coordinates
+Explain and create various mapping techniques
+
+Performance Standard 3.3: Create and Apply Lighting
+3.3.1
+3.3.2
+3.3.3
+3.3.4
+3.3.5
+
+Explain the properties and uses of different types of lights
+Create animated lighting
+Use three-point lighting in a project
+Compare and contrast indirect lighting and direct lighting
+Create environmental lighting
+
+Performance Standard 3.4: Utilize Cinematography in Animation
+3.4.1 Create animated cameras
+3.4.2 Evaluate and select camera settings to achieve desired results
+3.4.3 Position multiple cameras to match an existing storyboard
+
+Performance Standard 3.5: Apply Rigging to Models
+3.5.1
+3.5.2
+3.5.3
+3.5.4
+3.5.5
+3.5.6
+
+Describe the difference between forward and inverse kinematics
+Create a parent/child hierarchy
+Create a joint/bone chain
+Practice skinning models
+Apply and adjust weight maps
+Explain the use of constraints to animate objects
+
+Performance Standard 3.6: Demonstrate Techniques of Motion
+3.6.1
+3.6.2
+3.6.3
+3.6.4
+3.6.5
+3.6.6
+
+14
+
+Create and modify key frames and key poses
+Change an object’s state or position over time
+Establish an object’s relative speed
+Demonstrate an object following a path
+Simulate a naturally occurring or mechanical cycle (i.e., walking)
+Apply various animation techniques (i.e., pose-to-pose, straight ahead)
+
+Nevada CTE Standards
+
+Revised: 7/26/2023
+
+Digital Game Development Standards
+
+2023
+
+Performance Standard 3.7: Explore Dynamics in a Scene
+3.7.1 Explore atmospheric effects and particle systems
+3.7.2 Adjust the dynamic properties (i.e., gravity, wind speed)
+3.7.3 Simulate soft and rigid body dynamics
+
+Performance Standard 3.8: Demonstrate Rendering Techniques
+3.8.1 Identify rendering types and purposes
+3.8.2 Apply appropriate rendering settings for a project
+3.8.3 Render a sequence of frames
+
+CONTENT STANDARD 4.0: POST-PRODUCTION
+Performance Standard 4.1: Create Final Output
+4.1.1 Demonstrate editing and compositing techniques
+4.1.2 Select and render appropriate format for distribution
+4.1.3 Conduct peer and self-evaluations using rubrics
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+15
+
+2023
+
+Digital Game Development Standards
+Complementary Course Standards
+Software and App Development
+
+CONTENT STANDARD 1.0: COLLABORATIVE DEVELOPMENT
+Performance Standard 1.1: Apply Software Development Lifecycle (SDLC)
+1.1.1
+1.1.2
+1.1.3
+1.1.4
+1.1.5
+1.1.6
+1.1.7
+1.1.8
+
+Describe the importance of the planning stage
+Compare various development methodologies (e.g., Agile, Waterfall, etc.)
+Apply appropriate methods for software/app development
+Explain industry specific terminology (e.g., Scrum, sprint, Ansible, Docker, etc.)
+Research the role of deployment tools and automation engines
+Test code for performance and scalability
+Check code for security flaws and vulnerabilities
+Apply SDLC to manage projects
+
+Performance Standard 1.2: Utilize Source Control Systems
+1.2.1
+1.2.2
+1.2.3
+1.2.4
+1.2.5
+1.2.6
+
+Choose a source control system
+Manage repositories
+Explain branching and forking
+Utilize push and pull requests
+Handle merges and collisions
+Implement major and minor version controls
+
+CONTENT STANDARD 2.0: TOOLS FOR DEVELOPMENT
+Performance Standard 2.1: Evaluate Various Development Stacks
+2.1.1
+2.1.2
+2.1.3
+2.1.4
+2.1.5
+
+Select and plan the appropriate stack for frontend and backend of a project
+Evaluate appropriate uses of various languages and databases
+Explain the use of programing libraries
+Explain the importance of dependencies
+Apply appropriate data structures and corresponding algorithms
+
+Performance Standard 2.2: Create Databases
+2.2.1 Compare and evaluate different databases (e.g., Access, SQL, relational, no-SQL, etc.)
+2.2.2 Design and implement databases
+2.2.3 Perform basic database operations such as create, query, update, and delete records
+
+Performance Standard 2.3: Utilize Application Programming Interface (API)
+2.3.1
+2.3.2
+2.3.3
+2.3.4
+
+16
+
+Describe the concept of API in software development
+Explore and test popular API(s) used in industry
+Implement an API in a software application
+Create and document an API for an application
+
+Nevada CTE Standards
+
+Revised: 7/26/2023
+
+Digital Game Development Standards
+
+2023
+
+Performance Standard 2.4: Integrated Development Environment (IDE)
+2.4.1
+2.4.2
+2.4.3
+2.4.4
+2.4.5
+
+Explain the common features and uses of an IDE
+Select and use an appropriate IDE
+Explain the importance of software versions to an application
+Use Software Development Kit (SDK) to develop and test applications
+Research the impact of cloud computing on future IDE development
+
+CONTENT STANDARD 3.0: DELIVERABLES AND QUALITY CONTROL
+Performance Standard 3.1: Create Documentation
+3.1.1
+3.1.2
+3.1.3
+3.1.4
+
+Create documentation for software and development projects
+Use appropriate documentation tools and formats
+Explain the importance of documentation in software and application development projects
+Discuss the use of style guides in industry
+
+Performance Standard 3.2: Apply User Testing and Revision Practices
+3.2.1
+3.2.2
+3.2.3
+3.2.4
+3.2.5
+
+Develop a testing plan for software and application development projects
+Explain the role of dev vs. ops in application development workflows
+Perform user testing
+Revise software and app development projects based on user feedback
+Document, track, and prioritize bugs and glitches
+
+Performance Standard 3.3: Describe the Importance of Deliverables
+3.3.1 Explain the rules and processes to publish an app through major distribution channels
+3.3.2 Describe laws associated with publishing an app
+3.3.3 Discuss the ethical implications of app development
+
+CONTENT STANDARD 4.0: TOPICS IN PROGRAMING
+Performance Standard 4.1: Develop and Maintain Portfolio
+4.1.1
+4.1.2
+4.1.3
+4.1.4
+
+Conduct peer and self-evaluations using rubrics
+Explain the importance of maintaining a portfolio for software development
+Identify strategies for ongoing learning and growth
+Discuss professional networking with social media
+
+Performance Standard 4.2: Emerging Technologies in Computing
+4.2.1
+4.2.2
+4.2.3
+4.2.4
+4.2.5
+
+Research careers and advancements in data science
+Compare traditional app development to the vendor “store” model
+Describe the role of cloud computing in app development
+Research applications of artificial intelligence (AI) and machine learning in various industries
+Research the role low-code and no-code platforms have on future application development
+
+Revised: 7/26/2023
+
+Nevada CTE Standards
+
+17
+
+

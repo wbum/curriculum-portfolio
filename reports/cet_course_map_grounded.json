@@ -1,0 +1,970 @@
+{
+  "units": [
+    {
+      "number": 1,
+      "title": "Launch: Course Framing & Goals",
+      "days": [
+        {
+          "day": 1,
+          "title": "Welcome to CET",
+          "standards": []
+        },
+        {
+          "day": 2,
+          "title": "Goals & How You Learn",
+          "standards": [
+            "EL.A.1"
+          ]
+        }
+      ],
+      "standards": [
+        "EL.A.1"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Digital Citizenship & Cyber Hygiene",
+      "days": [
+        {
+          "day": 3,
+          "title": "Your Digital Footprint",
+          "standards": [
+            "DC.A.1"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Managing Your Identity & Networks",
+          "standards": [
+            "DC.A.1",
+            "EL.B.1"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Safe, Legal & Ethical \u2014 Being an Upstander",
+          "standards": [
+            "DC.B.1"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Online Dangers & Cyber Threats",
+          "standards": [
+            "DC.B.2"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Cyber Hygiene \u2014 Passwords, Encryption, HTTPS",
+          "standards": [
+            "DC.D.1"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Who's Watching? Automated Data Collection",
+          "standards": [
+            "IC.SLE.2"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "The Price of Privacy",
+          "standards": [
+            "IC.SLE.3"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Impacts of Computing",
+          "standards": [
+            "IC.C.1"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "Researching Like a Pro",
+          "standards": [
+            "KC.A.1"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Real or Fake? Evaluating Sources",
+          "standards": [
+            "KC.B.1"
+          ]
+        },
+        {
+          "day": 13,
+          "title": "Copyright, Fair Use & Licensing",
+          "standards": [
+            "DC.C.1",
+            "AP.PD.2"
+          ]
+        },
+        {
+          "day": 14,
+          "title": "DigCit PSA \u2014 Build",
+          "standards": [
+            "KC.A.1",
+            "KC.B.1",
+            "DC.C.1",
+            "AP.PD.2"
+          ]
+        },
+        {
+          "day": 15,
+          "title": "PSA Showcase + Block A Assessment",
+          "standards": []
+        }
+      ],
+      "standards": [
+        "DC.A.1",
+        "EL.B.1",
+        "DC.B.1",
+        "DC.B.2",
+        "DC.D.1",
+        "IC.SLE.2",
+        "IC.SLE.3",
+        "IC.C.1",
+        "KC.A.1",
+        "KC.B.1",
+        "DC.C.1",
+        "AP.PD.2"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "VEX AIM Robotics",
+      "days": [
+        {
+          "day": 16,
+          "title": "U1: Intro video, co-create learning targets, drive basics",
+          "standards": [
+            "CS.D.1",
+            "AP.PD.4",
+            "EL.A.1"
+          ]
+        },
+        {
+          "day": 17,
+          "title": "U1: Collect & kick balls through the goal; document",
+          "standards": [
+            "CS.D.1",
+            "AP.PD.4",
+            "EL.A.1"
+          ]
+        },
+        {
+          "day": 18,
+          "title": "U1: Button control; place barrels at AprilTags",
+          "standards": [
+            "CS.D.1",
+            "AP.PD.4",
+            "EL.A.1"
+          ]
+        },
+        {
+          "day": 19,
+          "title": "U1: Timed: kick 2 balls + place 6 barrels; record time, reflect",
+          "standards": [
+            "CS.D.1",
+            "AP.PD.4",
+            "EL.A.1"
+          ]
+        },
+        {
+          "day": 20,
+          "title": "U2: Automation in daily life; co-create targets",
+          "standards": [
+            "AP.A.1",
+            "AP.M.1",
+            "CT.C.1",
+            "CT.D.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 21,
+          "title": "U2: Button Coding to AprilTags; sequence & distance",
+          "standards": [
+            "AP.A.1",
+            "AP.M.1",
+            "CT.C.1",
+            "CT.D.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 22,
+          "title": "U2: Two paths to one destination; compare efficiency",
+          "standards": [
+            "AP.A.1",
+            "AP.M.1",
+            "CT.C.1",
+            "CT.D.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 23,
+          "title": "U2: Decomposition: build/test in chunks",
+          "standards": [
+            "AP.A.1",
+            "AP.M.1",
+            "CT.C.1",
+            "CT.D.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 24,
+          "title": "U2: Deliver 2 blue + 2 orange barrels to AprilTags",
+          "standards": [
+            "AP.A.1",
+            "AP.M.1",
+            "CT.C.1",
+            "CT.D.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 25,
+          "title": "U3: Intro to VEXcode AIM; co-create targets",
+          "standards": [
+            "AP.A.1",
+            "CS.T.1",
+            "CT.A.1",
+            "CT.D.1",
+            "ID.A.1"
+          ]
+        },
+        {
+          "day": 26,
+          "title": "U3: Drive then code blue\u2192orange path; run & iterate",
+          "standards": [
+            "AP.A.1",
+            "CS.T.1",
+            "CT.A.1",
+            "CT.D.1",
+            "ID.A.1"
+          ]
+        },
+        {
+          "day": 27,
+          "title": "U3: Add return path; compare drive vs. code precision",
+          "standards": [
+            "AP.A.1",
+            "CS.T.1",
+            "CT.A.1",
+            "CT.D.1",
+            "ID.A.1"
+          ]
+        },
+        {
+          "day": 28,
+          "title": "U3: Navigate around 4 barrels; **debugging** focus",
+          "standards": [
+            "AP.A.1",
+            "CS.T.1",
+            "CT.A.1",
+            "CT.D.1",
+            "ID.A.1"
+          ]
+        },
+        {
+          "day": 29,
+          "title": "U3: Drive all four sides of each barrel & return, fast",
+          "standards": [
+            "AP.A.1",
+            "CS.T.1",
+            "CT.A.1",
+            "CT.D.1",
+            "ID.A.1"
+          ]
+        },
+        {
+          "day": 30,
+          "title": "U4: Angle movement vs. prior units; drive & code around a barrel",
+          "standards": [
+            "AP.A.1",
+            "AP.C.1",
+            "ID.A.1",
+            "ID.B.1"
+          ]
+        },
+        {
+          "day": 31,
+          "title": "U4: Two barrels; **minimum-blocks** challenge",
+          "standards": [
+            "AP.A.1",
+            "AP.C.1",
+            "ID.A.1",
+            "ID.B.1"
+          ]
+        },
+        {
+          "day": 32,
+          "title": "U4: Small angle adjustments; 3-obstacle precision",
+          "standards": [
+            "AP.A.1",
+            "AP.C.1",
+            "ID.A.1",
+            "ID.B.1"
+          ]
+        },
+        {
+          "day": 33,
+          "title": "U4: Group designs a slalom course; drive & plan",
+          "standards": [
+            "AP.A.1",
+            "AP.C.1",
+            "ID.A.1",
+            "ID.B.1"
+          ]
+        },
+        {
+          "day": 34,
+          "title": "U4: Code the slalom; iterate for fastest time",
+          "standards": [
+            "AP.A.1",
+            "AP.C.1",
+            "ID.A.1",
+            "ID.B.1"
+          ]
+        },
+        {
+          "day": 35,
+          "title": "U5: Turn-to-heading; slalom with sports ball",
+          "standards": [
+            "AP.M.1",
+            "CT.A.1",
+            "CT.B.1",
+            "ID.C.1",
+            "CS.T.1"
+          ]
+        },
+        {
+          "day": 36,
+          "title": "U5: Robot Protractor; measure & adjust headings",
+          "standards": [
+            "AP.M.1",
+            "CT.A.1",
+            "CT.B.1",
+            "ID.C.1",
+            "CS.T.1"
+          ]
+        },
+        {
+          "day": 37,
+          "title": "U5: Orientation/kicker; Place object block",
+          "standards": [
+            "AP.M.1",
+            "CT.A.1",
+            "CT.B.1",
+            "ID.C.1",
+            "CS.T.1"
+          ]
+        },
+        {
+          "day": 38,
+          "title": "U5: Combine skills; avoid obstacles, deliver 2 barrels",
+          "standards": [
+            "AP.M.1",
+            "CT.A.1",
+            "CT.B.1",
+            "ID.C.1",
+            "CS.T.1"
+          ]
+        },
+        {
+          "day": 39,
+          "title": "U5: Collect & deliver all 4 barrels to AprilTag 0, fast",
+          "standards": [
+            "AP.M.1",
+            "CT.A.1",
+            "CT.B.1",
+            "ID.C.1",
+            "CS.T.1"
+          ]
+        },
+        {
+          "day": 40,
+          "title": "U6: AI Vision intro video; perception discussion; targets",
+          "standards": [
+            "AP.C.2",
+            "CS.HS.1",
+            "CT.B.1",
+            "IC.C.2"
+          ]
+        },
+        {
+          "day": 41,
+          "title": "U6: Up-button + Vision to collect/kick a barrel; Macro blocks",
+          "standards": [
+            "AP.C.2",
+            "CS.HS.1",
+            "CT.B.1",
+            "IC.C.2"
+          ]
+        },
+        {
+          "day": 42,
+          "title": "U6: Test with robot/barrel in different positions",
+          "standards": [
+            "AP.C.2",
+            "CS.HS.1",
+            "CT.B.1",
+            "IC.C.2"
+          ]
+        },
+        {
+          "day": 43,
+          "title": "U6: Move to object / Get object; AI Vision Dashboard",
+          "standards": [
+            "AP.C.2",
+            "CS.HS.1",
+            "CT.B.1",
+            "IC.C.2"
+          ]
+        },
+        {
+          "day": 44,
+          "title": "U6: Find & kick both sports balls through the goal, fast",
+          "standards": [
+            "AP.C.2",
+            "CS.HS.1",
+            "CT.B.1",
+            "IC.C.2"
+          ]
+        },
+        {
+          "day": 45,
+          "title": "U7: VEX AI Vision videos; AI Vision Investigation example project; discuss perception limits",
+          "standards": [
+            "IC.C.2",
+            "CT.B.1",
+            "IC.C.1"
+          ]
+        },
+        {
+          "day": 46,
+          "title": "U7: **Distance-vs-detection data collection** with the robot; record results; look for patterns (CT.B.1)",
+          "standards": [
+            "IC.C.2",
+            "CT.B.1",
+            "IC.C.1"
+          ]
+        },
+        {
+          "day": 47,
+          "title": "U7: Connect sensor errors to **real-world computer-vision bias** (facial recognition, self-driving, medical); discussion + exit reflection (IC.C.2, IC.C.1)",
+          "standards": [
+            "IC.C.2",
+            "CT.B.1",
+            "IC.C.1"
+          ]
+        },
+        {
+          "day": 48,
+          "title": "U8: If blocks; react to AprilTag IDs",
+          "standards": [
+            "AP.C.1",
+            "AP.C.2",
+            "CT.D.1",
+            "AP.M.1"
+          ]
+        },
+        {
+          "day": 49,
+          "title": "U8: **Repeat vs. Forever**; react to 4 tags/objects",
+          "standards": [
+            "AP.C.1",
+            "AP.C.2",
+            "CT.D.1",
+            "AP.M.1"
+          ]
+        },
+        {
+          "day": 50,
+          "title": "U8: Plan custom button mappings",
+          "standards": [
+            "AP.C.1",
+            "AP.C.2",
+            "CT.D.1",
+            "AP.M.1"
+          ]
+        },
+        {
+          "day": 51,
+          "title": "U8: Move with controller; If vs. If-else; build",
+          "standards": [
+            "AP.C.1",
+            "AP.C.2",
+            "CT.D.1",
+            "AP.M.1"
+          ]
+        },
+        {
+          "day": 52,
+          "title": "U8: Refine; review skills for the Capstone",
+          "standards": [
+            "AP.C.1",
+            "AP.C.2",
+            "CT.D.1",
+            "AP.M.1"
+          ]
+        },
+        {
+          "day": 53,
+          "title": "U9: Watch challenge video; brainstorm autonomous & driver strategies",
+          "standards": [
+            "ID.A.1",
+            "ID.C.1",
+            "ID.D.1",
+            "GC.C.1",
+            "AP.PD.4",
+            "EL.C.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 54,
+          "title": "U9: Build task cards; plan; teacher approval",
+          "standards": [
+            "ID.A.1",
+            "ID.C.1",
+            "ID.D.1",
+            "GC.C.1",
+            "AP.PD.4",
+            "EL.C.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 55,
+          "title": "U9: Build & test autonomous incrementally",
+          "standards": [
+            "ID.A.1",
+            "ID.C.1",
+            "ID.D.1",
+            "GC.C.1",
+            "AP.PD.4",
+            "EL.C.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 56,
+          "title": "U9: Build & test driver-control + custom controller",
+          "standards": [
+            "ID.A.1",
+            "ID.C.1",
+            "ID.D.1",
+            "GC.C.1",
+            "AP.PD.4",
+            "EL.C.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 57,
+          "title": "U9: Competition runs; post-run reflection & adjust",
+          "standards": [
+            "ID.A.1",
+            "ID.C.1",
+            "ID.D.1",
+            "GC.C.1",
+            "AP.PD.4",
+            "EL.C.1",
+            "CT.A.1"
+          ]
+        },
+        {
+          "day": 58,
+          "title": "U9: Final reflection; learning-target growth; course wrap-up",
+          "standards": [
+            "ID.A.1",
+            "ID.C.1",
+            "ID.D.1",
+            "GC.C.1",
+            "AP.PD.4",
+            "EL.C.1",
+            "CT.A.1"
+          ]
+        }
+      ],
+      "standards": [
+        "CS.D.1",
+        "AP.PD.4",
+        "EL.A.1",
+        "AP.A.1",
+        "AP.M.1",
+        "CT.C.1",
+        "CT.D.1",
+        "CT.A.1",
+        "CS.T.1",
+        "ID.A.1",
+        "AP.C.1",
+        "ID.B.1",
+        "CT.B.1",
+        "ID.C.1",
+        "AP.C.2",
+        "CS.HS.1",
+        "IC.C.2",
+        "IC.C.1",
+        "ID.D.1",
+        "GC.C.1",
+        "EL.C.1"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Data & the Connected World",
+      "days": [
+        {
+          "day": 59,
+          "title": "Everything Is Bits \u2014 Binary",
+          "standards": [
+            "DA.S.1"
+          ]
+        },
+        {
+          "day": 60,
+          "title": "Binary to Text & Numbers",
+          "standards": [
+            "DA.S.1"
+          ]
+        },
+        {
+          "day": 61,
+          "title": "Hexadecimal & Color",
+          "standards": [
+            "DA.S.1"
+          ]
+        },
+        {
+          "day": 62,
+          "title": "Storing Data \u2014 Size & Tradeoffs",
+          "standards": [
+            "DA.S.2"
+          ]
+        },
+        {
+          "day": 63,
+          "title": "Abstraction \u2014 Layers of a System",
+          "standards": [
+            "CS.HS.1"
+          ]
+        },
+        {
+          "day": 64,
+          "title": "Working With Data Sets",
+          "standards": [
+            "CT.B.1"
+          ]
+        },
+        {
+          "day": 65,
+          "title": "Data Visualization I \u2014 Build a Chart",
+          "standards": [
+            "DA.CVT.1",
+            "CC.C.1"
+          ]
+        },
+        {
+          "day": 66,
+          "title": "Data Visualization II \u2014 Honest & Clear",
+          "standards": [
+            "CT.B.2",
+            "DA.CVT.1"
+          ]
+        },
+        {
+          "day": 67,
+          "title": "Data Story Project \u2014 Build",
+          "standards": [
+            "CT.B.1",
+            "DA.CVT.1",
+            "CC.C.1",
+            "CT.B.2"
+          ]
+        },
+        {
+          "day": 68,
+          "title": "Data Story Project \u2014 Finish & Share",
+          "standards": [
+            "CT.B.1",
+            "DA.CVT.1",
+            "CC.C.1",
+            "CT.B.2"
+          ]
+        },
+        {
+          "day": 69,
+          "title": "How the Internet Works",
+          "standards": [
+            "NI.NCO.1"
+          ]
+        },
+        {
+          "day": 70,
+          "title": "Reliable Networks \u2014 Routing & Redundancy",
+          "standards": [
+            "NI.NCO.1"
+          ]
+        },
+        {
+          "day": 71,
+          "title": "Cybersecurity \u2014 Malware & Attacks",
+          "standards": [
+            "NI.C.1"
+          ]
+        },
+        {
+          "day": 72,
+          "title": "Encryption & HTTPS",
+          "standards": [
+            "NI.C.1",
+            "DC.D.1"
+          ]
+        },
+        {
+          "day": 73,
+          "title": "Assessment + Synthesis",
+          "standards": []
+        }
+      ],
+      "standards": [
+        "DA.S.1",
+        "DA.S.2",
+        "CS.HS.1",
+        "CT.B.1",
+        "DA.CVT.1",
+        "CC.C.1",
+        "CT.B.2",
+        "NI.NCO.1",
+        "NI.C.1",
+        "DC.D.1"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Build & Communicate",
+      "days": [
+        {
+          "day": 74,
+          "title": "Thinking in 3D (Tinkercad)",
+          "standards": [
+            "CT.C.2"
+          ]
+        },
+        {
+          "day": 75,
+          "title": "Build a 3D Model",
+          "standards": [
+            "CT.C.2"
+          ]
+        },
+        {
+          "day": 76,
+          "title": "Iterate & Export",
+          "standards": [
+            "CT.C.2",
+            "ID.A.1"
+          ]
+        },
+        {
+          "day": 77,
+          "title": "How Web Pages Work (HTML)",
+          "standards": [
+            "CC.B.1"
+          ]
+        },
+        {
+          "day": 78,
+          "title": "HTML \u2014 Text, Links, Images",
+          "standards": [
+            "CC.B.1",
+            "AP.PD.2"
+          ]
+        },
+        {
+          "day": 79,
+          "title": "CSS \u2014 Style & Color",
+          "standards": [
+            "CC.B.1"
+          ]
+        },
+        {
+          "day": 80,
+          "title": "CSS + Publishing on CodePen",
+          "standards": [
+            "CC.B.1",
+            "AP.PD.2",
+            "EL.D.1"
+          ]
+        },
+        {
+          "day": 81,
+          "title": "Design for Your Audience",
+          "standards": [
+            "CC.A.1",
+            "ID.A.1"
+          ]
+        },
+        {
+          "day": 82,
+          "title": "Put Data on the Page",
+          "standards": [
+            "CC.C.1",
+            "DA.CVT.1"
+          ]
+        },
+        {
+          "day": 83,
+          "title": "Web Studio",
+          "standards": [
+            "CC.B.1",
+            "ID.C.1"
+          ]
+        },
+        {
+          "day": 84,
+          "title": "Showcase Launch \u2014 A Real Issue",
+          "standards": [
+            "KC.D.1",
+            "CC.A.1"
+          ]
+        },
+        {
+          "day": 85,
+          "title": "Research & Curate",
+          "standards": [
+            "KC.C.1"
+          ]
+        },
+        {
+          "day": 86,
+          "title": "Showcase Build I \u2014 Structure & Audience",
+          "standards": [
+            "CC.B.1",
+            "CC.A.1",
+            "ID.A.1"
+          ]
+        },
+        {
+          "day": 87,
+          "title": "Showcase Build II \u2014 Data, Media & Collaboration",
+          "standards": [
+            "CC.C.1",
+            "GC.B.1",
+            "IC.SI.1"
+          ]
+        },
+        {
+          "day": 88,
+          "title": "Publish & Mobilize",
+          "standards": [
+            "CC.D.1",
+            "GC.A.1",
+            "GC.D.1",
+            "GC.D.2"
+          ]
+        },
+        {
+          "day": 89,
+          "title": "Finalize & Practice Presenting",
+          "standards": [
+            "ID.C.1",
+            "EL.C.1"
+          ]
+        },
+        {
+          "day": 90,
+          "title": "Showcase + Course Close",
+          "standards": [
+            "CC.D.1",
+            "EL.A.1"
+          ]
+        }
+      ],
+      "standards": [
+        "CT.C.2",
+        "ID.A.1",
+        "CC.B.1",
+        "AP.PD.2",
+        "EL.D.1",
+        "CC.A.1",
+        "CC.C.1",
+        "DA.CVT.1",
+        "ID.C.1",
+        "KC.D.1",
+        "KC.C.1",
+        "GC.B.1",
+        "IC.SI.1",
+        "CC.D.1",
+        "GC.A.1",
+        "GC.D.1",
+        "GC.D.2",
+        "EL.C.1",
+        "EL.A.1"
+      ]
+    }
+  ],
+  "standards": {
+    "AP.A.1": "Create prototypes that use algorithms to solve computational problems by leveraging prior student knowledge and personal interests. Variables None Control",
+    "AP.C.1": "Justify the selection of specific control structures when tradeoffs involve implementation, readability, and program performance, and explain the benefits and drawbacks of choices made.",
+    "AP.C.2": "Design and iteratively develop computational artifacts for practical intent, personal expression, or to address a societal issue by using events to initiate instructions. Modularity",
+    "AP.M.1": "Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects. Program Development",
+    "AP.PD.2": "Evaluate licenses that limit or restrict use of computational artifacts when using resources such as libraries.",
+    "AP.PD.4": "Design and develop computational artifacts working in team roles using collaborative tools. Computing Systems Devices",
+    "CS.D.1": "Explain how abstractions hide the underlying implementation details of computing systems embedded in everyday objects. Hardware/Software",
+    "CS.HS.1": "Compare levels of abstraction and interactions between application software, system software, and hardware layers. Troubleshooting",
+    "CS.T.1": "Develop guidelines that convey systematic troubleshooting strategies that others can use to identify and fix errors. Data and Analysis Storage",
+    "DA.S.1": "Translate between different bit representations of real-world phenomena, such as characters, numbers, and images (e.g., convert hexadecimal colors to decimal percentages, ASCII/Unicode representation).",
+    "DA.S.2": "Evaluate the tradeoffs in how data elements are organized and where data is stored. Collection/Visualization/Transformation",
+    "DA.CVT.1": "Create interactive data visualizations or alternative representations using software tools to help others better understand real-world phenomena. Inference/Models None Impacts of Computing Culture",
+    "IC.C.1": "Evaluate the ways computing impacts personal, ethical, social, economic, and cultural practices.",
+    "IC.C.2": "Test and refine computational artifacts to reduce bias and equity deficits. Social Interactions",
+    "IC.SI.1": "Use tools and methods for collaboration on a project to increase connectivity of people in different cultures and career fields. Safety, Law, and Ethics",
+    "IC.SLE.2": "Explain the privacy concerns related to the collection and generation of data through automated processes that may not be evident to users.",
+    "IC.SLE.3": "Evaluate the social and economic implications of privacy in the context of safety, law, or ethics. Networks and the Internet Network/Communication/Organization",
+    "NI.NCO.1": "Evaluate the scalability and reliability of networks, by describing the relationship between routers, switches, servers, topology, and addressing. Cybersecurity",
+    "NI.C.1": "Give examples to illustrate how sensitive data can be affected by malware and other attacks. Computer Science & Computational Thinking topics covered: TOPIC flowcharts TOPIC creating prototypes TOPIC giving attribution TOPIC using libraries TOPIC collaborating and project management creating variables designing programs with loops and conditionals recommending improvements to a device based on user analysis evaluate ways people use computing justifying the selection of control structures how to identify and fix errors, designing artifacts to address a societal issue where data is stored using procedures with parameters collect and visualize data discuss bias and accessibility identify risks with identity theft/hacking evaluate privacy concerns explain security measures needed to protect data describe relationship between routers and switches abstraction within system software/ hardware layers test artifacts to reduce bias TOPIC working in teams to develop an artifact exchanging data",
+    "EL.A.1": "Actively assimilate and revise personal and career goals, select and manage current and emerging technologies to achieve them, and reflect on their successes and areas of improvement in working toward their goals.",
+    "EL.B.1": "Consistently engage in online social networks as a means to access and promote lifelong learning in collaboration with global peers.",
+    "EL.C.1": "Regularly revise their work habits and attitudes based on feedback from others and from functionalities embedded in digital tools to improve their learning process, and they select or creatively use technologies to share their learning in ways that are useful to others.",
+    "EL.D.1": "Successfully use a variety of existing technologies to develop criteria and identify new digital tools and resources from emerging technologies to accomplish a defined task with fluency and ease Digital Citizen",
+    "DC.A.1": "Analyze their digital identities and reputations within school policy to consider social media's impact on society, including demonstrating an understanding of how digital actions may have positive or negative implications for their future.",
+    "DC.B.1": "Demonstrate and advocate for positive, safe, legal, and ethical habits when using technology and when interacting with others online.",
+    "DC.B.2": "Distinguish potential dangers while online (e.g., malicious actors, phishing, impersonation) to prevent, detect, and combat cybersecurity threats while practicing safe and secure techniques, tactics, and practices recognizing cybersecurity is everyone's responsibility.",
+    "DC.C.1": "Advocate and demonstrate a respect for intellectual property with both print and digital media\u2014including copyright, permission, and fair use\u2014by creating a variety of media products that include appropriate citation and attribution elements.",
+    "DC.D.1": "Demonstrate an understanding of what personal data is and how to keep it private and secure, including the awareness of terms such as encryption, HTTPS, password strength, cookies, phishing, and computer viruses; understand the limitations of data management and how datacollection technologies work. Knowledge Constructor",
+    "KC.A.1": "Plan and employ effective research strategies to locate information and other resources for their intellectual or creative pursuits.",
+    "KC.B.1": "Evaluate the accuracy, perspective, credibility, and relevance of information, media, data, or other resources in the school and career setting.",
+    "KC.C.1": "Curate information from digital resources, including online databases and catalogs, for research using a variety of tools and methods to create collections of artifacts that support their learning and career goals.",
+    "KC.D.1": "Explore real-world issues and problems through inquiry and analysis, develop ideas, actively create solutions for them, and evaluate and revise through the use of digital tools. Innovative Designer",
+    "ID.A.1": "Engage in a design process and employ it to inquire and analyze, generate ideas, create innovative products or solve authentic problems, and evaluate the process to revise if needed.",
+    "ID.B.1": "Creatively use digital tools to support a design process and expand their understanding to identify constraints, trade-offs, and to weigh risks.",
+    "ID.C.1": "Engage in a cyclical design process to inquire and analyze, develop ideas, test, and revise prototypes, presenting finished products and best practices learned during the development.",
+    "ID.D.1": "Demonstrate an ability to persevere and handle greater ambiguity as they work to solve open-ended problems. Computational Thinker",
+    "CT.A.1": "Define complex issues, create a plan, and select appropriate technology-assisted methods such as data analysis, abstract models, and algorithmic thinking in exploring and finding solutions.",
+    "CT.B.1": "Evaluate created or given data sets, use digital tools to analyze them, and represent data in various ways to facilitate problem-solving and decision-making.",
+    "CT.B.2": "Evaluate and justify the formats for reporting results to a variety of audiences.",
+    "CT.C.1": "Collaborate to break problems into component parts, identify key pieces, and use that information to problem-solve.",
+    "CT.C.2": "Use 3D design tools to create prototypes, models, and simulations to demonstrate solutions and ideas.",
+    "CT.D.1": "Collaborate to develop an automated process by using algorithmic thinking to develop a sequence of steps to create and test automated solutions. Creative Communicator",
+    "CC.A.1": "Use digital learning tools and resources to identify communication needs considering goals, audience, content, access to tools or devices, and timing of communication, to involve teams in diverse locales for effective communication.",
+    "CC.B.1": "Create an original work using multiple digital tools, including planning, research, editing, and production.",
+    "CC.C.1": "Create digital graphic visualizations, data driven models, and simulations to succinctly communicate complex ideas and problems; justify methods and tools used.",
+    "CC.D.1": "Publish or present content designed for specific audiences using online meeting tools to asynchronous and synchronous audiences. Global Collaborator",
+    "GC.A.1": "Use digital tools to interact with others to develop a richer understanding of different perspectives and cultures; publish electronic artifacts that communicate to a culturally diverse and global community.",
+    "GC.B.1": "Use collaborative technologies (live and recorded) to connect with global stakeholders including peers, not excluding other languages, experts, and community members, to learn about issues and problems or to gain a broader perspective; develop multiple viewpoints that may be electronically published and accessible to all audiences.",
+    "GC.C.1": "Learn project management roles on a team to meet goals, based on their knowledge of technology and content, as well as personal preference; goals in project, timelines and milestones, will be monitored with tools and shared globally.",
+    "GC.D.1": "Select and justify the effective collaborative technologies (live video conference, online forums, social media, and other emerging communication methods) to investigate, develop, and publish solutions related to local and global issues.",
+    "GC.D.2": "Understand that digital tools such as blogs and social media can be used to crowd source, crowd fund, and mobilize a community toward a goal Integrated Technology topics covered: TOPIC TOPIC TOPIC TOPIC TOPIC TOPIC emerging technologies to track goal progress safe and ethical habits when using technology evaluate resources create and revise prototypes through an iterative design process collaboration digital graphic visualizations and simulations online social networks to access and promote collaboration potential dangers in internet use curate information from digital resources perseverance in open-ended problems 3D prototype design presenting using online meeting tools revise technologies based on feedback respect for intellectual property real-world issues, problems, and solutions data analysis, abstract models, and algorithmic thinking automated processes interacting with others of different perspectives and cultures Select and use appropriate technologies protecting personal data and encryption design process data representation communication using collaborative technologies to connect globally Analyze digital identities research strategies trade-offs and risks formatting for different audiences creating original works using digital tools for crowdsourcing References K-12 Computer Science Framework. (2016). Retrieved from K-12 Computer Science Framework Tucker, A., Deek, F., Jones, J., McCowan, D., Stephenson, C., & Verno, A. (2003). A model curriculum for K-12 computer science. Final Report of the ACM K-12 Task Force Curriculum Committee, CSTA. Wing, J. M. (2006). Computational thinking. Communications of the ACM, 49(3), 33-35."
+  }
+}

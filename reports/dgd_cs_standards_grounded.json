@@ -1,0 +1,904 @@
+{
+  "1.0": {
+    "title": "INTEGRATE CAREER AND TECHNICAL STUDENT ORGANIZATIONS (CTSOs)",
+    "performance_standards": {
+      "1.1": {
+        "title": "Explore the History and Organization of CTSOs",
+        "indicators": {
+          "1.1.1": {
+            "description": "Discuss the requirements of CTSO participation/involvement as described in Carl D. Perkins Law (Level 1 (L1), Level 2 (L2), Complementary )",
+            "level": "C"
+          },
+          "1.1.2": {
+            "description": "Research nationally recognized CTSOs",
+            "level": "L1, L2, C"
+          },
+          "1.1.3": {
+            "description": "Investigate the impact of federal and state government regarding the progression and operation of CTSOs (e.g., Federal Statutes and Regulations, Nevada Administrative Code [NAC], Nevada Revised Statutes [NRS])",
+            "level": "L1, L2, C"
+          }
+        }
+      },
+      "1.2": {
+        "title": "Develop Leadership Skills",
+        "indicators": {
+          "1.2.1": {
+            "description": "Discuss the purpose of parliamentary procedure",
+            "level": "L1, L2, C"
+          },
+          "1.2.2": {
+            "description": "Demonstrate the proper use of parliamentary procedure",
+            "level": "L1, L2, C"
+          },
+          "1.2.3": {
+            "description": "Differentiate between an office and a committee",
+            "level": "L1, L2, C"
+          },
+          "1.2.4": {
+            "description": "Discuss the importance of participation in local, regional, state, and national conferences, events, and competitions",
+            "level": "L1, L2, C"
+          },
+          "1.2.5": {
+            "description": "Participate in local, regional, state, or national conferences, events, or competitions",
+            "level": "L1, L2, C"
+          },
+          "1.2.6": {
+            "description": "Describe the importance of a constitution and bylaws to the operation of a CTSO chapter",
+            "level": "L1, L2, C"
+          }
+        }
+      },
+      "1.3": {
+        "title": "Participate in Community Service",
+        "indicators": {
+          "1.3.1": {
+            "description": "Explore opportunities in community service-related work-based learning (WBL)",
+            "level": "L1, L2, C"
+          },
+          "1.3.2": {
+            "description": "Participate in a service learning (program related) and/or community service project or activity",
+            "level": "L1, L2, C"
+          },
+          "1.3.3": {
+            "description": "Engage with business and industry partners for community service",
+            "level": "L1, L2, C"
+          }
+        }
+      },
+      "1.4": {
+        "title": "Develop Professional and Career Skills",
+        "indicators": {
+          "1.4.1": {
+            "description": "Demonstrate college and career readiness (e.g., applications, resumes, interview skills, presentation skills)",
+            "level": "L1, L2, C"
+          },
+          "1.4.2": {
+            "description": "Describe the appropriate professional/workplace attire and its importance",
+            "level": "L1, L2, C"
+          },
+          "1.4.3": {
+            "description": "Investigate industry-standard credentials/certifications available within this Career Cluster\u2122",
+            "level": "L1, L2, C"
+          },
+          "1.4.4": {
+            "description": "Participate in authentic contextualized instructional activities",
+            "level": "L1, L2, C"
+          },
+          "1.4.5": {
+            "description": "Demonstrate technical skills in various student organization activities/events",
+            "level": "L1, L2, C"
+          }
+        }
+      },
+      "1.5": {
+        "title": "Understand the Relevance of Career and Technical Education (CTE)",
+        "indicators": {
+          "1.5.1": {
+            "description": "Make a connection between program standards to career pathway(s)",
+            "level": "L1, L2, C"
+          },
+          "1.5.2": {
+            "description": "Explain the importance of participation and completion of a program of study",
+            "level": "L1, L2, C"
+          },
+          "1.5.3": {
+            "description": "Promote community awareness of local student organizations associated with CTE programs",
+            "level": "L1, L2, C"
+          }
+        }
+      }
+    }
+  },
+  "2.0": {
+    "title": "CONTEXT OF DIGITAL GAME DEVELOPMENT",
+    "performance_standards": {
+      "2.1": {
+        "title": "Understand How Advances in Technology Impact Game",
+        "indicators": {
+          "2.1.1": {
+            "description": "Explain the history of computing technologies that impact the game development industry",
+            "level": "L1"
+          },
+          "2.1.2": {
+            "description": "Explore non-digital games",
+            "level": "L1"
+          },
+          "2.1.3": {
+            "description": "Research the evolution of video games",
+            "level": "L1"
+          },
+          "2.1.4": {
+            "description": "Describe the different game genres",
+            "level": "L1"
+          },
+          "2.1.5": {
+            "description": "Evaluate contributions of individual game designers and developers",
+            "level": "L1"
+          }
+        }
+      },
+      "2.2": {
+        "title": "Understand Careers in Game Design and Development",
+        "indicators": {
+          "2.2.1": {
+            "description": "Explore careers in designing and developing interactive experiences",
+            "level": "L1"
+          },
+          "2.2.2": {
+            "description": "Research careers in non-interactive media using real-time game engines, including Architectural, Engineering and Construction (AEC), virtual production, architectural visualization, simulation, product/industrial design, and advertising",
+            "level": "L1"
+          },
+          "2.2.3": {
+            "description": "Describe career pathways in software engineering, quality assurance, and testing",
+            "level": "L1"
+          },
+          "2.2.4": {
+            "description": "Review roles of the producer, designer, art director, tech artist, and programmer",
+            "level": "L1"
+          },
+          "2.2.5": {
+            "description": "Explain the career path of an independent developer",
+            "level": "L1"
+          },
+          "2.2.6": {
+            "description": "Research labor market information in related industries",
+            "level": "L1"
+          }
+        }
+      }
+    }
+  },
+  "3.0": {
+    "title": "FOUNDATIONS OF GAME DESIGN AND DEVELOPMENT",
+    "performance_standards": {
+      "3.1": {
+        "title": "Explain Fundamentals of Production",
+        "indicators": {
+          "3.1.1": {
+            "description": "Explain the interdependence of team members between artistic, technical, and production disciplines",
+            "level": "L1"
+          },
+          "3.1.2": {
+            "description": "Outline the process of developing a game from concept to delivery and support",
+            "level": "L1, L2"
+          },
+          "3.1.3": {
+            "description": "Compare various types of collaboration tools, e.g., version control, shared storage, cloud services",
+            "level": "L1, L2"
+          },
+          "3.1.4": {
+            "description": "Explain the value of version control",
+            "level": "L1, L2"
+          },
+          "3.1.5": {
+            "description": "Explain the purpose of vertical slice",
+            "level": "L2"
+          },
+          "3.1.6": {
+            "description": "Discuss various optimization techniques",
+            "level": "L2"
+          },
+          "3.1.7": {
+            "description": "Describe good quality assurance practices",
+            "level": "L2"
+          }
+        }
+      },
+      "3.2": {
+        "title": "Understand Game Structure",
+        "indicators": {
+          "3.2.1": {
+            "description": "Explore the components of game structure",
+            "level": "L1"
+          },
+          "3.2.2": {
+            "description": "Analyze the essentials of storytelling, including visual and environmental story telling",
+            "level": "L1"
+          },
+          "3.2.3": {
+            "description": "Explain the characteristics of a nonlinear story",
+            "level": "L1"
+          },
+          "3.2.4": {
+            "description": "Create rules for a game, e.g., levels and/or interactive flow",
+            "level": "L1"
+          },
+          "3.2.5": {
+            "description": "Compare conflict and outcomes",
+            "level": "L1"
+          },
+          "3.2.6": {
+            "description": "Develop objectives and outcomes for a game",
+            "level": "L1"
+          },
+          "3.2.7": {
+            "description": "Explain the importance of usability and how it impacts user experience",
+            "level": "L1, L2"
+          },
+          "3.2.8": {
+            "description": "Explain in-game economies, motivators, and point systems",
+            "level": "L1, L2"
+          }
+        }
+      },
+      "3.3": {
+        "title": "Game Documentation",
+        "indicators": {
+          "3.3.1": {
+            "description": "Research various styles of game documentation",
+            "level": "L1"
+          },
+          "3.3.2": {
+            "description": "Develop a technical design document (TDD)",
+            "level": "L1"
+          },
+          "3.3.3": {
+            "description": "Develop components of a game design document (GDD)",
+            "level": "L1"
+          },
+          "3.3.4": {
+            "description": "Develop a list of required game assets",
+            "level": "L1"
+          },
+          "3.3.5": {
+            "description": "Produce a game design document",
+            "level": "L2"
+          },
+          "3.3.6": {
+            "description": "Produce a game pitch document",
+            "level": "L2"
+          },
+          "3.3.7": {
+            "description": "Present game documentation",
+            "level": "L2"
+          }
+        }
+      },
+      "3.4": {
+        "title": "Industry Standard Game Mechanics",
+        "indicators": {
+          "3.4.1": {
+            "description": "Compare categories of game mechanics",
+            "level": "L1"
+          },
+          "3.4.2": {
+            "description": "Research victory condition mechanics of a game",
+            "level": "L1"
+          },
+          "3.4.3": {
+            "description": "Discuss relationships between game mechanics, game play, and interactivity",
+            "level": "L1"
+          },
+          "3.4.4": {
+            "description": "Investigate what makes a game engaging, \u201cfun,\u201d and playable to the user",
+            "level": "L1"
+          }
+        }
+      }
+    }
+  },
+  "4.0": {
+    "title": "GAME DESIGN",
+    "performance_standards": {
+      "4.1": {
+        "title": "Understand Fundamentals of Design",
+        "indicators": {
+          "4.1.1": {
+            "description": "Evaluate the use of layout and composition",
+            "level": "L1"
+          },
+          "4.1.2": {
+            "description": "Explain color theory",
+            "level": "L1"
+          },
+          "4.1.3": {
+            "description": "Describe the principles of animation",
+            "level": "L1"
+          },
+          "4.1.4": {
+            "description": "Describe the role of perspective",
+            "level": "L1"
+          },
+          "4.1.5": {
+            "description": "Compare design considerations for environmental, assets, characters, and User Interface (UI) creation",
+            "level": "L1, L2"
+          },
+          "4.1.6": {
+            "description": "Describe the characteristics and purposes of 2D, 2.5D, and 3D art",
+            "level": "L1, L2"
+          },
+          "4.1.7": {
+            "description": "Evaluate the importance of artistic style and implement it with continuity",
+            "level": "L1, L2"
+          }
+        }
+      },
+      "4.2": {
+        "title": "Design Levels",
+        "indicators": {
+          "4.2.1": {
+            "description": "Identify components of a level and its environment",
+            "level": "L1"
+          },
+          "4.2.2": {
+            "description": "Compare processes of creating interior versus exterior environments",
+            "level": "L1, L2"
+          },
+          "4.2.3": {
+            "description": "Compare level design of linear games to open world games",
+            "level": "L1"
+          },
+          "4.2.4": {
+            "description": "Research terrains for a specific environment",
+            "level": "L2"
+          },
+          "4.2.5": {
+            "description": "Discuss the concept of leveling up with increasing complexity",
+            "level": "L2"
+          },
+          "4.2.6": {
+            "description": "Describe the impact of story (explicit, implicit, and emergent) on level design",
+            "level": "L1"
+          },
+          "4.2.7": {
+            "description": "Explain the importance of flow, distance, timing, and choke points",
+            "level": "L1"
+          },
+          "4.2.8": {
+            "description": "Storyboard levels including flow and choke points",
+            "level": "L1, L2"
+          }
+        }
+      },
+      "4.3": {
+        "title": "Design Assets and Characters",
+        "indicators": {
+          "4.3.1": {
+            "description": "Investigate the twelve major character archetypes",
+            "level": "L1, L2"
+          },
+          "4.3.2": {
+            "description": "Contrast architypes versus stereotypes as they relate to diversity and inclusion",
+            "level": "L1, L2"
+          },
+          "4.3.3": {
+            "description": "Describe basic character backstory, strengths, and weaknesses",
+            "level": "L1, L2"
+          },
+          "4.3.4": {
+            "description": "Explain the visual design of characters in relation to the \u201cgame feel\u201d and artistic style",
+            "level": "L1, L2"
+          },
+          "4.3.5": {
+            "description": "Describe the connection between character arc and character progression",
+            "level": "L1, L2"
+          },
+          "4.3.6": {
+            "description": "Conceptualize and illustrate original game characters and assets",
+            "level": "L1, L2"
+          },
+          "4.3.7": {
+            "description": "Examine the roles, purpose, and design of non-player characters (NPC)",
+            "level": "L1, L2"
+          },
+          "4.3.8": {
+            "description": "Explain the difference in design between static and dynamic game objects, e.g., props, decorations versus characters, morphing objects",
+            "level": "L1, L2"
+          },
+          "4.3.9": {
+            "description": "Detail the difference between organic and hard surfaces",
+            "level": "L1, L2"
+          }
+        }
+      },
+      "4.4": {
+        "title": "Design Custom Mechanics",
+        "indicators": {
+          "4.4.1": {
+            "description": "Create a victory condition",
+            "level": "L1"
+          },
+          "4.4.2": {
+            "description": "Assemble immersive elements into a game",
+            "level": "L1, L2"
+          },
+          "4.4.3": {
+            "description": "Establish a reward system and in-game economics",
+            "level": "L1, L2"
+          },
+          "4.4.4": {
+            "description": "Apply game mechanics to a game world",
+            "level": "L1, L2"
+          },
+          "4.4.5": {
+            "description": "Balance and test game mechanics",
+            "level": "L2"
+          }
+        }
+      }
+    }
+  },
+  "5.0": {
+    "title": "PROGRAMMING FOR DIGITAL GAME DEVELOPMENT",
+    "performance_standards": {
+      "5.1": {
+        "title": "Understand Logic in Game Development",
+        "indicators": {
+          "5.1.1": {
+            "description": "Explain basic logic statements (e.g., if/then, cause/effect)",
+            "level": "L1"
+          },
+          "5.1.2": {
+            "description": "Explain the purpose and use of functions",
+            "level": "L1"
+          },
+          "5.1.3": {
+            "description": "Describe nested functions",
+            "level": "L1"
+          },
+          "5.1.4": {
+            "description": "Describe uses of Boolean operators and symbols associated with them",
+            "level": "L1"
+          },
+          "5.1.5": {
+            "description": "Demonstrate proper use of order of operations",
+            "level": "L1"
+          },
+          "5.1.6": {
+            "description": "Use logical thinking to create a diagram of code execution",
+            "level": "L1"
+          },
+          "5.1.7": {
+            "description": "Describe various types of loop structures used in programming",
+            "level": "L1"
+          },
+          "5.1.8": {
+            "description": "Describe the differences between compiled and interpreted code",
+            "level": "L1, L2"
+          },
+          "5.1.9": {
+            "description": "Explain methods for producing artificial intelligence (AI) to control Non-Playable Characters (NPC)",
+            "level": "L1, L2"
+          },
+          "5.1.10": {
+            "description": "Research design patterns in game programming (single, factory, and state)",
+            "level": "L2"
+          }
+        }
+      },
+      "5.2": {
+        "title": "Explain Programming Language Concepts",
+        "indicators": {
+          "5.2.1": {
+            "description": "Differentiate between syntax and semantics",
+            "level": "L1"
+          },
+          "5.2.2": {
+            "description": "Identify differences between compile and runtime errors",
+            "level": "L1"
+          },
+          "5.2.3": {
+            "description": "List primitive data types",
+            "level": "L1"
+          },
+          "5.2.4": {
+            "description": "Describe how arrays are used to store objects in a list",
+            "level": "L1"
+          },
+          "5.2.5": {
+            "description": "Demonstrate input from different sources",
+            "level": "L1, L2"
+          },
+          "5.2.6": {
+            "description": "Identify expected input and output of methods/functions",
+            "level": "L1"
+          },
+          "5.2.7": {
+            "description": "Explain the connection between visual programming and coding/scripting",
+            "level": "L1"
+          },
+          "5.2.8": {
+            "description": "Compare the use of constants and variables",
+            "level": "L1"
+          },
+          "5.2.9": {
+            "description": "Describe the implications of access modifiers (private/public, local/global)",
+            "level": "L1"
+          },
+          "5.2.10": {
+            "description": "Explore engine/programming documentation to understand available methods/functions",
+            "level": "L2"
+          },
+          "5.2.11": {
+            "description": "Describe object-oriented programming (OOP)",
+            "level": "L1, L2"
+          }
+        }
+      },
+      "5.3": {
+        "title": "Utilize Programming in Game Development",
+        "indicators": {
+          "5.3.1": {
+            "description": "Utilize code to modify objects based on collision detection and player activation",
+            "level": "L1, L2"
+          },
+          "5.3.2": {
+            "description": "Develop code or visual script that changes aspects of player movement (e.g., sprint, jump)",
+            "level": "L1, L2"
+          },
+          "5.3.3": {
+            "description": "Develop code or visual script that responds to a graphic user interface (GUI) input (e.g., user interface design (UI) button press",
+            "level": "L1, L2"
+          },
+          "5.3.4": {
+            "description": "Develop code or visual script that responds to hardware input (e.g., keyboard key or mouse press)",
+            "level": "L1, L2"
+          },
+          "5.3.5": {
+            "description": "Generate test cases and expected results",
+            "level": "L2"
+          },
+          "5.3.6": {
+            "description": "Format and display the value of a variable to a GUI",
+            "level": "L1, L2"
+          },
+          "5.3.7": {
+            "description": "Implement a basic point system for a game using visual scripting or code",
+            "level": "L1, L2"
+          },
+          "5.3.8": {
+            "description": "Verify game functionality through testing and debugging",
+            "level": "L1, L2"
+          }
+        }
+      }
+    }
+  },
+  "6.0": {
+    "title": "BUILD A GAME",
+    "performance_standards": {
+      "6.1": {
+        "title": "Explore Various Development Environment and Best Practices Per",
+        "indicators": {
+          "6.1.1": {
+            "description": "Explain the characteristics and major components of game engines (render, compiler, editor)",
+            "level": "L1"
+          },
+          "6.1.2": {
+            "description": "Research various game engines for a software platform, target hardware, game style, or genre",
+            "level": "L1"
+          },
+          "6.1.3": {
+            "description": "Research supplemental tools necessary to create a specific development pipeline",
+            "level": "L1"
+          },
+          "6.1.4": {
+            "description": "Describe a complete game pipeline including the use of primary and supplemental tools and how they are used",
+            "level": "L1"
+          },
+          "6.1.5": {
+            "description": "Compare world scales between software tools",
+            "level": "L2"
+          },
+          "6.1.6": {
+            "description": "Describe considerations for importing and exporting assets",
+            "level": "L2"
+          },
+          "6.1.7": {
+            "description": "Define a standard directory structure and file naming conventions",
+            "level": "L2"
+          }
+        }
+      },
+      "6.2": {
+        "title": "Develop Game Levels",
+        "indicators": {
+          "6.2.1": {
+            "description": "Define the type, structure, and size of player environment",
+            "level": "L1, L2"
+          },
+          "6.2.2": {
+            "description": "Place and define non-player characters (NPC) into the environment",
+            "level": "L1, L2"
+          },
+          "6.2.3": {
+            "description": "Build boundaries, borders, and obstacles of levels within the game",
+            "level": "L1, L2"
+          },
+          "6.2.4": {
+            "description": "Place triggers and develop scripted events",
+            "level": "L1, L2"
+          },
+          "6.2.5": {
+            "description": "Create multiple levels for a game including start and closing screens and playable level(s)",
+            "level": "L2"
+          }
+        }
+      },
+      "6.3": {
+        "title": "Utilize Graphical User Interface (GUI)",
+        "indicators": {
+          "6.3.1": {
+            "description": "Research examples of GUI in digital and real-world environments (e.g., Heads Up Display [HUD] and road signs)",
+            "level": "L1"
+          },
+          "6.3.2": {
+            "description": "Define and implement required elements for various GUIs",
+            "level": "L1"
+          },
+          "6.3.3": {
+            "description": "Create flowcharts that map the GUIs\u2019 functionality",
+            "level": "L1"
+          },
+          "6.3.4": {
+            "description": "Design GUIs that use standard text, 2-D, and 3-D elements (buttons, progress bars, icons, etc.)",
+            "level": "L1, L2"
+          }
+        }
+      },
+      "6.4": {
+        "title": "Use Animation in Game Development",
+        "indicators": {
+          "6.4.1": {
+            "description": "Create storyboards for planning animations",
+            "level": "L1"
+          },
+          "6.4.2": {
+            "description": "Change an object\u2019s state or position over time",
+            "level": "L1"
+          },
+          "6.4.3": {
+            "description": "Establish an object\u2019s relative speed (timing versus frame rate)",
+            "level": "L1"
+          },
+          "6.4.4": {
+            "description": "Describe the difference between global time and local time",
+            "level": "L2"
+          },
+          "6.4.5": {
+            "description": "Describe the difference between forward and inverse kinematics",
+            "level": "L2"
+          },
+          "6.4.6": {
+            "description": "Examine the process of particle creation and its application to game design",
+            "level": "L2"
+          },
+          "6.4.7": {
+            "description": "Explain how joints, sockets, bones, and skins are used",
+            "level": "L1, L2"
+          },
+          "6.4.8": {
+            "description": "Create a parent/child hierarchy",
+            "level": "L1, L2"
+          },
+          "6.4.9": {
+            "description": "Simulate rigid body dynamics (e.g., shattering wall, breaking glass)",
+            "level": "L2"
+          },
+          "6.4.10": {
+            "description": "Animate game objects using triggers",
+            "level": "L1, L2"
+          },
+          "6.4.11": {
+            "description": "Describe the process of motion capture for animation",
+            "level": "L1, L2"
+          },
+          "6.4.12": {
+            "description": "Practice the use of cinematics and camera movements in game engines",
+            "level": "L2"
+          }
+        }
+      },
+      "6.5": {
+        "title": "Integrate Various Media Types",
+        "indicators": {
+          "6.5.1": {
+            "description": "Integrate different types of audio (e.g., sound effects, ambient background, dialogue, user experience design (UX), and score)",
+            "level": "L1"
+          },
+          "6.5.2": {
+            "description": "Practice creating triggers for sound, mixes, and/or loops",
+            "level": "L1"
+          },
+          "6.5.3": {
+            "description": "Determine acceptable media formats and files for game development (e.g., sound, graphics, video)",
+            "level": "L1, L2"
+          },
+          "6.5.4": {
+            "description": "Identify and import appropriate media into a game engine",
+            "level": "L1, L2"
+          }
+        }
+      },
+      "6.6": {
+        "title": "Create Game Art",
+        "indicators": {
+          "6.6.1": {
+            "description": "Explain the application of low polygon and high polygon construction for real-time environments",
+            "level": "L1"
+          },
+          "6.6.2": {
+            "description": "Create game assets from references and game design documents (GDD)",
+            "level": "L1, L2"
+          },
+          "6.6.3": {
+            "description": "Create hard surface and organic models using design principles (props or characters)",
+            "level": "L1, L2"
+          },
+          "6.6.4": {
+            "description": "Apply texturing/surfacing/shading/grudging to models and normal mapping",
+            "level": "L1"
+          },
+          "6.6.5": {
+            "description": "Render or produce a high-resolution screenshot from within a game engine",
+            "level": "L1"
+          },
+          "6.6.6": {
+            "description": "Real-time render a video, animated sequence or cutscene in a game engine",
+            "level": "L1, L2"
+          },
+          "6.6.7": {
+            "description": "Differentiate UVW mapping and world coordinate systems",
+            "level": "L1"
+          },
+          "6.6.8": {
+            "description": "Explain the importance of pre-baking lights and shadows for real-time interactive environments",
+            "level": "L2"
+          },
+          "6.6.9": {
+            "description": "Implement basic lighting for ambient and artificial light",
+            "level": "L1, L2"
+          },
+          "6.6.10": {
+            "description": "Create an environment including terrain, foliage and/or static objects",
+            "level": "L2"
+          },
+          "6.6.11": {
+            "description": "Create custom materials/shaders",
+            "level": "L2"
+          },
+          "6.6.12": {
+            "description": "Describe the use of Level of Detail (LOD) substitution, MIP mapping textures, and culling objects",
+            "level": "L2"
+          }
+        }
+      }
+    }
+  },
+  "7.0": {
+    "title": "LEGAL AND ETHICAL ISSUES IN GAME DESIGN AND DEVELOPMENT",
+    "performance_standards": {
+      "7.1": {
+        "title": "Understand Legal Considerations in Game Development",
+        "indicators": {
+          "7.1.1": {
+            "description": "Research laws that govern intellectual property in diverse forms",
+            "level": "L1"
+          },
+          "7.1.2": {
+            "description": "Evaluate Creative Commons and open-source licensure",
+            "level": "L1"
+          },
+          "7.1.3": {
+            "description": "Explain copyright, trademark, and other intellectual property protection",
+            "level": "L1"
+          },
+          "7.1.4": {
+            "description": "Identify key elements of non-disclosure agreements (NDA) and contracts",
+            "level": "L2"
+          },
+          "7.1.5": {
+            "description": "Adhere to intellectual property laws and regulations and cite proprietary content and derivative works",
+            "level": "L2"
+          },
+          "7.1.6": {
+            "description": "Explain Entertainment Software Rating Board (ESRB) and other rating systems for digital games",
+            "level": "L1"
+          }
+        }
+      },
+      "7.2": {
+        "title": "Explain Security Issues in Relation to Game Development and",
+        "indicators": {
+          "7.2.1": {
+            "description": "Explain invasion of privacy in the use of technology",
+            "level": "L2"
+          },
+          "7.2.2": {
+            "description": "Explore the issues of piracy and digital rights management (DRM)",
+            "level": "L2"
+          },
+          "7.2.3": {
+            "description": "Model acceptable security practices",
+            "level": "L2"
+          }
+        }
+      },
+      "7.3": {
+        "title": "Understand the Importance of Ethics, Diversity, and Inclusion",
+        "indicators": {
+          "7.3.1": {
+            "description": "Discuss diversity and inclusivity in games and the gaming industry",
+            "level": "L1, L2"
+          },
+          "7.3.2": {
+            "description": "Discuss social responsibility and issues concerning video gaming",
+            "level": "L1, L2"
+          }
+        }
+      }
+    }
+  },
+  "8.0": {
+    "title": "ADVANCED TOPICS IN DIGITAL GAME DEVELOPMENT",
+    "performance_standards": {
+      "8.1": {
+        "title": "Understand Social Aspects of Gaming",
+        "indicators": {
+          "8.1.1": {
+            "description": "Describe integration of social components in a game",
+            "level": "L2"
+          },
+          "8.1.2": {
+            "description": "Explain the role of social media in the gaming community",
+            "level": "L2"
+          },
+          "8.1.3": {
+            "description": "Describe professional events in digital gaming",
+            "level": "L2"
+          }
+        }
+      },
+      "8.2": {
+        "title": "Understand the Role of Networking",
+        "indicators": {
+          "8.2.1": {
+            "description": "Summarize characteristics of cloud gaming",
+            "level": "L2"
+          },
+          "8.2.2": {
+            "description": "Evaluate the advances of multi-player gaming",
+            "level": "L2"
+          }
+        }
+      },
+      "8.3": {
+        "title": "Explain Advances in Devices",
+        "indicators": {
+          "8.3.1": {
+            "description": "Discuss trends in input devices",
+            "level": "L2"
+          },
+          "8.3.2": {
+            "description": "Examine current trends in output devices and displays",
+            "level": "L2"
+          },
+          "8.3.3": {
+            "description": "Explore advances in peripheral devices",
+            "level": "L2"
+          }
+        }
+      }
+    }
+  }
+}
