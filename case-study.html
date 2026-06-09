@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Study: Replacing a Proprietary Platform with Standards-Grounded Curriculum</title>
+  <meta name="description" content="A curriculum-design case study: transitioning a Nevada CTE computer science program off a proprietary platform (CodeHS) to a custom, standards-grounded course achieving 51/51 indicator coverage.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Case-study hero */
+    .cs-hero {
+      border-bottom: 2px solid var(--border-color-dark);
+      padding: var(--spacing-xl) 0;
+      margin-bottom: var(--spacing-xl);
+    }
+    .cs-eyebrow {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 700;
+      color: var(--color-accent);
+      margin-bottom: var(--spacing-sm);
+    }
+    .cs-hero-title {
+      font-size: 3rem;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: var(--spacing-md);
+    }
+    .cs-hero-meta {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+      font-weight: 700;
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing-md);
+      align-items: center;
+      margin-top: var(--spacing-md);
+    }
+    .cs-hero-tag {
+      background-color: var(--color-accent);
+      color: var(--bg-canvas);
+      padding: 2px 8px;
+      font-size: 0.75rem;
+    }
+
+    /* Headline metric band */
+    .metric-band {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1px;
+      background-color: var(--border-color);
+      border: 1px solid var(--border-color);
+      margin-bottom: var(--spacing-xl);
+    }
+    @media (min-width: 768px) {
+      .metric-band { grid-template-columns: repeat(4, 1fr); }
+    }
+    .metric-cell {
+      background-color: var(--bg-card);
+      padding: var(--spacing-lg);
+      text-align: center;
+    }
+    .metric-val {
+      font-family: var(--font-serif);
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--color-accent);
+      line-height: 1;
+    }
+    .metric-lbl {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      margin-top: var(--spacing-sm);
+    }
+
+    /* Problem / Process / Outcome rhythm */
+    .phase {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--spacing-lg);
+      padding: var(--spacing-xl) 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+    @media (min-width: 992px) {
+      .phase { grid-template-columns: 220px 1fr; gap: var(--spacing-xl); }
+    }
+    .phase-marker {
+      font-family: var(--font-serif);
+    }
+    .phase-num {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-secondary);
+    }
+    .phase-name {
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.15;
+      margin-top: var(--spacing-xs);
+    }
+    .phase-body p:last-child { margin-bottom: 0; }
+
+    .pull-list {
+      list-style: none;
+      margin: var(--spacing-md) 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+    .pull-list li {
+      padding-left: var(--spacing-lg);
+      position: relative;
+      font-size: 1.0rem;
+      color: var(--text-primary);
+    }
+    .pull-list li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--color-accent);
+      font-weight: 700;
+    }
+
+    .process-step-label {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+      display: block;
+      margin-bottom: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        Will Bumgardner <span class="brand-subtitle">Portfolio</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Overview</a></li>
+          <li><a href="case-study.html" class="active">Case Study</a></li>
+          <li><a href="curriculum.html">Curriculum Map</a></li>
+          <li><a href="crosswalk.html">Standards Auditor</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero -->
+    <section class="cs-hero">
+      <div class="cs-eyebrow">Curriculum Design Case Study</div>
+      <h1 class="cs-hero-title">From Proprietary Platform to Standards-Grounded Course</h1>
+      <p class="lead" style="font-size: 1.3rem; line-height: 1.5; max-width: 880px; color: var(--text-secondary);">
+        How a single district CS program replaced a licensed third-party platform with a custom, backwards-designed
+        course that maps to <strong>every</strong> required state indicator &mdash; and how that work generalizes
+        across a five-course pathway.
+      </p>
+      <div class="cs-hero-meta">
+        <span>Featured build: Computer Education Technology (CET)</span>
+        <span class="cs-hero-tag">51 / 51 Indicators</span>
+        <span>&bull;</span>
+        <span>Nevada CTE &mdash; Lyon County SD</span>
+      </div>
+    </section>
+
+    <!-- Executive abstract -->
+    <div class="abstract-block">
+      "Proprietary curriculum platforms promise standards alignment but deliver it as a black box: districts pay for
+      coverage they cannot independently verify, and teachers inherit lessons they did not design. This case study
+      documents the reverse approach &mdash; authoring a course from the state framework outward, anchoring each lesson
+      to a named indicator, and proving coverage through an auditable crosswalk rather than a vendor's claim."
+    </div>
+
+    <!-- Headline metrics -->
+    <section class="section">
+      <div class="metric-band">
+        <div class="metric-cell">
+          <div class="metric-val">51/51</div>
+          <div class="metric-lbl">CET Appendix&nbsp;A indicators mapped</div>
+        </div>
+        <div class="metric-cell">
+          <div class="metric-val">0</div>
+          <div class="metric-lbl">Platform license cost</div>
+        </div>
+        <div class="metric-cell">
+          <div class="metric-val">18</div>
+          <div class="metric-lbl">Weeks, 5 instructional blocks</div>
+        </div>
+        <div class="metric-cell">
+          <div class="metric-val">5</div>
+          <div class="metric-lbl">Courses built on the same method</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="phase">
+      <div class="phase-marker">
+        <div class="phase-num">Phase 01</div>
+        <div class="phase-name">The Problem</div>
+      </div>
+      <div class="phase-body">
+        <p>
+          The district's computer science pathway ran on <strong>CodeHS</strong>, a proprietary platform. The arrangement
+          carried three structural costs. First, a recurring <strong>license fee</strong> for content the district did not
+          own and could not modify. Second, an <strong>alignment black box</strong>: the platform asserted coverage of
+          Nevada CTE standards, but that mapping was the vendor's, not the district's, and could not be independently
+          audited against the state's Appendix A indicators. Third, <strong>instructional rigidity</strong> &mdash; teachers
+          delivered pre-built sequences they had no hand in designing, which made local adaptation, pacing changes, and
+          standards remediation difficult.
+        </p>
+        <p>
+          For a program preparing for state CTE review, "the platform says it's covered" is not the same as
+          "we can show, indicator by indicator, where it's covered." The goal became to close that gap.
+        </p>
+        <ul class="pull-list">
+          <li>Recurring license cost for non-owned, non-modifiable content</li>
+          <li>Vendor-asserted alignment that could not be locally verified</li>
+          <li>Pre-built lessons that resisted teacher adaptation and remediation</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="phase">
+      <div class="phase-marker">
+        <div class="phase-num">Phase 02</div>
+        <div class="phase-name">The Process</div>
+      </div>
+      <div class="phase-body">
+        <p>
+          The course was authored using <strong>backwards design</strong>: start from the required outcomes, then build
+          instruction to meet them &mdash; the inverse of adopting a platform and hoping its scope matches the state's.
+        </p>
+
+        <div class="grid-2" style="margin: var(--spacing-lg) 0;">
+          <div class="card">
+            <span class="process-step-label">Step 1 &mdash; Decompose the framework</span>
+            <h3 style="margin-bottom: var(--spacing-sm);">Indicator inventory</h3>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0;">
+              Every Appendix&nbsp;A indicator for the course was extracted into a structured inventory &mdash; the
+              authoritative checklist the course had to satisfy, parsed directly from the state framework text.
+            </p>
+          </div>
+          <div class="card">
+            <span class="process-step-label">Step 2 &mdash; Choose an instructional spine</span>
+            <h3 style="margin-bottom: var(--spacing-sm);">VEX AIM robotics</h3>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0;">
+              A concrete, hands-on through-line (VEX AIM) anchors abstract technology-literacy indicators in physical,
+              demonstrable student work rather than slideware.
+            </p>
+          </div>
+          <div class="card">
+            <span class="process-step-label">Step 3 &mdash; Map lessons to indicators</span>
+            <h3 style="margin-bottom: var(--spacing-sm);">Day-level anchoring</h3>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0;">
+              Each lesson names the indicators it addresses in a machine-readable standards block, so coverage is a
+              property of the day plan itself &mdash; not an afterthought spreadsheet.
+            </p>
+          </div>
+          <div class="card">
+            <span class="process-step-label">Step 4 &mdash; Verify by audit</span>
+            <h3 style="margin-bottom: var(--spacing-sm);">Automated crosswalk</h3>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0;">
+              A parser reads the lesson standards blocks, joins them against the indicator inventory, and surfaces any
+              uncovered indicator as a gap &mdash; the same tool published in the
+              <a href="crosswalk.html?course=cet">Standards Auditor</a>.
+            </p>
+          </div>
+        </div>
+
+        <p>
+          The decisive move is <strong>Step 4</strong>. Because the day plans are the single source of truth and the
+          audit reads them directly, alignment stops being a claim and becomes a reproducible result. Edit a lesson,
+          re-run the parser, and the coverage number updates. The crosswalk on this site is that pipeline, live.
+        </p>
+      </div>
+    </section>
+
+    <!-- OUTCOME -->
+    <section class="phase">
+      <div class="phase-marker">
+        <div class="phase-num">Phase 03</div>
+        <div class="phase-name">The Outcome</div>
+      </div>
+      <div class="phase-body">
+        <p>
+          The finished CET course maps to <strong>all 51 of 51</strong> Appendix&nbsp;A indicators across a 5-block,
+          18-week plan &mdash; full coverage the district owns outright, with the license cost removed and every
+          indicator traceable to a specific day of instruction.
+        </p>
+
+        <div class="alert-panel success">
+          <div class="alert-title">Verifiable, not asserted</div>
+          <p style="margin-bottom: 0;">
+            The 51/51 figure is not a marketing number. It is the output of the same auditor any curriculum director can
+            run here: select the CET course, and inspect each indicator against the lesson that covers it.
+          </p>
+        </div>
+
+        <p>
+          More important than the single course is the <strong>method</strong>. The same framework-out, audit-verified
+          pipeline now backs a five-course pathway, each with its own published auditor:
+        </p>
+
+        <div class="grid-3" style="margin-top: var(--spacing-lg);">
+          <div class="card">
+            <div class="card-label">Self-authored &bull; 51/51</div>
+            <h3 style="margin-bottom: var(--spacing-sm);">Computer Education Technology</h3>
+            <p style="font-size: 0.92rem; color: var(--text-secondary); flex-grow: 1;">
+              The featured build. CodeHS replacement on a VEX AIM spine; complete Appendix&nbsp;A coverage.
+            </p>
+            <div style="margin-top: var(--spacing-md);">
+              <a href="crosswalk.html?course=cet" class="btn">Audit CET</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-label">17 units &bull; JS / AP CSP</div>
+            <h3 style="margin-bottom: var(--spacing-sm);">Advanced Computer Science I</h3>
+            <p style="font-size: 0.92rem; color: var(--text-secondary); flex-grow: 1;">
+              A 17-unit course in JavaScript targeting dual compliance with Nevada CTE Level&nbsp;1 and AP CSP, with an
+              AI-literacy scaffold woven through every unit.
+            </p>
+            <div style="margin-top: var(--spacing-md);">
+              <a href="crosswalk.html?course=acs_i" class="btn">Audit ACS&nbsp;I</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-label">Pathway &bull; 5 courses</div>
+            <h3 style="margin-bottom: var(--spacing-sm);">WDD I &middot; DGD I &amp; II</h3>
+            <p style="font-size: 0.92rem; color: var(--text-secondary); flex-grow: 1;">
+              Web Development &amp; Design and the Digital Game Design sequence round out the pathway &mdash; each built
+              and audited on the identical standards-grounded method.
+            </p>
+            <div style="margin-top: var(--spacing-md);">
+              <a href="curriculum.html" class="btn">Browse the suite</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why it matters / leadership framing -->
+    <section class="section" style="padding-top: var(--spacing-xl);">
+      <div class="grid-sidebar">
+        <div>
+          <h3 class="font-serif" style="font-size: 1.5rem; margin-bottom: var(--spacing-md);">Why this matters for leadership</h3>
+          <ul style="padding-left: var(--spacing-lg); font-size: 0.9rem; color: var(--text-secondary); display:flex; flex-direction:column; gap:var(--spacing-xs);">
+            <li>Ownership over licensing</li>
+            <li>Auditable over asserted alignment</li>
+            <li>Teacher-adaptable over locked sequences</li>
+            <li>Repeatable across a whole pathway</li>
+          </ul>
+        </div>
+        <div>
+          <h2>A model district leaders can verify</h2>
+          <p>
+            Standards alignment is usually evaluated as static paperwork submitted once and trusted thereafter. This
+            project treats it as <strong>live, reproducible evidence</strong>: the curriculum and its compliance proof
+            are the same artifact. A director can open the auditor, pick a course, and watch coverage resolve indicator
+            by indicator against real lesson plans.
+          </p>
+          <p>
+            That is the transferable contribution &mdash; not one course, but a defensible, low-cost method for taking a
+            district off proprietary platforms while <em>strengthening</em>, not weakening, its standards accountability.
+          </p>
+          <div style="margin-top: var(--spacing-lg); display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+            <a href="crosswalk.html?course=cet" class="btn btn-primary">Open the CET Auditor</a>
+            <a href="index.html" class="btn">Back to Overview</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>Will Bumgardner &copy; 2026. All Rights Reserved. Built with Swiss-Editorial styling for K-12 CTE Curriculum Audit Compliance.</p>
+      <p style="font-size: 0.75rem;">Verified for Nevada Department of Education Computer Science CTE Standards.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
