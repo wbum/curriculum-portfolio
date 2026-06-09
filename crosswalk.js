@@ -329,6 +329,149 @@ function setupEventListeners() {
       window.print();
     });
   }
+
+  const btnExportMd = document.getElementById('btn-export-md');
+  if (btnExportMd) {
+    btnExportMd.addEventListener('click', downloadMarkdownReport);
+  }
+}
+
+// Human-readable course name for the active course
+function getCourseName(course) {
+  switch (course) {
+    case 'acs_i': return 'Advanced Computer Science I';
+    case 'wdd_i': return 'Web Development & Design I';
+    case 'dgd_i': return 'Digital Game Design I';
+    case 'dgd_ii': return 'Digital Game Design II (Bridge Year)';
+    case 'cet': return 'Computer Education Technology';
+    default: return 'Course';
+  }
+}
+
+// Classify an indicator's coverage, mirroring calculateStats() so the
+// downloaded report matches the headline coverage percentage exactly.
+// Returns: 'direct' | 'fbla' | 'gap' | 'scope' | 'excluded'
+function classifyIndicator(code) {
+  const ind = flatIndicators[code];
+  const isCTSO = code.startsWith('1.');
+  const inL1Scope = (ind.level || 'L1').includes('L1');
+
+  if (activeCourse === 'wdd_i' && isCTSO) return 'excluded';
+  if (stdToLessons[code] && stdToLessons[code].length > 0) return 'direct';
+  if ((activeCourse === 'acs_i' || activeCourse === 'dgd_i' || activeCourse === 'dgd_ii') && isCTSO) return 'fbla';
+  if (inL1Scope) return 'gap';
+  return 'scope';
+}
+
+// Build a structured Markdown compliance report for the active course
+function generateMarkdownReport() {
+  const courseName = getCourseName(activeCourse);
+  const showFbla = activeCourse === 'acs_i' || activeCourse === 'dgd_i' || activeCourse === 'dgd_ii';
+  const today = new Date().toISOString().slice(0, 10);
+
+  const tally = { direct: 0, fbla: 0, gap: 0, scope: 0, excluded: 0 };
+  for (const code in flatIndicators) tally[classifyIndicator(code)]++;
+
+  const total = Object.keys(flatIndicators).length;
+  const coveredPct = total > 0 ? Math.round(((tally.direct + tally.fbla) / total) * 100) : 0;
+
+  const lines = [];
+  lines.push(`# Standards Compliance Audit — ${courseName}`);
+  lines.push('');
+  lines.push(`*Generated ${today} · Nevada CTE Computer Science Standards · Auditor: willbumgardner.com*`);
+  lines.push('');
+
+  // Summary
+  lines.push('## Summary');
+  lines.push('');
+  lines.push(`| Metric | Value |`);
+  lines.push(`| --- | --- |`);
+  lines.push(`| Total indicators audited | ${total} |`);
+  lines.push(`| Covered by direct instruction | ${tally.direct} |`);
+  if (showFbla) lines.push(`| Co-curricular (CTSO/FBLA) | ${tally.fbla} |`);
+  lines.push(`| Level 1 gaps (action required) | ${tally.gap} |`);
+  lines.push(`| Out of scope (L2 / Complementary) | ${tally.scope} |`);
+  if (activeCourse === 'wdd_i') lines.push(`| Excluded by design (CTSO 1.0) | ${tally.excluded} |`);
+  lines.push(`| **Overall coverage** | **${coveredPct}%** |`);
+  lines.push('');
+
+  // Gap section
+  lines.push('## Level 1 Compliance Gaps (Action Required)');
+  lines.push('');
+  const gapCodes = Object.keys(flatIndicators).filter(c => classifyIndicator(c) === 'gap');
+  if (gapCodes.length === 0) {
+    lines.push('None — every Level 1 indicator in scope is covered by direct instruction.');
+  } else {
+    gapCodes.forEach(code => {
+      lines.push(`- **${code}** [${flatIndicators[code].level}] — ${flatIndicators[code].description}`);
+    });
+  }
+  lines.push('');
+
+  // Full coverage detail, grouped by content area / performance standard
+  lines.push('## Coverage Detail');
+  lines.push('');
+  for (const cCode in standardsData) {
+    if (activeCourse === 'wdd_i' && cCode === '1.0') continue;
+    const contentStd = standardsData[cCode];
+    let contentHeaderWritten = false;
+
+    for (const pCode in contentStd.performance_standards) {
+      const perfStd = contentStd.performance_standards[pCode];
+      let perfHeaderWritten = false;
+
+      for (const iCode in perfStd.indicators) {
+        if (!flatIndicators[iCode]) continue;
+        if (!contentHeaderWritten) {
+          lines.push(`### Content Area ${cCode}: ${contentStd.title}`);
+          lines.push('');
+          contentHeaderWritten = true;
+        }
+        if (!perfHeaderWritten) {
+          lines.push(`#### Standard ${pCode}: ${perfStd.title}`);
+          lines.push('');
+          perfHeaderWritten = true;
+        }
+
+        const ind = flatIndicators[iCode];
+        const kind = classifyIndicator(iCode);
+        lines.push(`- **${iCode}** [${ind.level}] — ${ind.description}`);
+
+        if (kind === 'direct') {
+          stdToLessons[iCode].forEach(ref => {
+            lines.push(`  - ✓ Covered: Unit ${ref.unitNum} (${ref.unitTitle}) — Day ${ref.dayNum}: ${ref.dayTitle}`);
+          });
+        } else if (kind === 'fbla') {
+          lines.push('  - ✓ Co-curricular via CTSO (FBLA) — chapter activities, competitions, leadership conferences');
+        } else if (kind === 'gap') {
+          lines.push('  - ✗ GAP — no direct instruction mapped');
+        } else if (kind === 'excluded') {
+          lines.push('  - — Excluded by design (CTSO Standard 1.0)');
+        } else {
+          lines.push(`  - — Beyond Level 1 scope (${ind.level}); no action required`);
+        }
+      }
+      if (perfHeaderWritten) lines.push('');
+    }
+  }
+
+  return lines.join('\n');
+}
+
+// Generate and trigger download of the Markdown report
+function downloadMarkdownReport() {
+  if (!standardsData || !courseMapData) return;
+  const md = generateMarkdownReport();
+  const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const today = new Date().toISOString().slice(0, 10);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${activeCourse}-standards-audit-${today}.md`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
 }
 
 // Render columns
