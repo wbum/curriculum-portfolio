@@ -1,6 +1,6 @@
 # Standards Coverage — All Courses
 
-> Generated 2026-06-24 19:33 by `reports/compile_coverage_overview.py` from the grounded crosswalk JSON. Coverage is scored against **in-scope** indicators — those whose level tag includes the course's level (L1 for ACS I / WDD I / DGD I, L2 for the DGD II bridge). Out-of-level (L2/Complementary in an L1 course) and the CTSO/FBLA area (1.0) are reported separately, not counted against coverage. Mechanical coverage from unit-level tags — see `acs1_standards_gap_status.md` / `wdd_standards_gap_status.md` for finer scope judgment.
+> Generated 2026-06-24 19:41 by `reports/compile_coverage_overview.py` from the grounded crosswalk JSON. Coverage is scored against **in-scope** indicators — those whose level tag includes the course's level (L1 for ACS I / WDD I / DGD I, L2 for the DGD II bridge). Out-of-level (L2/Complementary in an L1 course) and the CTSO/FBLA area (1.0) are reported separately, not counted against coverage. Mechanical coverage from unit-level tags — see `acs1_standards_gap_status.md` / `wdd_standards_gap_status.md` for finer scope judgment.
 
 > **DGD I and II share one standards document as a two-year sequence**, so each year's standalone % understates the program — see the combined row.
 
@@ -8,7 +8,7 @@
 
 | Course | In-scope covered | In-scope % | Gaps | Out-of-level | CTSO (1.0) tagged |
 |---|---|---|---|---|---|
-| ACS I | 40/42 | 95% | 2 | 26 | 0/20 |
+| ACS I | 41/42 | 98% | 1 | 26 | 0/20 |
 | WDD I | 78/78 | 100% | 0 | 43 | 13/20 |
 | DGD I | 120/120 | 100% | 0 | 38 | 10/20 |
 | DGD II | 52/88 | 59% | 36 | 70 | 0/20 |
@@ -17,12 +17,11 @@
 
 ## Gap detail by course
 
-### ACS I — 2 uncovered in-scope indicator(s)
+### ACS I — 1 uncovered in-scope indicator(s)
 
 | Indicator | Area | Level | Description |
 |---|---|---|---|
 | 3.3.2 | 3.0 | L1 | Illustrate ways computing systems implement logic, input, and output through hardware comp |
-| 5.2.1 | 5.0 | L1 | Use tools and methods for collaboration on a project to increase connectivity of people in |
 
 _CTSO area 1.0: 0/20 tagged (co-curricular via FBLA; not counted as a core gap)._
 
