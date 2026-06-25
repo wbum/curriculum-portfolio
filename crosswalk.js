@@ -193,26 +193,36 @@ function calculateStats() {
   let gaps = 0;
   let outOfScope = 0; // uncovered but not expected at L1 (L2/Complementary, or excluded CTSO)
 
+  // Each course is scored against indicators at ITS level. ACS I / WDD I / DGD I
+  // are L1; DGD II is the L2 bridge year; CET is single-level (L1). An indicator
+  // is in-scope when its level tag includes the course's level.
+  const COURSE_LEVEL = { acs_i: 'L1', wdd_i: 'L1', dgd_i: 'L1', dgd_ii: 'L2', cet: 'L1' };
+  const courseLevel = COURSE_LEVEL[activeCourse] || 'L1';
+
   for (const code in flatIndicators) {
     total++;
     const isCTSO = code.startsWith('1.');
-    const inL1Scope = (flatIndicators[code].level || 'L1').includes('L1');
+    const inScope = (flatIndicators[code].level || 'L1').includes(courseLevel);
     if (activeCourse === 'wdd_i' && isCTSO) {
       outOfScope++; // WDD excludes CTSO Standard 1.0 by design
     } else if (stdToLessons[code] && stdToLessons[code].length > 0) {
       directCovered++;
     } else if ((activeCourse === 'acs_i' || activeCourse === 'dgd_i' || activeCourse === 'dgd_ii') && isCTSO) {
       fblaCovered++; // Treated as co-curricular via CTSO (FBLA/SkillsUSA)
-    } else if (inL1Scope) {
-      gaps++; // uncovered AND in L1 scope = a real gap for this L1 course
+    } else if (inScope) {
+      gaps++; // uncovered AND in this course's level scope = a real gap
     } else {
-      outOfScope++; // uncovered L2/Complementary indicator — not expected at L1
+      outOfScope++; // uncovered out-of-level (L2/Complementary) indicator — not expected
     }
   }
 
-  const directPercent = total > 0 ? Math.round((directCovered / total) * 100) : 0;
-  const fblaPercent = total > 0 ? Math.round((fblaCovered / total) * 100) : 0;
-  const totalPercent = total > 0 ? Math.round(((directCovered + fblaCovered) / total) * 100) : 0;
+  // Denominator excludes out-of-scope indicators so a course isn't penalized for
+  // out-of-level (L2/Complementary) indicators it isn't meant to teach.
+  // inScopeTotal === directCovered + fblaCovered + gaps.
+  const inScopeTotal = total - outOfScope;
+  const directPercent = inScopeTotal > 0 ? Math.round((directCovered / inScopeTotal) * 100) : 0;
+  const fblaPercent = inScopeTotal > 0 ? Math.round((fblaCovered / inScopeTotal) * 100) : 0;
+  const totalPercent = inScopeTotal > 0 ? Math.round(((directCovered + fblaCovered) / inScopeTotal) * 100) : 0;
 
   // Update UI stats elements if they exist
   const pctCoveredEl = document.getElementById('stat-pct-covered');
@@ -220,6 +230,7 @@ function calculateStats() {
   const directStdsEl = document.getElementById('stat-direct-stds');
   const fblaStdsEl = document.getElementById('stat-fbla-stds');
   const gapsStdsEl = document.getElementById('stat-gaps-stds');
+  const oosStdsEl = document.getElementById('stat-oos-stds');
   const progressFillEl = document.getElementById('progress-bar-fill');
   const fblaRowEl = document.getElementById('stat-fbla-row');
 
@@ -228,7 +239,7 @@ function calculateStats() {
   }
 
   if (pctCoveredEl) pctCoveredEl.textContent = `${totalPercent}%`;
-  if (totalStdsEl) totalStdsEl.textContent = total;
+  if (totalStdsEl) totalStdsEl.textContent = inScopeTotal;
   if (directStdsEl) {
     directStdsEl.textContent = (activeCourse === 'wdd_i' || activeCourse === 'cet') 
       ? `${directCovered} indicators (${totalPercent}%)`
@@ -236,6 +247,7 @@ function calculateStats() {
   }
   if (fblaStdsEl) fblaStdsEl.textContent = `${fblaCovered} indicators (${fblaPercent}%)`;
   if (gapsStdsEl) gapsStdsEl.textContent = `${gaps} indicators`;
+  if (oosStdsEl) oosStdsEl.textContent = `${outOfScope} indicators`;
   if (progressFillEl) progressFillEl.style.width = `${totalPercent}%`;
 }
 
