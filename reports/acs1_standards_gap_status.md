@@ -3,17 +3,23 @@
 Source of truth: `*_Day_*_Lesson_Plan.md` files. Regenerate the auditor data with
 `python3 Portfolio_Site/reports/fix_parsers.py` after editing any lesson plan.
 
-## Coverage (Nevada Advanced CS, Content Areas 1.0–7.0, 88 indicators)
+## Coverage (Nevada Advanced CS, Content Areas 1.0–7.0)
+
+**Scored level-aware (2026-06-24): ACS I is an L1 course, so coverage is measured
+against L1 indicators only. Out-of-level (L2/Complementary) indicators are reported
+separately, not counted as gaps.**
 
 | Category | Count | % |
 |---|---|---|
-| Direct instruction (tagged in lesson plans) | 48 | 71% of non-CTSO |
-| CTSO 1.0 (co-curricular via FBLA) | 20 | — |
-| Remaining gaps | 20 | — |
-| **Overall (direct + co-curricular)** | **68/88** | **77%** |
+| L1 in-scope, directly taught | 42/42 | **100%** |
+| CTSO 1.0 (co-curricular via FBLA) | 0/20 tagged | reported separately |
+| Out-of-level (L2/Complementary) | 26 | not in scope |
+| **Remaining L1 gaps** | **0** | — |
 
-History: started at 37 direct / 31 gaps (65%). High-confidence tagging + an
-extractor fix (bare-code capture) brought it to 48 direct / 20 gaps (77%).
+History: 37 direct / 31 gaps (65%) → extractor fix + high-confidence tagging (77%
+of non-CTSO) → day-level reconcile (the overview now reads the same day-level tags
+as the crosswalk) → level-aware scoring → tagged the last two L1 indicators (5.2.1
+at Unit 3 Day 1; 3.3.2 via a new hardware segment in Unit 1 Day 3) → **100% L1, 0 gaps.**
 
 ## Applied this pass (high-confidence, evidence-cited)
 
