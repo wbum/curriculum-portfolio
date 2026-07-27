@@ -34,6 +34,33 @@ python3 reports/compile_cet_data.py     # Intro CS (CET)
 python3 reports/regen_wdd_course_map.py # Web Design & Development
 ```
 
+Every compiler validates before it writes and **refuses to publish broken data**,
+so a regeneration either produces something the site can render or leaves the
+previous file untouched. Check the committed data at any time:
+
+```bash
+python3 reports/validate_data.py        # exit 1 if anything would break the site
+```
+
+Errors block a write; warnings are printed but do not. The line is whether the
+site reads the field. A day tag missing from the catalog is an error, because
+`indexData()` in `crosswalk.js` drops it silently and the published coverage
+percentage quietly drops with it. Junk in a course map's top-level `standards`
+description map is a warning, because nothing renders it.
+
+**Two compilers cannot currently run**, both for reasons that predate the
+validator:
+
+- `compile_cet_data.py` needs `reports/cet_standards_temp.txt`, an intermediate that was never committed.
+- `compile_wdd_data.py` points at `/Users/willbumgardner/Desktop/TheVault/...`, a path from before the vault moved. Use `regen_wdd_course_map.py`.
+
+`compile_dgd_data.py` runs but is **blocked by validation on purpose**: it splits
+lesson files on `## DAY` / `## FRIDAY` headings, and all eight DGD I unit files now
+use `## WEEK n · SESSION m` after the block-to-daily re-pace. It matches nothing,
+so it would write eight units with zero days and wipe the DGD I crosswalk. The
+committed JSON still reflects the old pacing — correct data, stale shape. Fixing
+that parser is its own job.
+
 ## Run locally
 
 ```bash

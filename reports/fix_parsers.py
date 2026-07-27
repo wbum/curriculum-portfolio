@@ -6,6 +6,8 @@ Rewrites nv_cs_standards_grounded.json and acs1_course_map_grounded.json in plac
 """
 import json, re, pathlib
 
+from validate_data import write_json_validated
+
 REPORTS = pathlib.Path(__file__).parent
 VAULT = REPORTS.parent.parent  # reports/ now lives under Portfolio_Site/
 ACS_DIR = VAULT / "03_Teaching" / "ACS_I"
@@ -158,6 +160,40 @@ def day_standards(num: int, day: int):
     return seen
 
 
+# ---------- Bug 3: empty ACS day titles ----------
+# Units 13-15 head their lesson plans "Unit 13 Day 1 Lesson Plan" with no comma
+# after the unit number. The original parser required the comma, so it matched
+# nothing and left nine day titles empty -- and crosswalk.js renders day titles,
+# so those days published as "Day 1: " with nothing after the colon.
+DAY_H1_RE = re.compile(r"^Unit\s+(\d+)\s*,?\s*Day\s+(\d+)\s*(.*)$", re.IGNORECASE)
+
+
+def day_title_from_h1(num: int, day: int, h1: str) -> str:
+    """Normalize a lesson-plan H1 to a day title.
+
+    Keeps a real subtitle when the heading carries one ("Unit 1, Day 1: Welcome
+    to..."), and otherwise returns the canonical "Unit N, Day M" that the
+    majority of units already use. Never invents a subtitle.
+    """
+    canonical = f"Unit {num}, Day {day}"
+    if not (m := DAY_H1_RE.match(h1.strip())):
+        return canonical
+    tail = re.sub(r"\bLesson Plan\b", "", m.group(3), flags=re.IGNORECASE)
+    tail = tail.strip(" :—–-\t")
+    return f"{canonical}: {tail}" if tail else canonical
+
+
+def day_title(num: int, day: int) -> str | None:
+    """Day title from the lesson plan, or None to keep the existing value."""
+    path = ACS_DIR / f"ACS1 Unit {num}" / f"Unit_{num}_Day_{day}_Lesson_Plan.md"
+    if not path.exists():
+        return None
+    for line in path.read_text().splitlines():
+        if (m := H1_RE.match(line.strip())):
+            return day_title_from_h1(num, day, m.group(1))
+    return f"Unit {num}, Day {day}"
+
+
 def fix_acs():
     data = json.loads((REPORTS / "acs1_course_map_grounded.json").read_text())
     for u in data["units"]:
@@ -166,14 +202,19 @@ def fix_acs():
             stds = day_standards(u["number"], d["day"])
             if stds is not None:
                 d["standards"] = stds
+            # Fill blanks only. The titled days are already good, and rewriting
+            # them all would churn 157 entries to fix nine.
+            if not (d.get("title") or "").strip():
+                if (title := day_title(u["number"], d["day"])) is not None:
+                    d["title"] = title
     return data
 
 
 if __name__ == "__main__":
     nv = parse_nv()
-    (REPORTS / "nv_cs_standards_grounded.json").write_text(json.dumps(nv, indent=1))
+    write_json_validated(REPORTS / "nv_cs_standards_grounded.json", nv, "catalog", indent=1)
     acs = fix_acs()
-    (REPORTS / "acs1_course_map_grounded.json").write_text(json.dumps(acs, indent=1))
+    write_json_validated(REPORTS / "acs1_course_map_grounded.json", acs, "course_map", indent=1)
 
     n = sum(len(ps["indicators"]) for cs in nv.values()
             for ps in cs["performance_standards"].values())

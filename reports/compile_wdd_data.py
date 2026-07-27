@@ -2,6 +2,8 @@ import os
 import re
 import json
 
+from validate_data import write_json_validated
+
 vault_path = "/Users/willbumgardner/Desktop/TheVault"
 
 # ==========================================
@@ -123,8 +125,7 @@ while i < len(lines):
         
     i += 1
 
-with open(out_json_standards, 'w', encoding='utf-8') as fh:
-    json.dump(content_standards, fh, indent=2)
+write_json_validated(out_json_standards, content_standards, "catalog")
 
 print(f"1. WDD Standards parsed: {len(content_standards)} Content Standards written to {out_json_standards}")
 
@@ -222,8 +223,7 @@ for unit_num, unit_dir in unit_dirs:
 course_data["standards"] = {code: flat_standards_map.get(code, "Web Design and Development Standard") for code in flat_standards_map}
 
 out_json_course = os.path.join(vault_path, "reports/wdd_course_map_grounded.json")
-with open(out_json_course, 'w', encoding='utf-8') as fh:
-    json.dump(course_data, fh, indent=2)
+write_json_validated(out_json_course, course_data, "course_map")
 
 print(f"2. Course map data with canonical titles and merged standards written to {out_json_course}!")
 print("Done WDD compilation!")
