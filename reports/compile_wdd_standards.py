@@ -1,14 +1,30 @@
+"""Parse the Nevada Web Design & Development standards into a grounded catalog.
+
+Input is `wdd_standards.txt`, a text dump of the official standards PDF. Output is
+`wdd_cs_standards_grounded.json`, which the site reads and which
+`regen_wdd_course_map.py` reads to decide which codes are real.
+
+This script used to also build the course map, but that half was superseded:
+`regen_wdd_course_map.py` replaced it because the original extractor missed
+bare-code shorthand and expanded no ranges, inventing phantom gaps. Only the
+catalog half lives here now, so the worse extractor cannot be run by accident.
+
+Standard 1.0 (CTSOs/FBLA) stays in the catalog because the PDF prescribes it; it
+is excluded from gap reporting downstream, not here.
+"""
 import os
 import re
 import json
 
-vault_path = "/Users/willbumgardner/Desktop/TheVault"
+from validate_data import write_json_validated
+
+reports_dir = os.path.dirname(os.path.abspath(__file__))
 
 # ==========================================
 # 1. PARSE WDD STANDARDS
 # ==========================================
-txt_file = os.path.join(vault_path, "reports/wdd_standards.txt")
-out_json_standards = os.path.join(vault_path, "reports/wdd_cs_standards_grounded.json")
+txt_file = os.path.join(reports_dir, "wdd_standards.txt")
+out_json_standards = os.path.join(reports_dir, "wdd_cs_standards_grounded.json")
 
 with open(txt_file, 'r', encoding='utf-8') as fh:
     lines = fh.readlines()
@@ -16,6 +32,29 @@ with open(txt_file, 'r', encoding='utf-8') as fh:
 content_standards = {}
 current_content = ""
 current_perf = ""
+
+# Page-break furniture the PDF->text conversion interleaves into the standards
+# body. It must never land in a description: it pushes the trailing "(L2)" level
+# marker away from end-of-string and defeats level detection, silently
+# downgrading every affected indicator to L1. Same failure as in
+# compile_dgd_data.py, same shape of fix.
+FOOTER_RE = re.compile(
+    r"^\s*(?:"
+    r"(?:\d+|[ivxlc]+)?\s*Nevada CTE Standards"
+    r"|Web Design and Development Standards"
+    r"|Revised:\s*\d{1,2}/\d{1,2}/\d{2,4}"
+    r"|\d{4}"
+    r")",
+    re.IGNORECASE,
+)
+
+
+def is_page_furniture(line: str) -> bool:
+    """True for a line that is page header/footer, not standards text."""
+    if not line or line.isdigit() or line.startswith("\x0c"):
+        return True
+    return bool(FOOTER_RE.match(line)) and not re.match(r"^\d+\.\d+", line)
+
 
 def normalize_level(paren_text: str) -> str:
     found = [t for t in ("L1", "L2", "C") if re.search(rf"\b{re.escape(t)}\b", paren_text)]
@@ -90,8 +129,8 @@ while i < len(lines):
                 "State Complementary Skill" in next_line):
                 break
                 
-            # Skip empty lines, page numbers, or form feeds
-            if not next_line or next_line.isdigit() or next_line == "\x0c" or next_line.startswith("\x0c"):
+            # Skip empty lines, page numbers, form feeds, and footer furniture
+            if is_page_furniture(next_line):
                 j += 1
                 continue
                 
@@ -123,107 +162,6 @@ while i < len(lines):
         
     i += 1
 
-with open(out_json_standards, 'w', encoding='utf-8') as fh:
-    json.dump(content_standards, fh, indent=2)
+write_json_validated(out_json_standards, content_standards, "catalog", indent=1)
 
 print(f"1. WDD Standards parsed: {len(content_standards)} Content Standards written to {out_json_standards}")
-
-
-# ==========================================
-# 2. PARSE WDD COURSE MAP (WDD_I UNITS)
-# ==========================================
-wdd_path = os.path.join(vault_path, "03_Teaching/WDD_I")
-course_data = {
-    "units": [],
-    "standards": {}
-}
-
-unit_dirs = []
-for name in os.listdir(wdd_path):
-    dir_path = os.path.join(wdd_path, name)
-    if os.path.isdir(dir_path) and name.startswith("Unit_"):
-        try:
-            num = int(name.split("_")[1])
-            unit_dirs.append((num, dir_path))
-        except ValueError:
-            continue
-
-unit_dirs.sort(key=lambda x: x[0])
-
-std_re = re.compile(r"(?:WDD|WEB)\s+(\d+\.\d+\.\d+)")
-
-# Flat standards descriptions mapping we compile
-flat_standards_map = {}
-for c_code, c_data in content_standards.items():
-    for p_code, p_data in c_data["performance_standards"].items():
-        for i_code, i_data in p_data["indicators"].items():
-            flat_standards_map[i_code] = i_data["description"]
-
-for unit_num, unit_dir in unit_dirs:
-    unit_info = {
-        "number": unit_num,
-        "title": f"Unit {unit_num}",
-        "days": [],
-        "standards": []
-    }
-    
-    lessons_file = os.path.join(unit_dir, "Redesign_Lessons.md")
-    if not os.path.exists(lessons_file):
-        print(f"Warning: Redesign_Lessons.md not found in {unit_dir}")
-        continue
-        
-    with open(lessons_file, 'r', encoding='utf-8') as fh:
-        content = fh.read()
-        
-    # Extract Unit Title from first H1
-    h1_match = re.search(r"^#\s+(Unit\s+\d+:\s*(.+?)\s*—\s*Lesson Plans|.+)$", content, re.MULTILINE)
-    if h1_match:
-        t = h1_match.group(1).strip()
-        # Clean title
-        t_clean = re.sub(r"^Unit\s+\d+:\s*", "", t)
-        t_clean = re.sub(r"\s*—\s*Lesson Plans", "", t_clean)
-        unit_info["title"] = t_clean.strip()
-        
-    # Find all sessions (using H2 headings)
-    sessions = re.split(r"^##\s+SESSION\s+", content, flags=re.MULTILINE)[1:]
-    
-    for idx, sess_raw in enumerate(sessions):
-        sess_lines = sess_raw.splitlines()
-        if not sess_lines:
-            continue
-            
-        header_line = sess_lines[0].strip()
-        # Header format: "1 — Title" or "1: Title"
-        m_title = re.match(r"^(\d+)\s*[:—\-]\s*(.+)$", header_line)
-        sess_num = idx + 1
-        sess_title = header_line
-        if m_title:
-            sess_num = int(m_title.group(1))
-            sess_title = m_title.group(2).strip()
-            
-        # Search for Standards metadata line immediately following
-        sess_stds = []
-        metadata_block = "\n".join(sess_lines[1:4])
-        std_matches = std_re.findall(metadata_block)
-        for code in std_matches:
-            if code not in sess_stds:
-                sess_stds.append(code)
-            if code not in unit_info["standards"]:
-                unit_info["standards"].append(code)
-                
-        unit_info["days"].append({
-            "day": sess_num,
-            "title": sess_title,
-            "standards": sess_stds
-        })
-        
-    course_data["units"].append(unit_info)
-
-course_data["standards"] = {code: flat_standards_map.get(code, "Web Design and Development Standard") for code in flat_standards_map}
-
-out_json_course = os.path.join(vault_path, "reports/wdd_course_map_grounded.json")
-with open(out_json_course, 'w', encoding='utf-8') as fh:
-    json.dump(course_data, fh, indent=2)
-
-print(f"2. Course map data with canonical titles and merged standards written to {out_json_course}!")
-print("Done WDD compilation!")

@@ -2,6 +2,9 @@ import os
 import re
 import json
 
+from dgd_lessons import parse_units
+from validate_data import write_json_validated
+
 # Use relative path since the script runs inside Portfolio_Site/reports/
 reports_dir = os.path.dirname(os.path.abspath(__file__))
 vault_path = os.path.dirname(reports_dir)  # Portfolio_Site is parent
@@ -193,8 +196,7 @@ while i < len(lines):
         
     i += 1
 
-with open(out_json_standards, 'w', encoding='utf-8') as fh:
-    json.dump(content_standards, fh, indent=2)
+write_json_validated(out_json_standards, content_standards, "catalog")
 
 print(f"1. DGD Standards parsed: {len(content_standards)} Content Standards written to {out_json_standards}")
 
@@ -208,20 +210,6 @@ course_data = {
     "standards": {}
 }
 
-unit_dirs = []
-for name in os.listdir(dgd_path):
-    dir_path = os.path.join(dgd_path, name)
-    if os.path.isdir(dir_path) and name.startswith("Unit_"):
-        try:
-            num = int(name.split("_")[1])
-            unit_dirs.append((num, dir_path))
-        except ValueError:
-            continue
-
-unit_dirs.sort(key=lambda x: x[0])
-
-std_re = re.compile(r"DGD[\.\s]+(\d+\.\d+\.\d+)")
-
 # Flat standards descriptions mapping we compile
 flat_standards_map = {}
 for c_code, c_data in content_standards.items():
@@ -229,70 +217,20 @@ for c_code, c_data in content_standards.items():
         for i_code, i_data in p_data["indicators"].items():
             flat_standards_map[i_code] = i_data["description"]
 
-for unit_num, unit_dir in unit_dirs:
-    unit_info = {
-        "number": unit_num,
-        "title": f"Unit {unit_num}",
-        "days": [],
-        "standards": []
-    }
-    
-    lessons_file = os.path.join(unit_dir, f"Unit_{unit_num}_Lessons.md")
-    if not os.path.exists(lessons_file):
-        print(f"Warning: {lessons_file} not found")
-        continue
-        
-    with open(lessons_file, 'r', encoding='utf-8') as fh:
-        content = fh.read()
-        
-    # Extract Unit Title from first H1 or overview file if needed
-    h1_match = re.search(r"^#\s+(Unit\s+\d+:\s*(.+?)\s*—\s*Lesson Plans|.+)$", content, re.MULTILINE)
-    if h1_match:
-        t = h1_match.group(1).strip()
-        t_clean = re.sub(r"^Unit\s+\d+:\s*", "", t)
-        t_clean = re.sub(r"\s*—\s*Lesson Plans", "", t_clean)
-        unit_info["title"] = t_clean.strip()
-        
-    # Find all sessions (using H2 headings like "## DAY" or "## FRIDAY")
-    sessions = re.split(r"^##\s+(?:DAY|FRIDAY)\s+", content, flags=re.MULTILINE)[1:]
-    
-    for idx, sess_raw in enumerate(sessions):
-        sess_lines = sess_raw.splitlines()
-        if not sess_lines:
-            continue
-            
-        header_line = sess_lines[0].strip()
-        # Header format: "1 — Title" or "1: Title"
-        m_title = re.match(r"^(\d+)\s*[:—\-]\s*(.+)$", header_line)
-        sess_num = idx + 1
-        sess_title = header_line
-        if m_title:
-            sess_title = m_title.group(2).strip()
-            
-        # Search for Standards metadata line immediately following
-        sess_stds = []
-        metadata_block = "\n".join(sess_lines[1:4])
-        std_matches = std_re.findall(metadata_block)
-        for code in std_matches:
-            if code not in sess_stds:
-                sess_stds.append(code)
-            if code not in unit_info["standards"]:
-                unit_info["standards"].append(code)
-                
-        unit_info["days"].append({
-            "day": sess_num,
-            "title": sess_title,
-            "standards": sess_stds
-        })
-        
-    course_data["units"].append(unit_info)
+# Meeting parsing lives in dgd_lessons so it can be tested without running this
+# whole pipeline. The unit files use "## WEEK n · SESSION m (DAY, 40 min) — Title"
+# since the block-to-daily re-pace; see that module for why day numbers come from
+# document order rather than the SESSION/FRIDAY labels.
+course_data["units"] = parse_units(dgd_path)
+for unit_info in course_data["units"]:
+    print(f"Unit {unit_info['number']}: {len(unit_info['days'])} meetings, "
+          f"{len(unit_info['standards'])} standards — {unit_info['title']}")
 
 # Filter standards map to only include standards we have descriptions for
 course_data["standards"] = {code: flat_standards_map.get(code, "Digital Game Development Standard") for code in flat_standards_map}
 
 out_json_course = os.path.join(reports_dir, "dgd_course_map_grounded.json")
-with open(out_json_course, 'w', encoding='utf-8') as fh:
-    json.dump(course_data, fh, indent=2)
+write_json_validated(out_json_course, course_data, "course_map")
 
 print(f"2. Course map data with canonical titles and merged standards written to {out_json_course}!")
 print("Done DGD compilation!")

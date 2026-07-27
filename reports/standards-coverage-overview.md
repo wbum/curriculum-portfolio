@@ -1,6 +1,6 @@
 # Standards Coverage — All Courses
 
-> Generated 2026-06-24 19:45 by `reports/compile_coverage_overview.py` from the grounded crosswalk JSON. Coverage is scored against **in-scope** indicators — those whose level tag includes the course's level (L1 for ACS I / WDD I / DGD I, L2 for the DGD II bridge). Out-of-level (L2/Complementary in an L1 course) and the CTSO/FBLA area (1.0) are reported separately, not counted against coverage. Mechanical coverage from unit-level tags — see `acs1_standards_gap_status.md` / `wdd_standards_gap_status.md` for finer scope judgment.
+> Generated 2026-07-26 19:28 by `reports/compile_coverage_overview.py` from the grounded crosswalk JSON. Coverage is scored against **in-scope** indicators — those whose level tag includes the course's level (L1 for ACS I / WDD I / DGD I, L2 for the DGD II bridge). Out-of-level (L2/Complementary in an L1 course) and the CTSO/FBLA area (1.0) are reported separately, not counted against coverage. Mechanical coverage from unit-level tags — see `acs1_standards_gap_status.md` / `wdd_standards_gap_status.md` for finer scope judgment.
 
 > **DGD I and II share one standards document as a two-year sequence**, so each year's standalone % understates the program — see the combined row.
 

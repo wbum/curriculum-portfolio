@@ -9,6 +9,8 @@ Ranges are expanded; only codes in the standards catalog are kept (no false posi
 """
 import json, re, pathlib
 
+from validate_data import write_json_validated
+
 REPORTS = pathlib.Path(__file__).parent
 WDD_DIR = REPORTS.parent.parent / "03_Teaching" / "WDD_I"  # reports/ now under Portfolio_Site/
 CATALOG = json.loads((REPORTS / "wdd_cs_standards_grounded.json").read_text())
@@ -83,7 +85,7 @@ def build_unit(num: int):
 if __name__ == "__main__":
     units = [u for n in range(1, 7) if (u := build_unit(n))]
     out = {"units": units, "standards": dict(sorted(VALID.items()))}
-    (REPORTS / "wdd_course_map_grounded.json").write_text(json.dumps(out, indent=1))
+    write_json_validated(REPORTS / "wdd_course_map_grounded.json", out, "course_map", indent=1)
 
     mapped = {c for u in units for d in u["days"] for c in d["standards"]}
     gaps = [c for c in VALID if c not in mapped and not c.startswith("1.")]

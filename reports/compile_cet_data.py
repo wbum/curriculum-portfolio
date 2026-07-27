@@ -2,6 +2,8 @@ import os
 import re
 import json
 
+from validate_data import write_json_validated
+
 reports_dir = os.path.dirname(os.path.abspath(__file__))
 vault_path = os.path.dirname(reports_dir)  # Portfolio_Site is parent
 vault_root = os.path.dirname(vault_path)    # TheVault is grandparent
@@ -9,7 +11,7 @@ vault_root = os.path.dirname(vault_path)    # TheVault is grandparent
 # ==========================================
 # 1. PARSE CET STANDARDS
 # ==========================================
-txt_file = os.path.join(reports_dir, "cet_standards_temp.txt")
+txt_file = os.path.join(reports_dir, "cet_standards.txt")
 out_json_standards = os.path.join(reports_dir, "cet_cs_standards_grounded.json")
 
 print(f"Reading CET standards from: {txt_file}")
@@ -107,8 +109,7 @@ while i < len(lines):
         continue
     i += 1
 
-with open(out_json_standards, 'w', encoding='utf-8') as fh:
-    json.dump(content_standards, fh, indent=2)
+write_json_validated(out_json_standards, content_standards, "catalog")
 
 print(f"1. CET Standards parsed: {len(content_standards)} Content Standards written to {out_json_standards}")
 
@@ -251,8 +252,7 @@ for block in blocks_info:
 course_data["standards"] = {code: flat_standards_map.get(code, "Computer Education Technology Standard") for code in flat_standards_map}
 
 out_json_course = os.path.join(reports_dir, "cet_course_map_grounded.json")
-with open(out_json_course, 'w', encoding='utf-8') as fh:
-    json.dump(course_data, fh, indent=2)
+write_json_validated(out_json_course, course_data, "course_map")
 
 print(f"2. Course map data with canonical titles and merged standards written to {out_json_course}!")
 print("Done CET compilation!")
