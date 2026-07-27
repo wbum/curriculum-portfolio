@@ -54,12 +54,22 @@ validator:
 - `compile_cet_data.py` needs `reports/cet_standards_temp.txt`, an intermediate that was never committed.
 - `compile_wdd_data.py` points at `/Users/willbumgardner/Desktop/TheVault/...`, a path from before the vault moved. Use `regen_wdd_course_map.py`.
 
-`compile_dgd_data.py` runs but is **blocked by validation on purpose**: it splits
-lesson files on `## DAY` / `## FRIDAY` headings, and all eight DGD I unit files now
-use `## WEEK n · SESSION m` after the block-to-daily re-pace. It matches nothing,
-so it would write eight units with zero days and wipe the DGD I crosswalk. The
-committed JSON still reflects the old pacing — correct data, stale shape. Fixing
-that parser is its own job.
+`compile_dgd_data.py` reads the DGD I lesson files through `dgd_lessons.py`, which
+parses the daily-pacing headings:
+
+```
+## WEEK 1 · SESSION 1 (MON, 40 min) — Course Overview & What You'll Build
+## WEEK 1 · FRIDAY 1 (FRI, 50 min) — Non-Digital Game Reflection
+```
+
+`day` is the meeting's position in the unit, not its `SESSION`/`FRIDAY` label.
+Those two sequences are numbered independently — SESSION numbers run continuously
+across a unit while FRIDAY numbers restart at 1 — so the labels collide and cannot
+serve as day numbers. Document order also matches what "Day N" means everywhere
+else in the vault.
+
+`compile_dgd2_data.py` still splits on `## DAY` / `## FRIDAY`, which is correct:
+the DGD II bridge files were never re-paced and still use that format.
 
 ## Run locally
 

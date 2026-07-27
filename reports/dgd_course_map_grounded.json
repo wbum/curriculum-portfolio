@@ -6,81 +6,117 @@
       "days": [
         {
           "day": 1,
-          "title": "Course Overview + CTSO Intro + CTE Pathway",
+          "title": "Course Overview & What You'll Build",
+          "standards": [
+            "1.4.3"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "CTE Pathway, CTSOs & Credentials",
           "standards": [
             "1.1.1",
             "1.1.2",
-            "1.4.3",
             "1.5.1",
             "1.5.2"
           ]
         },
         {
-          "day": 2,
-          "title": "History of Computing in Games + Non-Digital Games",
+          "day": 3,
+          "title": "History of Computing in Games",
           "standards": [
-            "2.1.1",
+            "2.1.1"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Non-Digital Game Play & Design Vocabulary",
+          "standards": [
             "2.1.2"
           ]
         },
         {
-          "day": 3,
+          "day": 5,
           "title": "Non-Digital Game Reflection",
           "standards": [
             "2.1.2"
           ]
         },
         {
-          "day": 4,
-          "title": "Video Game Evolution + Game Genres",
+          "day": 6,
+          "title": "Video Game Evolution",
           "standards": [
-            "2.1.3",
+            "2.1.3"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Game Genres",
+          "standards": [
             "2.1.4"
           ]
         },
         {
-          "day": 5,
-          "title": "Key Game Designers + Career Research (Begins)",
+          "day": 8,
+          "title": "Key Game Designers",
           "standards": [
             "2.1.5",
-            "2.2.1",
+            "2.2.1"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Career Research Begins (Assessment Part 1)",
+          "standards": [
             "2.2.5"
           ]
         },
         {
-          "day": 6,
+          "day": 10,
           "title": "Genre Analysis Activity",
           "standards": [
             "2.1.4"
           ]
         },
         {
-          "day": 7,
-          "title": "Game Industry Roles: Job Description Deep Dive",
+          "day": 11,
+          "title": "Game Industry Roles",
           "standards": [
-            "2.2.3",
+            "2.2.3"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Non-Traditional Engine Careers + Job-Posting Analysis",
+          "standards": [
+            "2.2.2",
             "2.2.4"
           ]
         },
         {
-          "day": 8,
-          "title": "Non-Traditional Careers + ESRB + Labor Market Data",
+          "day": 13,
+          "title": "The ESRB Rating System (Assessment Part 2)",
           "standards": [
-            "2.2.2",
-            "2.2.6",
             "7.1.6"
           ]
         },
         {
-          "day": 9,
+          "day": 14,
+          "title": "Labor-Market Data + Assessment Work Time",
+          "standards": [
+            "2.2.6"
+          ]
+        },
+        {
+          "day": 15,
           "title": "Assessment Submission + Industry Q&A",
           "standards": []
         }
       ],
       "standards": [
+        "1.4.3",
         "1.1.1",
         "1.1.2",
-        "1.4.3",
         "1.5.1",
         "1.5.2",
         "2.1.1",
@@ -91,10 +127,10 @@
         "2.2.1",
         "2.2.5",
         "2.2.3",
-        "2.2.4",
         "2.2.2",
-        "2.2.6",
-        "7.1.6"
+        "2.2.4",
+        "7.1.6",
+        "2.2.6"
       ]
     },
     {
@@ -103,100 +139,150 @@
       "days": [
         {
           "day": 1,
-          "title": "Team Roles + Game Development Process",
+          "title": "Team Roles & Disciplines",
           "standards": [
-            "3.1.1",
-            "3.1.2"
+            "3.1.1"
           ]
         },
         {
           "day": 2,
-          "title": "Collaboration Tools + GitHub Setup",
+          "title": "The Game Development Process",
           "standards": [
-            "3.1.3",
-            "3.1.4"
+            "3.1.2"
           ]
         },
         {
           "day": 3,
-          "title": "GitHub Check-In",
+          "title": "Collaboration Tools & Why Version Control",
+          "standards": [
+            "3.1.3"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "GitHub Setup (Hands-On)",
+          "standards": [
+            "3.1.4"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "GitHub Check-In & Troubleshooting",
           "standards": [
             "3.1.3",
             "3.1.4"
           ]
         },
         {
-          "day": 4,
-          "title": "Game Structure + Storytelling",
+          "day": 6,
+          "title": "Game Structure",
           "standards": [
             "3.2.1",
+            "3.2.2"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Storytelling: Visual & Environmental",
+          "standards": [
             "3.2.2",
             "3.2.3"
           ]
         },
         {
-          "day": 5,
-          "title": "Nonlinear Narrative + Conflict + Objectives + Win/Loss Design",
+          "day": 8,
+          "title": "Narrative Structure, Rules & Interactive Flow",
           "standards": [
             "3.2.3",
-            "3.2.4",
+            "3.2.4"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Conflict, Objectives & Win/Loss Design",
+          "standards": [
             "3.2.5",
             "3.2.6"
           ]
         },
         {
-          "day": 6,
+          "day": 10,
           "title": "Game Deconstruction Activity",
           "standards": [
             "3.2.1"
           ]
         },
         {
-          "day": 7,
-          "title": "Usability, UX, In-Game Economies, and Motivators",
+          "day": 11,
+          "title": "Usability, UX & Onboarding",
           "standards": [
-            "3.2.7",
+            "3.2.7"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "In-Game Economies & Motivators",
+          "standards": [
             "3.2.8"
           ]
         },
         {
-          "day": 8,
-          "title": "Documentation: TDD, GDD, and Asset Lists",
+          "day": 13,
+          "title": "Documentation: GDD & TDD",
           "standards": [
             "3.3.1",
-            "3.3.2",
+            "3.3.2"
+          ]
+        },
+        {
+          "day": 14,
+          "title": "Asset Lists & GDD Template Work",
+          "standards": [
             "3.3.3",
             "3.3.4"
           ]
         },
         {
-          "day": 9,
+          "day": 15,
           "title": "GDD Draft Peer Feedback",
           "standards": [
             "3.3.3"
           ]
         },
         {
-          "day": 10,
-          "title": "Game Mechanics: Categories, Victory Conditions, MDA Framework",
+          "day": 16,
+          "title": "Game Mechanics: Categories",
           "standards": [
             "3.4.1",
+            "3.4.3"
+          ]
+        },
+        {
+          "day": 17,
+          "title": "Victory Conditions Across Genres & the MDA Framework",
+          "standards": [
             "3.4.2",
-            "3.4.3",
             "3.4.4"
           ]
         },
         {
-          "day": 11,
-          "title": "GDD Workshop: Finalize Part 1",
+          "day": 18,
+          "title": "GDD Workshop: Build",
           "standards": [
             "3.3.3",
-            "3.3.4",
+            "3.3.4"
+          ]
+        },
+        {
+          "day": 19,
+          "title": "GDD Workshop: Finalize",
+          "standards": [
+            "3.3.3",
             "3.2.6"
           ]
         },
         {
-          "day": 12,
+          "day": 20,
           "title": "Assessment Submission + Concept Share-Out",
           "standards": []
         }
@@ -219,8 +305,8 @@
         "3.3.3",
         "3.3.4",
         "3.4.1",
-        "3.4.2",
         "3.4.3",
+        "3.4.2",
         "3.4.4"
       ]
     },
@@ -230,46 +316,70 @@
       "days": [
         {
           "day": 1,
-          "title": "Design Fundamentals: Layout, Composition, Color Theory",
+          "title": "Layout, Composition & Visual Hierarchy",
           "standards": [
-            "4.1.1",
-            "4.1.2"
+            "4.1.1"
           ]
         },
         {
           "day": 2,
-          "title": "12 Principles of Animation + Perspective Types",
+          "title": "Color Theory",
           "standards": [
-            "4.1.3",
-            "4.1.4"
+            "4.1.2"
           ]
         },
         {
           "day": 3,
+          "title": "The 12 Principles of Animation",
+          "standards": [
+            "4.1.3"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Perspective Types",
+          "standards": [
+            "4.1.4"
+          ]
+        },
+        {
+          "day": 5,
           "title": "Color Theory Applied: Game Palette Analysis",
           "standards": [
             "4.1.2"
           ]
         },
         {
-          "day": 4,
-          "title": "Design for Context: Environments, Assets, Characters, UI; 2D/2.5D/3D; Artistic Style",
+          "day": 6,
+          "title": "Design by Asset Type: Environments, Characters, UI",
           "standards": [
-            "4.1.5",
+            "4.1.5"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "2D / 2.5D / 3D & Artistic Style",
+          "standards": [
             "4.1.6",
             "4.1.7"
           ]
         },
         {
-          "day": 5,
-          "title": "Character Archetypes: The 12 Types; Archetypes vs. Stereotypes",
+          "day": 8,
+          "title": "The 12 Character Archetypes",
           "standards": [
-            "4.3.1",
+            "4.3.1"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Archetypes vs. Stereotypes",
+          "standards": [
             "4.3.2"
           ]
         },
         {
-          "day": 6,
+          "day": 10,
           "title": "Archetype Identification Activity",
           "standards": [
             "4.3.1",
@@ -277,49 +387,74 @@
           ]
         },
         {
-          "day": 7,
-          "title": "Character Design: Backstory, Arc, Progression, and Game Feel",
+          "day": 11,
+          "title": "Character Backstory Structure",
           "standards": [
             "4.3.3",
-            "4.3.4",
+            "4.3.4"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Arc vs. Progression & Visual Design / Game Feel",
+          "standards": [
             "4.3.5",
             "4.3.6"
           ]
         },
         {
-          "day": 8,
-          "title": "NPCs; Static vs. Dynamic Objects; Organic vs. Hard Surfaces",
+          "day": 13,
+          "title": "NPC Types & Design",
           "standards": [
-            "4.3.7",
+            "4.3.7"
+          ]
+        },
+        {
+          "day": 14,
+          "title": "Static/Dynamic Objects & Organic/Hard Surfaces",
+          "standards": [
             "4.3.8",
             "4.3.9"
           ]
         },
         {
-          "day": 9,
+          "day": 15,
           "title": "Design Sheet Peer Critique",
           "standards": [
             "4.3.6"
           ]
         },
         {
-          "day": 10,
-          "title": "Polygon Construction: Low-Poly vs. High-Poly; Real-Time Performance",
+          "day": 16,
+          "title": "Polygon Construction: Low-Poly vs. High-Poly",
           "standards": [
             "6.6.1"
           ]
         },
         {
-          "day": 11,
-          "title": "Character Design Sheet Workshop + GDD Update",
+          "day": 17,
+          "title": "LOD, Baking & Performance Budget",
+          "standards": [
+            "6.6.1"
+          ]
+        },
+        {
+          "day": 18,
+          "title": "Design Sheet Workshop: Build",
           "standards": [
             "4.3.6",
-            "4.1.7",
+            "4.1.7"
+          ]
+        },
+        {
+          "day": 19,
+          "title": "Design Sheet Workshop: Finalize + GDD Part 2",
+          "standards": [
             "4.3.3"
           ]
         },
         {
-          "day": 12,
+          "day": 20,
           "title": "Assessment Submission + Share-Out",
           "standards": []
         }
@@ -350,22 +485,34 @@
       "days": [
         {
           "day": 1,
-          "title": "Level Components + Interior vs. Exterior Design",
+          "title": "Level Components",
           "standards": [
-            "4.2.1",
-            "4.2.2"
+            "4.2.1"
           ]
         },
         {
           "day": 2,
-          "title": "Linear vs. Open World; Story Type and Level Layout",
+          "title": "Interior vs. Exterior Design",
           "standards": [
-            "4.2.3",
-            "4.2.6"
+            "4.2.2"
           ]
         },
         {
           "day": 3,
+          "title": "Linear vs. Semi-Linear vs. Open World",
+          "standards": [
+            "4.2.3"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Story Type & Level Layout",
+          "standards": [
+            "4.2.6"
+          ]
+        },
+        {
+          "day": 5,
           "title": "Level Analysis Activity",
           "standards": [
             "4.2.1",
@@ -373,48 +520,76 @@
           ]
         },
         {
-          "day": 4,
-          "title": "Flow, Pacing, Distance, Timing, and Choke Points",
+          "day": 6,
+          "title": "Flow & Pacing",
           "standards": [
-            "4.2.7",
+            "4.2.7"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Choke Points",
+          "standards": [
             "4.2.8"
           ]
         },
         {
-          "day": 5,
-          "title": "Victory Conditions; Reward Systems; Mechanics Mapped to World Space",
+          "day": 8,
+          "title": "Victory Conditions & Reward Systems",
           "standards": [
             "4.4.1",
-            "4.4.2",
+            "4.4.2"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Mechanics Mapped to World Space",
+          "standards": [
             "4.4.3",
             "4.4.4"
           ]
         },
         {
-          "day": 6,
+          "day": 10,
           "title": "Victory Condition Comparison Activity",
           "standards": [
             "4.4.1"
           ]
         },
         {
-          "day": 7,
-          "title": "Level Storyboard Workshop (Day 1)",
+          "day": 11,
+          "title": "Level Storyboard Workshop: Launch & Build",
           "standards": [
             "4.2.8",
             "4.4.1"
           ]
         },
         {
-          "day": 8,
-          "title": "Level Storyboard Workshop (Day 2) + GDD Update",
+          "day": 12,
+          "title": "Level Storyboard Workshop: Develop",
           "standards": [
             "4.2.8",
             "4.4.1"
           ]
         },
         {
-          "day": 9,
+          "day": 13,
+          "title": "GDD Part 3: Level Design Section",
+          "standards": [
+            "4.2.8",
+            "4.4.1"
+          ]
+        },
+        {
+          "day": 14,
+          "title": "Storyboard Finalize + Final Check",
+          "standards": [
+            "4.2.8",
+            "4.4.1"
+          ]
+        },
+        {
+          "day": 15,
           "title": "Assessment Submission + Level Map Share-Out",
           "standards": []
         }
@@ -438,24 +613,36 @@
       "days": [
         {
           "day": 1,
-          "title": "Game Engines: Components, Comparison, Pipeline",
+          "title": "Game Engines: The Three Components",
           "standards": [
-            "6.1.1",
+            "6.1.1"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Engine Comparison & the Development Pipeline",
+          "standards": [
             "6.1.2",
             "6.1.3",
             "6.1.4"
           ]
         },
         {
-          "day": 2,
-          "title": "Unity Setup + Editor Navigation",
+          "day": 3,
+          "title": "Unity Install & New Project",
           "standards": [
-            "6.1.1",
+            "6.1.1"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Editor Navigation & GitHub Connection",
+          "standards": [
             "6.1.2"
           ]
         },
         {
-          "day": 3,
+          "day": 5,
           "title": "Engine Comparison Activity",
           "standards": [
             "6.1.2",
@@ -463,74 +650,111 @@
           ]
         },
         {
-          "day": 4,
-          "title": "Programming Logic: if/then, Boolean Operators, Order of Operations, Flow Diagrams",
+          "day": 6,
+          "title": "Conditionals & Boolean Operators",
           "standards": [
             "5.1.1",
-            "5.1.4",
+            "5.1.4"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Order of Operations & Flow Diagrams",
+          "standards": [
             "5.1.5",
             "5.1.6"
           ]
         },
         {
-          "day": 5,
-          "title": "Functions: Parameters, Return Values, Nested Functions, Unity Game Loop",
+          "day": 8,
+          "title": "Functions: Parameters, Returns, Nesting",
           "standards": [
-            "5.1.2",
+            "5.1.2"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Unity Game Loop: Start() & Update()",
+          "standards": [
             "5.1.3"
           ]
         },
         {
-          "day": 6,
+          "day": 10,
           "title": "Logic Puzzle Challenge",
           "standards": [
             "5.1.6"
           ]
         },
         {
-          "day": 7,
-          "title": "Loops: for, while, do-while",
+          "day": 11,
+          "title": "Loops: for & while",
           "standards": [
             "5.1.7"
           ]
         },
         {
-          "day": 8,
-          "title": "Language Concepts: Compiled vs. Interpreted, Syntax vs. Semantics, Error Types",
+          "day": 12,
+          "title": "do-while, Loop Trace & LoopDemo",
+          "standards": [
+            "5.1.7"
+          ]
+        },
+        {
+          "day": 13,
+          "title": "Compiled vs. Interpreted; Syntax vs. Semantics",
           "standards": [
             "5.1.8",
-            "5.2.1",
+            "5.2.1"
+          ]
+        },
+        {
+          "day": 14,
+          "title": "Error Types & Diagnosis",
+          "standards": [
             "5.2.2"
           ]
         },
         {
-          "day": 9,
+          "day": 15,
           "title": "Data Types Quick Check",
           "standards": [
             "5.2.3"
           ]
         },
         {
-          "day": 10,
-          "title": "Data Types: C# Primitives, Constants vs. Variables, Arrays",
+          "day": 16,
+          "title": "C# Primitives; Constants vs. Variables",
           "standards": [
             "5.2.3",
-            "5.2.4",
+            "5.2.4"
+          ]
+        },
+        {
+          "day": 17,
+          "title": "Arrays",
+          "standards": [
             "5.2.8"
           ]
         },
         {
-          "day": 11,
-          "title": "Access Modifiers, Unity Visual Scripting Demo, Pseudocode for GDD Mechanic",
+          "day": 18,
+          "title": "Access Modifiers, Scope & Method I/O",
           "standards": [
             "5.2.6",
-            "5.2.7",
+            "5.2.7"
+          ]
+        },
+        {
+          "day": 19,
+          "title": "Visual Scripting Demo & Pseudocode for a GDD Mechanic",
+          "standards": [
             "5.2.9",
             "5.2.5"
           ]
         },
         {
-          "day": 12,
+          "day": 20,
           "title": "Pseudocode Peer Review + Assessment Submission",
           "standards": [
             "5.1.6",
@@ -568,66 +792,107 @@
       "days": [
         {
           "day": 1,
-          "title": "OOP: Classes, Objects, Encapsulation, Abstraction",
+          "title": "OOP: The Four Pillars",
           "standards": [
             "5.2.11"
           ]
         },
         {
           "day": 2,
-          "title": "OOP: Inheritance and Polymorphism",
+          "title": "Classes in C#: Building Enemy.cs",
           "standards": [
             "5.2.11"
           ]
         },
         {
           "day": 3,
-          "title": "OOP Analogy Check",
+          "title": "Inheritance",
           "standards": [
             "5.2.11"
           ]
         },
         {
           "day": 4,
-          "title": "Hardware Input: Unity Input Manager; Character Controller Script",
+          "title": "Polymorphism: virtual & override",
+          "standards": [
+            "5.2.11"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "OOP Analogy Check",
+          "standards": [
+            "5.2.11"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Hardware Input & the Input Manager",
           "standards": [
             "5.3.4",
             "5.2.5"
           ]
         },
         {
-          "day": 5,
-          "title": "Player Movement: Rigidbody Physics, Jump, Ground Detection, Sprint",
+          "day": 7,
+          "title": "Character Controller: Horizontal Movement",
+          "standards": [
+            "5.3.4"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Jump & Ground Detection",
+          "standards": [
+            "5.3.2"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Sprint & Movement Integration",
           "standards": [
             "5.3.2",
             "5.2.5"
           ]
         },
         {
-          "day": 6,
+          "day": 10,
           "title": "Collision Demo Challenge",
           "standards": [
             "5.3.1"
           ]
         },
         {
-          "day": 7,
-          "title": "Collision Detection: OnCollisionEnter vs. OnTriggerEnter; Object Activation",
+          "day": 11,
+          "title": "Collision: Solid vs. Trigger; OnCollisionEnter2D",
+          "standards": [
+            "5.3.1"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "OnTriggerEnter2D & GetComponent",
           "standards": [
             "5.3.1",
             "6.2.4"
           ]
         },
         {
-          "day": 8,
-          "title": "GUI and HUD: Canvas, TextMeshPro, Binding Variables to UI",
+          "day": 13,
+          "title": "GUI & HUD: Canvas + TextMeshPro",
           "standards": [
-            "5.3.3",
             "5.3.6"
           ]
         },
         {
-          "day": 9,
+          "day": 14,
+          "title": "Score Manager: Binding Variables to UI",
+          "standards": [
+            "5.3.3"
+          ]
+        },
+        {
+          "day": 15,
           "title": "Score System Peer Test",
           "standards": [
             "5.3.6",
@@ -636,22 +901,35 @@
           ]
         },
         {
-          "day": 10,
-          "title": "Point System: Score Increment, Scene Reset, HUD Integration",
+          "day": 16,
+          "title": "Point System & Scene Reset (SceneManager)",
           "standards": [
-            "5.3.7",
+            "5.3.7"
+          ]
+        },
+        {
+          "day": 17,
+          "title": "Prototype Integration",
+          "standards": [
             "5.3.6"
           ]
         },
         {
-          "day": 11,
-          "title": "NPC AI: State Machines, Patrol Waypoints, Chase Logic",
+          "day": 18,
+          "title": "NPC AI: State Machine & Patrol",
           "standards": [
             "5.1.9"
           ]
         },
         {
-          "day": 12,
+          "day": 19,
+          "title": "NPC Chase Logic & Transitions",
+          "standards": [
+            "5.1.9"
+          ]
+        },
+        {
+          "day": 20,
           "title": "NPC State Analysis + Prototype Submission",
           "standards": [
             "5.1.9"
@@ -665,8 +943,8 @@
         "5.3.2",
         "5.3.1",
         "6.2.4",
-        "5.3.3",
         "5.3.6",
+        "5.3.3",
         "5.3.7",
         "5.3.8",
         "5.1.9"
@@ -678,7 +956,7 @@
       "days": [
         {
           "day": 1,
-          "title": "Greyboxing: Environment Type, Size, and Boundary Geometry",
+          "title": "Greyboxing: Environment Type & Scale",
           "standards": [
             "6.2.1",
             "6.2.3"
@@ -686,7 +964,7 @@
         },
         {
           "day": 2,
-          "title": "Level Geometry: Obstacles, Platforms, and Collision Layers",
+          "title": "Blockout & Boundaries",
           "standards": [
             "6.2.1",
             "6.2.3"
@@ -694,7 +972,7 @@
         },
         {
           "day": 3,
-          "title": "Level Check-In",
+          "title": "Level Geometry: Platforms & Obstacles",
           "standards": [
             "6.2.1",
             "6.2.3"
@@ -702,14 +980,45 @@
         },
         {
           "day": 4,
-          "title": "Placing and Configuring NPCs in the Level",
+          "title": "Collision Layers & Navigability Test",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Level Check-In",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "NPC Placement Strategy & Prefabs",
           "standards": [
             "6.2.2"
           ]
         },
         {
-          "day": 5,
-          "title": "Spawn Point, Objective Trigger, and Mechanic Verification",
+          "day": 7,
+          "title": "Configuring NPCs in the Level",
+          "standards": [
+            "6.2.2"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Spawn Point & Player Start",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Objective Trigger & Mechanic Verification",
           "standards": [
             "6.2.1",
             "6.2.3",
@@ -717,66 +1026,85 @@
           ]
         },
         {
-          "day": 6,
-          "title": "Peer Playtesting Session 1",
-          "standards": [
-            "6.2.1",
-            "6.2.3"
-          ]
-        },
-        {
-          "day": 7,
+          "day": 10,
           "title": "NPC Placement Share-Out",
           "standards": [
             "6.2.2"
           ]
         },
         {
-          "day": 8,
-          "title": "GUI Research and Flowchart Design",
+          "day": 11,
+          "title": "Peer Playtest 1: Observation",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Peer Playtest 1: Swap & Issue Log",
+          "standards": [
+            "6.2.1",
+            "6.2.3"
+          ]
+        },
+        {
+          "day": 13,
+          "title": "GUI Flowchart",
           "standards": [
             "6.3.1",
             "6.3.3"
           ]
         },
         {
-          "day": 9,
-          "title": "Full GUI Implementation: Start Menu, HUD, Pause, Win/Lose",
+          "day": 14,
+          "title": "HUD Layout Sketch",
           "standards": [
-            "6.3.2",
-            "6.3.4",
-            "5.3.3"
+            "6.3.1"
           ]
         },
         {
-          "day": 10,
+          "day": 15,
           "title": "GUI Flowchart Peer Review",
           "standards": [
             "6.3.3"
           ]
         },
         {
-          "day": 11,
-          "title": "Animation Storyboard, Animator Component, Timing vs. Frame Rate",
+          "day": 16,
+          "title": "Start Menu & Pause Menu",
           "standards": [
-            "6.4.1",
+            "6.3.2",
+            "6.3.4"
+          ]
+        },
+        {
+          "day": 17,
+          "title": "Health System, Health HUD & Win/Lose Screens",
+          "standards": [
+            "5.3.3",
+            "6.3.2",
+            "6.3.4"
+          ]
+        },
+        {
+          "day": 18,
+          "title": "Animation Storyboard",
+          "standards": [
+            "6.4.1"
+          ]
+        },
+        {
+          "day": 19,
+          "title": "Unity Animator & Animation Clips",
+          "standards": [
             "6.4.2",
             "6.4.3"
           ]
         },
         {
-          "day": 12,
-          "title": "Parent/Child Hierarchy, Rigging Concepts, and Animation Triggers",
-          "standards": [
-            "6.4.7",
-            "6.4.8",
-            "6.4.10",
-            "6.4.11"
-          ]
-        },
-        {
-          "day": 13,
-          "title": "Asset Sourcing Check",
+          "day": 20,
+          "title": "Asset Sourcing Check & Attribution Log",
           "standards": [
             "7.1.1",
             "7.1.2",
@@ -784,61 +1112,78 @@
           ]
         },
         {
-          "day": 14,
-          "title": "Audio Integration: Music, SFX, and Audio Triggers",
+          "day": 21,
+          "title": "Parent/Child Hierarchy & Rigging Concepts",
+          "standards": [
+            "6.4.7",
+            "6.4.8"
+          ]
+        },
+        {
+          "day": 22,
+          "title": "Animation Triggers",
+          "standards": [
+            "6.4.10",
+            "6.4.11"
+          ]
+        },
+        {
+          "day": 23,
+          "title": "Audio: Formats, Import & Background Music",
           "standards": [
             "6.5.1",
-            "6.5.2",
+            "6.5.2"
+          ]
+        },
+        {
+          "day": 24,
+          "title": "Audio: SFX Triggers",
+          "standards": [
             "6.5.3",
             "6.5.4"
           ]
         },
         {
-          "day": 15,
+          "day": 25,
           "title": "Animation Trigger Check",
           "standards": [
             "6.4.10"
           ]
         },
         {
-          "day": 16,
-          "title": "Asset Creation and Import: Working from the GDD",
+          "day": 26,
+          "title": "Creating & Sourcing Assets",
           "standards": [
             "6.6.2",
-            "7.1.1",
+            "7.1.1"
+          ]
+        },
+        {
+          "day": 27,
+          "title": "Importing Assets & IP Check",
+          "standards": [
+            "6.6.2",
             "7.1.2",
             "7.1.3"
           ]
         },
         {
-          "day": 17,
-          "title": "Texturing: Materials, UVW Mapping, and Shading",
+          "day": 28,
+          "title": "Texturing: Materials",
           "standards": [
-            "6.6.3",
             "6.6.4",
             "6.6.7"
           ]
         },
         {
-          "day": 18,
-          "title": "Lighting: Ambient, Directional, and High-Resolution Output",
+          "day": 29,
+          "title": "UVW Mapping",
           "standards": [
-            "6.6.9",
-            "6.6.5",
-            "6.6.6"
+            "6.6.3"
           ]
         },
         {
-          "day": 19,
-          "title": "Game Art Polish and Representation Review",
-          "standards": [
-            "6.6.2",
-            "7.3.1",
-            "7.3.2"
-          ]
-        },
-        {
-          "day": 20,
+          "day": 30,
           "title": "Audio Check-In",
           "standards": [
             "6.5.1",
@@ -846,33 +1191,70 @@
           ]
         },
         {
-          "day": 21,
-          "title": "Integration Pass: All Systems Live",
+          "day": 31,
+          "title": "Lighting Setup",
           "standards": [
-            "5.3.8"
+            "6.6.9"
           ]
         },
         {
-          "day": 22,
-          "title": "Bug Triage and High-Priority Fixes",
+          "day": 32,
+          "title": "Screenshot & Render Capture",
           "standards": [
-            "5.3.8"
+            "6.6.5",
+            "6.6.6"
           ]
         },
         {
-          "day": 23,
+          "day": 33,
+          "title": "Art Polish Pass",
+          "standards": [
+            "6.6.2"
+          ]
+        },
+        {
+          "day": 34,
+          "title": "Representation Review & Final Render",
+          "standards": [
+            "7.3.1",
+            "7.3.2"
+          ]
+        },
+        {
+          "day": 35,
           "title": "Progress Review",
           "standards": []
         },
         {
-          "day": 24,
-          "title": "Peer Playtesting Session 2",
+          "day": 36,
+          "title": "Integration Test: Run 1",
           "standards": [
             "5.3.8"
           ]
         },
         {
-          "day": 25,
+          "day": 37,
+          "title": "Integration Test: Run 2 & Triage Preview",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 38,
+          "title": "Bug Triage & Prioritization",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 39,
+          "title": "High-Priority Fixes",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 40,
           "title": "Diversity Reflection",
           "standards": [
             "7.3.1",
@@ -880,29 +1262,58 @@
           ]
         },
         {
-          "day": 26,
-          "title": "Final Polish, GitHub Cleanup, and File Verification",
+          "day": 41,
+          "title": "Peer Playtest 2: Play",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 42,
+          "title": "Peer Playtest 2: Swap & Prioritize",
+          "standards": [
+            "5.3.8"
+          ]
+        },
+        {
+          "day": 43,
+          "title": "Final Polish Sprint",
           "standards": []
         },
         {
-          "day": 27,
+          "day": 44,
+          "title": "GitHub Cleanup & Verification",
+          "standards": []
+        },
+        {
+          "day": 45,
           "title": "Bug Triage",
           "standards": [
             "5.3.8"
           ]
         },
         {
-          "day": 28,
-          "title": "Open Work Period",
+          "day": 46,
+          "title": "Open Work Period 1",
           "standards": []
         },
         {
-          "day": 29,
-          "title": "Final Build Submission and Gameplay Capture",
+          "day": 47,
+          "title": "Open Work Period 2",
           "standards": []
         },
         {
-          "day": 30,
+          "day": 48,
+          "title": "Final Build & Submission Verification",
+          "standards": []
+        },
+        {
+          "day": 49,
+          "title": "Gameplay Capture & Reflection",
+          "standards": []
+        },
+        {
+          "day": 50,
           "title": "Final Build Confirmation",
           "standards": []
         }
@@ -920,21 +1331,21 @@
         "6.4.1",
         "6.4.2",
         "6.4.3",
+        "7.1.1",
+        "7.1.2",
+        "7.1.3",
         "6.4.7",
         "6.4.8",
         "6.4.10",
         "6.4.11",
-        "7.1.1",
-        "7.1.2",
-        "7.1.3",
         "6.5.1",
         "6.5.2",
         "6.5.3",
         "6.5.4",
         "6.6.2",
-        "6.6.3",
         "6.6.4",
         "6.6.7",
+        "6.6.3",
         "6.6.9",
         "6.6.5",
         "6.6.6",
@@ -949,24 +1360,37 @@
       "days": [
         {
           "day": 1,
-          "title": "IP Law: Copyright, Trademark, Patent, Trade Secret; Creative Commons; Open-Source",
+          "title": "The Four Types of Intellectual Property",
           "standards": [
-            "7.1.1",
-            "7.1.2",
-            "7.1.3"
+            "7.1.1"
           ]
         },
         {
           "day": 2,
-          "title": "Copyright in Practice: Attribution, Derivative Works, and IP Case Studies",
+          "title": "Creative Commons & Open-Source Licensing",
           "standards": [
-            "7.1.1",
             "7.1.2",
             "7.1.3"
           ]
         },
         {
           "day": 3,
+          "title": "Copyright in Practice: Attribution & Derivative Works",
+          "standards": [
+            "7.1.1",
+            "7.1.2"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "IP Case Study Analysis",
+          "standards": [
+            "7.1.1",
+            "7.1.3"
+          ]
+        },
+        {
+          "day": 5,
           "title": "IP Scenario Cards",
           "standards": [
             "7.1.1",
@@ -975,52 +1399,77 @@
           ]
         },
         {
-          "day": 4,
-          "title": "Diversity and Inclusion in the Game Industry",
+          "day": 6,
+          "title": "Diversity in the Game Workforce",
           "standards": [
             "7.3.1"
           ]
         },
         {
-          "day": 5,
-          "title": "Social Responsibility: Addiction Mechanics, Monetization Ethics, and ESRB Revisited",
+          "day": 7,
+          "title": "Representation in Games & Self-Evaluation",
+          "standards": [
+            "7.3.1"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Social Responsibility: Psychology & Monetization Ethics",
           "standards": [
             "7.3.2"
           ]
         },
         {
-          "day": 6,
+          "day": 9,
+          "title": "ESRB Revisited & Career Document Work",
+          "standards": [
+            "7.3.2",
+            "1.4.1"
+          ]
+        },
+        {
+          "day": 10,
           "title": "Resume Peer Review",
           "standards": [
             "1.4.1"
           ]
         },
         {
-          "day": 7,
-          "title": "Career Readiness: Professional Attire, Resume Structure, and Portfolio Basics",
+          "day": 11,
+          "title": "Professional Attire & Resume Structure",
           "standards": [
             "1.4.1",
-            "1.4.2",
+            "1.4.2"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "Portfolio Basics",
+          "standards": [
             "1.4.3",
             "1.5.1"
           ]
         },
         {
-          "day": 8,
-          "title": "Career Readiness Workshop: Write Resume or Cover Letter; FBLA; Year 2 Pathway",
+          "day": 13,
+          "title": "FBLA Connection & Career Document Workshop",
           "standards": [
             "1.4.1",
-            "1.4.2",
-            "1.4.3",
             "1.4.4",
+            "1.5.2"
+          ]
+        },
+        {
+          "day": 14,
+          "title": "Year 2 Pathway & Document Finalize",
+          "standards": [
             "1.4.5",
-            "1.5.1",
             "1.5.2",
             "1.5.3"
           ]
         },
         {
-          "day": 9,
+          "day": 15,
           "title": "Presentation Practice: 90-Second Pitch",
           "standards": [
             "1.4.1",
@@ -1028,8 +1477,16 @@
           ]
         },
         {
-          "day": 10,
-          "title": "Presentation Prep: Full 5-Minute Pitch Structure and Practice",
+          "day": 16,
+          "title": "Pitch Structure: The Five Sections",
+          "standards": [
+            "1.4.4",
+            "1.4.5"
+          ]
+        },
+        {
+          "day": 17,
+          "title": "Full Pitch Dry-Run & Revision",
           "standards": [
             "1.4.1",
             "1.4.4",
@@ -1037,8 +1494,8 @@
           ]
         },
         {
-          "day": 11,
-          "title": "Presentations, Day 1",
+          "day": 18,
+          "title": "Presentations, Round 1",
           "standards": [
             "1.4.1",
             "1.4.4",
@@ -1048,8 +1505,17 @@
           ]
         },
         {
-          "day": 12,
-          "title": "Presentations Day 2; Course Reflection; Year 2 Preview",
+          "day": 19,
+          "title": "Presentations, Round 2",
+          "standards": [
+            "1.4.1",
+            "1.4.4",
+            "1.4.5"
+          ]
+        },
+        {
+          "day": 20,
+          "title": "Final Presentations, Course Reflection & Year 2 Preview",
           "standards": [
             "1.4.1",
             "1.4.4",
@@ -1070,8 +1536,8 @@
         "1.4.3",
         "1.5.1",
         "1.4.4",
-        "1.4.5",
         "1.5.2",
+        "1.4.5",
         "1.5.3"
       ]
     }
