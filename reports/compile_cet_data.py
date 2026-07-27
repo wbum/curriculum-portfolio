@@ -11,7 +11,7 @@ vault_root = os.path.dirname(vault_path)    # TheVault is grandparent
 # ==========================================
 # 1. PARSE CET STANDARDS
 # ==========================================
-txt_file = os.path.join(reports_dir, "cet_standards_temp.txt")
+txt_file = os.path.join(reports_dir, "cet_standards.txt")
 out_json_standards = os.path.join(reports_dir, "cet_cs_standards_grounded.json")
 
 print(f"Reading CET standards from: {txt_file}")

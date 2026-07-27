@@ -28,11 +28,18 @@ I built it because I had the problem. After it surfaced the gaps, I rebuilt a 17
 # Advanced CS I (and shared NV catalog)
 python3 reports/fix_parsers.py
 # Other courses have dedicated compilers:
-python3 reports/compile_dgd_data.py     # Digital Game Development I
-python3 reports/compile_dgd2_data.py    # Digital Game Development II
-python3 reports/compile_cet_data.py     # Intro CS (CET)
-python3 reports/regen_wdd_course_map.py # Web Design & Development
+python3 reports/compile_dgd_data.py       # Digital Game Development I
+python3 reports/compile_dgd2_data.py      # Digital Game Development II
+python3 reports/compile_cet_data.py       # Intro CS (CET)
+python3 reports/compile_wdd_standards.py  # Web Design & Development — catalog
+python3 reports/regen_wdd_course_map.py   # Web Design & Development — course map
 ```
+
+Every command above runs and reproduces the committed JSON byte-for-byte. WDD is
+split across two scripts because its course-map extractor was replaced:
+`regen_wdd_course_map.py` expands code ranges and reads bare-code shorthand, which
+the original missed, so the original invented phantom gaps. Only the catalog half
+of the old `compile_wdd_data.py` survives, as `compile_wdd_standards.py`.
 
 Every compiler validates before it writes and **refuses to publish broken data**,
 so a regeneration either produces something the site can render or leaves the
@@ -48,11 +55,12 @@ site reads the field. A day tag missing from the catalog is an error, because
 percentage quietly drops with it. Junk in a course map's top-level `standards`
 description map is a warning, because nothing renders it.
 
-**Two compilers cannot currently run**, both for reasons that predate the
-validator:
-
-- `compile_cet_data.py` needs `reports/cet_standards_temp.txt`, an intermediate that was never committed.
-- `compile_wdd_data.py` points at `/Users/willbumgardner/Desktop/TheVault/...`, a path from before the vault moved. Use `regen_wdd_course_map.py`.
+`reports/cet_standards.txt` is a **reconstructed** source. The original text dump of
+Appendix A of the NDE CET Support Document (Aug 2023) was never committed, so the
+CET compiler had no input. The file was rebuilt from
+`cet_cs_standards_grounded.json`, the catalog that dump had already produced, and
+the round trip is byte-identical — but its grounding is that JSON, not a fresh read
+of the PDF. Re-dump the PDF if the standards are ever revised.
 
 `compile_dgd_data.py` reads the DGD I lesson files through `dgd_lessons.py`, which
 parses the daily-pacing headings:
