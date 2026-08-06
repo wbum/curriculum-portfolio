@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
           : activeCourse === 'dgd_i'
             ? 'Digital Game Design I'
             : activeCourse === 'dgd_ii'
-              ? 'Digital Game Design II (Bridge Year)'
+              ? 'Digital Game Design II (Unrun Bridge Year)'
               : 'Computer Education Tech';
     }
 
@@ -274,7 +274,7 @@ function setupEventListeners() {
             : activeCourse === 'dgd_i'
               ? 'Digital Game Design I'
               : activeCourse === 'dgd_ii'
-                ? 'Digital Game Design II (Bridge Year)'
+                ? 'Digital Game Design II (Unrun Bridge Year)'
                 : 'Computer Education Tech';
       }
 
@@ -354,7 +354,7 @@ function getCourseName(course) {
     case 'acs_i': return 'Advanced Computer Science I';
     case 'wdd_i': return 'Web Development & Design I';
     case 'dgd_i': return 'Digital Game Design I';
-    case 'dgd_ii': return 'Digital Game Design II (Bridge Year)';
+    case 'dgd_ii': return 'Digital Game Design II (Unrun Bridge Year)';
     case 'cet': return 'Computer Education Technology';
     default: return 'Course';
   }
@@ -921,7 +921,7 @@ function renderDefaultDetailsPanel() {
       : activeCourse === 'dgd_i'
         ? 'Digital Game Design I'
         : activeCourse === 'dgd_ii'
-          ? 'Digital Game Design II (Bridge Year)'
+          ? 'Digital Game Design II (Unrun Bridge Year)'
           : 'Computer Education Technology';
   const totalCount = Object.keys(flatIndicators).length;
   const totalGaps = l1Gaps.length + l2Gaps.length;
@@ -935,10 +935,10 @@ function renderDefaultDetailsPanel() {
   const bridgeAlert = activeCourse === 'dgd_ii' ? `
     <div class="alert-panel" style="margin-bottom: 20px; border-left-color: var(--color-accent); padding: var(--spacing-md);">
       <div class="alert-title" style="font-size: 0.85rem; font-weight: 700; color: var(--color-accent); margin-bottom: 8px;">
-        Curriculum Implementation Note (Bridge Year)
+        This course was never taught
       </div>
       <p style="font-size: 0.9rem; margin-bottom: 0; color: var(--text-primary); line-height: 1.4;">
-        This Digital Game Design II syllabus represents a <strong>one-year bridge course</strong> designed specifically to satisfy missing Level 2 standards from the prior year-long CodeHS course sequence.
+        This Digital Game Design II syllabus was written as a <strong>one-year bridge course</strong> to satisfy missing Level 2 standards from the prior year-long CodeHS sequence. It was never scheduled and no student took it. The audit below is shown as a <strong>design artifact</strong>; these standards are excluded from the site's coverage figures, and the L2 indicators the bridge would have covered are counted as open gaps in the DGD pathway.
       </p>
     </div>
   ` : '';

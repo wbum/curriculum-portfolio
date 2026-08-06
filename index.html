@@ -66,6 +66,12 @@
       background-color: hsl(145, 30%, 90%);
       color: var(--color-success);
     }
+    /* Built but never delivered to students. Must stay visually distinct from
+       status-active — the whole point is that a visitor can tell at a glance. */
+    .status-unrun {
+      background-color: hsl(35, 45%, 90%);
+      color: hsl(30, 70%, 30%);
+    }
   </style>
 </head>
 <body>
@@ -158,12 +164,12 @@
 
         <!-- Digital Game Design II -->
         <div class="card">
-          <div class="course-status-badge status-active">Active Course &amp; Audit Demo</div>
+          <div class="course-status-badge status-unrun">Built &mdash; Never Taught</div>
           <div class="card-label">CTE Course Pathway</div>
           <h3 style="margin-bottom: var(--spacing-sm);">Digital Game Design II</h3>
           <p style="font-size: 0.95rem; color: var(--text-secondary); flex-grow: 1;">
-            Advanced 3D production pipeline (Blender &rarr; Unity 6) and programming. 
-            <em>Note: This syllabus is configured as a one-year bridge course to satisfy missing L2 standards from the prior year-long CodeHS course.</em>
+            Advanced 3D production pipeline (Blender &rarr; Unity 6) and programming, designed as a one-year bridge to satisfy missing L2 standards from the prior CodeHS sequence.
+            <em>This course was never scheduled and no student took it. It is published here as a design artifact only, and its standards are not counted in any coverage figure. A full DGD II is being built for 2027&ndash;28.</em>
           </p>
           <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-md);">
             <a href="curriculum.html?course=dgd_ii" class="btn btn-primary">Scope &amp; Sequence</a>

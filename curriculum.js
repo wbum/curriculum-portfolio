@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
           : activeCourse === 'dgd_i'
             ? 'Digital Game Design I'
             : activeCourse === 'dgd_ii'
-              ? 'Digital Game Design II (Bridge Year)'
+              ? 'Digital Game Design II (Unrun Bridge Year)'
               : 'Computer Education Technology';
     }
   }
@@ -114,9 +114,9 @@ function renderCurriculum() {
     alert.className = 'alert-panel';
     alert.style.marginBottom = '20px';
     alert.innerHTML = `
-      <div class="alert-title">Curriculum Implementation Note</div>
+      <div class="alert-title">This course was never taught</div>
       <p style="font-size: 0.95rem; margin-bottom: 0;">
-        This syllabus is configured as a <strong>one-year bridge course</strong> designed specifically to satisfy missing Level 2 standards from the prior year-long CodeHS course sequence.
+        This syllabus was written as a <strong>one-year bridge course</strong> to satisfy missing Level 2 standards from the prior year-long CodeHS sequence. It was never scheduled and no student took it, so it is published as a <strong>design artifact only</strong> and its standards are excluded from every coverage figure on this site. A full DGD II is being built for 2027&ndash;28 and will not inherit from this scope and sequence.
       </p>
     `;
     container.appendChild(alert);
@@ -261,7 +261,7 @@ function setupCourseSelector() {
           : activeCourse === 'dgd_i'
             ? 'Digital Game Design I'
             : activeCourse === 'dgd_ii'
-              ? 'Digital Game Design II (Bridge Year)'
+              ? 'Digital Game Design II (Unrun Bridge Year)'
               : 'Computer Education Technology';
     }
 
