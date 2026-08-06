@@ -38,6 +38,15 @@ COURSES = {
     "cet": ("CET", "cet_course_map_grounded.json", "cet_cs_standards_grounded.json", None, None),
 }
 
+# Courses that were built but never taught. Excluded from the summary table and the
+# gap detail so no coverage claim on the site rests on a course students never took.
+# The COURSES entry and the crosswalk JSON stay — they are the record of the build.
+#
+# dgd_ii: the one-year L2 bridge had no period on the 2026-27 master schedule and was
+# superseded before it ran. The real DGD II is built fresh for 2027-28. Remove from
+# this set only when a DGD II is actually scheduled and taught.
+VOID_COURSES = {"dgd_ii"}
+
 
 def normalize(code: str) -> str:
     """Unit standards use 'ADVCS.2.3.5'; standards files use bare '2.3.5'."""
@@ -86,6 +95,8 @@ def main() -> None:
     sections = []
 
     for key, (display, cmap, sfile, ctso, level) in COURSES.items():
+        if key in VOID_COURSES:
+            continue
         indicators = enumerate_indicators(sfile)
         covered = covered_codes(cmap)
 
@@ -137,14 +148,17 @@ def main() -> None:
             )
         sections.append("\n".join(lines))
 
-    # DGD I and II are a two-year sequence sharing ONE standards doc, so each
-    # year's standalone % understates the program. Report their combined union.
+    # DGD is a two-year sequence sharing ONE standards doc, so the pathway total is
+    # scored against both levels at once. DGD II is void (see VOID_COURSES), so only
+    # DGD I contributes — the L2-only indicators the bridge would have covered are
+    # simply untaught until the 2027-28 DGD II exists. Do not restore a combined
+    # "DGD I + II" row unless that course is actually running.
     dgd_std = enumerate_indicators(COURSES["dgd_i"][2])
     dgd_core = {c for c in dgd_std if not c.startswith("1.")}
-    dgd_union = (covered_codes(COURSES["dgd_i"][1]) | covered_codes(COURSES["dgd_ii"][1])) & dgd_core
+    dgd_taught = covered_codes(COURSES["dgd_i"][1]) & dgd_core
     rows.append(
-        f"| **DGD I + II combined** | **{len(dgd_union)}/{len(dgd_core)}** | "
-        f"**{pct(len(dgd_union), len(dgd_core))}** | {len(dgd_core) - len(dgd_union)} | — | — |"
+        f"| **DGD pathway (two-year)** | **{len(dgd_taught)}/{len(dgd_core)}** | "
+        f"**{pct(len(dgd_taught), len(dgd_core))}** | {len(dgd_core) - len(dgd_taught)} | — | — |"
     )
 
     from datetime import datetime
@@ -155,14 +169,18 @@ def main() -> None:
         f"> Generated {ts} by `reports/compile_coverage_overview.py` from the "
         "grounded crosswalk JSON. Coverage is scored against **in-scope** "
         "indicators — those whose level tag includes the course's level (L1 for "
-        "ACS I / WDD I / DGD I, L2 for the DGD II bridge). Out-of-level "
+        "ACS I / WDD I / DGD I). Out-of-level "
         "(L2/Complementary in an L1 course) and the CTSO/FBLA area (1.0) are "
         "reported separately, not counted against coverage. Mechanical coverage "
         "from unit-level tags — see `acs1_standards_gap_status.md` / "
         "`wdd_standards_gap_status.md` for finer scope judgment.",
         "",
-        "> **DGD I and II share one standards document as a two-year sequence**, so "
-        "each year's standalone % understates the program — see the combined row.",
+        "> **DGD is a two-year sequence sharing one standards document**, so the "
+        "pathway row is scored against both levels at once (158 indicators). Only "
+        "DGD I is taught: the DGD II bridge had no period on the 2026-27 master "
+        "schedule and was superseded before it ran, so the L2-only indicators it "
+        "would have covered are currently untaught. A DGD II built fresh for "
+        "2027-28 will close them.",
         "",
         "## Summary",
         "",
