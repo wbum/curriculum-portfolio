@@ -1,0 +1,2578 @@
+{
+ "coverage": {
+  "HS-ALG-IM-09": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Design a computing technology using human-centered design principles.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "partial",
+    "wdd_i": "covered",
+    "dgd_i": "covered",
+    "cet": "partial"
+   }
+  },
+  "HS-ALG-IM-10": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate the ethical implications, societal impacts, and potential biases of rule-based and data-driven algorithms.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "partial"
+   }
+  },
+  "HS-ALG-IM-11": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Articulate the values embedded in the design of an algorithmic system.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "partial",
+    "wdd_i": "gap",
+    "dgd_i": "covered",
+    "cet": "gap"
+   }
+  },
+  "HS-ALG-ML-06": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Justify the selection of a type of AI algorithm to accomplish a task.",
+   "status": "gap",
+   "by_course": {
+    "acs_i": "gap",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-ALG-ML-07": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate training data by examining its source, quality, representativeness, potential biases, and privacy implications.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-ALG-ML-08": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Develop a machine learning model for a chosen task using appropriate data and tools.",
+   "status": "gap",
+   "by_course": {
+    "acs_i": "gap",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-ALG-PS-01": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Design an algorithm using appropriate data structures to solve a problem or express an idea.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "covered",
+    "cet": "partial"
+   }
+  },
+  "HS-ALG-PS-02": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Optimize the design of an algorithm using procedural abstraction and control structures.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "covered",
+    "cet": "covered"
+   }
+  },
+  "HS-ALG-PS-03": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate algorithms for efficiency, correctness, and clarity, using metrics or test cases.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "partial",
+    "cet": "partial"
+   }
+  },
+  "HS-ALG-PS-04": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Describe the differences between deterministic and probabilistic algorithms.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-ALG-PS-05": {
+   "concept": "ALG",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate AI-generated output to assess bias, accuracy, and potential harms.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "HS-DAT-DC-21": {
+   "concept": "DAT",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Use a computational tool to generate simulated data that fits certain parameters for use in a simulation.",
+   "status": "gap",
+   "by_course": {
+    "acs_i": "gap",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-DAT-DC-22": {
+   "concept": "DAT",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Create a data dictionary that describes the name, type, and allowable values for each attribute and the logical relationships between variables in a dataset.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-DAT-DC-23": {
+   "concept": "DAT",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Use a computational tool to clean and organize text-based data.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "partial"
+   }
+  },
+  "HS-DAT-DC-24": {
+   "concept": "DAT",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate different approaches to verifying consistency and compliance with expected data types, values, and ranges.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-DAT-DI-25": {
+   "concept": "DAT",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Create a data visualization of a multivariate dataset to answer a question or make a classification or prediction.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "HS-DAT-DI-26": {
+   "concept": "DAT",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate a data simulation or visualization to answer a data question, inform decision-making, and identify potential limitations.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "HS-DAT-IM-27": {
+   "concept": "DAT",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate the societal, environmental, and ethical implications of large- scale data collection and processing, including within AI applications.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "HS-DAT-IM-28": {
+   "concept": "DAT",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Debate the efficacy of a policy or regulation to ensure responsible data use.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "gap",
+    "cet": "partial"
+   }
+  },
+  "HS-PRO-PD-12": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Create a modular program that uses procedures, external libraries, or objects to improve reusability and readability.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "covered",
+    "cet": "covered"
+   }
+  },
+  "HS-PRO-PD-13": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Use documentation, libraries, application programming interfaces (APIs), and other tools in program development.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "partial",
+    "wdd_i": "partial",
+    "dgd_i": "covered",
+    "cet": "partial"
+   }
+  },
+  "HS-PRO-PD-14": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Apply appropriate attribution of intellectual property when developing a computing technology.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "covered",
+    "dgd_i": "covered",
+    "cet": "covered"
+   }
+  },
+  "HS-PRO-PD-15": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Collaborate on a programming project using a defined workflow that includes design documentation and clear task roles.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "partial",
+    "cet": "covered"
+   }
+  },
+  "HS-PRO-RD-17": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Analyze how a segment of code works, including the role of parameters, return values, and data structures.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "covered",
+    "cet": "partial"
+   }
+  },
+  "HS-PRO-RD-18": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate AI-generated code for accuracy, reliability, and alignment with program requirements.",
+   "status": "partial",
+   "by_course": {
+    "acs_i": "partial",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-PRO-TR-19": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate a computing technology\u2019s alignment with design specifications and responsible design values, including its correctness, effectiveness, and user experience.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "covered",
+    "dgd_i": "covered",
+    "cet": "partial"
+   }
+  },
+  "HS-PRO-TR-20": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Refine a computing technology based on user feedback, testing results, and responsible design values to improve its effectiveness and impact.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "covered",
+    "dgd_i": "covered",
+    "cet": "covered"
+   }
+  },
+  "HS-PRO-VD-16": {
+   "concept": "PRO",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Create a program that uses appropriate data structures to store, access, and manipulate data.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "covered",
+    "cet": "gap"
+   }
+  },
+  "HS-SOC-CE-45": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Analyze how diverse teams of people use computational thinking and computing technologies to solve problems and express ideas.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "covered",
+    "cet": "partial"
+   }
+  },
+  "HS-SOC-CE-46": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Connect computing knowledge and skills acquired to students\u2019 personal goals and career aspirations.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "covered",
+    "dgd_i": "covered",
+    "cet": "covered"
+   }
+  },
+  "HS-SOC-HI-38": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Analyze the historical trajectory of a specific computing technology and how its development is linked to societal and environmental factors.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "covered",
+    "dgd_i": "covered",
+    "cet": "gap"
+   }
+  },
+  "HS-SOC-HI-39": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Propose modifications to an existing policy or piece of legislation that encourages ethical innovation and minimizes societal risks associated with technology.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-SOC-HU-43": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate how human choices in using, designing, deploying, and regulating computing technologies have risks, benefits, and long-term impacts.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "covered",
+    "dgd_i": "covered",
+    "cet": "covered"
+   }
+  },
+  "HS-SOC-HU-44": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Debate perspectives on differences between human and artificial intelligence and their implications for consciousness, ethics, and human responsibility.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "gap"
+   }
+  },
+  "HS-SOC-ET-40": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate the fundamental technological differences between an emerging technology and established technologies and how those differences influence computing.",
+   "status": "partial",
+   "by_course": {
+    "acs_i": "partial",
+    "wdd_i": "partial",
+    "dgd_i": "partial",
+    "cet": "gap"
+   }
+  },
+  "HS-SOC-ET-41": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate the societal and environmental impacts of an emerging technology, including those that lead to inequities in access and outcomes.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "partial",
+    "cet": "partial"
+   }
+  },
+  "HS-SOC-ET-42": {
+   "concept": "SOC",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Design a conceptual solution to a real-world problem using an emerging technology, analyzing its potential benefits and harms.",
+   "status": "partial",
+   "by_course": {
+    "acs_i": "partial",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "partial"
+   }
+  },
+  "HS-SYS-HW-29": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Differentiate an operating system as a special type of software that manages both the hardware and other software components of a computing system, including handling memory and peripherals.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "HS-SYS-HW-30": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Demonstrate the capabilities and limitations of a physical or simulated computing device to address a task or problem.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "partial",
+    "cet": "covered"
+   }
+  },
+  "HS-SYS-IM-36": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Evaluate the rationale behind a law or policy governing the design and use of computing systems.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "covered",
+    "dgd_i": "partial",
+    "cet": "partial"
+   }
+  },
+  "HS-SYS-IM-37": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Investigate how computing systems and infrastructure impact society and the environment, identifying who is affected and why.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "partial",
+    "cet": "partial"
+   }
+  },
+  "HS-SYS-SE-31": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Identify different types of cybersecurity and physical security measures and the trade-offs for users, data, and devices.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "HS-SYS-SE-32": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Classify the causes and impacts of security breaches and social engineering attacks for individuals, industries, communities, and governments.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "HS-SYS-SE-33": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Formulate a solution to a security flaw in a given system.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "partial"
+   }
+  },
+  "HS-SYS-NT-34": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Diagram a network of computing systems, including hardware and software.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "gap",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "HS-SYS-NT-35": {
+   "concept": "SYS",
+   "band": "HS",
+   "tier": "Foundational",
+   "description": "Analyze how the internet functions as a network of networks and how it differs from other types of networks.",
+   "status": "covered",
+   "by_course": {
+    "acs_i": "covered",
+    "wdd_i": "partial",
+    "dgd_i": "gap",
+    "cet": "covered"
+   }
+  },
+  "S1-AIN-DD-01": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze AI systems to differentiate the types of problems they address.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-DD-02": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Modify AI system training data to improve fairness and accuracy in outputs.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-DD-03": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Create an application using a prebuilt supervised learning model to make a classification or prediction.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-DD-04": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Compare data representations and how representation choice constrains applicable algorithms.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-DD-05": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Evaluate whether an AI or non-AI computational solution is appropriate for a real-world problem.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-DD-01": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze problems that can be addressed using unsupervised learning.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-DD-02": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Optimize an AI algorithm\u2019s performance for a given problem.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-DD-03": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Create an application using a complex supervised learning model.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-DS-06": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Examine how data flows through a neural network structure.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-DS-07": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Apply data acquisition, cleaning, and transformation techniques to prepare data for AI analysis.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-DS-04": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate metadata and data pipelines to support transparency in AI model selection and deployment.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-DS-05": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Transform data to meet the input requirements of an AI algorithm.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-HR-08": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Plan safeguards for AI systems that protect human well-being and privacy while ensuring meaningful human involvement in decision-making.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-HR-09": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze the potential biases and limitations of AI systems.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-HR-10": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze the environmental impacts of widespread AI adoption.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-HR-06": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop a policy that promotes transparency in AI applications.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-HR-07": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze how model optimization choices impact a model\u2019s performance, interpretability, and fairness.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-PP-11": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Integrate a prebuilt AI agent into an application.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-PP-12": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze how AI tools shape user experiences for people with diverse backgrounds and characteristics.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-PP-13": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Assess how unauthorized data collection has influenced the practice of training AI models.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-AIN-PP-14": {
+   "concept": "AIN",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Evaluate how ethical implications of AI have changed over time.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-PP-08": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop an AI agent to accomplish a defined task.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-PP-09": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop a professional communication artifact by interpreting technical AI results for diverse audiences.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-AIN-PP-10": {
+   "concept": "AIN",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Debate aspects of AI regulatory frameworks and legislation across countries.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-CP-11": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Explain the importance of cybersecurity policies in protecting organizational assets and mitigating risks.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-CP-12": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Explain key components of effective security policies.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-CP-09": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Debate how various regulations impact organizational security policies, procedures, and compliance.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-ND-01": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze the role of network services and protocols in secure communication and their potential vulnerabilities.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-ND-02": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Examine the concepts of the Open Systems Interconnection (OSI) model and their role in network communication.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-ND-03": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Distinguish between networks based on their protocols, topologies, and addressing schemes.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-ND-04": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Examine security risks in digital systems and corresponding mitigation strategies.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-ND-01": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Integrate security features in networking hardware and software.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-ND-02": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Design a secure network, including servers, switches, routers, endpoints, and firewalls.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-ND-03": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate the security implications of different network topologies.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-NO-05": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Apply diagnostic tools and techniques to resolve network connectivity issues.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-NO-06": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze system processes and network activity using command-line tools to identify potential security concerns.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-NO-04": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze network traffic patterns to distinguish between normal and potentially malicious behavior.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-NO-05": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze cybersecurity tasks to improve efficiency and reliability.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-PP-13": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze the potential consequences of a cybersecurity decision on individuals, organizations, and society.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-PP-14": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze social engineering techniques and how they exploit human cognitive biases and organizational weaknesses.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-PP-15": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Translate cybersecurity concepts, risks, and solutions clearly to both technical and nontechnical audiences.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-PP-10": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze the benefits, risks, and ethical implications of AI in cybersecurity.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-PP-11": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze cybersecurity vulnerabilities and incidents to inform responsible disclosure practices.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-PP-12": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Create documentation of cybersecurity processes and decisions that supports team coordination and accountability.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-TS-07": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze how common cyber threats related to network activity exploit system vulnerabilities.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-TS-08": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Evaluate a security threat using the CIA triad, states of data, and types of control.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-TS-09": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze how encryption methods in network communication protect privacy and security.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-CYB-TS-10": {
+   "concept": "CYB",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Evaluate security measures as part of a layered defense strategy to protect sensitive information.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-TS-06": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Design access controls to protect sensitive information.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-TS-07": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate security risks to determine appropriate risk management strategies.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-CYB-TS-08": {
+   "concept": "CYB",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Examine an incident response plan for a real-world scenario.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-AM-04": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Apply appropriate analytic and visualization techniques for categorical and quantitative data.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-AM-05": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Examine missing data and its impact on data analysis.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-AM-06": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze structured categorical and/or quantitative datasets, using computational tools and libraries.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-AM-05": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Build a model to explain relationships, make predictions, and evaluate the influence of different variables.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-AM-06": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate strategies for handling missing data.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-AM-07": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze an unstructured, mixed-type, or high-dimensional dataset using computational tools and libraries.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-CC-01": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Apply exploratory data analysis techniques to non-hierarchical quantitative data.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-CC-02": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Interpret metadata when using data collected by others.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-CC-03": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Develop a program to manipulate and transform data to prepare for analysis.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-CC-01": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Apply exploratory data analysis techniques to a hierarchical structured data source.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-CC-02": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Document the origin, structure, and preparation of a dataset to support clarity and reproducibility.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-CC-03": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop a program to collect and integrate data from multiple sources.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-CC-04": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Choose appropriate data to collect for a data science project based on available tools, skills, and project goals.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-MI-07": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Interpret the results of a data analysis to explain patterns, anomalies, and trends, and connect them back to the original problem or research question.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-MI-08": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Explain the appropriateness of predictive models for the specific problem being addressed.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-MI-09": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Explain how dataset size affects model stability and performance.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-MI-08": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate the performance of models using established metrics.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-MI-09": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze the trade-offs between interpretability, accuracy, and generalizability as they relate to model complexity.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-MI-10": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze how adding or removing variables affects model behavior and performance.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-PP-12": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Apply ethical principles to data collection, analysis, and communication to promote privacy, transparency, and accountability.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-PP-13": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Assess how data collection and use may impact marginalized and underrepresented groups.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-PP-14": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Document data analysis results in a format appropriate for an audience with diverse backgrounds and perspectives.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-PP-13": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate ethical, legal, and social considerations when working with large- scale datasets, predictive models, and emerging technologies.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-PP-14": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate protective measures in data collection, usage, and governance for privacy, security, and fairness.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-PP-15": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Translate technical results for diverse audiences in professional communication artifacts.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-VZ-10": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Create a data visualization that communicates key findings to diverse audiences.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-DSC-VZ-11": {
+   "concept": "DSC",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze how graphical conventions in data visualizations support accurate interpretation and how breaking conventions can mislead.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-VZ-11": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Create a visualization that accurately represents data and avoids misleading design choices.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-DSC-VZ-12": {
+   "concept": "DSC",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Critique a data visualization for misleading elements and their role in spreading misinformation.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-GMD-AR-07": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Examine the key architectural features of computing hardware and their implications for game development.",
+   "status": "covered",
+   "by_course": {
+    "dgd_i": "covered"
+   }
+  },
+  "S2-GMD-AR-06": {
+   "concept": "GMD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Analyze game system architectures that support scalability, maintainability, and performance.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-GMD-DD-01": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze the fundamental components of a game, including players, rules, game mechanics, and outcomes.",
+   "status": "covered",
+   "by_course": {
+    "dgd_i": "covered"
+   }
+  },
+  "S1-GMD-DD-02": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Create a storyboard to plan and communicate a game\u2019s narrative and interactive experience.",
+   "status": "covered",
+   "by_course": {
+    "dgd_i": "covered"
+   }
+  },
+  "S1-GMD-DD-03": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Develop an interactive experience to support gameplay.",
+   "status": "covered",
+   "by_course": {
+    "dgd_i": "covered"
+   }
+  },
+  "S1-GMD-DD-04": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Adapt rule-based logic to improve control of game agents or systems.",
+   "status": "covered",
+   "by_course": {
+    "dgd_i": "covered"
+   }
+  },
+  "S2-GMD-DD-01": {
+   "concept": "GMD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Justify the use of responsible design principles in developing an engaging, meaningful game experience.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-GMD-DD-02": {
+   "concept": "GMD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop a system that programmatically controls 2D or 3D animation states based on game logic and player interactions.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-GMD-DD-03": {
+   "concept": "GMD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Construct in-game artificial intelligence to control NPC behavior.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-GMD-PP-08": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze the ethical implications of copyright and intellectual property in game development.",
+   "status": "covered",
+   "by_course": {
+    "dgd_i": "covered"
+   }
+  },
+  "S1-GMD-PP-09": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Develop a game project collaboratively within a diverse team.",
+   "status": "partial",
+   "by_course": {
+    "dgd_i": "partial"
+   }
+  },
+  "S2-GMD-PP-07": {
+   "concept": "GMD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Create a game utilizing ethical principles in the design and development process.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-GMD-PP-08": {
+   "concept": "GMD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Collaborate effectively in a project team by defining and executing assigned roles, communicating clearly, and managing shared resources to deliver a game project.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-GMD-PX-05": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Create a user-friendly interface for a game, considering accessibility, usability, and aesthetics.",
+   "status": "covered",
+   "by_course": {
+    "dgd_i": "covered"
+   }
+  },
+  "S1-GMD-PX-06": {
+   "concept": "GMD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Optimize basic game usability through user testing and identifying actionable design revisions.",
+   "status": "covered",
+   "by_course": {
+    "dgd_i": "covered"
+   }
+  },
+  "S2-GMD-PX-04": {
+   "concept": "GMD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate game interactions using diverse input devices to enhance immersion and player experience.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-GMD-PX-05": {
+   "concept": "GMD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate two versions of a game using defined metrics to determine which performs better.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-PHY-CI-04": {
+   "concept": "PHY",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Use IoT devices to collect sensor data and transmit it locally using device- to-device or device-to-gateway communication.",
+   "status": "gap",
+   "by_course": {
+    "cet": "gap"
+   }
+  },
+  "S1-PHY-CI-05": {
+   "concept": "PHY",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Implement IoT communication by connecting physical devices with protocols, applying security practices.",
+   "status": "gap",
+   "by_course": {
+    "cet": "gap"
+   }
+  },
+  "S2-PHY-CI-04": {
+   "concept": "PHY",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop an IoT system to manage the collection and transmission of data and enable remote monitoring and control of a physical system.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-PHY-CI-05": {
+   "concept": "PHY",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop an embedded network, evaluating trade-offs among network protocols, security measures, and scalability.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-PHY-DD-03": {
+   "concept": "PHY",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Develop software to control a physical device using an iterative design process.",
+   "status": "covered",
+   "by_course": {
+    "cet": "covered"
+   }
+  },
+  "S2-PHY-DD-03": {
+   "concept": "PHY",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop an application that extends functionality and user engagement with physical devices.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-PHY-HC-01": {
+   "concept": "PHY",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Construct an electrical circuit to power and control a physical computing device.",
+   "status": "gap",
+   "by_course": {
+    "cet": "gap"
+   }
+  },
+  "S2-PHY-HC-01": {
+   "concept": "PHY",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop an electromechanical system using a CAD tool for design and testing.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-PHY-IO-02": {
+   "concept": "PHY",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Integrate sensors, actuators, and peripherals into a physical computing system.",
+   "status": "partial",
+   "by_course": {
+    "cet": "partial"
+   }
+  },
+  "S2-PHY-IO-02": {
+   "concept": "PHY",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Design a closed-loop feedback control system to meet a desired outcome using varying sensor types.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-PHY-PP-06": {
+   "concept": "PHY",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Use a version control system to coordinate development in a physical computing project.",
+   "status": "gap",
+   "by_course": {
+    "cet": "gap"
+   }
+  },
+  "S1-PHY-PP-07": {
+   "concept": "PHY",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Evaluate social, technical, and sociotechnical impacts of a physical computing system.",
+   "status": "partial",
+   "by_course": {
+    "cet": "partial"
+   }
+  },
+  "S1-PHY-PP-08": {
+   "concept": "PHY",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Evaluate the security implications of a physical computing system, including data privacy, unauthorized access, and potential vulnerabilities.",
+   "status": "gap",
+   "by_course": {
+    "cet": "gap"
+   }
+  },
+  "S2-PHY-PP-06": {
+   "concept": "PHY",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Apply a project management methodology to collaboratively design, develop, and test a physical computing project.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-PHY-PP-07": {
+   "concept": "PHY",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate how physical computing technologies shape social processes, communities, power, and equity in global society.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-PHY-PP-08": {
+   "concept": "PHY",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop a physical computing solution for diverse users using the engineering design process.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-SWD-DD-01": {
+   "concept": "SWD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Implement linear data structures to organize and access collections of data when solving computational problems.",
+   "status": "gap",
+   "by_course": {
+    "wdd_i": "gap"
+   }
+  },
+  "S1-SWD-DD-02": {
+   "concept": "SWD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Design software that accounts for complexity through abstraction.",
+   "status": "partial",
+   "by_course": {
+    "wdd_i": "partial"
+   }
+  },
+  "S1-SWD-DD-03": {
+   "concept": "SWD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Use integrated development environment (IDE) features to streamline software development, including code editing, debugging, version control, and project management.",
+   "status": "partial",
+   "by_course": {
+    "wdd_i": "partial"
+   }
+  },
+  "S2-SWD-DD-01": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Apply associative and hierarchical data structures to solve computational problems.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-SWD-DD-02": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop a prototype using diverse user personas and user journey maps to guide design decisions.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-SWD-DD-03": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Develop a project in iterative cycles, documenting changes and the rationale for each cycle.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-SWD-DD-04": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Modify an existing algorithm to improve efficiency, considering factors such as data structures and algorithmic paradigms.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-SWD-PP-08": {
+   "concept": "SWD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Collaborate to develop software that reflects diverse perspectives.",
+   "status": "partial",
+   "by_course": {
+    "wdd_i": "partial"
+   }
+  },
+  "S2-SWD-PP-09": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Apply an industry-standard software development process to plan and deliver a project while prioritizing equity and justice.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-SWD-TR-06": {
+   "concept": "SWD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Use AI-assisted IDE tools or features to understand unfamiliar code and identify errors during debugging.",
+   "status": "gap",
+   "by_course": {
+    "wdd_i": "gap"
+   }
+  },
+  "S1-SWD-TR-07": {
+   "concept": "SWD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Design a test plan that exercises program functionality, including edge cases, error conditions, and varied user inputs.",
+   "status": "gap",
+   "by_course": {
+    "wdd_i": "gap"
+   }
+  },
+  "S2-SWD-TR-07": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Use an IDE to test and refine a complex software project.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-SWD-TR-08": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Debug a complex software project to identify, isolate, and fix errors.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-SWD-UX-04": {
+   "concept": "SWD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Refine a user interface design using accessibility and responsive design tools.",
+   "status": "covered",
+   "by_course": {
+    "wdd_i": "covered"
+   }
+  },
+  "S1-SWD-UX-05": {
+   "concept": "SWD",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Create software that serves intended users and contexts using human- centered design principles.",
+   "status": "covered",
+   "by_course": {
+    "wdd_i": "covered"
+   }
+  },
+  "S2-SWD-UX-05": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Evaluate the user experience to improve usability.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S2-SWD-UX-06": {
+   "concept": "SWD",
+   "band": "S2",
+   "tier": "Specialty",
+   "description": "Create a user-friendly, accessible, and responsively designed interface.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-XCS-XC-01": {
+   "concept": "XCS",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Explain connections between CS concepts and practices and those from a non-CS discipline (X).",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-XCS-XC-02": {
+   "concept": "XCS",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Formulate a computational solution to a problem in a non-CS discipline (X) using computational thinking.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-XCS-XC-03": {
+   "concept": "XCS",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Analyze a computer science technology or approach used in a non-CS discipline (X).",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-XCS-XC-04": {
+   "concept": "XCS",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Model relationships within a non-CS discipline using data, visualizations, and computational methods.",
+   "status": "unclaimed",
+   "by_course": {}
+  },
+  "S1-XCS-XC-05": {
+   "concept": "XCS",
+   "band": "S1",
+   "tier": "Specialty",
+   "description": "Assess how well an algorithm solves problems within a non-CS discipline (X) by evaluating its accuracy, efficiency, and relevance to the intended goal.",
+   "status": "unclaimed",
+   "by_course": {}
+  }
+ },
+ "per_course": {
+  "acs_i": {
+   "HS-ALG-PS-01": {
+    "status": "covered",
+    "note": "[[Unit_2_Master_Overview\\"
+   },
+   "HS-ALG-PS-02": {
+    "status": "covered",
+    "note": "U6 (Control Structures + Functions), U8"
+   },
+   "HS-ALG-PS-03": {
+    "status": "covered",
+    "note": "U9 Day 4\u20135 explicit time-complexity reasoning (O(n) shifting, front-vs-back insertion, arrays-vs-linked-lists tradeoffs); U8 Day 5/7 systematic testing w/ edge cases. Meets \"simple metrics **or** test cases\""
+   },
+   "HS-ALG-PS-04": {
+    "status": "covered",
+    "note": "U6 Day 4 Segment 1 now names the distinction over the existing `addAndReturn` vs `random()` content, with a debrief point + exit-ticket Q4. Was \u2717 (function used, concept unnamed); reframe added this pass"
+   },
+   "HS-ALG-PS-05": {
+    "status": "covered",
+    "note": "[[Unit_5_Master_Overview\\"
+   },
+   "HS-ALG-IM-09": {
+    "status": "partial",
+    "note": "U7 Day 1 teaches target audience + accessibility guidelines (\"who will actually use your program\"; don't require knowledge the audience lacks) \u2014 real HCD content, but no explicit *research \u2192 options \u2192 anticipate-impact* cycle"
+   },
+   "HS-ALG-IM-10": {
+    "status": "covered",
+    "note": "[[Unit_1_Master_Overview\\"
+   },
+   "HS-ALG-IM-11": {
+    "status": "partial",
+    "note": "U16 Position Paper debates AI-hiring bias, training-data royalties (values-adjacent) \u2014 but framed as *impact/policy* argument, not \"articulate the values embedded in the design\""
+   },
+   "HS-ALG-ML-06": {
+    "status": "gap",
+    "note": "\u2014 Specialty **AIN** territory"
+   },
+   "HS-ALG-ML-07": {
+    "status": "covered",
+    "note": "U14 Day 2 covers data source/quality/representativeness + \"who's not represented,\" **explicitly tied to AI training data**; [[Unit_14_Data_Bias_Case_Studies]] covers training-data bias (hiring algorithm); U5 covers privacy. All boundary dimensions present"
+   },
+   "HS-ALG-ML-08": {
+    "status": "gap",
+    "note": "\u2014 Specialty **AIN** territory"
+   },
+   "HS-PRO-PD-12": {
+    "status": "covered",
+    "note": "U6, U8, U9"
+   },
+   "HS-PRO-PD-13": {
+    "status": "partial",
+    "note": "U2 uses the p5.js library + reference sheet; U8 builds documentation habits \u2014 but **explicit API use is absent** (no external-API call in any project)"
+   },
+   "HS-PRO-PD-14": {
+    "status": "covered",
+    "note": "U5 (licenses/IP), U8 (Create PT attribution)"
+   },
+   "HS-PRO-PD-15": {
+    "status": "covered",
+    "note": "[[Unit_3_Master_Overview\\"
+   },
+   "HS-PRO-VD-16": {
+    "status": "covered",
+    "note": "U2, U4, U7, U8, U9"
+   },
+   "HS-PRO-RD-17": {
+    "status": "covered",
+    "note": "U6, U8, U9"
+   },
+   "HS-PRO-RD-18": {
+    "status": "partial",
+    "note": "U8 [[Unit_8_AI_Use_Decision_Journal]] Day 7 asks \"did you use AI to understand an error or to write the fix?\" \u2014 reflective AI-use logging, **not** a systematic *test-AI-code-against-the-spec* task"
+   },
+   "HS-PRO-TR-19": {
+    "status": "covered",
+    "note": "U8 (Create PT), U3/U7 Practice PTs"
+   },
+   "HS-PRO-TR-20": {
+    "status": "covered",
+    "note": "U8, Practice PT iteration cycles"
+   },
+   "HS-DAT-DC-21": {
+    "status": "gap",
+    "note": "\u2014 not covered (simulation/data-gen)"
+   },
+   "HS-DAT-DC-22": {
+    "status": "covered",
+    "note": "New [[Unit_15_Data_Dictionary_Template]] is now a required U15 deliverable (3 pts) with a Day 1 teaching beat; covers name/type/allowable-values/relationships. Was \u2717 (no named artifact)"
+   },
+   "HS-DAT-DC-23": {
+    "status": "covered",
+    "note": "U14 Day 2 students open a messy 30-row starter and clean **all seven data-quality problems** (missing values, inconsistent capitalization, duplicates, impossible values) in a computational tool. Direct hit"
+   },
+   "HS-DAT-DC-24": {
+    "status": "covered",
+    "note": "[[Unit_4_Master_Overview\\"
+   },
+   "HS-DAT-DI-25": {
+    "status": "covered",
+    "note": "U14, U15 (Data Insight PT)"
+   },
+   "HS-DAT-DI-26": {
+    "status": "covered",
+    "note": "U15 (Data Insight analysis report)"
+   },
+   "HS-DAT-IM-27": {
+    "status": "covered",
+    "note": "U5, U15, U16"
+   },
+   "HS-DAT-IM-28": {
+    "status": "covered",
+    "note": "U16 (contentious-issue debate), U5"
+   },
+   "HS-SYS-HW-29": {
+    "status": "covered",
+    "note": "U1 (roles of OS software)"
+   },
+   "HS-SYS-HW-30": {
+    "status": "covered",
+    "note": "U1 Day 4 Abstraction Layer worksheet now has a required hands-on \"System 4\": students perform a real task on their Chromebook, then name its capabilities (tied to a layer), limitations, and a task a different device would do better. Was \u2717 (conceptual only)"
+   },
+   "HS-SYS-SE-31": {
+    "status": "covered",
+    "note": "U5, [[Unit_12_Master_Overview\\"
+   },
+   "HS-SYS-SE-32": {
+    "status": "covered",
+    "note": "U5 (phishing), U12"
+   },
+   "HS-SYS-SE-33": {
+    "status": "covered",
+    "note": "U12 Day 6\u20137 Security Scenario Analysis: students propose security measures, add tradeoff notes to each recommendation, and use a risk matrix (likelihood/impact \u2192 mitigate). That's formulating solutions to flaws"
+   },
+   "HS-SYS-NT-34": {
+    "status": "covered",
+    "note": "U12 (protocol-stack diagram)"
+   },
+   "HS-SYS-NT-35": {
+    "status": "covered",
+    "note": "U12 (The Internet)"
+   },
+   "HS-SYS-IM-36": {
+    "status": "covered",
+    "note": "U16"
+   },
+   "HS-SYS-IM-37": {
+    "status": "covered",
+    "note": "[[Unit_13_Master_Overview\\"
+   },
+   "HS-SOC-HI-38": {
+    "status": "covered",
+    "note": "U13, U1"
+   },
+   "HS-SOC-HI-39": {
+    "status": "covered",
+    "note": "U16"
+   },
+   "HS-SOC-ET-40": {
+    "status": "partial",
+    "note": "U16 Day 1 covers innovations' *impacts* + intended/unintended consequences \u2014 but not the **technological differences** that distinguish emerging from established tech (that analysis is absent; impacts belong to ET-41)"
+   },
+   "HS-SOC-ET-41": {
+    "status": "covered",
+    "note": "U16, U5"
+   },
+   "HS-SOC-ET-42": {
+    "status": "partial",
+    "note": "U17 capstone has students \"design and build an artifact that solves a problem or expresses an idea\" \u2014 open-ended, so it **allows but doesn't require an *emerging* technology**; the emerging-tech constraint is what's missing"
+   },
+   "HS-SOC-HU-43": {
+    "status": "covered",
+    "note": "U16, U5"
+   },
+   "HS-SOC-HU-44": {
+    "status": "covered",
+    "note": "U16, U1"
+   },
+   "HS-SOC-CE-45": {
+    "status": "covered",
+    "note": "U1 (careers), U3 (collaboration)"
+   },
+   "HS-SOC-CE-46": {
+    "status": "covered",
+    "note": "U1 (Career Profile), U16 (year-end reflection)"
+   }
+  },
+  "wdd_i": {
+   "S1-SWD-DD-01": {
+    "status": "gap",
+    "note": "No programming / data structures in WDD I"
+   },
+   "S1-SWD-DD-02": {
+    "status": "partial",
+    "note": "External stylesheets + a consistent design system manage complexity by abstraction (markup sense), U3/U6"
+   },
+   "S1-SWD-DD-03": {
+    "status": "partial",
+    "note": "Text editor + HTML/CSS validators (debugging) + directory/file-naming discipline (U1) \u2014 no version control/IDE"
+   },
+   "S1-SWD-UX-04": {
+    "status": "covered",
+    "note": "U5/U6 accessibility (ADA/WCAG, WAVE audit, contrast, alt text) + responsive design + breakpoint fixes"
+   },
+   "S1-SWD-UX-05": {
+    "status": "covered",
+    "note": "U5 audience identification, content strategy, wireframes, usability; capstone built for a defined user"
+   },
+   "S1-SWD-TR-06": {
+    "status": "gap",
+    "note": "No AI tooling in WDD I"
+   },
+   "S1-SWD-TR-07": {
+    "status": "gap",
+    "note": "Validation + peer review, but no test-plan design"
+   },
+   "S1-SWD-PP-08": {
+    "status": "partial",
+    "note": "Structured peer review + inclusive/accessible design; not a true collaborative build"
+   },
+   "HS-ALG-PS-01": {
+    "status": "gap",
+    "note": "No algorithms in WDD I"
+   },
+   "HS-ALG-PS-02": {
+    "status": "gap",
+    "note": "No code logic"
+   },
+   "HS-ALG-PS-03": {
+    "status": "gap",
+    "note": "No algorithms"
+   },
+   "HS-ALG-PS-04": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-ALG-PS-05": {
+    "status": "gap",
+    "note": "U3 bias analysis is *content/editorial* bias, not AI output"
+   },
+   "HS-ALG-IM-09": {
+    "status": "covered",
+    "note": "The course's strongest thread \u2014 U5 audience/usability/accessibility + wireframes + responsive design; U2 design principles"
+   },
+   "HS-ALG-IM-10": {
+    "status": "gap",
+    "note": "No algorithms to analyze"
+   },
+   "HS-ALG-IM-11": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-ALG-ML-06": {
+    "status": "gap",
+    "note": "Specialty **AIN**"
+   },
+   "HS-ALG-ML-07": {
+    "status": "gap",
+    "note": "No ML"
+   },
+   "HS-ALG-ML-08": {
+    "status": "gap",
+    "note": "Specialty **AIN**"
+   },
+   "HS-PRO-PD-12": {
+    "status": "partial",
+    "note": "External stylesheets + web-font libraries give modularity/reusability in markup \u2014 but no procedures/objects/program logic"
+   },
+   "HS-PRO-PD-13": {
+    "status": "partial",
+    "note": "Web-font libraries (Google Fonts), HTML/CSS validators + references \u2014 no APIs"
+   },
+   "HS-PRO-PD-14": {
+    "status": "covered",
+    "note": "U3 copyright/Creative Commons/attribution + a required credits page"
+   },
+   "HS-PRO-PD-15": {
+    "status": "partial",
+    "note": "U5 capstone planning package (brief, site map, wireframes, content plan) + dev cycle + peer review \u2014 design docs strong; collaboration is peer-review, not a team build"
+   },
+   "HS-PRO-VD-16": {
+    "status": "gap",
+    "note": "HTML/CSS is not a program with data structures (WDD II)"
+   },
+   "HS-PRO-RD-17": {
+    "status": "gap",
+    "note": "No code logic (WDD II)"
+   },
+   "HS-PRO-RD-18": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-PRO-TR-19": {
+    "status": "covered",
+    "note": "U6 capstone graded against its planning-package spec + WCAG AA + validation (accessibility = responsible design)"
+   },
+   "HS-PRO-TR-20": {
+    "status": "covered",
+    "note": "U6 peer review \u2192 revision, accessibility audit \u2192 fixes, HTML/CSS validation \u2192 fixes, responsive testing"
+   },
+   "HS-DAT-DC-21": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-DAT-DC-22": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-DAT-DC-23": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-DAT-DC-24": {
+    "status": "gap",
+    "note": "U4 HTML forms use input types, but data-validation isn't taught as a concept"
+   },
+   "HS-DAT-DI-25": {
+    "status": "gap",
+    "note": "No data visualization"
+   },
+   "HS-DAT-DI-26": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-DAT-IM-27": {
+    "status": "partial",
+    "note": "U4 GDPR + Nevada Consumer Privacy Act + global privacy \u2014 societal/ethical implications of data collection (environment/AI not)"
+   },
+   "HS-DAT-IM-28": {
+    "status": "partial",
+    "note": "U4 privacy-law coverage + Friday \"GDPR/privacy news case\" discussion \u2014 regulation discussed; structured efficacy debate lighter"
+   },
+   "HS-SYS-HW-29": {
+    "status": "gap",
+    "note": "Not addressed (U1 front-end/back-end, not OS)"
+   },
+   "HS-SYS-HW-30": {
+    "status": "partial",
+    "note": "U5/U6 responsive design across devices + media compression for constraints \u2014 device-capability reasoning, not a formal demonstration"
+   },
+   "HS-SYS-SE-31": {
+    "status": "partial",
+    "note": "U4 HTTPS vs HTTP, security certificates, e-commerce security; U3 acceptable security practices \u2014 measures identified; trade-off analysis lighter"
+   },
+   "HS-SYS-SE-32": {
+    "status": "gap",
+    "note": "Not classified (privacy/security practices touched, not breaches/social engineering)"
+   },
+   "HS-SYS-SE-33": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SYS-NT-34": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SYS-NT-35": {
+    "status": "partial",
+    "note": "U1 Internet vs WWW + web history + W3C \u2014 the distinction is taught; \"network of networks\" structural analysis is lighter"
+   },
+   "HS-SYS-IM-36": {
+    "status": "covered",
+    "note": "U4 GDPR + Nevada Consumer Privacy Act \"and why they matter\"; U5 ADA/WCAG rationale \u2014 multiple laws with rationale"
+   },
+   "HS-SYS-IM-37": {
+    "status": "partial",
+    "note": "U3 digital footprint/privacy + U4 social-media impact \u2014 society covered; infrastructure/environment not"
+   },
+   "HS-SOC-HI-38": {
+    "status": "covered",
+    "note": "U1 history of the World Wide Web + W3C + web evolution"
+   },
+   "HS-SOC-HI-39": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SOC-ET-40": {
+    "status": "partial",
+    "note": "U4 current social-media trends; emerging-tech (Nevada Standard 7.0) is deferred to WDD II"
+   },
+   "HS-SOC-ET-41": {
+    "status": "partial",
+    "note": "U4 social media's societal impact \u2014 societal side touched; systematic emerging-tech analysis is WDD II"
+   },
+   "HS-SOC-ET-42": {
+    "status": "gap",
+    "note": "The capstone is a website, not an emerging-tech problem solution"
+   },
+   "HS-SOC-HU-43": {
+    "status": "covered",
+    "note": "U3 ethics, U4 privacy regulation, U5 accessibility choices \u2014 design/regulatory choices evaluated"
+   },
+   "HS-SOC-HU-44": {
+    "status": "gap",
+    "note": "No AI content in WDD I"
+   },
+   "HS-SOC-CE-45": {
+    "status": "partial",
+    "note": "U1 web careers/roles (front-/back-end); inclusive/accessible design touches diverse users; diverse-teams narrative lighter"
+   },
+   "HS-SOC-CE-46": {
+    "status": "covered",
+    "note": "U1 web careers; U6 career/professional skills + capstone presentation"
+   }
+  },
+  "dgd_i": {
+   "S1-GMD-DD-01": {
+    "status": "covered",
+    "note": "U2 game structure, mechanics categories, victory conditions, MDA framework"
+   },
+   "S1-GMD-DD-02": {
+    "status": "covered",
+    "note": "U4 top-down level storyboard; U2 narrative design; U7 animation storyboards"
+   },
+   "S1-GMD-DD-03": {
+    "status": "covered",
+    "note": "U6 scripted prototype \u2192 U7 playable Level 1 build"
+   },
+   "S1-GMD-DD-04": {
+    "status": "covered",
+    "note": "U6 NPC AI state machines (idle/patrol/chase via distance checks)"
+   },
+   "S1-GMD-PX-05": {
+    "status": "covered",
+    "note": "U7 full GUI (start menu, HUD, pause, win/lose); U2 usability/UX principles"
+   },
+   "S1-GMD-PX-06": {
+    "status": "covered",
+    "note": "U7 two structured peer-playtest sessions \u2192 bug log \u2192 triage \u2192 fixes"
+   },
+   "S1-GMD-AR-07": {
+    "status": "covered",
+    "note": "U3 low-vs-high-poly + real-time performance tradeoffs; U5 engine components + hardware/platform fit"
+   },
+   "S1-GMD-PP-08": {
+    "status": "covered",
+    "note": "U7 asset attribution log (woven); U8 IP law, Creative Commons, IP-dispute case studies"
+   },
+   "S1-GMD-PP-09": {
+    "status": "partial",
+    "note": "Version control (GitHub), team roles, and peer playtesting are taught/used \u2014 but the build is a *personal* project; the true collaborative team build is DGD II"
+   },
+   "HS-ALG-PS-01": {
+    "status": "covered",
+    "note": "U5 logic + data types + arrays; U6 scripts designed around game state"
+   },
+   "HS-ALG-PS-02": {
+    "status": "covered",
+    "note": "U5 functions/nested functions + loops; U6 OOP methods; control structures throughout"
+   },
+   "HS-ALG-PS-03": {
+    "status": "partial",
+    "note": "U6/U7 verify functionality through testing + debugging (correctness) \u2014 but formal test-case generation (5.3.5) is deferred to Y2; efficiency metrics not emphasized"
+   },
+   "HS-ALG-PS-04": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-ALG-PS-05": {
+    "status": "gap",
+    "note": "DGD's AI is rule-based NPC state machines, not generative-AI output evaluation"
+   },
+   "HS-ALG-IM-09": {
+    "status": "covered",
+    "note": "U2 usability/UX + U7 iterative playtesting (collect user feedback \u2192 revise) \u2014 user-centered design in practice"
+   },
+   "HS-ALG-IM-10": {
+    "status": "gap",
+    "note": "DGD ethics is content/representation, not algorithmic-bias analysis"
+   },
+   "HS-ALG-IM-11": {
+    "status": "covered",
+    "note": "U8 social responsibility \u2014 addiction mechanics, monetization ethics, loot boxes: the values embedded in game-system design"
+   },
+   "HS-ALG-ML-06": {
+    "status": "gap",
+    "note": "Specialty **AIN** territory; no ML in DGD"
+   },
+   "HS-ALG-ML-07": {
+    "status": "gap",
+    "note": "No ML/training data"
+   },
+   "HS-ALG-ML-08": {
+    "status": "gap",
+    "note": "Specialty **AIN** territory"
+   },
+   "HS-PRO-PD-12": {
+    "status": "covered",
+    "note": "U6 OOP \u2014 classes, fields, methods, inheritance (Enemy \u2192 FlyingEnemy); U5 functions"
+   },
+   "HS-PRO-PD-13": {
+    "status": "covered",
+    "note": "U5\u2013U7 use the Unity API extensively (MonoBehaviour, Input Manager, Animator, Audio Source, Canvas)"
+   },
+   "HS-PRO-PD-14": {
+    "status": "covered",
+    "note": "U7 asset attribution log; U8 formal IP/Creative Commons/copyright"
+   },
+   "HS-PRO-PD-15": {
+    "status": "partial",
+    "note": "GDD spine + GitHub version control + team-role instruction \u2014 but the build is individual; true team workflow is DGD II"
+   },
+   "HS-PRO-VD-16": {
+    "status": "covered",
+    "note": "U5 arrays + primitive data types; U6 state/score variables driving behavior"
+   },
+   "HS-PRO-RD-17": {
+    "status": "covered",
+    "note": "U5 methods with parameters + return values, arrays, access modifiers; U6 tracing/debugging"
+   },
+   "HS-PRO-RD-18": {
+    "status": "gap",
+    "note": "No AI code-generation in DGD I"
+   },
+   "HS-PRO-TR-19": {
+    "status": "covered",
+    "note": "U7 verifies every GDD-specified mechanic is present + functional (GDD = spec); diversity/representation review"
+   },
+   "HS-PRO-TR-20": {
+    "status": "covered",
+    "note": "U7 two playtest sessions \u2192 bug log \u2192 triage \u2192 fixes \u2192 polish"
+   },
+   "HS-DAT-DC-21": {
+    "status": "gap",
+    "note": "Not a game-production topic"
+   },
+   "HS-DAT-DC-22": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-DAT-DC-23": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-DAT-DC-24": {
+    "status": "gap",
+    "note": "U5 teaches data types, but not data validation/verification"
+   },
+   "HS-DAT-DI-25": {
+    "status": "gap",
+    "note": "No data-visualization content"
+   },
+   "HS-DAT-DI-26": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-DAT-IM-27": {
+    "status": "gap",
+    "note": "DGD ethics is IP/content, not large-scale data"
+   },
+   "HS-DAT-IM-28": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SYS-HW-29": {
+    "status": "gap",
+    "note": "U5 covers engine architecture (renderer/compiler/editor), not OS-as-hardware-manager"
+   },
+   "HS-SYS-HW-30": {
+    "status": "partial",
+    "note": "U3 poly-budget-for-real-time-performance + U5 engine choice by target hardware \u2014 device capability reasoning, not a formal demonstration"
+   },
+   "HS-SYS-SE-31": {
+    "status": "gap",
+    "note": "Game security (7.2.3) is deferred to Y2"
+   },
+   "HS-SYS-SE-32": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SYS-SE-33": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SYS-NT-34": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SYS-NT-35": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SYS-IM-36": {
+    "status": "partial",
+    "note": "U8 ESRB rating system + content-regulation frameworks + IP law \u2014 policy discussed; evaluating its *rationale* is lighter"
+   },
+   "HS-SYS-IM-37": {
+    "status": "partial",
+    "note": "U8 social impact of games/gaming \u2014 society covered; infrastructure/environmental angle not"
+   },
+   "HS-SOC-HI-38": {
+    "status": "covered",
+    "note": "U1 history of computing in games + video-game evolution (major eras, hardware turning points)"
+   },
+   "HS-SOC-HI-39": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SOC-ET-40": {
+    "status": "partial",
+    "note": "U1 real-time engines in non-game industries (AEC, simulation, advertising); U7 motion-capture overview \u2014 emerging uses touched"
+   },
+   "HS-SOC-ET-41": {
+    "status": "partial",
+    "note": "U8 social responsibility + game-industry social impact \u2014 societal impact of the technology"
+   },
+   "HS-SOC-ET-42": {
+    "status": "gap",
+    "note": "The Unity build is an entertainment artifact, not a real-world-problem solution"
+   },
+   "HS-SOC-HU-43": {
+    "status": "covered",
+    "note": "U8 developer responsibility, monetization ethics, content regulation"
+   },
+   "HS-SOC-HU-44": {
+    "status": "gap",
+    "note": "NPC AI is technical, not the human-vs-AI philosophy debate"
+   },
+   "HS-SOC-CE-45": {
+    "status": "covered",
+    "note": "U1 industry roles; U2 team interdependence; U3/U8 diversity & inclusion \u2014 \"who makes games, why it matters\""
+   },
+   "HS-SOC-CE-46": {
+    "status": "covered",
+    "note": "U1 career-pathway research profile; U8 resume/cover letter + program-to-pathway"
+   }
+  },
+  "cet": {
+   "HS-ALG-PS-01": {
+    "status": "partial",
+    "note": "VEX U2\u2013U4 design drive algorithms (sequencing, path planning), but block-coding uses no real data structures"
+   },
+   "HS-ALG-PS-02": {
+    "status": "covered",
+    "note": "U4 efficiency (\"fewest blocks\"), U8 If/If-else/Repeat + custom controller, U2/U5/U8 decompose into procedures/modules (AP.M.1)"
+   },
+   "HS-ALG-PS-03": {
+    "status": "partial",
+    "note": "U4 optimizes for fewest blocks (a metric); unit-challenge success criteria check correctness \u2014 but no systematic test-case evaluation"
+   },
+   "HS-ALG-PS-04": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-ALG-PS-05": {
+    "status": "covered",
+    "note": "**U7 (Exploring AI Vision)** \u2014 distance-vs-detection data collection shows where machine perception fails; Day 3 connects to real CV bias (facial recognition, self-driving, medical). CET's AI-literacy node (mechanism literacy)"
+   },
+   "HS-ALG-IM-09": {
+    "status": "partial",
+    "note": "Block D Day 81 \"Design for Your Audience\" + Showcase design process \u2014 audience/needs present, but no explicit research \u2192 options \u2192 anticipate-impact HCD cycle"
+   },
+   "HS-ALG-IM-10": {
+    "status": "partial",
+    "note": "U7 covers bias in computer vision (data-driven); Block A IC.C.1 impacts \u2014 but the rule-based-vs-data-driven *contrast* isn't drawn"
+   },
+   "HS-ALG-IM-11": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-ALG-ML-06": {
+    "status": "gap",
+    "note": "Specialty **AIN** territory"
+   },
+   "HS-ALG-ML-07": {
+    "status": "gap",
+    "note": "U7 is perception/detection-failure literacy, not training-data evaluation \u2014 Specialty **AIN**-adjacent"
+   },
+   "HS-ALG-ML-08": {
+    "status": "gap",
+    "note": "Specialty **AIN** territory"
+   },
+   "HS-PRO-PD-12": {
+    "status": "covered",
+    "note": "VEX U6 Macro blocks (abstraction), U8 custom controller, U2/U5/U8 decompose into procedures/modules (AP.M.1)"
+   },
+   "HS-PRO-PD-13": {
+    "status": "partial",
+    "note": "VEXcode reference use + Block D CSS/JS libraries & web-font licensing \u2014 but no external-API call"
+   },
+   "HS-PRO-PD-14": {
+    "status": "covered",
+    "note": "Block A Day 13 (copyright/fair use/citation, AP.PD.2), Block D media/font attribution"
+   },
+   "HS-PRO-PD-15": {
+    "status": "covered",
+    "note": "VEX Capstone (U9) PM roles/milestones (GC.C.1), AP.PD.4 team roles across all units"
+   },
+   "HS-PRO-VD-16": {
+    "status": "gap",
+    "note": "CET programming (VEX blocks, HTML/CSS) doesn't store/access/manipulate data via data structures"
+   },
+   "HS-PRO-RD-17": {
+    "status": "partial",
+    "note": "U4 angle parameters, U8 reading code + comments \u2014 parameters yes; return values / data structures no"
+   },
+   "HS-PRO-RD-18": {
+    "status": "gap",
+    "note": "No AI code-generation in CET"
+   },
+   "HS-PRO-TR-19": {
+    "status": "partial",
+    "note": "VEX unit-challenge success criteria + Showcase brief check alignment to specs; responsible-design values only lightly (audience)"
+   },
+   "HS-PRO-TR-20": {
+    "status": "covered",
+    "note": "VEX Predict-Drive-Measure-Code iteration (U5+), Block D Web Studio iterate (ID.C.1), Showcase revise cycle"
+   },
+   "HS-DAT-DC-21": {
+    "status": "gap",
+    "note": "Not addressed \u2014 Specialty **DSC**"
+   },
+   "HS-DAT-DC-22": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-DAT-DC-23": {
+    "status": "partial",
+    "note": "Block C Day 64 \"Working With Data Sets\" + Data Story use Sheets on real datasets; explicit *cleaning* of messy text data isn't the focus"
+   },
+   "HS-DAT-DC-24": {
+    "status": "gap",
+    "note": "Not addressed (Block C is representation + viz, not validation)"
+   },
+   "HS-DAT-DI-25": {
+    "status": "covered",
+    "note": "Block C Days 65\u201367 build charts; Data Story project; Block D \"Put Data on the Page\" (DA.CVT.1, CC.C.1)"
+   },
+   "HS-DAT-DI-26": {
+    "status": "covered",
+    "note": "Block C Day 66 \"Data Visualization II: Honest & Clear\" \u2014 misleading vs. honest viz, justify format (CT.B.2)"
+   },
+   "HS-DAT-IM-27": {
+    "status": "covered",
+    "note": "Block A Days 8\u201310 (automated data collection privacy IC.SLE.2, societal/economic implications IC.SLE.3, impacts IC.C.1)"
+   },
+   "HS-DAT-IM-28": {
+    "status": "partial",
+    "note": "Block A Day 9 covers privacy law/ethics/economics \u2014 discussed, but not a structured policy-efficacy debate"
+   },
+   "HS-SYS-HW-29": {
+    "status": "covered",
+    "note": "**Block C Day 63** explicitly teaches system software as \"the OS underneath, managing memory, files, and hardware so apps don't have to\" (CS.HS.1)"
+   },
+   "HS-SYS-HW-30": {
+    "status": "covered",
+    "note": "**U7** hands-on distance-vs-detection data quantifies the AI Vision sensor's limits; U1 robot-as-system (CS.D.1)"
+   },
+   "HS-SYS-SE-31": {
+    "status": "covered",
+    "note": "Block A cyber hygiene (Day 7), Block C malware/attacks (Day 71) + encryption/HTTPS (Day 72)"
+   },
+   "HS-SYS-SE-32": {
+    "status": "covered",
+    "note": "Block A Day 6 (online dangers, phishing DC.B.2), Block C Day 71 (malware/attacks NI.C.1)"
+   },
+   "HS-SYS-SE-33": {
+    "status": "partial",
+    "note": "Block A teaches prevent/detect/combat threats (defensive practices); not a formulate-a-fix-for-a-given-flaw task"
+   },
+   "HS-SYS-NT-34": {
+    "status": "covered",
+    "note": "Block C Days 69\u201370 (how the Internet works; routers/switches/servers/topology, reliability & routing, NI.NCO.1)"
+   },
+   "HS-SYS-NT-35": {
+    "status": "covered",
+    "note": "Block C Day 69 \"How the Internet Works\" + Day 70 routing/redundancy"
+   },
+   "HS-SYS-IM-36": {
+    "status": "partial",
+    "note": "Block A safe/legal/ethical use + privacy law (Days 5, 9) \u2014 legal framing present; evaluating a specific law's *rationale* is lighter"
+   },
+   "HS-SYS-IM-37": {
+    "status": "partial",
+    "note": "Block A IC.C.1 (impacts) + Block D Showcase (real issue) \u2014 society covered; environmental impact of infrastructure is thin"
+   },
+   "HS-SOC-HI-38": {
+    "status": "gap",
+    "note": "No history-of-computing content"
+   },
+   "HS-SOC-HI-39": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SOC-ET-40": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "HS-SOC-ET-41": {
+    "status": "partial",
+    "note": "Block A uses AI misinformation/deepfakes as hooks; Showcase researches a real issue \u2014 emerging-tech impacts touched, not systematic"
+   },
+   "HS-SOC-ET-42": {
+    "status": "partial",
+    "note": "Block D Showcase designs/publishes a web artifact about a real issue \u2014 real-world problem yes, *emerging-tech* constraint no"
+   },
+   "HS-SOC-HU-43": {
+    "status": "covered",
+    "note": "Block A IC.C.1 + privacy/ethics (Days 5\u201310) evaluate human choices in ethical/legal use"
+   },
+   "HS-SOC-HU-44": {
+    "status": "gap",
+    "note": "CET's AI is mechanism literacy (perception), not the human-vs-AI philosophy debate (that's ACS I / DGD)"
+   },
+   "HS-SOC-CE-45": {
+    "status": "partial",
+    "note": "Collaboration practiced (VEX teams, IC.SI.1 across cultures/careers); analyzing *narratives* of diverse teams is lighter"
+   },
+   "HS-SOC-CE-46": {
+    "status": "covered",
+    "note": "Block 0 goal-setting (EL.A.1) opened Day 2, closed Day 90 goal-sheet revision; CS-vs-IT career framing"
+   },
+   "S1-PHY-HC-01": {
+    "status": "gap",
+    "note": "VEX AIM is pre-assembled; no circuit building"
+   },
+   "S1-PHY-IO-02": {
+    "status": "partial",
+    "note": "Students *use* onboard AI Vision sensor + drive actuators via code (U6\u2013U8); no physical wiring/integration"
+   },
+   "S1-PHY-DD-03": {
+    "status": "covered",
+    "note": "Core of Block B \u2014 Predict-Drive-Measure-Code loop across all VEX units"
+   },
+   "S1-PHY-CI-04": {
+    "status": "gap",
+    "note": "No IoT / device-to-device communication"
+   },
+   "S1-PHY-CI-05": {
+    "status": "gap",
+    "note": "Not addressed"
+   },
+   "S1-PHY-PP-06": {
+    "status": "gap",
+    "note": "No version control in CET"
+   },
+   "S1-PHY-PP-07": {
+    "status": "partial",
+    "note": "U7 connects the robot's vision failures to real-world equity/impacts \u2014 sociotechnical reflection on the device"
+   },
+   "S1-PHY-PP-08": {
+    "status": "gap",
+    "note": "Not addressed for the robot platform"
+   }
+  }
+ }
+}
