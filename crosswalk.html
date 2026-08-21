@@ -26,6 +26,7 @@
         <ul>
           <li><a href="index.html">Overview</a></li>
           <li><a href="case-study.html">Case Study</a></li>
+          <li><a href="nasem-coverage.html">NASEM Coverage</a></li>
           <li><a href="curriculum.html">Curriculum Map</a></li>
           <li><a href="crosswalk.html" class="active">Standards Auditor</a></li>
         </ul>
@@ -36,35 +37,58 @@
   <!-- Main Content -->
   <main>
     <div class="auditor-title-row">
-      <div class="card-label">CTE compliance auditor</div>
+      <div class="card-label">Standards coverage auditor</div>
       <h1 class="font-serif" style="margin-bottom: 0;">Nevada CTE CS Standards Crosswalk</h1>
+    </div>
+
+    <div style="max-width: 780px; margin-bottom: var(--spacing-lg);">
+      <p style="font-size: 1.05rem; line-height: 1.6; color: var(--text-secondary);">
+        <strong style="color: var(--text-primary);">What this is:</strong> a live audit of five computer science
+        courses against the standards each one is required to teach. Pick a course and it shows you, standard by
+        standard, which specific lesson teaches it &mdash; and which standards nothing teaches yet. The gaps are
+        shown on purpose. A coverage claim you cannot check is not worth much.
+      </p>
+      <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);">
+        <strong>If the vocabulary is unfamiliar:</strong> an <em>indicator</em> is the smallest unit a state standard
+        breaks into, and it is what coverage is actually scored against. <em>CTE</em> is Career and Technical
+        Education, the program area Nevada files computer science under. A <em>CTSO</em> is a career and technical
+        student organization &mdash; here that means FBLA, which covers a block of leadership standards through
+        competition and chapter work rather than through classroom instruction. <em>Level</em> distinguishes a first
+        year course from a second year one; a standard written for the second year is reported separately instead of
+        being counted as a failure in the first.
+      </p>
+      <p style="font-size: 0.9rem; color: var(--text-secondary);">
+        Also on this site: the same four courses scored against the
+        <a href="nasem-coverage.html">National Academies foundational competencies</a>, which is a different and
+        harder question than state compliance.
+      </p>
     </div>
 
     <!-- Stats Panel -->
     <div class="auditor-header-panel">
       <div class="progress-stats-row">
         <div class="stat-item">
-          <span class="stat-lbl">Compliance Coverage</span>
+          <span class="stat-lbl">Standards covered</span>
           <span class="stat-val" id="stat-pct-covered">0%</span>
         </div>
         <div class="stat-item">
-          <span class="stat-lbl">Active Syllabus</span>
+          <span class="stat-lbl">Course</span>
           <span class="stat-val" id="stat-active-syllabus" style="font-size: 1.5rem; font-family: var(--font-sans);">Advanced CS I</span>
         </div>
         <div class="stat-item">
-          <span class="stat-lbl">In-Scope Indicators</span>
+          <span class="stat-lbl">Indicators in scope</span>
           <span class="stat-val" id="stat-total-stds" style="font-size: 1.5rem;">88</span>
         </div>
       </div>
       
       <div style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: var(--spacing-sm); display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-xs);">
-        <div>Direct Instruction: <strong id="stat-direct-stds" style="color:var(--text-primary);">0</strong></div>
-        <div id="stat-fbla-row">Co-curricular (FBLA): <strong id="stat-fbla-stds" style="color:var(--color-success);">0</strong></div>
-        <div>Compliance Gaps: <strong id="stat-gaps-stds" style="color:var(--color-warning);">0</strong></div>
-        <div>Out of Scope (other level): <strong id="stat-oos-stds" style="color:var(--text-secondary);">0</strong></div>
+        <div>Taught in class: <strong id="stat-direct-stds" style="color:var(--text-primary);">0</strong></div>
+        <div id="stat-fbla-row">Covered through FBLA: <strong id="stat-fbla-stds" style="color:var(--color-success);">0</strong></div>
+        <div>Not yet taught: <strong id="stat-gaps-stds" style="color:var(--color-warning);">0</strong></div>
+        <div>Belongs to another level: <strong id="stat-oos-stds" style="color:var(--text-secondary);">0</strong></div>
       </div>
       <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0 0 var(--spacing-sm);">
-        Coverage is scored against indicators at this course's level. Out-of-level indicators (e.g. L2 in an L1 course) and design-excluded CTSO standards are reported separately, not counted against coverage.
+        Coverage is scored only against indicators written for this course's level. Indicators belonging to another level, and FBLA leadership standards a course excludes by design, are reported separately rather than counted as gaps.
       </p>
       
       <div class="progress-bar-container" title="Overall Standards Coverage Progress">
@@ -75,7 +99,7 @@
     <!-- Filters and Controls -->
     <div class="filter-bar">
       <div class="filter-group">
-        <label for="select-course">Course Pathway:</label>
+        <label for="select-course">Course:</label>
         <select id="select-course" style="font-weight: 700; border-color: var(--border-color-dark);">
           <option value="acs_i">Advanced CS I (ACS I)</option>
           <option value="wdd_i">Web Dev & Design I (WDD I)</option>
