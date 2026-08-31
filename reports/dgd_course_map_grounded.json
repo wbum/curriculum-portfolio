@@ -958,6 +958,7 @@
           "day": 1,
           "title": "Greyboxing: Environment Type & Scale",
           "standards": [
+            "5.1.1",
             "6.2.1",
             "6.2.3"
           ]
@@ -966,6 +967,7 @@
           "day": 2,
           "title": "Blockout & Boundaries",
           "standards": [
+            "5.1.4",
             "6.2.1",
             "6.2.3"
           ]
@@ -974,6 +976,7 @@
           "day": 3,
           "title": "Level Geometry: Platforms & Obstacles",
           "standards": [
+            "5.1.6",
             "6.2.1",
             "6.2.3"
           ]
@@ -982,6 +985,7 @@
           "day": 4,
           "title": "Collision Layers & Navigability Test",
           "standards": [
+            "5.2.9",
             "6.2.1",
             "6.2.3"
           ]
@@ -998,6 +1002,7 @@
           "day": 6,
           "title": "NPC Placement Strategy & Prefabs",
           "standards": [
+            "5.1.9",
             "6.2.2"
           ]
         },
@@ -1005,6 +1010,7 @@
           "day": 7,
           "title": "Configuring NPCs in the Level",
           "standards": [
+            "5.2.11",
             "6.2.2"
           ]
         },
@@ -1012,6 +1018,7 @@
           "day": 8,
           "title": "Spawn Point & Player Start",
           "standards": [
+            "5.1.1",
             "6.2.1",
             "6.2.3"
           ]
@@ -1020,6 +1027,7 @@
           "day": 9,
           "title": "Objective Trigger & Mechanic Verification",
           "standards": [
+            "5.2.6",
             "6.2.1",
             "6.2.3",
             "6.2.4"
@@ -1036,6 +1044,7 @@
           "day": 11,
           "title": "Peer Playtest 1: Observation",
           "standards": [
+            "5.2.2",
             "6.2.1",
             "6.2.3"
           ]
@@ -1044,6 +1053,7 @@
           "day": 12,
           "title": "Peer Playtest 1: Swap & Issue Log",
           "standards": [
+            "5.1.6",
             "6.2.1",
             "6.2.3"
           ]
@@ -1052,6 +1062,7 @@
           "day": 13,
           "title": "GUI Flowchart",
           "standards": [
+            "5.1.2",
             "6.3.1",
             "6.3.3"
           ]
@@ -1060,6 +1071,7 @@
           "day": 14,
           "title": "HUD Layout Sketch",
           "standards": [
+            "5.2.3",
             "6.3.1"
           ]
         },
@@ -1074,6 +1086,7 @@
           "day": 16,
           "title": "Start Menu & Pause Menu",
           "standards": [
+            "5.2.8",
             "6.3.2",
             "6.3.4"
           ]
@@ -1082,6 +1095,7 @@
           "day": 17,
           "title": "Health System, Health HUD & Win/Lose Screens",
           "standards": [
+            "5.1.1",
             "5.3.3",
             "6.3.2",
             "6.3.4"
@@ -1091,6 +1105,7 @@
           "day": 18,
           "title": "Animation Storyboard",
           "standards": [
+            "5.1.3",
             "6.4.1"
           ]
         },
@@ -1098,6 +1113,7 @@
           "day": 19,
           "title": "Unity Animator & Animation Clips",
           "standards": [
+            "5.2.7",
             "6.4.2",
             "6.4.3"
           ]
@@ -1115,6 +1131,7 @@
           "day": 21,
           "title": "Parent/Child Hierarchy & Rigging Concepts",
           "standards": [
+            "5.2.11",
             "6.4.7",
             "6.4.8"
           ]
@@ -1123,6 +1140,7 @@
           "day": 22,
           "title": "Animation Triggers",
           "standards": [
+            "5.1.4",
             "6.4.10",
             "6.4.11"
           ]
@@ -1131,6 +1149,7 @@
           "day": 23,
           "title": "Audio: Formats, Import & Background Music",
           "standards": [
+            "5.2.5",
             "6.5.1",
             "6.5.2"
           ]
@@ -1139,6 +1158,7 @@
           "day": 24,
           "title": "Audio: SFX Triggers",
           "standards": [
+            "5.1.7",
             "6.5.3",
             "6.5.4"
           ]
@@ -1154,6 +1174,7 @@
           "day": 26,
           "title": "Creating & Sourcing Assets",
           "standards": [
+            "5.2.4",
             "6.6.2",
             "7.1.1"
           ]
@@ -1162,6 +1183,7 @@
           "day": 27,
           "title": "Importing Assets & IP Check",
           "standards": [
+            "5.1.5",
             "6.6.2",
             "7.1.2",
             "7.1.3"
@@ -1171,6 +1193,7 @@
           "day": 28,
           "title": "Texturing: Materials",
           "standards": [
+            "5.2.1",
             "6.6.4",
             "6.6.7"
           ]
@@ -1179,6 +1202,7 @@
           "day": 29,
           "title": "UVW Mapping",
           "standards": [
+            "5.1.2",
             "6.6.3"
           ]
         },
@@ -1194,6 +1218,7 @@
           "day": 31,
           "title": "Lighting Setup",
           "standards": [
+            "5.2.3",
             "6.6.9"
           ]
         },
@@ -1201,6 +1226,7 @@
           "day": 32,
           "title": "Screenshot & Render Capture",
           "standards": [
+            "5.2.4",
             "6.6.5",
             "6.6.6"
           ]
@@ -1209,6 +1235,7 @@
           "day": 33,
           "title": "Art Polish Pass",
           "standards": [
+            "5.1.8",
             "6.6.2"
           ]
         },
@@ -1216,6 +1243,7 @@
           "day": 34,
           "title": "Representation Review & Final Render",
           "standards": [
+            "5.2.9",
             "7.3.1",
             "7.3.2"
           ]
@@ -1229,6 +1257,7 @@
           "day": 36,
           "title": "Integration Test: Run 1",
           "standards": [
+            "5.2.2",
             "5.3.8"
           ]
         },
@@ -1236,6 +1265,7 @@
           "day": 37,
           "title": "Integration Test: Run 2 & Triage Preview",
           "standards": [
+            "5.1.6",
             "5.3.8"
           ]
         },
@@ -1243,6 +1273,7 @@
           "day": 38,
           "title": "Bug Triage & Prioritization",
           "standards": [
+            "5.1.7",
             "5.3.8"
           ]
         },
@@ -1250,6 +1281,7 @@
           "day": 39,
           "title": "High-Priority Fixes",
           "standards": [
+            "5.2.6",
             "5.3.8"
           ]
         },
@@ -1265,6 +1297,7 @@
           "day": 41,
           "title": "Peer Playtest 2: Play",
           "standards": [
+            "5.1.9",
             "5.3.8"
           ]
         },
@@ -1272,18 +1305,23 @@
           "day": 42,
           "title": "Peer Playtest 2: Swap & Prioritize",
           "standards": [
+            "5.2.8",
             "5.3.8"
           ]
         },
         {
           "day": 43,
           "title": "Final Polish Sprint",
-          "standards": []
+          "standards": [
+            "5.1.3"
+          ]
         },
         {
           "day": 44,
           "title": "GitHub Cleanup & Verification",
-          "standards": []
+          "standards": [
+            "5.2.5"
+          ]
         },
         {
           "day": 45,
@@ -1295,17 +1333,23 @@
         {
           "day": 46,
           "title": "Open Work Period 1",
-          "standards": []
+          "standards": [
+            "5.1.5"
+          ]
         },
         {
           "day": 47,
           "title": "Open Work Period 2",
-          "standards": []
+          "standards": [
+            "5.2.1"
+          ]
         },
         {
           "day": 48,
           "title": "Final Build & Submission Verification",
-          "standards": []
+          "standards": [
+            "5.2.11"
+          ]
         },
         {
           "day": 49,
@@ -1319,39 +1363,58 @@
         }
       ],
       "standards": [
+        "5.1.1",
+        "5.1.2",
+        "5.1.3",
+        "5.1.4",
+        "5.1.5",
+        "5.1.6",
+        "5.1.7",
+        "5.1.8",
+        "5.1.9",
+        "5.2.1",
+        "5.2.11",
+        "5.2.2",
+        "5.2.3",
+        "5.2.4",
+        "5.2.5",
+        "5.2.6",
+        "5.2.7",
+        "5.2.8",
+        "5.2.9",
+        "5.3.3",
+        "5.3.8",
         "6.2.1",
-        "6.2.3",
         "6.2.2",
+        "6.2.3",
         "6.2.4",
         "6.3.1",
-        "6.3.3",
         "6.3.2",
+        "6.3.3",
         "6.3.4",
-        "5.3.3",
         "6.4.1",
-        "6.4.2",
-        "6.4.3",
-        "7.1.1",
-        "7.1.2",
-        "7.1.3",
-        "6.4.7",
-        "6.4.8",
         "6.4.10",
         "6.4.11",
+        "6.4.2",
+        "6.4.3",
+        "6.4.7",
+        "6.4.8",
         "6.5.1",
         "6.5.2",
         "6.5.3",
         "6.5.4",
         "6.6.2",
-        "6.6.4",
-        "6.6.7",
         "6.6.3",
-        "6.6.9",
+        "6.6.4",
         "6.6.5",
         "6.6.6",
+        "6.6.7",
+        "6.6.9",
+        "7.1.1",
+        "7.1.2",
+        "7.1.3",
         "7.3.1",
-        "7.3.2",
-        "5.3.8"
+        "7.3.2"
       ]
     },
     {
@@ -1362,6 +1425,7 @@
           "day": 1,
           "title": "The Four Types of Intellectual Property",
           "standards": [
+            "5.1.8",
             "7.1.1"
           ]
         },
@@ -1369,6 +1433,7 @@
           "day": 2,
           "title": "Creative Commons & Open-Source Licensing",
           "standards": [
+            "5.2.7",
             "7.1.2",
             "7.1.3"
           ]
@@ -1377,6 +1442,7 @@
           "day": 3,
           "title": "Copyright in Practice: Attribution & Derivative Works",
           "standards": [
+            "5.1.1",
             "7.1.1",
             "7.1.2"
           ]
@@ -1402,6 +1468,7 @@
           "day": 6,
           "title": "Diversity in the Game Workforce",
           "standards": [
+            "5.1.7",
             "7.3.1"
           ]
         },
@@ -1409,6 +1476,7 @@
           "day": 7,
           "title": "Representation in Games & Self-Evaluation",
           "standards": [
+            "5.2.3",
             "7.3.1"
           ]
         },
@@ -1416,6 +1484,7 @@
           "day": 8,
           "title": "Social Responsibility: Psychology & Monetization Ethics",
           "standards": [
+            "5.2.11",
             "7.3.2"
           ]
         },
@@ -1423,8 +1492,9 @@
           "day": 9,
           "title": "ESRB Revisited & Career Document Work",
           "standards": [
-            "7.3.2",
-            "1.4.1"
+            "1.4.1",
+            "5.1.2",
+            "7.3.2"
           ]
         },
         {
@@ -1439,7 +1509,8 @@
           "title": "Professional Attire & Resume Structure",
           "standards": [
             "1.4.1",
-            "1.4.2"
+            "1.4.2",
+            "5.1.4"
           ]
         },
         {
@@ -1447,7 +1518,8 @@
           "title": "Portfolio Basics",
           "standards": [
             "1.4.3",
-            "1.5.1"
+            "1.5.1",
+            "5.2.2"
           ]
         },
         {
@@ -1456,7 +1528,8 @@
           "standards": [
             "1.4.1",
             "1.4.4",
-            "1.5.2"
+            "1.5.2",
+            "5.1.6"
           ]
         },
         {
@@ -1526,19 +1599,29 @@
         }
       ],
       "standards": [
+        "1.4.1",
+        "1.4.2",
+        "1.4.3",
+        "1.4.4",
+        "1.4.5",
+        "1.5.1",
+        "1.5.2",
+        "1.5.3",
+        "5.1.1",
+        "5.1.2",
+        "5.1.4",
+        "5.1.6",
+        "5.1.7",
+        "5.1.8",
+        "5.2.11",
+        "5.2.2",
+        "5.2.3",
+        "5.2.7",
         "7.1.1",
         "7.1.2",
         "7.1.3",
         "7.3.1",
-        "7.3.2",
-        "1.4.1",
-        "1.4.2",
-        "1.4.3",
-        "1.5.1",
-        "1.4.4",
-        "1.5.2",
-        "1.4.5",
-        "1.5.3"
+        "7.3.2"
       ]
     }
   ],
@@ -1557,7 +1640,7 @@
     "1.3.3": "Engage with business and industry partners for community service",
     "1.4.1": "Demonstrate college and career readiness (e.g., applications, resumes, interview skills, presentation skills)",
     "1.4.2": "Describe the appropriate professional/workplace attire and its importance",
-    "1.4.3": "Investigate industry-standard credentials/certifications available within this Career Cluster\u2122",
+    "1.4.3": "Investigate industry-standard credentials/certifications available within this Career Cluster™",
     "1.4.4": "Participate in authentic contextualized instructional activities",
     "1.4.5": "Demonstrate technical skills in various student organization activities/events",
     "1.5.1": "Make a connection between program standards to career pathway(s)",
@@ -1599,7 +1682,7 @@
     "3.4.1": "Compare categories of game mechanics",
     "3.4.2": "Research victory condition mechanics of a game",
     "3.4.3": "Discuss relationships between game mechanics, game play, and interactivity",
-    "3.4.4": "Investigate what makes a game engaging, \u201cfun,\u201d and playable to the user",
+    "3.4.4": "Investigate what makes a game engaging, “fun,” and playable to the user",
     "4.1.1": "Evaluate the use of layout and composition",
     "4.1.2": "Explain color theory",
     "4.1.3": "Describe the principles of animation",
@@ -1618,7 +1701,7 @@
     "4.3.1": "Investigate the twelve major character archetypes",
     "4.3.2": "Contrast architypes versus stereotypes as they relate to diversity and inclusion",
     "4.3.3": "Describe basic character backstory, strengths, and weaknesses",
-    "4.3.4": "Explain the visual design of characters in relation to the \u201cgame feel\u201d and artistic style",
+    "4.3.4": "Explain the visual design of characters in relation to the “game feel” and artistic style",
     "4.3.5": "Describe the connection between character arc and character progression",
     "4.3.6": "Conceptualize and illustrate original game characters and assets",
     "4.3.7": "Examine the roles, purpose, and design of non-player characters (NPC)",
@@ -1672,11 +1755,11 @@
     "6.2.5": "Create multiple levels for a game including start and closing screens and playable level(s)",
     "6.3.1": "Research examples of GUI in digital and real-world environments (e.g., Heads Up Display [HUD] and road signs)",
     "6.3.2": "Define and implement required elements for various GUIs",
-    "6.3.3": "Create flowcharts that map the GUIs\u2019 functionality",
+    "6.3.3": "Create flowcharts that map the GUIs’ functionality",
     "6.3.4": "Design GUIs that use standard text, 2-D, and 3-D elements (buttons, progress bars, icons, etc.)",
     "6.4.1": "Create storyboards for planning animations",
-    "6.4.2": "Change an object\u2019s state or position over time",
-    "6.4.3": "Establish an object\u2019s relative speed (timing versus frame rate)",
+    "6.4.2": "Change an object’s state or position over time",
+    "6.4.3": "Establish an object’s relative speed (timing versus frame rate)",
     "6.4.4": "Describe the difference between global time and local time",
     "6.4.5": "Describe the difference between forward and inverse kinematics",
     "6.4.6": "Examine the process of particle creation and its application to game design",
